@@ -1,17 +1,15 @@
 ---
 title: AEMデスクトップアプリケーションバージョン1.xのインストールと設定
-seo-title: AEMデスクトップアプリケーションバージョン1.xのインストールと設定
 description: AEM Assetsサーバーで動作するようにAEMデスクトップアプリケーションバージョン1.xをインストールして設定し、アセットがデスクトップ上のドライブとしてマウントされるようにマップします。
-seo-description: AEM Assetsサーバーで動作するようにAEMデスクトップアプリケーションバージョン1.xをインストールして設定し、アセットがデスクトップ上のドライブとしてマウントされるようにマップします。
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7ce29042aff6d4caea0e7b8a56673d4bfed03a45
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
