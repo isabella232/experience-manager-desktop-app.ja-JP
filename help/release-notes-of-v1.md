@@ -1,17 +1,15 @@
 ---
 title: バージョン1.x用AEMデスクトップアプリケーションリリースノート
-seo-title: バージョン1.x用AEMデスクトップアプリケーションリリースノート
 description: AEMデスクトップアプリケーションバージョン1.xのリリースの詳細、機能強化、新機能、互換性、ダウンロードリンク。
-seo-description: AEMデスクトップアプリケーションバージョン1.xのリリースの詳細、機能強化、新機能、互換性、ダウンロードリンク。
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c305f57b8ad874bcffc250689d917e31820225e4
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
