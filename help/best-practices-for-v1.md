@@ -1,17 +1,15 @@
 ---
 title: AEMデスクトップアプリバージョン1.xのベストプラクティス
-seo-title: AEMデスクトップアプリバージョン1.xのベストプラクティス
 description: Adobe Experience Managerデスクトップアプリケーションバージョン1.xの主な機能と推奨される使用方法。
-seo-description: Adobe Experience Managerデスクトップアプリケーションバージョン1.xの主な機能と推奨される使用方法。
 uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 946b853d740444853525e540ff7af1cbc46f9998
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
@@ -22,7 +20,7 @@ source-git-commit: 946b853d740444853525e540ff7af1cbc46f9998
 
 Adobe Experience Manager (AEM)デスクトップアプリは、Digital Asset Management(DAM)ソリューションをデスクトップにリンクし、AEM Web UIで使用できるファイルをデスクトップ上で直接開くことができます。 アセットをデスクトップから保存すると、AEMの適切な場所にアップロードされます。
 
-AEMデスクトップアプリケーションを使用すると、AEMで誤ったローカルコピーを更新したり、間違ったアセットを更新したりする可能性がなくなります。 デスクトップアプリケーションの使いやすいワークフローは、デスクトップオペレーティングシステムが提供するネットワーク共有テクノロジーを使用して有効になります。
+AEMデスクトップアプリケーションを使用すると、AEMで誤ったローカルコピーを更新したり、間違ったアセットを更新したりする可能性がなくなります。  デスクトップアプリケーションの使いやすいワークフローは、デスクトップのオペレーティングシステムによって提供されるネットワーク共有テクノロジにより有効化されます。
 
 デスクトップアプリケーションは、AEM Assetsリポジトリをネットワーク共有としてデスクトップにマウントします。 このため、フォルダーとファイルはローカルのフォルダーとファイルのように表示されます。しかし、Finder やエクスプローラーを使用し、デスクトップ上にマウントされたネットワーク共有で直接デジタルアセット管理の作業をおこなうことは推奨されていません。代わりに、多数のアセットのコピーや移動には AEM Assets の Web UI を利用して作業することを推奨します。
 
