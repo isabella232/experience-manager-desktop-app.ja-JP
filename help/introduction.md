@@ -1,16 +1,12 @@
 ---
 title: AEMデスクトップアプリの概要
-seo-title: Adobe Experience Managerデスクトップアプリの技術ドキュメントとセルフヘルプ
-description: AEMデスクトップアプリケーションで、エンタープライズアセットをデスクトップから直接使用する場合に、クリエイティブユーザーのワークフローを最適化する方法を説明する技術ドキュメントとセルフヘルプ。
-seo-description: AEMデスクトップアプリケーションでEnterpriseアセットをデスクトップから直接使用する場合、クリエイティブユーザーのワークフローを最適化する方法を説明します。
-contentOwner: asgupta
+description: AEM Assetsをデスクトップから直接使用する場合、AEMデスクトップアプリを使用してクリエイティブユーザーのアセット管理ワークフローを最適化する方法について説明します。
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b74a3ff5c9a25ee1433dd661a1bce677271a5ebe
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
