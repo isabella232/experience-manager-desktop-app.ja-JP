@@ -1,17 +1,15 @@
 ---
 title: AEMデスクトップアプリケーションのインストールと設定
-seo-title: AEMデスクトップアプリケーションのインストールと設定
 description: AEM Assetsサーバーで動作するようにAEMデスクトップアプリケーションをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。
-seo-description: AEM Assetsサーバーで動作するようにAEMデスクトップアプリケーションをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
-contentOwner: asgupta
+contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a46660a3d56100e0d767e7f2b54656782bb5e7a7
+source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
 
 ---
 
@@ -66,8 +64,8 @@ v1.xから最新バージョンのアプリケーションにアップグレー�
 
 環境設定を変更するには、「その他のオプション」アイコ ![ンと「環境設定](assets/do-not-localize/more_options_da2.png) 」アイコ **[!UICONTROL Preference]** ンをク ![リックしま](assets/do-not-localize/preferences_icon_da2.png)す。 ウィンドウ **[!UICONTROL Preferences]** で、次の値を調整します。
 
-* [!UICONTROL Launch application on login] の新しいノードを作成します。
-* [!UICONTROL Show window when application starts] の新しいノードを作成します。
+* [!UICONTROL Launch application on login].
+* [!UICONTROL Show window when application starts].
 * **[!UICONTROL Cache Directory]**:アプリのローカルキャッシュの場所（ローカルにダウンロードされたアセットが含まれます）。
 * **[!UICONTROL Network Drive Letter]**:AEM DAMへのマッピングに使用するドライブ文字。 不明な場合は、この設定を変更しないでください。 アプリはWindowsの任意のドライブ文字にマップできます。 2人のユーザーが異なるドライブ文字のアセットを配置した場合、相互に配置されたアセットは表示されません。 アセットのパスが変更されます。 アセットはバイナリファイル（INDDなど）に残り、削除されません。 アプリには、使用可能なすべてのドライブ文字が一覧表示され、デフォルトでは、通常は最後に使用可能な文字が使用されま `Z`す。
 * **[!UICONTROL Maximum Cache Size]**:ローカルにダウンロードしたアセットの保存に使用する、ハードディスク上の許可されたキャッシュ(GB)。
