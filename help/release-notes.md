@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: f9c2347f8f17d32479207980fafba058825d986f
 
 ---
 
@@ -84,7 +84,7 @@ AEMデスクトップアプリケーションは、次のオペレーティン�
 
 次の図は、ユーザーの操作によって開始される、クラウドからローカルファイルシステムへのアセットとファイルのフローを示しています。
 
-![デスクトップアプリケーションを使用したAEMサーバーからネイティブデスクトップアプリケーションへのアセットのフロー](assets/do-not-localize/da20_flow_diagram.png)
+![デスクトップアプリケーションを使用したAEMサーバーからネイティブデスクトップアプリケーションへのアセットのフロー](assets/da20_flow_diagram.png)
 
 ## 既知の問題 {#known-issues-v2}
 
