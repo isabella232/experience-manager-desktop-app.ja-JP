@@ -7,7 +7,7 @@ products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: f9c2347f8f17d32479207980fafba058825d986f
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Experience Manager(AEM)デスクトップアプリを使用すると、ロ
 
 AEMデスクトップアプリケーションを使用して行う主なタスクは次のとおりです。
 
-![AEMデスクトップアプリを使用して実行できるワークフローとタ](assets/do-not-localize/whats-new-desktop-app-v2.png "スクAEMデスクトップアプリを使用して実行でき")るタ [](assets/do-not-localize/aem_desktop_app_usecases_print.pdf) スク印刷可能なPDFファイルをダウンロードします。
+![AEMデスクトップアプリを使用して実行できるワークフローとタ](assets/aem_desktop_app_usecases_v2.png "スクAEMデスクトップアプリを使用して実行でき")るタ [](assets/aem_desktop_app_usecases_print.pdf) スク印刷可能なPDFファイルをダウンロードします。
 
 ## デスクトップアプリの仕組み {#how-app-works2}
 
