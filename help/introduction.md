@@ -6,7 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 snippet: y
 translation-type: tm+mt
-source-git-commit: 850d2c21a796599ed40164e7d6f892967563c16b
+source-git-commit: f9c2347f8f17d32479207980fafba058825d986f
 
 ---
 
@@ -47,6 +47,6 @@ AEM Assets内のアセットは、アプリを使用すると、ローカルデ�
 
 新しいアプリの主な使用例と拡張機能は、次の図に示すお客様の遍歴に合わせてマッピングされています。
 
-![AEMデスクトップアプリの新機能](assets/do-not-localize/whats-new-desktop-app-v2.png)
+![AEMデスクトップアプリの新機能](assets/aem_desktop_app_usecases_v2.png)
 
 デスクトップアプリケーションを使用すると、ユーザーは上記のすべての使用例をアプリ内から直接実行できます。 必要に応じて、Webインターフェイスでアセットの検出を行い、アプリに制御を渡してアセットを開き、編集することもできます。
