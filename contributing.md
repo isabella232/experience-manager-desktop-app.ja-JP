@@ -1,13 +1,13 @@
 ---
 source-git-commit: 463470ba99cd3adfabb5ff00211757d1f97de12e
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # 投稿
 
 投稿ありがとうございます。
 
-このプロジェクトに投稿する際に従うべきガイドラインを以下に示します。
+このプロジェクトに寄稿する際に従うガイドラインを次に示します。
 
 ## 行動規範
 
@@ -15,7 +15,7 @@ translation-type: tm+mt
 
 ## 寄稿者ガイドドキュメント
 
-『寄稿者ガイド [』を参照](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+[寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)を参照してください。
 
 ## 質問がある場合
 
@@ -40,4 +40,4 @@ submitting a pull request!
 
 ## セキュリティ上の問題
 
-セキュリティ上の問題は、この問題トラッカーで報告しないでください。代わりに、[アドビのセキュリティエキスパートに問題を提出](https://helpx.adobe.com/security/alertus.html)してください。
+セキュリティ上の問題は、この問題トラッカーで報告しないでください。代わりに、[アドビのセキュリティエキスパートに問題を提出](https://helpx.adobe.com/jp/security/alertus.html)してください。
