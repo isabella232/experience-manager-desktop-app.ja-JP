@@ -1,6 +1,6 @@
 ---
-title: AEM デスクトップアプリケーションリリースノート
-description: AEM デスクトップアプリケーションのリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。
+title: Adobe Experience Managerデスクトップアプリケーションのリリースノート
+description: Adobe Experience Managerデスクトップアプリケーションのリリースの詳細、機能強化、新機能、互換性およびダウンロードリンクです。
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,13 +9,13 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: b2015bd65db70a25e4c52e62a4de45a01a6748d5
+translation-type: tm+mt
+source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
 
 ---
 
 
-# AEM デスクトップアプリケーションリリースノート {#release-notes-v2}
+# Adobe Experience Managerデスクトップアプリケーションのリリースノート {#release-notes-v2}
 
 | 製品 | Adobe Experience Manager（AEM）デスクトップアプリケーション |
 |---------------|--------------------------------------------------------------------|
@@ -27,40 +27,40 @@ source-git-commit: b2015bd65db70a25e4c52e62a4de45a01a6748d5
 
 ## システム要件および使用条件 {#system-requirements-and-prerequisites-v2}
 
-AEM デスクトップアプリケーションは次のオペレーティングシステムと互換性があります。
+Adobe Experience Managerデスクトップアプリケーションは、次のオペレーティングシステムと互換性があります。
 
 * 最新のバグ修正が適用された Mac OS X 10.10 以降
 * 最新のサービスパックとバグ修正が適用された Windows 7 と Windows 10
 
-AEM デスクトップアプリケーションは、オンプレミスと Adobe Managed Services（AMS）上のどちらでデプロイされている場合でも、次の AEM バージョンと連携します。
+このアプリケーションは、オンプレミスまたはAdobe Managed Services(AMS)のどちらでデプロイされている場合でも、次のバージョンのExperience Managerで動作します。
 
-* [AEM 6.5.0](https://helpx.adobe.com/jp/experience-manager/6-5/release-notes.html) 以降
-* [AEM 6.4.4](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html) 以降
-* AEM 6.4.0～6.4.3（[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)を使用）
+* [Experience Manager 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) 以降
+* [Experience Manager 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) 以降
+* Experience Manager 6.4.0 - 6.4.3と互換性パッケ [ージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
 >
->AEM 6.3 のデスクトップアプリケーションのサポートは廃止されました。Adobe では、サポートされている新しい AEM バージョンにアップグレードすることをお勧めします。
->AEM 6.3.3.1 以降は、[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をインストールした後、デスクトップアプリケーションで動作します。[サービスパックが予定されていないため](https://helpx.adobe.com/jp/experience-manager/maintenance-releases-roadmap.html)、AEM 6.3ではそのようなパッケージはありません。
+>Experience Manager 6.3のデスクトップアプリケーションのサポートは廃止されました。 アドビでは、新しいサポート対象のAdobe Experience Managerバージョンにアップグレードすることをお勧めします。
+>Experience Manager 6.3.3.1 or later works with desktop app after installing the [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support). No such package is available for Experience Manager 6.3 as no [service packs are planned](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
-ローカルマシンにインストールする AEM デスクトップアプリケーションのバージョンに応じて、Adobe Experience Manager サーバーの特定のバージョンや、サーバー側の追加コンポーネント（サービスパック、ホットフィックスまたは機能パック）が必要になります。不明な点がある場合は、AEM 管理者に問い合わせてください。
+ローカルマシンにインストールする AEM デスクトップアプリケーションのバージョンに応じて、Adobe Experience Manager サーバーの特定のバージョンや、サーバー側の追加コンポーネント（サービスパック、ホットフィックスまたは機能パック）が必要になります。Adobe Experience Manager管理者に問い合わせてください。
 
 ### 様々なアセットおよびファイルタイプのサポート {#support-for-file-types}
 
-アプリケーションでは、AEM に保存されており基本操作のバイナリファイルを表すアセットをサポートします。ネイティブデスクトップアプリケーションでファイルを開くには、PNG や JPG などの特定のファイルタイプと Mac Preview や Adobe Photoshop などの特定のアプリケーションとの関連付けがオペレーティングシステムで設定されている必要があります。
+アプリケーションは、基本操作のバイナリファイルを表すAdobe Experience Managerに保存されたアセットをサポートします。 ネイティブデスクトップアプリケーションでファイルを開くには、PNG や JPG などの特定のファイルタイプと Mac Preview や Adobe Photoshop などの特定のアプリケーションとの関連付けがオペレーティングシステムで設定されている必要があります。
 
-一部のファイルタイプでは、リンクされたアセットをバイナリ内に配置することができます。このようなバイナリファイルをデスクトップアプリケーションで開くときにアセットが AEM リポジトリに存在する場合は、リンクされたアセットが事前にダウンロードされます。現在サポートされているファイルタイプは次のとおりです。
+一部のファイルタイプでは、リンクされたアセットをバイナリ内に配置することができます。デスクトップアプリケーションを使用してこのようなバイナリファイルを開いた場合、Experience Managerリポジトリにアセットが存在すると、アプリケーションはリンクされたアセットを事前にダウンロードします。 現在サポートされているファイルタイプは次のとおりです。
 
 * Adobe inDesign ファイル（INDD 形式）
 * Adobe Illustrator ファイル（AI 形式）
 * Adobe Photoshop ファイル（PS 形式）
 
-この機能は、上記アプリケーションの Adobe Creative Cloud 2018 バージョンおよび Adobe Creative Cloud 2019 バージョンでサポートされています。デスクトップアプリケーションは、発見的最良一致アプローチを使用して、リンクされたアセットのローカルデスクトップパスを AEM サーバー上の URL にマッピングします。このアプローチは、以下を前提としています。
+この機能は、上記アプリケーションの Adobe Creative Cloud 2018 バージョンおよび Adobe Creative Cloud 2019 バージョンでサポートされています。アプリは、発見的で最適一致アプローチを使用して、リンクされたアセットのローカルデスクトップパスをExperience Managerサーバー上のURLにマッピングします。 このアプローチは、以下を前提としています。
 
 * ネイティブアプリケーションでは、配置されたファイルのパスにグローバルデスクトップパスが使用されます（ローカルネットワーク共有から配置され、「[!UICONTROL Reveal]」オプションで表示されます）。
 * パスは、ネイティブアプリケーションによってファイルの XMP レコードに保存されます。
-* AEM では、アセットのメタデータレコードへのパスを使用して XMP レコードの抽出が完了しています。
-* パスは AEM 内のアセットと一致させることができます。つまり、配置されたファイルは AEM 内でも一致したパスの下に存在しています。
+* Experience Managerは、アセットのメタデータレコードへのパスを使用してXMPレコードを抽出しました。
+* パスはExperience Managerでアセットと一致させることができます。つまり、配置されたファイルもExperience Managerの一致するパスの下に配置されます。
 
 ## 新機能および機能強化 {#whats-new-added}
 
@@ -71,12 +71,11 @@ v 2.0.1 リリースでおこなわれたバグ修正とアップデートは次
 * `%APPDATA%` パスに一致する `%Temp%` ディレクトリを構成するオプションが許可されます。 <!-- CQ-4282665 -->
 * ユーザーが Okta SAML 認証を使用して AEM author にログインできるようになります。 <!-- CQ-4278134 -->
 
-
 ## インストール手順 {#installation-instructions-v2}
 
-デスクトップアプリケーションのインストールと設定の方法については、[AEM デスクトップアプリケーションのインストール](install-upgrade.md)を参照してください。
+To know how to install and configure the app, see [Install Experience Manager desktop app](install-upgrade.md).
 
-以前の AEM デスクトップアプリケーションからアップグレードする場合は、[以前のバージョンからのアップグレード](install-upgrade.md#upgrade-from-previous-version)にリストされている移行のベストプラクティスに従う必要があります。
+If you are upgrading from a previous Experience Manager desktop app, you must follow these best practices for transitioning that are listed at [upgrade from previous version](install-upgrade.md#upgrade-from-previous-version).
 
 ## デスクトップアプリケーションの動作の仕組みに関する重要なメモ {#how-app-works}
 
@@ -118,9 +117,9 @@ v 2.0.1 リリースでおこなわれたバグ修正とアップデートは次
 
 >[!MORELIKETHIS]
 >
->* [AEM 6.5 ドキュメント](https://helpx.adobe.com/jp/support/experience-manager/6-5.html)
+>* [AEM 6.5 ドキュメント](https://helpx.adobe.com/support/experience-manager/6-5.html)
 >* [AEM Assets 6.5 ドキュメント](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
->* [AEM デスクトップアプリケーションを使用するには、以下をおこないます。](using.md)
+>* [Experience Managerデスクトップアプリケーションの使用方法](using.md)
 >* [デスクトップアプリケーションのインストールとアップグレード](install-upgrade.md)
 >* [ベストプラクティスとトラブルシューティングのヒント](troubleshoot.md)
 
