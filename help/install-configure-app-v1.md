@@ -8,7 +8,7 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
 
 # AEM デスクトップアプリケーション v1.x のインストールと設定 {#install-and-configure-aem-desktop-app}
 
-AEMデスクトップアプリケーションを使用すると、AEM内のアセットはローカルデスクトップで簡単にアクセスでき、どのデスクトップアプリケーションでも使用できます。 アセットは、Mac finderまたはWindowsエクスプローラーで簡単に表示でき、デスクトップアプリケーションで開いてローカルで変更できます。アップロード時に変更内容がAEMに保存され、リポジトリに新しいバージョンが作成されます。
+AEM デスクトップアプリケーションを使用すると、AEM 内のアセットにローカルデスクトップから手軽にアクセスし、任意のデスクトップアプリケーションで利用できるようになります。アセットを Mac Finder や Windows エクスプローラーで容易に表示し、デスクトップアプリケーションで開いて、ローカルで変更できます。変更したアセットをアップロードすると、変更内容が AEM に保存され、リポジトリ内に新しいバージョンが作成されます。
 
 このような統合により、組織内の様々な役割のユーザーが AEM Assets でアセットを一元管理し、Creative Cloud やその他のアプリケーションからアセットにアクセスできるようになります。さらに、ブランディングなど様々な基準に準拠することが容易になります。
 
@@ -69,9 +69,9 @@ Assets API のコピーおよび移動メソッドでは、次の追加ヘッダ
 * X-Depth
 * X-Overwrite
 
-AEM Desktop は、デフォルトポートを含む URL を使用して AEM に接続します。したがって、Dispatcher 設定の `virtualhosts` の設定にデフォルトポート番号を含める必要があります。`virtualhosts` の設定について詳しくは、[仮想ホストの識別](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts)を参照してください。
+AEM Desktop は、デフォルトポートを含む URL を使用して AEM に接続します。したがって、Dispatcher 設定の `virtualhosts` の設定にデフォルトポート番号を含める必要があります。`virtualhosts` の設定について詳しくは、[仮想ホストの識別](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts)を参照してください。
 
-これらの追加ヘッダーを引き渡すように Dispatcher を設定する方法について詳しくは、[HTTP ヘッダーの指定](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)を参照してください。
+これらの追加ヘッダーを引き渡すように Dispatcher を設定する方法について詳しくは、[HTTP ヘッダーの指定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)を参照してください。
 
 ## Asset Info ダイアログのカスタマイズ {#customize-the-asset-info-dialog}
 
@@ -90,7 +90,7 @@ Mac OS X では、同様のディレクトリが `~/Library/Group Containers/gro
 
 ### キャッシュを管理するアプリケーション内のオプション {#in-app-option-to-manage-cache}
 
-ローカルキャッシュに使用するディスク容量を管理できます。AEM Assets サーバーのアーティファクトはローカルにキャッシュされ、スムーズに利用することができます。要件に応じてデフォルト設定を変更することができます。キャッシュをクリアして、すべてのアセットを取得し直すこともできます。To set the desired options, click the application&#39;s icon and click **[!UICONTROL Advanced]**>**[!UICONTROL Manage Cache]**. ****
+ローカルキャッシュに使用するディスク容量を管理できます。AEM Assets サーバーのアーティファクトはローカルにキャッシュされ、スムーズに利用することができます。要件に応じてデフォルト設定を変更することができます。キャッシュをクリアして、すべてのアセットを取得し直すこともできます。必要なオプションを設定するには、アプリケーションのアイコンをクリックし、**[!UICONTROL Advanced]**／**[!UICONTROL Manage Cache]** を選択します。****
 
 >[!NOTE]
 >
@@ -120,9 +120,9 @@ AEM デスクトップアプリケーションのキャッシュのデフォル�
 
 ## その他のリソース {#additional-resources}
 
-* [AEM デスクトップアプリケーションの概要](https://helpx.adobe.com/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+* [AEM デスクトップアプリケーションの概要](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
 * [AEM デスクトップアプリケーションの使用](use-app-v1.md)
 
-* [AEM デスクトップアプリケーションでのチェックインとチェックアウトについて](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [AEM Assets でのデスクトップアプリケーションの使用](https://helpx.adobe.com/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [AEM デスクトップアプリケーション のトラブルシューティング](troubleshoot-app-v1.md)
+* [AEM デスクトップアプリケーションでのチェックインとチェックアウトについて](https://helpx.adobe.com/jp/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [AEM Assets でのデスクトップアプリケーションの使用](https://helpx.adobe.com/jp/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [AEM デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
