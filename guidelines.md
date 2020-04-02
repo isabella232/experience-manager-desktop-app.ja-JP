@@ -5,15 +5,15 @@ translation-type: tm+mt
 ---
 # Adobe Experience Managerドキュメントへの貢献に関するガイドライン
 
-## ドキュメントの理念
+## AEM ドキュメントの理念
 
 Adobe Experience Manager ユーザーは、競争の厳しい環境でビジネスを展開しており、競合他社より優位に立つためのデジタルエクスペリエンスを構築しようと懸命に努力しています。したがって、アドビが AEM で高度な新しいツールを提供する際には、お客様が AEM への投資をすぐに活かし ROI を最大化できるような正確かつ明快なドキュメントで、これらのツールが補完されることが不可欠です。
 
 AEM ドキュメントの目標は、ドキュメントをできるだけ早く AEM ユーザーに届けることです。そのため、正確で使いやすいドキュメントを最優先し、ドキュメントの継続的な更新と改善に努めます。
 
-## ドキュメント貢献度
+## AEM ドキュメントへの貢献
 
-AEMドキュメントを継続的に改善するために、AEMユーザーのコミュニティ全体がドキュメントに貢献することを歓迎します。 変更修正依頼（プル要求）であるか問題報告（イシュー）であるかを問わず、修正、明確化、増補、例の追加などがドキュメントの改善になります。
+AEM ドキュメントを継続的に改善するため、AEM ユーザーコミュニティ全体からドキュメントに貢献いただければ幸いです。変更修正依頼（プル要求）であるか問題報告（イシュー）であるかを問わず、修正、明確化、増補、例の追加などがドキュメントの改善になります。
 
 ## ドキュメント標準
 
@@ -35,7 +35,7 @@ AEM ドキュメントでは標準的な使用例を扱っています。その�
 
 AEM ドキュメントの改善に役立つアイデアは、貢献として歓迎します。ただし、コメント、問題報告および変更修正依頼は、*貢献*&#x200B;のみを目的としています。これらを、AEM の使用方法、AEM プロジェクトの実装方法、技術的な問題の解決方法についての質問に回答するために使用することはできません。
 
-Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Cloud Enterprise Support portal](https://helpx.adobe.com/contact/enterprise-support.ec.html) or discussed in the [Experience Manager community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+AEM の使用方法や技術的な問題に関して質問がある場合は、[Adobe Experience Manager サポートポータル](https://daycare.day.com/home.html)の通常のサポートプロセスを通じて報告したり、[Adobe Experience Manager コミュニティ](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Manager/ct-p/adobe-experience-manager-community)でディスカッションしたりする必要があります。
 
 ***AEMドキュメントの寄稿はアドビカスタマーケアの代わりではありません*** 。サポートに関する質問に対する回答を求める寄稿は拒否されます。
 
