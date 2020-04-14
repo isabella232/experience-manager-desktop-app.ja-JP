@@ -8,8 +8,8 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 75e7cbaaa23b441b5e3a6e55381cd5f548231537
+translation-type: tm+mt
+source-git-commit: f69ccbf7acaa277a7f4d07fabba2094459e4ea23
 
 ---
 
@@ -20,10 +20,10 @@ source-git-commit: 75e7cbaaa23b441b5e3a6e55381cd5f548231537
 
 | 製品 | Adobe Experience Manager（AEM）デスクトップアプリケーション |
 |---------------|--------------------------------------------------------------------|
-| バージョン | 1.10（Mac および Windows 上では 1.10.0.3） |
+| バージョン | 1.10（Macでは1.10.0.6、Windowsでは1.10.0.3） |
 | 種類 | マイナーリリース |
-| 日付 | 2018 年 9 月 1 日 |
-| ダウンロード URL | [Mac OS X 64 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.3.dmg)、[Windows 32 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe)、[Windows 64 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
+| 日付 | 1.10.0.6(Mac):2020年4月15日1.10.0.3(Win):2018年8月32日 |
+| ダウンロード URL | [Mac OS X 64 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.6.dmg)、[Windows 32 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe)、[Windows 64 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
 | 互換性 | AEM 6.5.x、AEM 6.4.x、AEM 6.3 SP2、AEM 6.2 SP1 CFP2+、AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
@@ -46,6 +46,10 @@ AEM Desktop は以下のオペレーティングシステムと互換性があ�
 ## AEM デスクトップアプリケーション 1.10 の新機能 {#what-s-new-in-aem-desktop-app}
 
 AEM デスクトップアプリケーション 1.10 は、大容量のアップロード、バックグラウンド操作に関する情報、リンクされたファイル（InDesign など）を含むアセットを開く際のエクスペリエンスの最適化に関するユーザーエクスペリエンスの向上に注力しています。
+
+>[!NOTE]
+>
+>macOS 10.15.4以降を使用している場合は、少なくともバージョン1.10.0.6のアプリを使用してください。 このパッチリリースは、 [Appleの認証要件に準拠しています](https://developer.apple.com/news/?id=04102019a)。
 
 **ローカル編集／チェックアウト**：アセットに保存される変更内容の自動アップロードをステータスウィンドウで無効にできます。ユーザーはファイルの操作と変更内容の保存を続行し、準備ができたら、すべての変更内容をアップロードできます。
 
@@ -241,7 +245,7 @@ AEM デスクトップアプリケーション　1.8.1 ファストフォロー�
 * ファイルの保存に中間ファイル操作（部分保存や一時ファイル）を使用するデスクトップアプリケーションの処理が改善されました。これにより、AEM Assets のタイムラインに正しいバージョンとアセットのアップロード情報が表示されます。
 * バックグラウンドのアップロードタスクのステータスを追跡するダイアログが提供されました。
 
-## 変更について{#list-of-changes}
+## 変更について {#list-of-changes}
 
 ### Mac 上のマウントポイント {#mount-point-on-mac}
 
