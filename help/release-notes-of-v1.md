@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f69ccbf7acaa277a7f4d07fabba2094459e4ea23
+source-git-commit: f1ea381cc88b5382288b2479d26e976dc7289b88
 
 ---
 
@@ -49,7 +49,7 @@ AEM デスクトップアプリケーション 1.10 は、大容量のアップ�
 
 >[!NOTE]
 >
->macOS 10.15.4以降を使用している場合は、少なくともバージョン1.10.0.6のアプリを使用してください。 このパッチリリースは、 [Appleの認証要件に準拠しています](https://developer.apple.com/news/?id=04102019a)。
+>macOS 10.15.4以降を使用している場合は、少なくともバージョン1.10.0.6のアプリを使用してください。 このパッチリリースは [Appleの認証要件に準拠しています](https://developer.apple.com/news/?id=04102019a)。
 
 **ローカル編集／チェックアウト**：アセットに保存される変更内容の自動アップロードをステータスウィンドウで無効にできます。ユーザーはファイルの操作と変更内容の保存を続行し、準備ができたら、すべての変更内容をアップロードできます。
 
