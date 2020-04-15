@@ -9,21 +9,21 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+translation-type: tm+mt
+source-git-commit: aca68b0c2eb363e33c8a6edec2370758124a4b9e
 
 ---
 
 
 # Adobe Experience Manager デスクトップアプリケーションリリースノート {#release-notes-v2}
 
-| 製品 | Adobe Experience Manager（AEM）デスクトップアプリケーション |
-|---------------|--------------------------------------------------------------------|
-| アプリのバージョン（リビジョン） | 2.0（2.0.1.1） |
-| サポートされている AEM バージョン | AEM 6.5、AEM 6.4、AEM 6.3（互換性パッケージを使用） |
+| 製品 | Adobe Experience Manager デスクトップアプリケーション |
+|----|----|
+| アプリのバージョン（リビジョン） | 2.0 (2.0.2.0) |
+| サポートされている AEM バージョン | クラウドサービスとしてのAEM;AEM 6.5;AEM 6.4;AEM 6.3（互換パッケージ付き） |
 | 種類 | マイナーリリース |
-| リリース日 | 2019 年 12 月 12 日（Mac および Win） |
-| ダウンロード URL | [Mac OS 64 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.1.1.dmg)、[Windows 64 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.1.1.exe)、[Windows 32 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.1.1.exe) |
+| リリース日 | 2020年4月15日（MacおよびWin） |
+| ダウンロード URL | [macOS 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg); [Windows 64-bit](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe); [Windows 32ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe) |
 
 ## システム要件および使用条件 {#system-requirements-and-prerequisites-v2}
 
@@ -32,10 +32,11 @@ Adobe Experience Manager デスクトップアプリケーションは次のオ�
 * 最新のバグ修正が適用された Mac OS X 10.10 以降
 * 最新のサービスパックとバグ修正が適用された Windows 7 と Windows 10
 
-Adobe Experience Manager デスクトップアプリケーションは、オンプレミスと Adobe Managed Services（AMS）上のどちらでデプロイされている場合でも、次の Adobe Experience Manager バージョンと連携します。
+このアプリは、クラウドサービスとしてデプロイされるか、Adobe Managed Services(AMS)上またはオンプレミスのどちらでデプロイされるかに関係なく、次のバージョンのExperience Managerと連携します。
 
-* [Adobe Experience Manager 6.5.0](https://helpx.adobe.com/jp/experience-manager/6-5/release-notes.html) 以降
-* [Adobe Experience Manager 6.4.4](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes/sp-release-notes.html) 以降
+* [Adobe Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/release-notes/home.html)
+* [Experience Manager 6.5.0以降](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html)
+* [Experience Manager 6.4.4以降](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes.html)
 * Adobe Experience Manager 6.4.0～6.4.3（[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)を使用）
 
 >[!NOTE]
@@ -60,13 +61,25 @@ Adobe Experience Manager デスクトップアプリケーションは、オン�
 * ネイティブアプリケーションでは、配置されたファイルのパスにグローバルデスクトップパスが使用されます（ローカルネットワーク共有から配置され、「[!UICONTROL Reveal]」オプションで表示されます）。
 * パスは、ネイティブアプリケーションによってファイルの XMP レコードに保存されます。
 * Adobe Experience Manager では、アセットのメタデータレコードへのパスを使用して XMP レコードの抽出が完了しています。
-* パスは Adobe Experience Manager 内のアセットと一致させることができます。つまり、配置されたファイルは Adobe Experience Manager 内でも一致したパスの下に存在しています。
+* パスはExperience Managerでアセットと一致させることができます。つまり、配置されたファイルもExperience Managerの一致するパスの下に配置されます。
 
 ## 新機能および機能強化 {#whats-new-added}
 
 詳しくは、[v2.0 の新機能](introduction.md#whats-new-v2)を参照してください。
 
-v 2.0.1 リリースでおこなわれたバグ修正とアップデートは次のとおりです。
+**アプリケーションv2.0.2のアップデート**
+
+バグの修正と更新は次のとおりです。
+
+* アップロードのパフォーマンスを向上させるには、のアップロードの高速化を高めま [!UICONTROL Preferences]す。 この設定をオンにすると、アプリで使用されるローカルCPUスレッドが多くなり、リソースの消費量が増えます。
+* ファイル名またはパスに特定のGB18030文字が含まれる場合のアセットのアップロードの問題を修正しました。 <!-- CQ-4283494 -->
+* 検索結果で別の並べ替えタイプに切り替えた後、関連性のある並べ替えオプションを使用できます。 <!-- CQ-4286874 -->
+* デスクトップアプリでは、リストのサブフォルダーを明示的に更新する必要がなくなりました。 <!-- CQ-4285711 -->
+* (Windows)一部のWindowsコンピューターで、使用できないアプリケーションインターフェイスのまれな問題を修正しました。 インターフェイス要素のクリック領域が横方向に「シフト」され、ゆがんで表示されるので、ユーザーはアプリのインターフェイスをクリックできません。 <!-- CQ-4280785 -->
+
+**アプリケーションv2.0.1のアップデート**
+
+バグの修正と更新は次のとおりです。
 
 * `%APPDATA%` パスに一致する `%Temp%` ディレクトリを構成するオプションが許可されます。 <!-- CQ-4282665 -->
 * ユーザーが Okta SAML 認証を使用して AEM author にログインできるようになります。 <!-- CQ-4278134 -->
@@ -117,8 +130,8 @@ v 2.0.1 リリースでおこなわれたバグ修正とアップデートは次
 
 >[!MORELIKETHIS]
 >
->* [AEM 6.5 ドキュメント](https://helpx.adobe.com/jp/support/experience-manager/6-5.html)
->* [AEM Assets 6.5 ドキュメント](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
+>* [クラウドサービスとしてのAEMドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html)
+>* [AEM as a Cloud Service Assetsドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/home.html)
 >* [Adobe Experience Manager デスクトップアプリケーションの使用方法](using.md)
 >* [デスクトップアプリケーションのインストールとアップグレード](install-upgrade.md)
 >* [ベストプラクティスとトラブルシューティングのヒント](troubleshoot.md)
