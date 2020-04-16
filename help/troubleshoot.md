@@ -8,8 +8,8 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+translation-type: tm+mt
+source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
 
 ---
 
@@ -56,15 +56,15 @@ Adobe Experience Manager（AEM）デスクトップアプリケーションは�
 
 ### ログファイルの場所 {#check-log-files-v2}
 
-AEM デスクトップアプリケーションのログファイルは次の場所にあります。多数のアセットをアップロードする場合、一部のファイルをアップロードできなかった場合は、上記の場所にある `backend.log` ファイルを参照して、アップロードに失敗したファイルを特定します。
+AEM デスクトップアプリケーションのログファイルは次の場所にあります。When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
 
-* Windows の場合： `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+* Windows上のパス： `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
-* Mac の場合： `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* Macのパス： `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 >[!NOTE]
 >
->サポート依頼やサポートチケットに基づいてアドビカスタマーケアと共同でトラブルシューティングをおこなう場合は、問題がサポートチームに理解しやすいように、ログファイルの提供を求められる場合があります。`Logs` フォルダー全体をアーカイブして、カスタマーケアと共有します。
+>サポートの要請/チケットでアドビカスタマーケアと協力する際に、ログファイルを共有して、カスタマーケアチームがこの問題を理解できるようにするように求められる場合があります。 Archive the entire `Logs` folder and share it with your Customer Care contact.
 
 ### キャッシュのクリア {#clear-cache-v2}
 
