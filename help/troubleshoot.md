@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
+source-git-commit: 9ae1580475569538838c58f642a7df43f2526d16
 
 ---
 
@@ -48,11 +48,25 @@ Adobe Experience Manager（AEM）デスクトップアプリケーションは�
 
 ### デバッグモードの有効化 {#enable-debug-mode}
 
-トラブルシューティングをおこなう場合、デバッグモードを有効にして、ログに詳細情報を取得できます。デスクトップアプリケーションをデバッグモードで実行するには、ターミナルまたはコマンドプロンプトで次のコマンドラインオプションを使用します。
+トラブルシューティングをおこなう場合、デバッグモードを有効にして、ログに詳細情報を取得できます。To use the app in debug mode on Mac, use the following command line options in a terminal or at the command prompt: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
 
-* Windows の場合： `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
+Windowsでデバッグモードを有効にするには、次の手順に従います。
 
-* Mac の場合： `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
+1. デスクトップア `Adobe Experience Manager Desktop.exe.config` プリケーションのインストールフォルダー内のファイルを探します。 By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.  ファイルを保存して閉じます。
+
+1. ファイ `<level value="INFO"/>` ルの末尾に向かって配置します。 の値を、つまり、 `DEBUG`に変更します `<level value="DEBUG"/>`。
+
+1. デスクトップア `logging.json` プリケーションのインストールフォルダー内のファイルを探します。 By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
+
+1. ファイ `logging.json` ル内で、パラメーターのすべてのインスタンスを見つ `level` けます。 値をからに変更し `info` ます `debug`。  ファイルを保存して閉じます。
+
+1. アプリの環境設定で設定した場所にあるキャッシュされたディレクトリを消去します。
+
+1. デスクトップアプリを再起動します。
+
+<!-- The Windows command doesn't work for now.
+* On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
+-->
 
 ### ログファイルの場所 {#check-log-files-v2}
 
