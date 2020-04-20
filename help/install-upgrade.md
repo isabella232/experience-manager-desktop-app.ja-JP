@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
+source-git-commit: 0301538b5cc00a187709b484bed8f0ca7b799f03
 
 ---
 
@@ -33,26 +33,28 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 詳しくは、[Adobe Experience Manager デスクトップアプリケーションリリースノート](release-notes.md)を参照してください。
 
-## デスクトップアプリケーション v1.x から v2 へのアップグレード {#upgrade-from-previous-version}
+## Upgrade from a previous version {#upgrade-from-previous-version}
 
-デスクトップアプリケーションの既存ユーザーの場合は、デスクトップアプリケーションの以前のバージョンと最新バージョンの相違点と類似点を理解します。また、v1.xから最新トランジションに移行するには、次のガイドラインに従ってください。
+v1.xのデスクトップアプリケーションをご利用の場合は、以前のバージョンと最新バージョンのアプリケーションの相違点と類似点を理解してください。 デスクト [ップアプリの新機能と](introduction.md#whats-new-v2) 、アプリの [仕組みを確認する](release-notes.md#how-app-works)
 
 >[!NOTE]
 >
->デスクトップアプリケーション v1.x と v2 は 1 台のマシン上に共存できません。あるバージョンをインストールするには、その前に他のバージョンをアンインストールします。
+>2つのバージョンのデスクトップアプリケーションを1台のコンピューターに共存させることはできません。 あるバージョンをインストールするには、その前に他のバージョンをアンインストールします。
 
-デスクトップアプリケーションの v1.x から最新バージョンにアップグレードするには、次の手順に従います。
+以前のバージョンのアプリケーションからアップグレードするには、次の手順に従います。
 
-1. アップグレードする前に、すべてのアセットを同期します。デスクトップアプリケーション v1.x を使用して、すべての変更内容をアップロードします。これは、デスクトップアプリケーション v1.x のアンインストール時に変更内容が失われるのを避けるためです。
-1. デスクトップアプリケーション v1.x をアンインストールします。v1.x のアンインストール時に、キャッシュをクリアします。
+1. アップグレードする前に、すべてのアセットを同期し、変更をExperience Managerにアップロードします。 これは、アプリをアンインストールする際に編集内容が失われないようにするためです。
+1. 以前のバージョンのアプリをアンインストールします。 アンインストール時に、キャッシュをクリアするオプションを選択します。
 1. コンピューターを再起動します。
-1. 最新のデスクトップアプリケーションをダウンロードしてインストールします。以下の手順に従ってください。
+1. [最新のデスクトップアプリケーションをダウンロードしてインストールします。](release-notes.md)[](#install-v2)以下の手順に従ってください。
 
 ## インストール {#install-v2}
 
 デスクトップアプリケーションをインストールするには、次の手順に従います。最新のデスクトップアプリケーションをインストールする前に、既存の Adobe Experience Manager デスクトップアプリケーション v1.x をアンインストールします。詳しくは、上記を参照してください。
 
+1. 最新のインストーラーをリリースノートページか [らダウンロード](release-notes.md) します。
 1. Experience ManagerデプロイメントのURLと資格情報を手元に置いておきます。
+1. 別のバージョンのアプリケーションからアップグレードする場合は、「デスクトップアプリケーションのアップグレ [ード」を参照してくださ](#upgrade-from-previous-version)い。
 1. Experience Managerをクラウドサービス、Experience Manager 6.4.4以降、Experience Manager 6.5.0以降として使用している場合は、この手順をスキップします。 Ensure that your Experience Manager setup meets the compatibility requirements mentioned in the [release notes](release-notes.md). If necessary, download the applicable [compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) and install it using the Experience Manager Package Manager as an Experience Manager administrator. パッケージのインストールについては、[パッケージの作業方法](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/package-manager.html)を参照してください。
 1. インストーラーのバイナリを実行し、画面の指示に従ってインストールします。
 1. Windows では、`Visual Studio C++ Redistributable 2015` をインストールするように求められる場合があります。その場合は、画面の指示に従ってインストールします。インストールに失敗した場合は、手動でインストールします。インストーラーを[ここ](https://www.microsoft.com/ja-jp/download/details.aspx?id=52685)からダウンロードし、`vc_redist.x64.exe` ファイルと `vc_redist.x86.exe` ファイルを両方ともインストールします。AEM デスクトップアプリケーションインストーラーを再実行します。
