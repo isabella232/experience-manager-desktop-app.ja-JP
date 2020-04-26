@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: 52f70e5b95318d8b3b3930be1233cc51aa997914
 
 ---
 
@@ -105,7 +105,7 @@ AEM デスクトップアプリケーションを使用する上でのユーザ�
 
 AEM Assets のネットワーク設定に関するベストプラクティスについて理解するには、[AEM Assets ネットワークに関する考慮事項](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/assets-migration-guide.html)ドキュメントを参照してください。AEM デスクトップアプリケーションのユーザーエクスペリエンスの最適化に重要な事項としては、以下が挙げられます。
 
-* **適切に設定された Dispatcher を使用する。**&#x200B;セキュリティを強化するために AEM Dispatcher を使用し、[ディスパッチャーの背後で AEM デスクトップアプリケーションと AEM の接続](using.md)のための設定がされていることを確認します。
+* **適切に設定された Dispatcher を使用する。**&#x200B;セキュリティを強化するために AEM Dispatcher を使用し、[ディスパッチャーの背後で AEM デスクトップアプリケーションと AEM の接続](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)のための設定がされていることを確認します。
 
 * **バンド幅を節約する。** Mac では Finder を使用してマウントされたリポジトリを参照する際、アイコンのプレビューを無効にすることを考慮してください。Finder は各ファイルにプレビューを作成するように要求するので、デスクトップアプリがアセットをローカルにダウンロードしてアセットをキャッシュする原因になります。ただし、これはバンド幅を節約する一方でデスクトップを使用するユーザーのエクスペリエンスを悪化させるので、大きなアセットのあるリポジトリで作業したり、バンド幅に制限がある場合に実行します。
 
