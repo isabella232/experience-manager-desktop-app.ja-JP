@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: bb71cfdfef674be25d059f104a37a9199681358c
 
 ---
 
@@ -118,11 +118,10 @@ AEM デスクトップアプリケーションのキャッシュのデフォル�
    >
    >自動的に *&lt;エンコードされた AEM エンドポイント>* サブディレクトリが作成されます。この動作は設定で変更することはできません。
 
-## その他のリソース {#additional-resources}
-
+>[!MORELIKETHIS]
 * [AEM デスクトップアプリケーションの概要](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
 * [AEM デスクトップアプリケーションの使用](use-app-v1.md)
-
 * [AEM デスクトップアプリケーションでのチェックインとチェックアウトについて](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [AEM Assets でのデスクトップアプリケーションの使用](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [AEM デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
+
