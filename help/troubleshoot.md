@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9ae1580475569538838c58f642a7df43f2526d16
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Manager（AEM）デスクトップアプリケーションは�
 
 * **デスクトップアプリケーションの動作の仕組みを理解する**：使用を開始する前に、少し時間を割いてデスクトップアプリケーションの動作の仕組みを理解してください。Web UI とデスクトップの連携、リポジトリマッピング、アセットキャッシング、ローカルでの保存、バックグラウンドでのアップロードについて把握します。[動作の仕組み](release-notes.md#how-app-works)を参照してください。
 
-* **サポートされていない文字をフォルダー名に使用しない**：フォルダーの作成やアップロードの際には、空白や無効な文字を使用しないでください。該当する文字のリストについては、[Adobe Experience Manager Assets でのフォルダーの作成](https://helpx.adobe.com/jp/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders)を参照してください。Adobe Experience Manager の一部の使用例では、サポートされていない文字がフォルダー名に使用されていた場合、影響を受ける可能性があります。
+* **サポートされていない文字をフォルダー名に使用しない**：フォルダーの作成やアップロードの際には、空白や無効な文字を使用しないでください。該当する文字のリストについては、[Adobe Experience Manager Assets でのフォルダーの作成](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders)を参照してください。Adobe Experience Manager の一部の使用例では、サポートされていない文字がフォルダー名に使用されていた場合、影響を受ける可能性があります。
 
 * **競合を回避するためのベストプラクティス**：複数のアセットに対する共同作業で競合が発生する可能性を避けるには、[編集上の競合の回避](using.md#adv-workflow-collaborate-avoid-conflicts)を参照してください。
 
@@ -70,15 +70,15 @@ Windowsでデバッグモードを有効にするには、次の手順に従い�
 
 ### ログファイルの場所 {#check-log-files-v2}
 
-AEM デスクトップアプリケーションのログファイルは次の場所にあります。When uploading many assets, if some files fail to upload, see `backend.log` file to identify the failed uploads.
+AEM デスクトップアプリケーションのログファイルは次の場所にあります。多数のアセットをアップロードする際に一部のファイルをアップロードできなかった場合は、`backend.log` ファイルを参照して、アップロードに失敗したファイルを特定します。
 
-* Windows上のパス： `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+* Windows でのパス：`%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
-* Macのパス： `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* Mac でのパス：`~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 >[!NOTE]
 >
->サポートの要請/チケットでアドビカスタマーケアと協力する際に、ログファイルを共有して、カスタマーケアチームがこの問題を理解できるようにするように求められる場合があります。 Archive the entire `Logs` folder and share it with your Customer Care contact.
+>サポート依頼やサポートチケットに基づいてアドビカスタマーケアと共同でトラブルシューティングをおこなう場合は、問題がカスタマーケアチームに理解しやすいように、ログファイルの提供を求められる場合があります。`Logs` フォルダー全体をアーカイブして、カスタマーケアの担当者と共有します。
 
 ### キャッシュのクリア {#clear-cache-v2}
 
