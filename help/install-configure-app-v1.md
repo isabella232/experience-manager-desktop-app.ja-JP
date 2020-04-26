@@ -8,8 +8,8 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fbbb3eaea69c9153a8c36679bf2be3da0577574c
+translation-type: tm+mt
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -82,7 +82,7 @@ Asset Info ダイアログは、次のコンポーネントの一方または両
 
 オーバーレイされるコンポーネントは、カスタマイズの性質によって変わります。Asset Info ダイアログの一部として表示されるコンポーネントを変更するには、Granite ユーザーインターフェイスページをオーバーレイします。ダイアログの HTML／CSS／JavaScript コンテンツを変更するには、HTL コンポーネントをオーバーレイします。
 
-## キャッシュの管理 {#manage-cache}
+## キャッシュの管理  {#manage-cache}
 
 Windows では、キャッシュは `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\` にあります。ここには、デスクトップアプリケーションで設定されている、エンコード済みバージョンの AEM ホストがあります。例えば、`http://localhost:4502` は `http%3A%2F%2Flocalhost%3A4502%2F` と表示されます。
 
@@ -96,7 +96,7 @@ Mac OS X では、同様のディレクトリが `~/Library/Group Containers/gro
 >
 >キャッシュをクリアした場合でも、未保存の変更内容は維持されます。AEM サーバーにチェックインしていないアセットは、削除されずにそのまま保持されます。
 
-### Windows でのキャッシュの場所の変更 {#change-location-of-cache-on-windows}
+### Windows でのキャッシュの場所の変更  {#change-location-of-cache-on-windows}
 
 AEM デスクトップアプリケーションのキャッシュのデフォルトの場所は次のとおりです。
 
@@ -120,9 +120,9 @@ AEM デスクトップアプリケーションのキャッシュのデフォル�
 
 ## その他のリソース {#additional-resources}
 
-* [AEM デスクトップアプリケーションの概要](https://helpx.adobe.com/jp/experience-manager/kt/eseminars/ccoo-aem-desktop-app.html)
+* [AEM デスクトップアプリケーションの概要](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
 * [AEM デスクトップアプリケーションの使用](use-app-v1.md)
 
-* [AEM デスクトップアプリケーションでのチェックインとチェックアウトについて](https://helpx.adobe.com/jp/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
-* [AEM Assets でのデスクトップアプリケーションの使用](https://helpx.adobe.com/jp/experience-manager/kt/assets/using/checkin-checkout-technical-video-understand.html)
+* [AEM デスクトップアプリケーションでのチェックインとチェックアウトについて](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
+* [AEM Assets でのデスクトップアプリケーションの使用](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [AEM デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
