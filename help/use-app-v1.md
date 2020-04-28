@@ -1,15 +1,9 @@
 ---
-title: AEM デスクトップアプリケーションバージョン 1.x の使用
+title: AEM デスクトップアプリケーションバージョン 1.x の使用.
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.x の使用方法と、デスクトップでアセットを効率的に取り扱う方法について説明します。
-uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
 
 ---
 
@@ -22,19 +16,18 @@ AEM デスクトップアプリケーションを使用すれば、AEM 内のア
 
 AEM デスクトップアプリケーションv1 を使用しておこなう主なタスクは次のとおりです。
 
-* [AEM サーバーと接続する](#installandconnect)
+1. [AEM サーバーと接続する](#installandconnect)
+1. [アセットをデスクトップで直接開く](#openondesktop)
+1. [アセットをデスクトップから編集およびチェックアウトする](#workonassets)
+1. [アセットおよびフォルダーを一括アップロードする](#bulkupload)
 
-* [アセットをデスクトップで直接開く](#openondesktop)
-* [アセットをデスクトップから編集およびチェックアウトする](#workonassets)
-
-* [アセットおよびフォルダーを一括アップロードする](#bulkupload)
-
-様々な推奨事項や注意事項については、[アプリケーションを使用する際のベストプラクティス](best-practices-for-v1.md)を参照してください。AEM デスクトップアプリケーションの使用時に問題が発生した場合は、[AEM デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)を参照してください。
+様々な推奨事項や注意事項については、[アプリケーションを使用する際のベストプラクティス](best-practices-for-v1.md)を参照してください。If you face issues using the App, see how to [troubleshoot AEM desktop](troubleshoot-app-v1.md).
 
 >[!NOTE]
+>
 >AEM デスクトップアプリケーションは AEM 6.1 リリースで導入され、当初は AEM Assets Companion App と呼ばれていました。
 
-## クリエイティブワークフローでの AEM デスクトップアプリケーションのタッチポイント {#aem-desktop-app-touch-points-in-the-creative-workflow}
+## AEM desktop app touch-points in the creative workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
 AEM デスクトップアプリケーションおよび AEM Assets はクリエイティブワークフローで統合され、以下のタッチポイントが提供されます。
 
@@ -98,22 +91,39 @@ AEM デスクトップアプリケーションを使用するには、AEM サー
 
 ### AEM Web インターフェイスでのデスクトップアクションの有効化 {#desktopactions}
 
-ブラウザーの Assets UI から、アセットの場所を参照したり、アセットをチェックアウトしてデスクトップアプリケーションで編集用に開くことができます。これらのオプションはデスクトップアクションと呼ばれており、デフォルトでは有効になっていません。デスクトップアクションを有効にするには、以下の手順に従います。
+アセットユーザインターフェイス内から、アセットの場所を調べたり、アセットをチェックアウトして開き、デスクトップアプリケーションで編集することができます。 これらのオプションはデスクトップアクションと呼ばれ、デフォルトでは有効になっていません。 デスクトップアクションを有効にするには、以下の手順に従います。
 
-1. アセットコンソールで、ツールバーの&#x200B;**ユーザー**&#x200B;アイコンをクリックまたはタップします。
-1. 「**[!UICONTROL My Preferences]**」をクリックまたはタップして、**[!UICONTROL Preferences]**&#x200B;ダイアログを表示します。
-1. ユーザーの環境設定ダイアログで、「**[!UICONTROL Show Desktop Actions For Assets]**」を選択します。「**[!UICONTROL Accept]**」をクリックまたはタップします。
+1. アセットインターフェイスで、ツールバーの右上隅にあるユーザアイコンをクリックまたはタップします。
+1. をクリック **[!UICONTROL My Preferences]** して、ダイアログを表 **[!UICONTROL Preferences]** 示します。
+
+   ![AEMのユーザー環境設定とのインターフェイス](assets/aem_ui_user_preferences.png)
+
+1. ユーザーの環境設定ダイアログで、「**[!UICONTROL Show Desktop Actions For Assets]**」を選択します。「**[!UICONTROL Accept]**」をクリックします。
 
    ![「アセットのデスクトップアクションを表示」をチェックしてデスクトップアクションを有効化](assets/chlimage_1-3.png)
 
-   「アセットのデスクトップアクションを表示」をチェックしてデスクトップアクションを有効化
+   *図：「アセットのデスクトップアクションを表示」をオンにして、デスクトップアクションを有効にします。*
 
 ## デスクトップでのアセットへのアクセスとオープン {#openondesktop}
+
+「開く」をクリック **して** 、ローカルマシン上のアセットを開くと、アプリはそのアセットを内部キャッシュにダウンロードします。 ダウンロードしたアセットのファイルタイプに関連付けられたネイティブデスクトップアプリケーションがアプリケーションによって起動されます。
+
+On Mac, select **Open** from the context menu to open an asset through AEM desktop app. Windows の場合は、コンテキストメニューで「Open on Web」を選択してアセットを開きます。アセットステータスウィンドウで ![デスクトップで開くアイコン](assets/aemassets_icon_openondesktop.png) をクリックまたはタップして、アセットを開きます。
+
+Adobe InDesign（INDD）ファイルでは、コンテキストメニューで「**[!UICONTROL Open]**」を選択します。このオプションをクリックすると、リンクされているアセットが AEM デスクトップアプリケーションによってローカルファイルシステムにダウンロードされ、Adobe InDesign で INDD ファイルが表示されます。この方法を使用することで、INDD ファイルを編集するときに必要なアセットをローカルで利用できます。
+
+![AEM デスクトップアプリケーションを使用してアセットにアクセスして開くためのコンテキストメニューオプション](assets/aem_desktopapp_mac_context_menu.png)
+
+*図：AEMデスクトップアプリを使用してアセットにアクセスし、開くためのコンテキストメニューオプション。*
 
 >[!NOTE]
 >Windows の場合、[Windows 7 のデフォルト設定](https://support.microsoft.com/ja-jp/kb/2668751)では、50 MB より大きなアセットを AEM デスクトップアプリケーションで処理できません。
 
-### AEM Web インターフェイスからマッピングされたアセットの場所の表示 {#reveal-the-location-of-mapped-assets-from-aem-web-interface}
+>[!NOTE]
+>
+>MacのFinder表示オプションに移動し、マウントされたAEM Assetsプレビューの「項目を表示」、「項目情報を表示 **」、「********** プレビューを表示」列の各オプションを非アクティブにすることをお勧めします。 パフォーマンスが向上します。
+
+### AEMインターフェイスの追加オプション {#additional-options-in-aem-assets}
 
 AEM Assets リポジトリをローカルドライブにマッピングした後で、マッピングされたアセットとフォルダーに対して追加のアイコンと「フォルダーのアップロード」機能が表示されるように設定できます。
 
@@ -121,31 +131,17 @@ AEM Assets リポジトリをローカルドライブにマッピングした後
 
    ![Assets UI でクイックアクションメニューを開き、デスクトップアクションを表示](assets/chlimage_1-4.png)
 
-   Assets UI でクイックアクションメニューを開き、デスクトップアクションを表示
+   *図：アセットUIで、クイックアクションメニューを開いて、デスクトップアクションを表示します。*
 
-   これらのデスクトップアクションは、アセットを選択した後のツールバー、またはアセットページにあるツールバーの「**デスクトップアクション**」アイコンをクリックまたはタップしても使用できます。
+   These desktop actions are also available when you click the **Desktop Actions** icon in the toolbar after selecting the asset or from the toolbar in the asset page.
 
 1. 特定のファイル拡張子に関連付けられているデスクトップアプリケーションでアセットを表示するには、「**デスクトップで開く**」クイックアクション ![デスクトップで開くアイコン](assets/aemassets_icon_openondesktop.png) をクリックまたはタップします。
 
    または、ツールバーの&#x200B;**デスクトップアクション**&#x200B;メニューから「**開く**」を選択します。
 
-1. 「**表示**」クイックアクション ![表示アイコン](assets/aemassets_reveal_icon.png) をクリックまたはタップすると、ローカルファイルシステム内の特定のアセットを探すことができます。
+ローカルファイルシステム上の特定のアセットを検索するには、クイックアクションを表示 **します** 。表示アイコン ![をクリックします](assets/aemassets_reveal_icon.png)。 または、ツールバーの&#x200B;**デスクトップアクション**&#x200B;メニューから「**表示**」を選択します。
 
-   または、ツールバーの&#x200B;**デスクトップアクション**&#x200B;メニューから「**表示**」を選択します。
-
-### Finder またはエクスプローラーから AEM アセットを開く {#open-aem-assets-from-the-finder-or-the-explorer}
-
-Mac の場合は、コンテキストメニューで「Open」を選択し、AEM デスクトップアプリケーションを通してアセットを開きます。
-
-Adobe InDesign（INDD）ファイルでは、コンテキストメニューで「**[!UICONTROL Open]**」を選択します。このオプションをクリックすると、リンクされているアセットが AEM デスクトップアプリケーションによってローカルファイルシステムにダウンロードされ、Adobe InDesign で INDD ファイルが表示されます。この方法を使用することで、INDD ファイルを編集するときに必要なアセットをローカルで利用できます。
-
-Windows の場合は、コンテキストメニューで「Open on Web」を選択してアセットを開きます。アセットステータスウィンドウで ![デスクトップで開くアイコン](assets/aemassets_icon_openondesktop.png) をクリックまたはタップして、アセットを開きます。
-
-![AEM デスクトップアプリケーションを使用してアセットにアクセスして開くためのコンテキストメニューオプション](assets/aem_desktopapp_mac_context_menu.png)
-
-AEM Desktop App を使用してアセットにアクセスして開くためのコンテキストメニューオプション
-
-### アセットのステータスについて {#understand-the-asset-statuses}
+## アセットのステータスについて {#understand-the-asset-statuses}
 
 | ![Windows のデフォルトアプリアイコン](assets/win_default.png) | AEM デスクトップアプリケーションはサーバーに接続されており、すべてのアセットが同期されています。 |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -181,7 +177,7 @@ AEM Web インターフェイスからアセットをチェックアウトする
 1. 「開く」メニューオプションを選択します。選択したアセットがプレビューモードで開きます。
 1. アセットを編集するには、「編集」オプションを選択します。選択したアセットが編集モードで開きます。
 
-### アセットのチェックアウト（Mac の場合） {#check-out-assets-on-mac}
+### Mac OSでのFinderからのアセットのチェックアウト {#check-out-assets-on-mac}
 
 AEM デスクトップアプリケーションでは、作業中のファイルが他のユーザーによって変更されないように、アセットファイルをチェックアウトできます。
 
@@ -219,19 +215,17 @@ AEM デスクトップアプリケーションでは、作業中のファイル�
 1. エクスプローラーでアセットを確認します。アセットのロックアイコン ![アセットロックアイコン](assets/aemassets_icon_lockcheckout.png) は、このアセットをチェックアウトしていることを示します。
 
    >[!NOTE]
-   >ロックアイコンは、数分遅れて表示される場合があります。AEM デスクトップアプリケーションは、すばやくアクセスできるようにアセットをキャッシュするので、ロック済みのステータスが更新されるまでにしばらく時間がかかることがあります。
+   >ロックアイコンは、しばらくすると表示される場合があります。 AEMデスクトップアプリケーションは、すばやくアクセスできるようにアセットをキャッシュして、ロックされたステータスを更新するのに数分かかる場合があります。
 
 1. 他のユーザーが使用できるようにアセットをチェックインするには、**Asset Info** ダイアログの「Check-in」アイコンをクリックまたはタップします。
 
 ### Finder またはエクスプローラー、および Web インターフェイスを使用したアセットのチェックイン {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
-アセットの編集が終了したら、デスクトップアプリケーションでアセットを保存します。コンテキストメニューで「More Assets Info」を選択して、「Check-in」をクリックまたはタップします。
+アセットの編集が終了したら、デスクトップアプリケーションでアセットを保存します。From the context menu, select **More Assets Info** and click check-in.
 
-アセットが AEM サーバーにアップロードされます。オプションで、トレイアイコンから「View Asset Status」を選択して、アップロードのステータスを確認できます。
+アセットが AEM サーバーにアップロードされます。Optionally, you can check the status of the upload by selecting **View Asset Status** from the system tray icon. または、AEM Web インターフェイスからアセットをチェックインすることもできます。チェックアウトしたアセットをクリックするか、選択します。 From the toolbar, click the check in icon ![check-in icon](assets/aemassets_icon_checkin.png).
 
-![AEM デスクトップアプリケーションのファイル転送およびアップロードのステータスウィンドウ](assets/aem_desktopapp_upload_status.png)
-
-または、AEM Web インターフェイスからアセットをチェックインすることもできます。チェックアウトされたアセットをクリックまたはタップするか、または選択します。ツールバーのチェックインアイコン ![「Check-in」アイコン](assets/aemassets_icon_checkin.png) をクリックまたはタップします。
+変更がローカルに保存されると、アセットが自動的にAEMにアップロードされます。 このチェックインにより、他のAEMユーザーがアセットを編集できるようになります。
 
 ### AEM サーバーへのアセットおよびフォルダーの一括アップロード {#bulkupload}
 
@@ -250,13 +244,13 @@ AEM Desktop では、アセットを含むフォルダー全体を、ローカ�
 
 1. フォルダーがアップロードされたら、ダイアログを閉じて、Assets UI に移動します。アップロードされたフォルダーが Web インターフェイスに表示されます。
 
-大量のファイルやネストされたフォルダーを Finder またはエクスプローラーのローカルディスクから AEM デスクトップアプリケーションでマッピングされたネットワーク共有領域にコピー＆貼り付けまたはドラッグ＆ドロップすることは&#x200B;*お勧めしません*。その方法では、上記のアップロードフォルダー機能を使用するよりも信頼性が低くなります。
+アドビでは、ローカルファイルシステムからネットワーク共有領域に、より多くのファイルやネストされたフォルダーをコピー&amp;ペーストまたはドラッグしないことをお勧めします。 技術的な制限があるため、アプリはアップロード処理を制御できず、パフォーマンスが低下しています。
 
-デスクトップで操作する場合のもう 1 つの選択肢として、AEM にアップロードするファイルまたはフォルダーを Finder またはエクスプローラーで選択し、それらをシステムのクリップボードにコピーして、ネットワーク共有領域の対象フォルダーに移動し、AEM デスクトップアプリケーションのコンテキストメニューから「Paste Assets」を選択する方法があります。この場合、AEM デスクトップアプリケーションは上記のアップロードフォルダー機能と同じように、貼り付けられたアセットのアップロードを開始します。
+または、FinderまたはExplorerでAEMにアップロードするファイルやターゲットを選択し、システムクリップボードにコピーし、ネットワーク共有領域のフォルダに移動し、AEMデスクトップアプリのコンテキストメニューから「アセットを貼り付け ****」を選択します。 これにより、AEMデスクトップアプリの開始は、AEM Webインターフェイスで使用できる「フォルダーをア **ップロード** 」オプションと同様に、貼り付けたアセットをアップロードします。
 
 >[!MORELIKETHIS]
 >
 >* [AEM デスクトップアプリケーションの概要](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
->* [AEM デスクトップアプリケーションでのチェックインとチェックアウトについて](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
->* [AEM デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
+>* [AEMデスクトップアプリケーションのチェックイン/チェックアウトについて理解する](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
+>* [AEMデスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
 
