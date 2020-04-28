@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb71cfdfef674be25d059f104a37a9199681358c
+source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
 
 ---
 
@@ -38,14 +38,6 @@ AEM デスクトップアプリケーションを使用するには、以下を�
 >
 >インストールして一度にアクティブ化できる AEM デスクトップアプリケーションのインスタンスは 1 つだけです。
 
-## プロキシのサポート {#proxy-support}
-
-AEM デスクトップアプリケーションは、システムで事前に定義されたプロキシ経由で、HTTPS を使用してインターネットに接続します。AEM デスクトップアプリケーションは、追加の認証が必要ないネットワークプロキシのみを使用して接続できます。
-
-Windows のプロキシサーバー設定（インターネットオプション／LAN の設定）を設定または変更した場合、変更内容を反映するには、AEM デスクトップアプリケーションを再起動します。
-
-プロキシで認証が必要な場合は、IT チームがプロキシサーバー設定で AEM Assets の URL をホワイトリストに登録すると、アプリケーションのトラフィックが通過できるようになります。
-
 ## ファイルの処理 {#file-handling}
 
 デスクトップアプリケーションによってマウントされたネットワーク共有の場所からファイルを変更した場合、ファイルは 2 つの段階を経てその場所に保存されます。第 1 段階では、ファイルがローカルに保存されます。ユーザーは、ファイルを保存し、転送が完了するのを待つことなくそのファイルに対する作業を続けることができます。
@@ -69,9 +61,21 @@ Assets API のコピーおよび移動メソッドでは、次の追加ヘッダ
 * X-Depth
 * X-Overwrite
 
-AEM Desktop は、デフォルトポートを含む URL を使用して AEM に接続します。したがって、Dispatcher 設定の `virtualhosts` の設定にデフォルトポート番号を含める必要があります。`virtualhosts` の設定について詳しくは、[仮想ホストの識別](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts)を参照してください。
+AEMデスクトップは、デフォルトのポートを含むURLを使用してAEMに接続します。 したがって、Dispatcher 設定の `virtualhosts` の設定にデフォルトポート番号を含める必要があります。For more information around `virtualhosts` configuration, see [identify virtual hosts](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
 
 これらの追加ヘッダーを引き渡すように Dispatcher を設定する方法について詳しくは、[HTTP ヘッダーの指定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)を参照してください。
+
+### プロキシのサポート {#proxy-support}
+
+AEM デスクトップアプリケーションは、システムで事前に定義されたプロキシ経由で、HTTPS を使用してインターネットに接続します。AEM デスクトップアプリケーションは、追加の認証が必要ないネットワークプロキシのみを使用して接続できます。
+
+Windows のプロキシサーバー設定（インターネットオプション／LAN の設定）を設定または変更した場合、変更内容を反映するには、AEM デスクトップアプリケーションを再起動します。
+
+>[!NOTE]
+>
+>プロキシ設定は、デスクトップアプリケーションを開始した場合にのみ適用されます。 アプリを閉じて再起動し、変更を有効にします。
+
+プロキシで認証が必要な場合は、IT チームがプロキシサーバー設定で AEM Assets の URL をホワイトリストに登録すると、アプリケーションのトラフィックが通過できるようになります。
 
 ## Asset Info ダイアログのカスタマイズ {#customize-the-asset-info-dialog}
 
