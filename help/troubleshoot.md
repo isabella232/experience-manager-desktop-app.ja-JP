@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Experience Manager（AEM）デスクトップアプリケーションは�
 
 一般的な問題の回避やトラブルシューティングを図るには、次のベストプラクティスに従います。
 
-* **デスクトップアプリケーションの動作の仕組みを理解する**：使用を開始する前に、少し時間を割いてデスクトップアプリケーションの動作の仕組みを理解してください。Web UI とデスクトップの連携、リポジトリマッピング、アセットキャッシング、ローカルでの保存、バックグラウンドでのアップロードについて把握します。[動作の仕組み](release-notes.md#how-app-works)を参照してください。
+* **デスクトップアプリの仕組みを理解する**:アプリの使用を開始する前に、アプリの動作を少しお待ちください。 Experience Manager Webインターフェイスとデスクトップ間のリンク、リポジトリのマッピング、アセットのキャッシュ、ローカルでの保存、バックグラウンドでのアップロードについて詳しく説明しています。 [動作の仕組み](release-notes.md#how-app-works)を参照してください。
 
 * **サポートされていない文字をフォルダー名に使用しない**：フォルダーの作成やアップロードの際には、空白や無効な文字を使用しないでください。該当する文字のリストについては、[Adobe Experience Manager Assets でのフォルダーの作成](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders)を参照してください。Adobe Experience Manager の一部の使用例では、サポートされていない文字がフォルダー名に使用されていた場合、影響を受ける可能性があります。
 
@@ -48,21 +48,21 @@ Adobe Experience Manager（AEM）デスクトップアプリケーションは�
 
 ### デバッグモードの有効化 {#enable-debug-mode}
 
-トラブルシューティングをおこなう場合、デバッグモードを有効にして、ログに詳細情報を取得できます。To use the app in debug mode on Mac, use the following command line options in a terminal or at the command prompt: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
+トラブルシューティングをおこなう場合、デバッグモードを有効にして、ログに詳細情報を取得できます。Mac においてバッグモードでアプリケーションを実行するには、ターミナルまたはコマンドプロンプトで次のコマンドラインオプションを使用します。`AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
 
-Windowsでデバッグモードを有効にするには、次の手順に従います。
+Windows でデバッグモードを有効にするには、次の手順に従います。
 
-1. デスクトップア `Adobe Experience Manager Desktop.exe.config` プリケーションのインストールフォルダー内のファイルを探します。 By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.  ファイルを保存して閉じます。
+1. デスクトップアプリケーションのインストールフォルダーで `Adobe Experience Manager Desktop.exe.config` ファイルを見つけます。デフォルトでは、フォルダーは `C:\Program Files\Adobe\Adobe Experience Manager Desktop` です。ファイルを保存して閉じます。
 
-1. ファイ `<level value="INFO"/>` ルの末尾に向かって配置します。 の値を、つまり、 `DEBUG`に変更します `<level value="DEBUG"/>`。
+1. ファイルの末尾に向かって `<level value="INFO"/>` を見つけます。値を `DEBUG`（`<level value="DEBUG"/>`）に変更します。
 
-1. デスクトップア `logging.json` プリケーションのインストールフォルダー内のファイルを探します。 By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
+1. デスクトップアプリケーションのインストールフォルダーで `logging.json` ファイルを見つけます。デフォルトでは、フォルダーは `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\` です。
 
-1. ファイ `logging.json` ル内で、パラメーターのすべてのインスタンスを見つ `level` けます。 値をからに変更し `info` ます `debug`。  ファイルを保存して閉じます。
+1. `logging.json` ファイル内で、`level` パラメーターのすべてのインスタンスを見つけます。値を `info`から `debug` に変更します。ファイルを保存して閉じます。
 
-1. アプリの環境設定で設定した場所にあるキャッシュされたディレクトリを消去します。
+1. アプリの環境設定で設定した場所にある、キャッシュされたディレクトリを消去します。
 
-1. デスクトップアプリを再起動します。
+1. デスクトップアプリケーションを再起動します。
 
 <!-- The Windows command doesn't work for now.
 * On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
@@ -134,8 +134,8 @@ AEM デスクトップアプリケーションが HTTP 通信に使用するラ�
 
 まれに、デスクトップアプリケーションが応答しなくなって、白い画面だけが表示されたり、インターフェイスにオプションが表示されずにインターフェイスの下部にエラーが表示されたりする場合があります。このような場合には、以下をこの順に試します。
 
-1. デスクトップアプリケーションインターフェイスを右クリックし、「**[!UICONTROL Refresh]**」を選択します。
-1. デスクトップアプリケーションを終了して、再起動します。
+* デスクトップアプリケーションインターフェイスを右クリックし、「**[!UICONTROL Refresh]**」を選択します。
+* アプリケーションを終了し、再び開きます。
 
 どちらの方法でも、DAM のルートフォルダーがデスクトップアプリケーションの初期状態として表示されます。
 
