@@ -8,7 +8,7 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
 
 ---
@@ -24,9 +24,9 @@ Adobe Experience Manager（AEM）デスクトップアプリケーションは�
 
 一般的な問題の回避やトラブルシューティングを図るには、次のベストプラクティスに従います。
 
-* **デスクトップアプリの仕組みを理解する**:アプリの使用を開始する前に、アプリの動作を少しお待ちください。 Experience Manager Webインターフェイスとデスクトップ間のリンク、リポジトリのマッピング、アセットのキャッシュ、ローカルでの保存、バックグラウンドでのアップロードについて詳しく説明しています。 [動作の仕組み](release-notes.md#how-app-works)を参照してください。
+* **デスクトップアプリケーションの動作の仕組みを理解する**：使用を開始する前に、少し時間を割いてデスクトップアプリケーションの動作の仕組みを理解してください。Adobe Experience Manager の Web インターフェイスとデスクトップアプリケーションの連携、リポジトリマッピング、アセットキャッシング、ローカルでの保存、バックグラウンドでのアップロードについて把握します。[動作の仕組み](release-notes.md#how-app-works)を参照してください。
 
-* **サポートされていない文字をフォルダー名に使用しない**：フォルダーの作成やアップロードの際には、空白や無効な文字を使用しないでください。該当する文字のリストについては、[Adobe Experience Manager Assets でのフォルダーの作成](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders)を参照してください。Adobe Experience Manager の一部の使用例では、サポートされていない文字がフォルダー名に使用されていた場合、影響を受ける可能性があります。
+* **サポートされていない文字をフォルダー名に使用しない**：フォルダーの作成やアップロードの際には、空白や無効な文字を使用しないでください。該当する文字のリストについては、[Adobe Experience Manager Assets でのフォルダーの作成](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders)を参照してください。Adobe Experience Manager の一部の使用例では、サポートされていない文字がフォルダー名に使用されていた場合、影響を受ける可能性があります。
 
 * **競合を回避するためのベストプラクティス**：複数のアセットに対する共同作業で競合が発生する可能性を避けるには、[編集上の競合の回避](using.md#adv-workflow-collaborate-avoid-conflicts)を参照してください。
 
@@ -135,7 +135,7 @@ AEM デスクトップアプリケーションが HTTP 通信に使用するラ�
 まれに、デスクトップアプリケーションが応答しなくなって、白い画面だけが表示されたり、インターフェイスにオプションが表示されずにインターフェイスの下部にエラーが表示されたりする場合があります。このような場合には、以下をこの順に試します。
 
 * デスクトップアプリケーションインターフェイスを右クリックし、「**[!UICONTROL Refresh]**」を選択します。
-* アプリケーションを終了し、再び開きます。
+* アプリケーションを終了して、再度開きます。
 
 どちらの方法でも、DAM のルートフォルダーがデスクトップアプリケーションの初期状態として表示されます。
 
