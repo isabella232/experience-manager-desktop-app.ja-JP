@@ -8,7 +8,7 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
@@ -33,18 +33,18 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 詳しくは、[Adobe Experience Manager デスクトップアプリケーションリリースノート](release-notes.md)を参照してください。
 
-## Upgrade from a previous version {#upgrade-from-previous-version}
+## 以前のバージョンからのアップグレード {#upgrade-from-previous-version}
 
-v1.xのデスクトップアプリケーションをご利用の場合は、以前のバージョンと最新バージョンのアプリケーションの相違点と類似点を理解してください。 デスクト [ップアプリの新機能と](introduction.md#whats-new-v2) 、アプリの [仕組みを確認する](release-notes.md#how-app-works)
+デスクトップアプリケーション v1.x のユーザーの場合は、デスクトップアプリケーションの以前のバージョンと最新バージョンの相違点と類似点について理解してください。[デスクトップアプリの新機能](introduction.md#whats-new-v2)と、[アプリの仕組み](release-notes.md#how-app-works)を参照してください。
 
 >[!NOTE]
 >
->2つのバージョンのデスクトップアプリケーションを1台のコンピューターに共存させることはできません。 あるバージョンをインストールするには、その前に他のバージョンをアンインストールします。
+>2 つのバージョンのデスクトップアプリケーションを 1 台のコンピューターに共存させることはできません。あるバージョンをインストールするには、その前に他のバージョンをアンインストールします。
 
 以前のバージョンのアプリケーションからアップグレードするには、次の手順に従います。
 
-1. アップグレードする前に、すべてのアセットを同期し、変更をExperience Managerにアップロードします。 これは、アプリをアンインストールする際に編集内容が失われないようにするためです。
-1. 以前のバージョンのアプリをアンインストールします。 アンインストール時に、キャッシュをクリアするオプションを選択します。
+1. アップグレードする前に、すべてのアセットを同期し、変更を Adobe Experience Manager にアップロードします。これは、アプリケーションをアンインストールする際に編集内容が失われないようにするためです。
+1. 以前のバージョンのアプリケーションをアンインストールします。アンインストール時に、キャッシュをクリアするオプションを選択します。
 1. コンピューターを再起動します。
 1. [最新のデスクトップアプリケーションをダウンロードしてインストールします。](release-notes.md)[](#install-v2)以下の手順に従ってください。
 
@@ -52,9 +52,9 @@ v1.xのデスクトップアプリケーションをご利用の場合は、以�
 
 デスクトップアプリケーションをインストールするには、次の手順に従います。最新のデスクトップアプリケーションをインストールする前に、既存の Adobe Experience Manager デスクトップアプリケーション v1.x をアンインストールします。詳しくは、上記を参照してください。
 
-1. 最新のインストーラーをリリースノートページか [らダウンロード](release-notes.md) します。
+1. 最新のインストーラーを[リリースノート](release-notes.md)ページからダウンロードします。
 1. Adobe Experience Manager デプロイメントの URL と認証情報を手元に用意します。
-1. 別のバージョンのアプリケーションからアップグレードする場合は、「デスクトップアプリケーションのアップグレ [ード」を参照してくださ](#upgrade-from-previous-version)い。
+1. 別のバージョンのアプリケーションからアップグレードする場合は、[デスクトップアプリケーションのアップグレード](#upgrade-from-previous-version)を参照してください。
 1. Adobe Experience Manager as a Cloud Service、Adobe Experience Manager 6.4.4 以降、Adobe Experience Manager 6.5.0 以降のいずれかを使用している場合は、この手順をスキップします。Adobe Experience Manager の設定が、[リリースノート](release-notes.md)に記載されている互換性要件を満たしていることを確認します。必要に応じて、該当する[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をダウンロードし、Adobe Experience Manager 管理者として Adobe Experience Manager パッケージマネージャーを使用してインストールします。パッケージのインストールについては、[パッケージの作業方法](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/contentmanagement/package-manager.html)を参照してください。
 1. インストーラーのバイナリを実行し、画面の指示に従ってインストールします。
 1. Windows では、`Visual Studio C++ Redistributable 2015` をインストールするように求められる場合があります。その場合は、画面の指示に従ってインストールします。インストールに失敗した場合は、手動でインストールします。インストーラーを[ここ](https://www.microsoft.com/ja-jp/download/details.aspx?id=52685)からダウンロードし、`vc_redist.x64.exe` ファイルと `vc_redist.x86.exe` ファイルを両方ともインストールします。AEM デスクトップアプリケーションインストーラーを再実行します。
@@ -71,7 +71,7 @@ v1.xのデスクトップアプリケーションをご利用の場合は、以�
 
    ![ログイン時にデスクトップアプリケーションに表示される DAM コンテンツ](assets/firstview_da2.png "ログイン時にデスクトップアプリケーションに表示される DAM コンテンツ")
 
-1. （Adobe Experience Manager 6.5.1 以降）デスクトップアプリケーションを Adobe Experience Manager 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。詳しくは、[Azure コネクタ](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore)または [S3 コネクタ](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore)を参照してください。
+1. （Adobe Experience Manager 6.5.1 以降）デスクトップアプリケーションを Adobe Experience Manager 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。詳しくは、[Azure コネクタ](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore)または [S3 コネクタ](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore)を参照してください。
 
    Adobe Managed Services（AMS）を使用している場合は、アドビカスタマーケアにお問い合わせください。
 
@@ -79,8 +79,8 @@ v1.xのデスクトップアプリケーションをご利用の場合は、以�
 
 環境設定を変更するには、![その他のオプション](assets/do-not-localize/more_options_da2.png) アイコンと **[!UICONTROL Preference]** ![環境設定](assets/do-not-localize/preferences_icon_da2.png) アイコンを順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
 
-* [!UICONTROL Launch application on login].
-* [!UICONTROL Show window when application starts].
+* [!UICONTROL Launch application on login]
+* [!UICONTROL Show window when application starts]
 * **[!UICONTROL Cache Directory]**：デスクトップアプリケーションのローカルキャッシュの場所（ローカルにダウンロードされたアセットが格納されます）
 * **[!UICONTROL Network Drive Letter]**：AEM DAM へのマッピングに使用されるドライブ文字。確信がない限り、この値を変更しないでください。デスクトップアプリケーションでは、Windows の任意のドライブ文字にマッピングできます。2 人のユーザーが異なるドライブ文字のアセットを配置した場合、互いに相手が配置したアセットは表示されません。アセットのパスが変更されます。アセットは、バイナリファイル（INDD など）に配置されたままで、削除されません。使用可能なすべてのドライブ文字がデスクトップアプリケーションに一覧表示され、最後に使用可能な文字（通常は `Z`）がデフォルトで使用されます。
 * **[!UICONTROL Maximum Cache Size]**：ローカルにダウンロードしたアセットの保存に使用できる、ハードディスク上のキャッシュのサイズ（GB 単位）
