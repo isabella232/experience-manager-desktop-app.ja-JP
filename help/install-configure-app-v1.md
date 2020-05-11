@@ -8,7 +8,7 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
 
 ---
@@ -61,7 +61,7 @@ Assets API のコピーおよび移動メソッドでは、次の追加ヘッダ
 * X-Depth
 * X-Overwrite
 
-AEMデスクトップは、デフォルトのポートを含むURLを使用してAEMに接続します。 したがって、Dispatcher 設定の `virtualhosts` の設定にデフォルトポート番号を含める必要があります。For more information around `virtualhosts` configuration, see [identify virtual hosts](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+AEM デスクトップアプリケーションは、デフォルトポートを含む URL を使用して AEM に接続します。したがって、Dispatcher 設定の `virtualhosts` の設定にデフォルトポート番号を含める必要があります。`virtualhosts` の設定について詳しくは、[仮想ホストの識別](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts)を参照してください。
 
 これらの追加ヘッダーを引き渡すように Dispatcher を設定する方法について詳しくは、[HTTP ヘッダーの指定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)を参照してください。
 
@@ -73,7 +73,7 @@ Windows のプロキシサーバー設定（インターネットオプション
 
 >[!NOTE]
 >
->プロキシ設定は、デスクトップアプリケーションを開始した場合にのみ適用されます。 アプリを閉じて再起動し、変更を有効にします。
+>プロキシ設定は、デスクトップアプリケーションの開始時にのみ適用されます。変更内容を反映するには、アプリケーションを閉じて再起動します。
 
 プロキシで認証が必要な場合は、IT チームがプロキシサーバー設定で AEM Assets の URL をホワイトリストに登録すると、アプリケーションのトラフィックが通過できるようになります。
 
@@ -123,7 +123,7 @@ AEM デスクトップアプリケーションのキャッシュのデフォル�
    >自動的に *&lt;エンコードされた AEM エンドポイント>* サブディレクトリが作成されます。この動作は設定で変更することはできません。
 
 >[!MORELIKETHIS]
-* [AEM デスクトップアプリケーションの概要](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
+* [AEM デスクトップアプリケーションの概要](https://helpx.adobe.com/jp/customer-care-office-hours/aem/desktop-app.html)
 * [AEM デスクトップアプリケーションの使用](use-app-v1.md)
 * [AEM デスクトップアプリケーションでのチェックインとチェックアウトについて](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [AEM Assets でのデスクトップアプリケーションの使用](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
