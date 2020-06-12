@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: 63cb82b6bdafeb87d296a895d68cb3912045839a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2e634c13ef1bcb0cd1868100f5a2d7cb20c189be
+workflow-type: tm+mt
 source-wordcount: '1318'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -38,8 +38,8 @@ Adobe Experience Manager デスクトップアプリケーションは次のオ�
 Adobe Experience Manager デスクトップアプリケーションは、AEM as a Cloud Service、Adobe Managed Services（AMS）、オンプレミスのどちらでデプロイされている場合でも、次の Adobe Experience Manager バージョンと連携します。
 
 * [Adobe Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/release-notes/home.html)
-* [Adobe Experience Manager 6.5.0](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/release-notes/release-notes.html) 以降
-* [Adobe Experience Manager 6.4.4](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes.html) 以降
+* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/release-notes/release-notes.html) 以降
+* [Experience Manager 6.4.4](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes.html) 以降
 * Adobe Experience Manager 6.4.0～6.4.3（[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)を使用）
 
 >[!NOTE]
