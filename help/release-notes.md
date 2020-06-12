@@ -10,10 +10,10 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 2e634c13ef1bcb0cd1868100f5a2d7cb20c189be
+source-git-commit: a7a803edce0b6300b4a4142dcdc2f61d8347acea
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 Adobe Experience Manager デスクトップアプリケーションは次のオペレーティングシステムと互換性があります。
 
-* 最新のバグ修正が適用された Mac OS X 10.10 以降
+* Mac OS X 10.14以降（最新のバグ修正）。
 * 最新のサービスパックとバグ修正が適用された Windows 7 と Windows 10
 
 Adobe Experience Manager デスクトップアプリケーションは、AEM as a Cloud Service、Adobe Managed Services（AMS）、オンプレミスのどちらでデプロイされている場合でも、次の Adobe Experience Manager バージョンと連携します。
