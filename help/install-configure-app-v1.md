@@ -8,8 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
+translation-type: tm+mt
+source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
+workflow-type: tm+mt
+source-wordcount: '992'
+ht-degree: 97%
 
 ---
 
@@ -75,7 +78,7 @@ Windows のプロキシサーバー設定（インターネットオプション
 >
 >プロキシ設定は、デスクトップアプリケーションの開始時にのみ適用されます。変更内容を反映するには、アプリケーションを閉じて再起動します。
 
-プロキシで認証が必要な場合は、IT チームがプロキシサーバー設定で AEM Assets の URL をホワイトリストに登録すると、アプリケーションのトラフィックが通過できるようになります。
+プロキシで認証が必要な場合、ITチームは、Experience Managerトラフィックが通過するのを許可するために、プロキシサーバー設定でプロキシアセットURLを許可できます。
 
 ## Asset Info ダイアログのカスタマイズ {#customize-the-asset-info-dialog}
 
@@ -86,7 +89,7 @@ Asset Info ダイアログは、次のコンポーネントの一方または両
 
 オーバーレイされるコンポーネントは、カスタマイズの性質によって変わります。Asset Info ダイアログの一部として表示されるコンポーネントを変更するには、Granite ユーザーインターフェイスページをオーバーレイします。ダイアログの HTML／CSS／JavaScript コンテンツを変更するには、HTL コンポーネントをオーバーレイします。
 
-## キャッシュの管理  {#manage-cache}
+## キャッシュの管理   {#manage-cache}
 
 Windows では、キャッシュは `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\` にあります。ここには、デスクトップアプリケーションで設定されている、エンコード済みバージョンの AEM ホストがあります。例えば、`http://localhost:4502` は `http%3A%2F%2Flocalhost%3A4502%2F` と表示されます。
 
@@ -100,7 +103,7 @@ Mac OS X では、同様のディレクトリが `~/Library/Group Containers/gro
 >
 >キャッシュをクリアした場合でも、未保存の変更内容は維持されます。AEM サーバーにチェックインしていないアセットは、削除されずにそのまま保持されます。
 
-### Windows でのキャッシュの場所の変更  {#change-location-of-cache-on-windows}
+### Windows でのキャッシュの場所の変更   {#change-location-of-cache-on-windows}
 
 AEM デスクトップアプリケーションのキャッシュのデフォルトの場所は次のとおりです。
 
