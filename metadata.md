@@ -8,10 +8,13 @@ getting-started-url: https://helpx.adobe.com/jp/experience-manager/tutorials.htm
 tutorials-title: チュートリアル
 tutorials-url: https://helpx.adobe.com/jp/experience-manager/kt/index/aem-6-5-videos.html
 mini-toc-levels: 1
-git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-desktop-app.ja-JP
 index: y
 translation-type: tm+mt
-source-git-commit: e5e7f60d97bfb24bb4c668cd074430218a657db4
+source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 80%
 
 ---
 
@@ -28,7 +31,7 @@ metadata.md ファイルには、リポジトリ内にあるユーザーガイ�
 | getting-started-url | はじめにページへのリンク |
 | tutorials-url | ビデオチュートリアル（helpx チュートリアルまたは KT チュートリアル）へのリンク |
 | mini-toc-levels | 右側のレールに表示される見出しレベルの数を決定します。デフォルトは 2 です。 |
-| git-repo | 内部使用のマスターリポジトリの場所を指定します。 |
+| git-repo | 内部で使用する主要レポートの場所を指定します |
 
 TOC.mdファイル内
 
