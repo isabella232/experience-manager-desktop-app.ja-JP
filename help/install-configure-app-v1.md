@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Windows のプロキシサーバー設定（インターネットオプション
 >
 >プロキシ設定は、デスクトップアプリケーションの開始時にのみ適用されます。変更内容を反映するには、アプリケーションを閉じて再起動します。
 
-プロキシで認証が必要な場合、ITチームは、Experience Managerトラフィックが通過するのを許可するために、プロキシサーバー設定でプロキシアセットURLを許可できます。
+プロキシで認証が必要な場合は、IT チームがプロキシサーバー設定で Experience Manager Assets の URL を許可すれば、アプリケーションのトラフィックが通過できるようになります。
 
 ## Asset Info ダイアログのカスタマイズ {#customize-the-asset-info-dialog}
 
