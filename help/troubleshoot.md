@@ -8,9 +8,9 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Windows でデバッグモードを有効にするには、次の手順に従い
 
 1. デスクトップアプリケーションのインストールフォルダーで `logging.json` ファイルを見つけます。デフォルトでは、フォルダーは `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\` です。
 
-1. `logging.json` ファイル内で、`level` パラメーターのすべてのインスタンスを見つけます。値を `info`から `debug` に変更します。ファイルを保存して閉じます。
+1. `logging.json` ファイル内で、`level` パラメーターのすべてのインスタンスを見つけます。値を `info` から `debug` に変更します。ファイルを保存して閉じます。
 
 1. アプリの環境設定で設定した場所にある、キャッシュされたディレクトリを消去します。
 
@@ -99,7 +99,7 @@ AEM デスクトップアプリケーションのキャッシュのクリアは�
 
 ### AEM デスクトップアプリケーションのバージョンの把握 {#know-app-version-v2}
 
-![アプリメニュー](assets/do-not-localize/more_options_da2.png) をクリックしてデスクトップアプリケーションのメニューを開き、**[!UICONTROL Help]**／**[!UICONTROL About]**&#x200B;を選択します。
+![アプリメニュー](assets/do-not-localize/more_options_da2.png)をクリックしてデスクトップアプリケーションのメニューを開き、**[!UICONTROL Help]**／**[!UICONTROL About]**&#x200B;を選択します。
 
 ## 配置されたアセットが表示されない {#placed-assets-missing}
 
