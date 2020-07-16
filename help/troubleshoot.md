@@ -8,11 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4e2926adfe46265c78f85b63696c98859f895134
+workflow-type: tm+mt
 source-wordcount: '1240'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -55,15 +55,15 @@ Adobe Experience Manager（AEM）デスクトップアプリケーションは�
 
 Windows でデバッグモードを有効にするには、次の手順に従います。
 
-1. デスクトップアプリケーションのインストールフォルダーで `Adobe Experience Manager Desktop.exe.config` ファイルを見つけます。デフォルトでは、フォルダーは `C:\Program Files\Adobe\Adobe Experience Manager Desktop` です。ファイルを保存して閉じます。
+1. デスクトップアプリケーションのインストールフォルダーで `Adobe Experience Manager Desktop.exe.config` ファイルを見つけます。デフォルトでは、フォルダーは `C:\Program Files\Adobe\Adobe Experience Manager Desktop` です。
 
-1. ファイルの末尾に向かって `<level value="INFO"/>` を見つけます。値を `DEBUG`（`<level value="DEBUG"/>`）に変更します。
+1. ファイルの末尾に向かって `<level value="INFO"/>` を見つけます。の値をからに変更し `INFO` ま `DEBUG`す(つまり、 `<level value="DEBUG"/>`)。 ファイルを保存して閉じます。
 
 1. デスクトップアプリケーションのインストールフォルダーで `logging.json` ファイルを見つけます。デフォルトでは、フォルダーは `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\` です。
 
-1. `logging.json` ファイル内で、`level` パラメーターのすべてのインスタンスを見つけます。値を `info` から `debug` に変更します。ファイルを保存して閉じます。
+1. In `logging.json` file, locate all the instances of `"level": "info"`. 値を `info` から `debug` に変更します。ファイルを保存して閉じます。
 
-1. アプリの環境設定で設定した場所にある、キャッシュされたディレクトリを消去します。
+1. Clear the cached directories that are at the location set in the application [Preferences](/help/install-upgrade.md#set-preferences).
 
 1. デスクトップアプリケーションを再起動します。
 
