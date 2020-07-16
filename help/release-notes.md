@@ -10,10 +10,10 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: a7a803edce0b6300b4a4142dcdc2f61d8347acea
+source-git-commit: eda366b969edb3c266ae8a5900ea7c0409846db0
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 99%
+source-wordcount: '1326'
+ht-degree: 98%
 
 ---
 
@@ -32,15 +32,15 @@ ht-degree: 99%
 
 Adobe Experience Manager デスクトップアプリケーションは次のオペレーティングシステムと互換性があります。
 
-* Mac OS X 10.14以降（最新のバグ修正）。
+* 最新のバグ修正が適用された Mac OS X 10.14 以降
 * 最新のサービスパックとバグ修正が適用された Windows 7 と Windows 10
 
-Adobe Experience Manager デスクトップアプリケーションは、AEM as a Cloud Service、Adobe Managed Services（AMS）、オンプレミスのどちらでデプロイされている場合でも、次の Adobe Experience Manager バージョンと連携します。
+Adobe Experience Manager デスクトップアプリケーションは、AEM as a Cloud Service、Adobe Managed Services（AMS）、On-Premise のどちらでデプロイされている場合でも、次の Adobe Experience Manager バージョンと連携します。
 
 * [Adobe Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/release-notes/home.html)
 * [Adobe Experience Manager 6.5.0](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/release-notes/release-notes.html) 以降
 * [Adobe Experience Manager 6.4.4](https://helpx.adobe.com/jp/experience-manager/6-4/release-notes.html) 以降
-* Adobe Experience Manager 6.4.0～6.4.3（[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)を使用）
+* Adobe Experience Manager 6.4.0～6.4.3（[互換性パッケージ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)を使用）
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 バグ修正と更新点は次のとおりです。
 
 * `%APPDATA%` パスに一致する `%Temp%` ディレクトリを構成するオプションが許可されます。 <!-- CQ-4282665 -->
-* ユーザーが Okta SAML 認証を使用して AEM author にログインできるようになります。 <!-- CQ-4278134 -->
+* ユーザーが Okta SAML 認証を使用して AEM オーサーにログインできるようになります。 <!-- CQ-4278134 -->
 
 ## インストール手順 {#installation-instructions-v2}
 
