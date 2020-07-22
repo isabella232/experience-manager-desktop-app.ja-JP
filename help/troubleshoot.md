@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 9954d0b290c4e1071a6068be4f858b29d26dc712
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -57,13 +57,13 @@ Windows でデバッグモードを有効にするには、次の手順に従い
 
 1. デスクトップアプリケーションのインストールフォルダーで `Adobe Experience Manager Desktop.exe.config` ファイルを見つけます。デフォルトでは、フォルダーは `C:\Program Files\Adobe\Adobe Experience Manager Desktop` です。
 
-1. ファイルの末尾に向かって `<level value="INFO"/>` を見つけます。の値をからに変更し `INFO` ま `DEBUG`す(つまり、 `<level value="DEBUG"/>`)。 ファイルを保存して閉じます。
+1. ファイルの末尾に向かって `<level value="INFO"/>` を見つけます。値を `INFO` から `DEBUG` に変更します（つまり、`<level value="DEBUG"/>`）。ファイルを保存して閉じます。
 
 1. デスクトップアプリケーションのインストールフォルダーで `logging.json` ファイルを見つけます。デフォルトでは、フォルダーは `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\` です。
 
-1. In `logging.json` file, locate all the instances of `"level": "info"`. の値をからに変更し `info` ま `debug`す(つまり、 `"level": "debug"`)。 ファイルを保存して閉じます。
+1. `logging.json` ファイル内で、`"level": "info"` のすべてのインスタンスを見つけます。Change the values from `info` to `debug`, which is `"level": "debug"`. ファイルを保存して閉じます。
 
-1. Clear the cached directories that are at the location set in the application [Preferences](/help/install-upgrade.md#set-preferences).
+1. アプリケーションの[環境設定](/help/install-upgrade.md#set-preferences)で設定した場所にある、キャッシュされたディレクトリを消去します。
 
 1. デスクトップアプリケーションを再起動します。
 
