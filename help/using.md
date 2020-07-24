@@ -6,8 +6,11 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+translation-type: tm+mt
+source-git-commit: 27cc0ba26622016ce82b758fb0607652176f6992
+workflow-type: tm+mt
+source-wordcount: '3995'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ Adobe Experience Manager（AEM）デスクトップアプリケーションを�
 
 Adobe Experience Manager デスクトップアプリケーションを使用しておこなう主なタスクは次のとおりです。
 
-![Adobe Experience Manager デスクトップアプリケーションを使用して実行できるワークフローとタスク](assets/aem_desktop_app_usecases_v2.png "Adobe Experience Manager デスクトップアプリケーションを使用して実行できるワークフローとタスク")
+![[!DNL Experience Manager]Adobe デスクトップアプリケーションを使用して実行できるワークフローとタスク](assets/aem_desktop_app_usecases_v2.png "Adobe Experience Manager デスクトップアプリケーションを使用して実行できるワークフローとタスク")
 [この](assets/aem_desktop_app_usecases_print.pdf)印刷可能な PDF ファイルをダウンロードします。
 
 ## デスクトップアプリケーションの動作の仕組み {#how-app-works2}
