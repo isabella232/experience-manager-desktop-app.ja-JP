@@ -8,11 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9954d0b290c4e1071a6068be4f858b29d26dc712
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Windows でデバッグモードを有効にするには、次の手順に従い
 
 1. デスクトップアプリケーションのインストールフォルダーで `logging.json` ファイルを見つけます。デフォルトでは、フォルダーは `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\` です。
 
-1. `logging.json` ファイル内で、`"level": "info"` のすべてのインスタンスを見つけます。Change the values from `info` to `debug`, which is `"level": "debug"`. ファイルを保存して閉じます。
+1. `logging.json` ファイル内で、`"level": "info"` のすべてのインスタンスを見つけます。値を `info` から `debug` に変更します（つまり、`"level": "debug"`）。ファイルを保存して閉じます。
 
 1. アプリケーションの[環境設定](/help/install-upgrade.md#set-preferences)で設定した場所にある、キャッシュされたディレクトリを消去します。
 
