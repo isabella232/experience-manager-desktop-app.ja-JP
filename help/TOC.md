@@ -10,7 +10,7 @@ getting-started-url: https://docs.adobe.com/content/help/ja-JP/experience-manage
 tutorials-title: AEM チュートリアル
 tutorials-url: https://helpx.adobe.com/jp/experience-manager/kt/index/aem-tutorials.html
 translation-type: tm+mt
-source-git-commit: 0ec8430e53800eedffa86099e1f6c6782b2b27a4
+source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 100%
@@ -31,3 +31,4 @@ ht-degree: 100%
    + [デスクトップアプリケーション v1 の使用](use-app-v1.md)
    + [v1 のベストプラクティス](best-practices-for-v1.md)
    + [v1 のトラブルシューティング](troubleshoot-app-v1.md)
+
