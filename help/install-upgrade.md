@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1239'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
    ![入力サーバーアドレスへのデスクトップアプリの接続画面](assets/connect_da2.png)
 
-   *図： 入力サーバーアドレスへの接続画面*
+   *図：入力サーバーアドレスへの接続画面*
 
    >[!C注意]
    >
@@ -87,9 +87,9 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 1. 接続に成功すると、AEM DAM のルートフォルダーにあるフォルダーやアセットのリストが表示されます。デスクトップアプリケーション内からフォルダーを参照できます。
 
-   ![ログイン時に、アプリにDAMコンテンツが表示されます](assets/firstview_da2.png)
+   ![ログイン時に、アプリケーションに DAM コンテンツが表示されます](assets/firstview_da2.png)
 
-   *図： ログイン後にDAMコンテンツが表示される*
+   *図：ログイン後に DAM コンテンツが表示される*
 
 1. （Adobe Experience Manager 6.5.1 以降）デスクトップアプリケーションを Adobe Experience Manager 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。詳しくは、[Azure コネクタ](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore)または [S3 コネクタ](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore)を参照してください。
 
@@ -97,11 +97,11 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 ## 環境設定の指定 {#set-preferences}
 
-環境設定を変更するには、![その他のオプション](assets/do-not-localize/more_options_da2.png) アイコンと **[!UICONTROL Preference]** ![環境設定](assets/do-not-localize/preferences_icon_da2.png) アイコンを順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
+環境設定を変更するには、![その他のオプション](assets/do-not-localize/more_options_da2.png)アイコンと&#x200B;**[!UICONTROL Preference]**![&#x200B;環境設定](assets/do-not-localize/preferences_icon_da2.png)アイコンを順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
 
-* [!UICONTROL Launch application on login].
+* [!UICONTROL Launch application on login]
 
-* [!UICONTROL Show window when application starts].
+* [!UICONTROL Show window when application starts]
 
 * **[!UICONTROL Cache Directory]**：デスクトップアプリケーションのローカルキャッシュの場所（ローカルにダウンロードされたアセットが格納されます）
 
@@ -117,11 +117,11 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 * **[!UICONTROL Upload Acceleration]**：アプリケーションでアセットをアップロードする際に同時アップロードを使用して、アップロード速度を向上させることができます。スライダーを右に動かして、アップロードの同時実行性を高めることができます。スライダーが最も左側にある場合は、同時実行をおこなわないこと（シングルスレッドアップロード）を意味し、中央にある場合は 10 個の同時スレッドに相当し、右端の上限にある場合は 20 個の同時スレッドに相当します。同時実行性の上限を高くすると、ローカルマシンのプロセッサのリソース消費量が増えます。
 
-使用できない環境設定を更新するには、AEM サーバーからログアウトします。環境設定を更新した後、![環境設定の保存](assets/do-not-localize/save_preferences_da2.png) アイコンをクリックして、変更内容を保存します。
+使用できない環境設定を更新するには、AEM サーバーからログアウトします。環境設定を更新した後、![環境設定の保存](assets/do-not-localize/save_preferences_da2.png)アイコンをクリックして、変更内容を保存します。
 
-![デスクトップアプリの環境設定と設定](assets/preferences_da2.png)
+![デスクトップアプリケーションの環境設定](assets/preferences_da2.png)
 
-*図： デスクトップアプリの環境設定*
+*図：デスクトップアプリケーションの環境設定*
 
 ## デスクトップアプリケーションのアンインストール {#uninstall-the-app}
 
