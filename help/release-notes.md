@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1320'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 
 * [Adobe Experience Manager 6.4.4](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/release-notes/release-notes.html) 以降.
 
-* Experience Manager 6.4.0 - 6.4.3 with [compatibility package](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
+* Adobe Experience Manager 6.4.0～6.4.3（[互換性パッケージ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)を使用）。
 
 >[!NOTE]
 >
@@ -59,9 +59,9 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 
 一部のファイルタイプでは、リンクされたアセットをバイナリ内に配置することができます。このようなバイナリファイルをデスクトップアプリケーションで開くときにアセットが Adobe Experience Manager リポジトリに存在する場合は、リンクされたアセットが事前にダウンロードされます。現在サポートされているファイルタイプは次のとおりです。
 
-* [!DNL Adobe InDesign] ファイル（INDD形式）
-* [!DNL Adobe Illustrator] ファイル（AI形式）
-* [!DNL Adobe Photoshop] ファイル（PS形式）
+* [!DNL Adobe InDesign] ファイル（INDD 形式）
+* [!DNL Adobe Illustrator] ファイル（AI 形式）
+* [!DNL Adobe Photoshop] ファイル（PS 形式）
 
 この機能は、上記アプリケーションの Adobe Creative Cloud 2018 バージョンおよび Adobe Creative Cloud 2019 バージョンでサポートされています。デスクトップアプリケーションは、発見的最良一致アプローチを使用して、リンクされたアセットのローカルデスクトップパスを Adobe Experience Manager サーバー上の URL にマッピングします。このアプローチは、以下を前提としています。
 
