@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '997'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -91,9 +91,9 @@ Asset Info ダイアログは、次のコンポーネントの一方または両
 
 * Granite ユーザーインターフェイスページ（`/libs/dam/gui/content/assets/moreinfo`）。
 
-* The HTL `/css/javascript` component at `/libs/dam/gui/components/admin/moreinfo`.
+* HTL の `/css/javascript` コンポーネント（`/libs/dam/gui/components/admin/moreinfo`）。
 
-オーバーレイされるコンポーネントは、カスタマイズの性質によって変わります。Asset Info ダイアログの一部として表示されるコンポーネントを変更するには、Granite ユーザーインターフェイスページをオーバーレイします。ダイアログのHTML、CSSまたはJavaScriptコンテンツを変更するには、HTLコンポーネントをオーバーレイします。
+オーバーレイされるコンポーネントは、カスタマイズの性質によって変わります。Asset Info ダイアログの一部として表示されるコンポーネントを変更するには、Granite ユーザーインターフェイスページをオーバーレイします。ダイアログの HTML、CSS、JavaScript コンテンツを変更するには、HTL コンポーネントをオーバーレイします。
 
 ## キャッシュの管理    {#manage-cache}
 
@@ -111,11 +111,11 @@ Mac OS X では、同様のディレクトリが `~/Library/Group Containers/gro
 
 ### Windows でのキャッシュの場所の変更    {#change-location-of-cache-on-windows}
 
-AEMデスクトップアプリケーションのキャッシュのデフォルトの場所は次のとおりです。
+AEM デスクトップアプリケーションのキャッシュのデフォルトの場所は次のとおりです。
 
-* Windowsの場合は、 `%LocalAppData%\Adobe\AssetsCompanion\Cache\EncodedAEMEndpoint`.
+* Windows の場合、`%LocalAppData%\Adobe\AssetsCompanion\Cache\EncodedAEMEndpoint`。
 
-* Mac OSの場合 `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`。
+* Mac の場合、`~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`。
 
 `EncodedAEMEndpoint` は AEM デスクトップアプリケーションの設定済みの AEM エンドポイント URL です。この値は、AEM サーバーのターゲットとなる URL のエンコードされたバージョンです。例えば、アプリケーションのターゲットが `http://localhost:4502` の場合、ディレクトリ名は `http%3A%2F%2Flocalhost%3A4502` となります。この例では、キャッシュディレクトリへの Windows のパスは「%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502」です。
 
@@ -131,7 +131,7 @@ AEMデスクトップアプリケーションのキャッシュのデフォル�
 
    >[!NOTE]
    >
-   >The app automatically creates an *&lt;Encoded AEM Endpoint>* subdirectory. This behavior is not configurable.
+   >自動的に *&lt;エンコードされた AEM エンドポイント>* サブディレクトリが作成されます。この動作は設定で変更することはできません。
 
 >[!MORELIKETHIS]
 * [AEM デスクトップアプリケーションの概要](https://helpx.adobe.com/jp/customer-care-office-hours/aem/desktop-app.html)
