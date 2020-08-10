@@ -2,9 +2,9 @@
 title: AEM デスクトップアプリケーションバージョン 1.x の使用.
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.x の使用方法と、デスクトップでアセットを効率的に取り扱う方法について説明します。
 contentOwner: AG
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 67e117648de8298f78992afea5ae0962fd2c698b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2516'
 ht-degree: 100%
 
