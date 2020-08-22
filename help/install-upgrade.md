@@ -8,10 +8,10 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: ht
-source-wordcount: '1239'
+translation-type: tm+mt
+source-git-commit: a6f33efdd5702cc2f411d0deed8f54e7335c09ed
+workflow-type: tm+mt
+source-wordcount: '1238'
 ht-degree: 100%
 
 ---
@@ -81,7 +81,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
    *図：入力サーバーアドレスへの接続画面*
 
-   >[!C注意]
+   >[!CAUTION]
    >
    >AEM サーバーのアドレスの前後にスペースがないことを確認します。スペースがあると、デスクトップアプリケーションが AEM サーバーに接続できません。
 
@@ -99,9 +99,9 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 環境設定を変更するには、![その他のオプション](assets/do-not-localize/more_options_da2.png)アイコンと&#x200B;**[!UICONTROL Preference]**![&#x200B;環境設定](assets/do-not-localize/preferences_icon_da2.png)アイコンを順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
 
-* [!UICONTROL Launch application on login]
+* [!UICONTROL Launch application on login].
 
-* [!UICONTROL Show window when application starts]
+* [!UICONTROL Show window when application starts].
 
 * **[!UICONTROL Cache Directory]**：デスクトップアプリケーションのローカルキャッシュの場所（ローカルにダウンロードされたアセットが格納されます）
 
