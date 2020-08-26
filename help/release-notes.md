@@ -10,7 +10,7 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 519fe85e5642eb88dd45515948e898185e262003
+source-git-commit: 6763474c278ab8d8f52a0a466657e66a08b0748b
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 94%
@@ -32,9 +32,9 @@ ht-degree: 94%
 
 Adobe Experience Manager デスクトップアプリケーションは次のオペレーティングシステムと互換性があります。
 
-最新のバグ修正が適用された Mac OS X 10.14 以降
+* 最新のバグ修正が適用された Mac OS X 10.14 以降
 
-Windows 10の最新のサービスパックとバグ修正。
+* Windows 10の最新のサービスパックとバグ修正。
 
 >[!NOTE]
 >
