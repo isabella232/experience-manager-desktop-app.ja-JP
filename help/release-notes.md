@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: ht
-source-wordcount: '1320'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 519fe85e5642eb88dd45515948e898185e262003
+workflow-type: tm+mt
+source-wordcount: '1364'
+ht-degree: 94%
 
 ---
 
@@ -22,19 +22,23 @@ ht-degree: 100%
 
 | 製品 | Adobe Experience Manager デスクトップアプリケーション |
 |--- |--- |
-| アプリのバージョン（リビジョン） | 2.0（2.0.2.0） |
+| アプリのバージョン（リビジョン） | 2.0 (2.0.3.0) |
 | サポートされている AEM バージョン | AEM as a Cloud Service、AEM 6.5、AEM 6.4、AEM 6.3（互換性パッケージを使用） |
 | 種類 | マイナーリリース |
-| リリース日 | 2020 年 4 月 15 日（Mac および Win） |
-| ダウンロード URL | [macOS 64 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg)、[Windows 64 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe)、[Windows 32 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe) |
+| リリース日 | 2020年8月27日（MacおよびWin） |
+| ダウンロード URL | [macOS 64 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.3.2.dmg)、[Windows 64 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.3.2.exe)、[Windows 32 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.3.2.exe) |
 
 ## システム要件および使用条件 {#system-requirements-and-prerequisites-v2}
 
 Adobe Experience Manager デスクトップアプリケーションは次のオペレーティングシステムと互換性があります。
 
-* 最新のバグ修正が適用された Mac OS X 10.14 以降
+最新のバグ修正が適用された Mac OS X 10.14 以降
 
-* 最新のサービスパックとバグ修正が適用された Windows 7 と Windows 10
+Windows 10の最新のサービスパックとバグ修正。
+
+>[!NOTE]
+>
+>Windows 7は、ベンダー(https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020)によってサポートされなくなりました。
 
 Adobe Experience Manager デスクトップアプリケーションは、AEM as a Cloud Service、Adobe Managed Services（AMS）、On-Premise のどちらでデプロイされている場合でも、次の Adobe Experience Manager バージョンと連携します。
 
@@ -77,11 +81,17 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 
 詳しくは、[v2.0 の新機能](introduction.md#whats-new-v2)を参照してください。
 
+**AEM デスクトップアプリケーション v2.0.3 の更新点**
+
+現在のバージョンで修正されたバグは次のとおりです。
+
+* Windowsユーザーがアプリを使用して6.5.5.0インスタンスのDAMリポジトリにアクセスしようとすると発生していたログインの問題を修正しました。 [!DNL Adobe Experience Manager]
+
 **AEM デスクトップアプリケーション v2.0.2 の更新点**
 
 バグ修正と更新点は次のとおりです。
 
-* アップロードのパフォーマンスを向上させるために、[!UICONTROL Preferences] でアップロードを高速化できます。この設定を有効にすると、AEM デスクトップアプリケーションで使用されるローカル CPU スレッドが増え、リソースがさらに大量に消費されるようになります。
+* アップロードのパフォーマンスを向上させるために、[!UICONTROL Preferences] でアップロードを高速化できます。この設定を有効にすると、アプリで使用されるローカルCPUスレッド数が多くなり、リソースの消費量が増えます。
 
 * ファイル名またはパスに特定の GB18030 文字が含まれている場合に発生するアセットアップロードの問題を修正しました。<!-- CQ-4283494 -->
 
