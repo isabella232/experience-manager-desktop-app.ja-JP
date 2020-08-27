@@ -10,7 +10,7 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 6763474c278ab8d8f52a0a466657e66a08b0748b
+source-git-commit: 91de08ba317de97a1d1900dc2351efcb4d6cf95f
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 94%
@@ -22,7 +22,7 @@ ht-degree: 94%
 
 | 製品 | Adobe Experience Manager デスクトップアプリケーション |
 |--- |--- |
-| アプリのバージョン（リビジョン） | 2.0 (2.0.3.0) |
+| アプリのバージョン（リビジョン） | 2.0 (2.0.3.2) |
 | サポートされている AEM バージョン | AEM as a Cloud Service、AEM 6.5、AEM 6.4、AEM 6.3（互換性パッケージを使用） |
 | 種類 | マイナーリリース |
 | リリース日 | 2020年8月27日（MacおよびWin） |
