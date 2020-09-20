@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a6f33efdd5702cc2f411d0deed8f54e7335c09ed
-workflow-type: ht
-source-wordcount: '1238'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 29bbcc21f01dd0c1338fdbf3e979ef363a93533c
+workflow-type: tm+mt
+source-wordcount: '1241'
+ht-degree: 97%
 
 ---
 
@@ -75,7 +75,9 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 1. 指示に従ってコンピューターを再起動します。デスクトップアプリケーションを起動し設定します。
 
-1. デスクトップアプリケーションを AEM リポジトリに接続するには、トレイのデスクトップアプリケーションアイコンをクリックしてデスクトップアプリケーションを起動します。AEM インスタンスのアドレスを指定します。「**[!UICONTROL Connect]**」をクリックし、認証情報を入力します。
+1. アプリケーションをAEMリポジトリと接続するには、トレイのアプリケーションアイコンをクリックし、アプリケーションを起動します。 AEMサーバーのアドレスを形式で指定し `https://[aem-server-url]:[port]/`ます。
+
+   「**[!UICONTROL Connect]**」をクリックし、認証情報を入力します。
 
    ![入力サーバーアドレスへのデスクトップアプリの接続画面](assets/connect_da2.png)
 
@@ -99,9 +101,9 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 環境設定を変更するには、![その他のオプション](assets/do-not-localize/more_options_da2.png)アイコンと&#x200B;**[!UICONTROL Preference]**![&#x200B;環境設定](assets/do-not-localize/preferences_icon_da2.png)アイコンを順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
 
-* [!UICONTROL Launch application on login]
+* [!UICONTROL Launch application on login].
 
-* [!UICONTROL Show window when application starts]
+* [!UICONTROL Show window when application starts].
 
 * **[!UICONTROL Cache Directory]**：デスクトップアプリケーションのローカルキャッシュの場所（ローカルにダウンロードされたアセットが格納されます）
 
