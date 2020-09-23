@@ -3,14 +3,14 @@ title: AEM デスクトップアプリケーションバージョン 1.x リリ�
 description: AEM デスクトップアプリケーションバージョン 1.x のリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9de9d086be4c0eccda7a60bd3dcbe68735394fad
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+workflow-type: tm+mt
 source-wordcount: '3869'
 ht-degree: 100%
 
@@ -350,7 +350,7 @@ AEM デスクトップアプリケーション 1.8.1 ファストフォローリ
 * ファイルの保存に中間ファイル操作（部分保存や一時ファイル）を使用するデスクトップアプリケーションの処理が改善されました。これにより、AEM Assets のタイムラインに正しいバージョンとアセットのアップロード情報が表示されます。
 * バックグラウンドのアップロードタスクのステータスを追跡するダイアログが提供されました。
 
-## 変更について  {#list-of-changes}
+## 変更について   {#list-of-changes}
 
 ### Mac 上のマウントポイント {#mount-point-on-mac}
 
