@@ -3,14 +3,14 @@ title: AEM デスクトップアプリケーションバージョン 1.x のイ�
 description: AEM デスクトップアプリケーションバージョン 1.x をインストールして、AEM Assets サーバーと連携しアセットをデスクトップのドライブとしてマウントするように設定します。
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS,SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ Asset Info ダイアログは、次のコンポーネントの一方または両
 
 オーバーレイされるコンポーネントは、カスタマイズの性質によって変わります。Asset Info ダイアログの一部として表示されるコンポーネントを変更するには、Granite ユーザーインターフェイスページをオーバーレイします。ダイアログの HTML、CSS、JavaScript コンテンツを変更するには、HTL コンポーネントをオーバーレイします。
 
-## キャッシュの管理    {#manage-cache}
+## キャッシュの管理     {#manage-cache}
 
 Windows では、キャッシュは `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\` にあります。ここには、デスクトップアプリケーションで設定されている、エンコード済みバージョンの AEM ホストがあります。例えば、`http://localhost:4502` は `http%3A%2F%2Flocalhost%3A4502%2F` と表示されます。
 
@@ -109,7 +109,7 @@ Mac OS X では、同様のディレクトリが `~/Library/Group Containers/gro
 >
 >キャッシュをクリアした場合でも、未保存の変更内容は維持されます。AEM サーバーにチェックインしていないアセットは、削除されずにそのまま保持されます。
 
-### Windows でのキャッシュの場所の変更    {#change-location-of-cache-on-windows}
+### Windows でのキャッシュの場所の変更     {#change-location-of-cache-on-windows}
 
 AEM デスクトップアプリケーションのキャッシュのデフォルトの場所は次のとおりです。
 
