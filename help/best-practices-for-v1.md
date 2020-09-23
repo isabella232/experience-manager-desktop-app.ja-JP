@@ -3,14 +3,14 @@ title: AEM デスクトップアプリケーションバージョン 1.x のベ�
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.x の主要な機能と推奨される使用例
 uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3e10be1fd9dd1ff5293e96b46565825e6be1fc4f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 100%
 
@@ -89,11 +89,11 @@ AEM デスクトップアプリケーションは DAM リポジトリ全体へ�
 
    * 変更あるいは修正が必要なアセットのみクリエイティブユーザーの書き込みを有効にします。作成した AEM プロジェクトとフォルダーを利用して、まだ変更される可能性のあるアセットを保存する組織もあります。
 
-### アセットの検索{#searching-assets}
+### アセットの検索 {#searching-assets}
 
 デスクトップ上で開きたいファイルを検索するには：
 
-* AEM Assets の Web UI を利用してアセットを見つけます。AEM Assets の  検索（検索ファセット、保存済み検索結果）は強力なだけでなく、正しいアセットを見つけるための特別な機能も提供します。これには、ステータス（承認、有効期限満了）、コレクション、タスク、通知、他のユーザー／グループとのフォルダー／コレクションの共有に基づいてアセットを検索する機能など追加のフィルターなどが含まれます。
+* AEM Assets の Web UI を利用してアセットを見つけます。AEM Assets の検索（検索ファセット、保存済み検索結果）は強力なだけでなく、正しいアセットを見つけるための特別な機能も提供します。これには、ステータス（承認、有効期限満了）、コレクション、タスク、通知、他のユーザー／グループとのフォルダー／コレクションの共有に基づいてアセットを検索する機能など追加のフィルターなどが含まれます。
 
 * アセットを見つけたら、AEM UI のデスクトップアクションを使用して          デスクトップのアセットにアクセスします。
 
@@ -123,9 +123,9 @@ AEM に保存されたアセットを更新する必要がある場合：
 
 ## ネットワークパフォーマンス {#network-performance}
 
-AEM デスクトップアプリケーションを使用する上でのユーザーエクスペリエンスは、デスクトップと AEM サーバー間の優良で安定したネットワーク接続と、特にアセットのアップロードと更新パフォーマンス改善のためのサーバー調整に強い影響を受けます。下記のレコメンデーションは、組織のネットワーク／IT チーム向けです。
+AEM デスクトップアプリケーションを使用する上でのユーザーエクスペリエンスは、デスクトップと AEM サーバー間の優良で安定したネットワーク接続と、特にアセットのアップロードと更新パフォーマンス改善のためのサーバー調整に強い影響を受けます。下記のレコメンデーションは、組織のネットワーク／ＩＴ チーム向けです。
 
-### ネットワークに関する考慮事項{#network-considerations}
+### ネットワークに関する考慮事項 {#network-considerations}
 
 AEM Assets のネットワーク設定に関するベストプラクティスについて理解するには、[AEM Assets ネットワークに関する考慮事項](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/assets/administer/assets-migration-guide.html)ドキュメントを参照してください。AEM デスクトップアプリケーションのユーザーエクスペリエンスの最適化に重要な事項としては、以下が挙げられます。
 
@@ -137,7 +137,7 @@ AEM Assets のネットワーク設定に関するベストプラクティスに
 >
 >アイコンのプレビューを無効にするには、Finder で表示に移動して表示オプションを選択し、「アイコンプレビューを表示」オプションのチェックを外します。これは、現在のフォルダーのみで有効です。デフォルト設定にするには、同じウィンドウ内の「デフォルトとして使用」ボタンをクリックしてください。
 
-### サーバーパフォーマンスの最適化{#optimizing-server-performance}
+### サーバーパフォーマンスの最適化 {#optimizing-server-performance}
 
 AEM Assets サーバーのパフォーマンスを最適化する方法については、[AEM Assets パフォーマンス調整ガイド](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/administer/performance-tuning-guidelines.html)を参照してください。AEM デスクトップアプリケーションのサーバーパフォーマンスに関する重要な側面としては、アセットアップロードのパフォーマンスが向上するようにワークフロー設定を最適化することが挙げられます。
 
