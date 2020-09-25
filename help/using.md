@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '3997'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Manager（AEM）デスクトップアプリケーションを�
 
 この統合により、組織内の様々な役割のユーザーがアセットを Adobe Experience Manager Assets で一元管理し、Windows または Mac OS のローカルデスクトップでネイティブアプリケーションからアセットにアクセスできます。
 
-When you open the application after logging out or for the first time, provide the URL of your Experience Manager server in the format `https://[aem-server-url]:[port]/`. 「Connect」をクリックします。アプリケーションをサーバーに接続するための資格情報を指定します。
+ログアウト後または初めてアプリケーションを開くときに、Adobe Experience Manager サーバーの URL を `https://[aem-server-url]:[port]/` の形式で指定します。「Connect」をクリックします。アプリケーションをサーバーに接続するための認証情報を入力します。
 
 Adobe Experience Manager デスクトップアプリケーションを使用しておこなう主なタスクは次のとおりです。
 
