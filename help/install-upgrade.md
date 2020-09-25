@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 1. 指示に従ってコンピューターを再起動します。デスクトップアプリケーションを起動し設定します。
 
-1. アプリケーションをAEMリポジトリと接続するには、トレイのアプリケーションアイコンをクリックし、アプリケーションを起動します。 AEMサーバーのアドレスを形式で指定し `https://[aem-server-url]:[port]/`ます。
+1. アプリケーションを AEM リポジトリに接続するには、トレイのアプリケーションアイコンをクリックしてアプリケーションを起動します。AEM サーバーのアドレスを `https://[aem-server-url]:[port]/` の形式で指定します。
 
    「**[!UICONTROL Connect]**」をクリックし、認証情報を入力します。
 
@@ -99,7 +99,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 ## 環境設定の指定 {#set-preferences}
 
-環境設定を変更するには、![その他のオプション](assets/do-not-localize/more_options_da2.png)アイコンと&#x200B;**[!UICONTROL Preference]**![&#x200B;環境設定](assets/do-not-localize/preferences_icon_da2.png)アイコンを順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
+環境設定を変更するには、![その他のオプションアイコン](assets/do-not-localize/more_options_da2.png)と&#x200B;**[!UICONTROL Preference]**![&#x200B;環境設定アイコン](assets/do-not-localize/preferences_icon_da2.png)を順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
 
 * [!UICONTROL Launch application on login].
 
