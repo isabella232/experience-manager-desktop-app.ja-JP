@@ -8,9 +8,9 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1241'
 ht-degree: 100%
 
@@ -101,9 +101,9 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 環境設定を変更するには、![その他のオプションアイコン](assets/do-not-localize/more_options_da2.png)と&#x200B;**[!UICONTROL Preference]**![&#x200B;環境設定アイコン](assets/do-not-localize/preferences_icon_da2.png)を順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
 
-* [!UICONTROL Launch application on login].
+* [!UICONTROL Launch application on login]
 
-* [!UICONTROL Show window when application starts].
+* [!UICONTROL Show window when application starts]
 
 * **[!UICONTROL Cache Directory]**：デスクトップアプリケーションのローカルキャッシュの場所（ローカルにダウンロードされたアセットが格納されます）
 
