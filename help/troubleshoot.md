@@ -8,11 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
-source-wordcount: '1242'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 381e586077c7db63dd57a468b1c6abc60c63e34e
+workflow-type: tm+mt
+source-wordcount: '1537'
+ht-degree: 70%
 
 ---
 
@@ -51,37 +51,41 @@ Adobe Experience Manager（AEM）デスクトップアプリケーションは�
 
 ### デバッグモードの有効化 {#enable-debug-mode}
 
-トラブルシューティングをおこなう場合、デバッグモードを有効にして、ログに詳細情報を取得できます。Mac においてバッグモードでアプリケーションを実行するには、ターミナルまたはコマンドプロンプトで次のコマンドラインオプションを使用します。`AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
-
-Windows でデバッグモードを有効にするには、次の手順に従います。
-
-1. デスクトップアプリケーションのインストールフォルダーで `Adobe Experience Manager Desktop.exe.config` ファイルを見つけます。デフォルトでは、フォルダーは `C:\Program Files\Adobe\Adobe Experience Manager Desktop` です。
-
-1. ファイルの末尾に向かって `<level value="INFO"/>` を見つけます。値を `INFO` から `DEBUG` に変更します（つまり、`<level value="DEBUG"/>`）。ファイルを保存して閉じます。
-
-1. デスクトップアプリケーションのインストールフォルダーで `logging.json` ファイルを見つけます。デフォルトでは、フォルダーは `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\` です。
-
-1. `logging.json` ファイル内で、`"level": "info"` のすべてのインスタンスを見つけます。値を `info` から `debug` に変更します（つまり、`"level": "debug"`）。ファイルを保存して閉じます。
-
-1. アプリケーションの[環境設定](/help/install-upgrade.md#set-preferences)で設定した場所にある、キャッシュされたディレクトリを消去します。
-
-1. デスクトップアプリケーションを再起動します。
-
-<!-- The Windows command doesn't work for now.
-* On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
--->
-
-### ログファイルの場所 {#check-log-files-v2}
-
-AEM デスクトップアプリケーションのログファイルは次の場所にあります。多数のアセットをアップロードする際に一部のファイルをアップロードできなかった場合は、`backend.log` ファイルを参照して、アップロードに失敗したファイルを特定します。
-
-* Windows でのパス：`%LocalAppData%\Adobe\AssetsCompanion\Logs`
-
-* Mac でのパス：`~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+トラブルシューティングをおこなう場合、デバッグモードを有効にして、ログに詳細情報を取得できます。
 
 >[!NOTE]
 >
->サポート依頼やサポートチケットに基づいてアドビカスタマーケアと共同でトラブルシューティングをおこなう場合は、問題がカスタマーケアチームに理解しやすいように、ログファイルの提供を求められる場合があります。`Logs` フォルダー全体をアーカイブして、カスタマーケアの担当者と共有します。
+>有効なログレベルは、DEBUG、INFO、WARN、ERRORです。 ログの詳細度はDEBUGで最も高く、ERRORで最も低くなります。
+
+Macでデバッグモードでアプリを使用するには：
+
+1. ターミナルウィンドウまたはコマンドプロンプトを開きます。
+
+1. 次のコマンドを実行して、 [!DNL Experience Manager] デスクトップアプリケーションを起動します。
+
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
+
+Windowsでデバッグモードを有効にするには：
+
+1. コマンドウィンドウを開きます。
+
+1. 次のコマンドを実行して、 [!DNL Experience Manager] デスクトップアプリケーションを起動します。
+
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
+
+### ログファイルの場所 {#check-log-files-v2}
+
+[!DNL Experience Manager] デスクトップアプリケーションは、オペレーティングシステムに応じて次の場所にログファイルを保存します。
+
+Windows の場合： `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+
+Mac の場合： `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+
+多数のアセットをアップロードする際に一部のファイルをアップロードできなかった場合は、`backend.log` ファイルを参照して、アップロードに失敗したファイルを特定します。
+
+>[!NOTE]
+>
+>サポートの要請またはチケットに関してAdobeカスタマーケアと連絡を取る際、ログファイルを共有して、カスタマーケアチームがこの問題を理解するのに役立てるように依頼することができます。 `Logs` フォルダー全体をアーカイブして、カスタマーケアの担当者と共有します。
 
 ### キャッシュのクリア {#clear-cache-v2}
 
@@ -129,7 +133,60 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 デスクトップアプリケーションを AEM 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。これで、[OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) に関連するファイルアップロード失敗の問題が解決されます。[インストール手順](install-upgrade.md#install-v2)を参照してください。
 
-## SSL 設定の問題 {#ssl-config-v2}
+## [!DNL Experience Manager] デスクトップアプリの接続の問題 {#connection-issues}
+
+### SAMLログイン認証が機能しません {#da-connection-issue-with-saml-aem}
+
+デスクトッ [!DNL Experience Manager] プアプリがSSO対応(SAML) [!DNL Adobe Experience Manager] インスタンスに接続しない場合は、この節を参照してトラブルシューティングを行ってください。 SSOプロセスは様々で複雑な場合もあります。これらの接続に対応するために、アプリケーションの設計が最適です。 ただし、一部の設定では、追加のトラブルシューティングが必要です。
+
+SAMLプロセスが最初に要求されたパスにリダイレクトされない場合や、最後にリダイレクトされるのは、 [!DNL Adobe Experience Manager] デスクトップアプリで設定されたものとは異なるホストに対する場合があります。 この問題が発生していないことを確認するには：
+
+1. Web ブラウザーを開きます。
+
+1. アドレスバー `<AEM host>/content/dam.json` にURLを入力します。
+
+   例えば、 `<AEM host>` ターゲット [!DNL Adobe Experience Manager] インスタンスで置き換え `http://localhost:4502/content/dam.json`ます。
+
+1. Log in to the [!DNL Adobe Experience Manager] instance.
+
+1. ログインが完了したら、アドレスバーでブラウザーの現在のアドレスを確認します。 最初に入力したURLと完全に一致する必要があります。
+
+1. また、前のすべてが、 `/content/dam.json` デスクトップアプリの設定で設定されたターゲット [!DNL Adobe Experience Manager][!DNL Adobe Experience Manager] 値と一致していることを確認してください。
+
+**上記の手順に従ってSAMLログインプロセスは正常に機能しますが、ユーザーはログインできません**
+
+ログインプロセスを表示する [!DNL Adobe Experience Manager] デスクトップアプリ内のウィンドウは、単にターゲットインスタンスのWebユーザーインターフェイスを表示するWebブラウザー [!DNL Adobe Experience Manager] です。
+
+* MacバージョンではWebViewが使用され [ます](https://developer.apple.com/documentation/webkit/webview)。
+
+* Windowsバージョンは、ChromiumベースのCefSharpを使用し [ます](https://cefsharp.github.io/)。
+
+SAMLプロセスでこれらのブラウザーがサポートされていることを確認します。
+
+さらにトラブルシューティングを行うために、ブラウザーが読み込もうとしている正確なURLを表示することができます。 次の情報を表示するには：
+
+1. 指示に従って、 [デバッグモードでアプリケーションを起動します](#enable-debug-mode)。
+
+1. ログイン試行を再現します。
+
+1. アプリケーションの [ログディレクトリ](#check-log-files-v2) に移動します。
+
+1. Windows の場合
+
+   1. 「aemcompanionlog.txt」を開きます。
+
+   1. 「ログインブラウザーアドレスの変更先」で始まるメッセージを検索します。 これらのエントリには、アプリケーションが読み込んだURLも含まれます。
+
+   Macの場合：
+
+   1. `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`の場合、 **n** は、最新のファイル名のいずれかの数字に置き換えられます。
+
+   1. 「loaded frame」で始まるメッセージを検索します。 これらのエントリには、アプリケーションが読み込んだURLも含まれます。
+
+
+読み込まれるURLシーケンスを調べると、SAMLの最後のトラブルシューティングで何が悪いかを判断するのに役立ちます。
+
+### SSL 設定の問題 {#ssl-config-v2}
 
 AEM デスクトップアプリケーションが HTTP 通信に使用するライブラリは SSL を厳格に適用します。ブラウザーでは成功する接続が、AEM デスクトップアプリケーションでは失敗することがあります。SSL を適切に設定するには、不足している中間証明書を Apache にインストールします。[中間 CA の証明書を Apache にインストールする](https://access.redhat.com/solutions/43575)を参照してください。
 
