@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7a334df5eaa2b8a8d0412bff1ed2a47d39ca1a2
+source-git-commit: 540821ad10f14ad855c66a2b93d356ba118515c7
 workflow-type: tm+mt
 source-wordcount: '2230'
 ht-degree: 44%
@@ -143,7 +143,7 @@ Windowsでデバッグモードを有効にするには：
 
 To clear the cache, delete the desired Encoded [!DNL Adobe Experience Manager] Endpoint directory. または、環境設定で指定したディレクトリ全体を削除すると、アプリケーションで使用されているすべてのインスタンスのキャッシュがクリアされます。
 
-Clearing [!DNL Adobe Experience Manager]] desktop app&#39;s cache is a preliminary troubleshooting task that can resolve several issues. キャッシュのクリアは、アプリの環境設定からおこないます。[環境設定の指定](install-upgrade.md#set-preferences)を参照してください。キャッシュフォルダーのデフォルトの場所は次のとおりです。
+Clearing [!DNL Adobe Experience Manager] desktop app&#39;s cache is a preliminary troubleshooting task that can resolve several issues. キャッシュのクリアは、アプリの環境設定からおこないます。[環境設定の指定](install-upgrade.md#set-preferences)を参照してください。キャッシュフォルダーのデフォルトの場所は次のとおりです。
 
 ### Know the [!DNL Adobe Experience Manager] desktop app version {#know-app-version-v2}
 
