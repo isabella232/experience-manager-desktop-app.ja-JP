@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ef87dc011297fda181a9a7643a261e8a42e35a8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '984'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ AEM デスクトップアプリケーションのキャッシュのデフォル�
 
 * Mac の場合、`~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`。
 
-`EncodedAEMEndpoint` は AEM デスクトップアプリケーションの設定済みの AEM エンドポイント URL です。この値は、AEM サーバーのターゲットとなる URL のエンコードされたバージョンです。例えば、アプリケーションのターゲットが `http://localhost:4502` の場合、ディレクトリ名は `http%3A%2F%2Flocalhost%3A4502` となります。The Windows path to the cache directory in this example is `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
+`EncodedAEMEndpoint` は AEM デスクトップアプリケーションの設定済みの AEM エンドポイント URL です。この値は、AEM サーバーのターゲットとなる URL のエンコードされたバージョンです。例えば、アプリケーションのターゲットが `http://localhost:4502` の場合、ディレクトリ名は `http%3A%2F%2Flocalhost%3A4502` となります。この例では、キャッシュディレクトリへの Windows のパスは「`%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`」です。
 
 アプリケーションで異なるフォルダーや異なるドライブをキャッシュの場所として指定するには、アプリケーションの設定ファイルを編集します。
 
@@ -127,7 +127,7 @@ AEM デスクトップアプリケーションのキャッシュのデフォル�
 
    このファイルに変更を保存するには、管理者権限が必要です。
 
-1. 文字列「ProxyCacheRoot」を検索します。You see that its value is set to the cache location `%LocalAppData%\Adobe\AssetsCompanion\Cache`. この値を任意の有効なパスに変更します。
+1. 文字列「ProxyCacheRoot」を検索します。この値は、キャッシュの場所「`%LocalAppData%\Adobe\AssetsCompanion\Cache`」に設定されています。この値を任意の有効なパスに変更します。
 
    >[!NOTE]
    >
