@@ -8,11 +8,11 @@ discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
-source-wordcount: '3869'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
+workflow-type: tm+mt
+source-wordcount: '3920'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 | バージョン | 1.10（Mac 上では 1.10.0.6、Windows 上では 1.10.0.3） |
 | 種類 | マイナーリリース |
 | 日付 | 1.10.0.6（Mac）：2020 年 4 月 15 日、1.10.0.3（Win）：2018 年 8 月 31 日 |
-| ダウンロード URL | [Mac OS X 64 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.6.dmg)、[Windows 32 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe)、[Windows 64 ビット版](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
+| ダウンロード URL | [Mac OS X 64 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg)、[Windows 32 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe)、[Windows 64 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
 | 互換性 | AEM 6.5.x、AEM 6.4.x、AEM 6.3 SP2、AEM 6.2 SP1 CFP2+、AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
