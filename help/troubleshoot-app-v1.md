@@ -8,9 +8,9 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
+workflow-type: tm+mt
 source-wordcount: '3374'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ DAM アセットの更新ワークフローで一時的なワークフローを�
 
 AEM のパフォーマンスを向上させるもう 1 つの方法は、「Granite 一時的なワークフローキュー」ジョブについて並列ジョブの最大数を設定することです。推奨される値は、サーバーで利用可能な CPU の数の半分程度です。値を調整するには、以下の手順に従います。
 
-1. 設定する AEM インスタンスの */system/console/configMgr* に移動します（例：<http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr>）。
+1. 設定する AEM インスタンスの */system/console/configMgr* に移動します（例：`http://[aem_server]:[port]/system/console/configMgr`）。
 1. **QueueConfiguration** を検索し、各ジョブをクリックして開き、「**Granite 一時的なワークフローキュー**」ジョブを探します。横にある「編集」をクリックします。
 1. 「**並列ジョブの最大数**」の値を変更して、「**保存**」をクリックします。
 
