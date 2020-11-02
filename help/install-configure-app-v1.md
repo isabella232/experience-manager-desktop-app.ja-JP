@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ef87dc011297fda181a9a7643a261e8a42e35a8b
-workflow-type: ht
-source-wordcount: '984'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
+workflow-type: tm+mt
+source-wordcount: '957'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +95,7 @@ Asset Info ダイアログは、次のコンポーネントの一方または両
 
 オーバーレイされるコンポーネントは、カスタマイズの性質によって変わります。Asset Info ダイアログの一部として表示されるコンポーネントを変更するには、Granite ユーザーインターフェイスページをオーバーレイします。ダイアログの HTML、CSS、JavaScript コンテンツを変更するには、HTL コンポーネントをオーバーレイします。
 
-## キャッシュの管理     {#manage-cache}
+## キャッシュの管理      {#manage-cache}
 
 Windows では、キャッシュは `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\` にあります。ここには、デスクトップアプリケーションで設定されている、エンコード済みバージョンの AEM ホストがあります。例えば、`http://localhost:4502` は `http%3A%2F%2Flocalhost%3A4502%2F` と表示されます。
 
@@ -109,7 +109,7 @@ Mac OS X では、同様のディレクトリが `~/Library/Group Containers/gro
 >
 >キャッシュをクリアした場合でも、未保存の変更内容は維持されます。AEM サーバーにチェックインしていないアセットは、削除されずにそのまま保持されます。
 
-### Windows でのキャッシュの場所の変更     {#change-location-of-cache-on-windows}
+### Windows でのキャッシュの場所の変更      {#change-location-of-cache-on-windows}
 
 AEM デスクトップアプリケーションのキャッシュのデフォルトの場所は次のとおりです。
 
@@ -134,9 +134,7 @@ AEM デスクトップアプリケーションのキャッシュのデフォル�
    >自動的に *&lt;エンコードされた AEM エンドポイント>* サブディレクトリが作成されます。この動作は設定で変更することはできません。
 
 >[!MORELIKETHIS]
-* [AEM デスクトップアプリケーションの概要](https://helpx.adobe.com/jp/customer-care-office-hours/aem/desktop-app.html)
-* [AEM デスクトップアプリケーションの使用](use-app-v1.md)
-* [AEM デスクトップアプリケーションでのチェックインとチェックアウトについて](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
-* [AEM Assets でのデスクトップアプリケーションの使用](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
-* [AEM デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
+* [AEM デスクトップアプリケーションの概要](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+* [AEM デスクトップアプリケーションの使用](use-app-v1.md).
+* [AEM デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md).
 
