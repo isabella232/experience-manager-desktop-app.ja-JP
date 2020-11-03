@@ -10,9 +10,9 @@ solution-hub-url: https://docs.adobe.com/content/help/ja-JP/experience-manager-6
 getting-started-url: https://docs.adobe.com/content/help/ja-JP/experience-manager-desktop-app/using/introduction.html
 tutorials-title: AEM チュートリアル
 tutorials-url: https://helpx.adobe.com/jp/experience-manager/kt/index/aem-tutorials.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93ff31a427ec2a19b56e029f7690383fe8ac5eab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '87'
 ht-degree: 100%
 
