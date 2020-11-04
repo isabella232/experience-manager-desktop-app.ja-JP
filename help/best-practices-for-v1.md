@@ -8,9 +8,9 @@ discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ AEM デスクトップアプリケーションは誤ったローカルコピー�
 
 AEM デスクトップアプリケーションは WebDAV（Windows）あるいは SMB（Mac）ネットワーク共有を利用してネットワーク共有をマウントします。マウントするネットワーク共有はローカルのみです。AEM デスクトップアプリケーションは、コール（open、read、write）を受け取り、追加のローカルキャッシングを提供します。AEM Assets サーバーへのリモートコールを最適化された AEM HTTP 要求に変換します。AEM デスクトップアプリケーションのアーキテクチャを次の図に示します。
 
-![AEM デスクトップアプリケーションのアーキテクチャ ](assets/chlimage_1.png)
+![AEM デスクトップアプリケーションのアーキテクチャ ](assets/arch_v1.png)
 
 *図：デスクトップアプリケーションのアーキテクチャ*
 
