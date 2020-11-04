@@ -2,11 +2,11 @@
 title: AEM デスクトップアプリケーションバージョン 1.x の使用.
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.x の使用方法と、デスクトップでアセットを効率的に取り扱う方法について説明します。
 contentOwner: AG
-translation-type: ht
-source-git-commit: 67e117648de8298f78992afea5ae0962fd2c698b
-workflow-type: ht
-source-wordcount: '2516'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+workflow-type: tm+mt
+source-wordcount: '2500'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,7 @@ AEM デスクトップアプリケーションを使用するには、AEM サー
 
 1. ログイン画面で、インスタンスのユーザー名とパスワードを指定します。別の AEM インスタンスを指定するには、「**[!UICONTROL Alternate Login URL]**」オプションを選択します。
 
-   ![AEM デスクトップアプリケーションのログイン画面での AEM サーバーの資格情報の入力](assets/chlimage_1-2.png)
+   ![AEMデスクトップアプリケーションのログイン画面でのAEMサーバー資格情報の指定](assets/login_screen_v1.png)
 
 ### AEM Web インターフェイスでのデスクトップアクションの有効化 {#desktopactions}
 
@@ -105,7 +105,7 @@ Assets ユーザーインターフェイスから、アセットの場所を参�
 
 1. ユーザーの環境設定ダイアログで、「**[!UICONTROL Show Desktop Actions For Assets]**」を選択します。「**[!UICONTROL Accept]**」をクリックします。
 
-   ![「アセットのデスクトップアクションを表示」をチェックしてデスクトップアクションを有効化](assets/chlimage_1-3.png)
+   ![「[!UICONTROL Show Desktop Actions For Assets]」をオンにすると、デスクトップアクションが有効になります。](assets/enable_desktop_actions.png)
 
    *図：「アセットのデスクトップアクションを表示」をチェックしてデスクトップアクションを有効化*
 
@@ -135,13 +135,13 @@ AEM Assets リポジトリをローカルドライブにマッピングした後
 
 1. AEM Assets インターフェイスを開き、フォルダーまたはアセットの上にマウスポインターを置くと、デスクトップアクションがカード表示のクイックアクションとして表示されます。
 
-   ![Assets UI でクイックアクションメニューを開き、デスクトップアクションを表示](assets/chlimage_1-4.png)
+   ![Assets UI でクイックアクションメニューを開き、デスクトップアクションを表示](assets/desktop_actions_in_card_view.png)
 
    *図：Assets UI でクイックアクションメニューを開いてデスクトップアクションを表示したところ*
 
-   これらのデスクトップアクションは、アセットを選択した後のツールバー、またはアセットページにあるツールバーの「**デスクトップアクション**」アイコンをクリックしても使用できます。
+   These desktop actions are also available when you click the **Desktop Actions** option in the toolbar after selecting the asset or from the toolbar in the asset page.
 
-1. 特定のファイル拡張子に関連付けられているデスクトップアプリケーションでアセットを表示するには、「**デスクトップで開く**」クイックアクション![デスクトップで開くアイコン](assets/do-not-localize/aemassets_icon_openondesktop.png)をクリックまたはタップします。
+1. To open the asset in the desktop application that is associated with the specific file extension, click the **Open on desktop** quick action ![Open on Desktop icon](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
    または、ツールバーの&#x200B;**デスクトップアクション**&#x200B;メニューから「**開く**」を選択します。
 
@@ -165,7 +165,7 @@ AEM Web インターフェイスからアセットをチェックアウトする
 
 1. AEM Assets インターフェイスを開き、フォルダーまたはアセットの上にマウスポインターを置くと、デスクトップアクションがカード表示のクイックアクションとして表示されます。
 
-   ![カード表示の「プロパティ」オプション](assets/chlimage_1-4.png)
+   ![カード表示の「プロパティ」オプション](assets/desktop_actions_in_card_view.png)
 
    これらのデスクトップアクションは、アセットを選択した後のツールバー、またはアセットページにあるツールバーの「デスクトップアクション」アイコンをクリックまたはタップしても使用できます。
 
@@ -195,13 +195,10 @@ AEM デスクトップアプリケーションでは、作業中のファイル�
    AEM デスクトップアプリケーションを使用してアセットにアクセスし開くためのコンテキストメニューオプション
 
 1. チェックアウトするアセットに移動します。
-
-   ![Mac の「AEM Assets の使用」コンテキストメニュー](assets/chlimage_1-5.png)
-
 1. アセットを右クリックし、コンテキストメニューの「More Assets Info」を選択します。
 1. Asset Info ダイアログで、「Checkout」アイコンをクリックまたはタップして、アセットをチェックアウトします。「Checkout」アイコンは、クリックまたはタップすると、「Check-in」アイコンに変わります。
 
-   ![チェックアウトするアセットを参照](assets/chlimage_1-6.png)
+   ![チェックアウトするアセットを参照](assets/browse_assets_to_checkout.png)
 
 1. 他のユーザーが使用できるようにアセットをチェックインするには、Asset Info ダイアログの「Check-in」アイコンをクリックまたはタップします。
 
@@ -211,13 +208,10 @@ AEM デスクトップアプリケーションでは、作業中のファイル�
 
 1. コンテキストメニューの「Explore Assets」を選択してエクスプローラーを開きます。
 1. エクスプローラーで、チェックアウトするアセットの場所に移動します。
-
-   ![「Checkout」アイコンの切り替え](assets/chlimage_1-7.png)
-
 1. アセットを右クリックし、コンテキストメニューの「Open on Web」を選択します。
 1. Asset Info ダイアログで、「Checkout」アイコンをクリックまたはタップします。「Checkout」アイコンが「Check-in」アイコンに変わります。
 
-   ![「Checkout」アイコンの切り替え](assets/chlimage_1-8.png)
+   ![「Checkout」アイコンの切り替え](assets/checkout_icon_toggles.png)
 
 1. エクスプローラーでアセットを確認します。アセットのロックアイコン![アセットロックアイコン](assets/do-not-localize/aemassets_icon_lockcheckout.png)は、このアセットをチェックアウトしていることを示します。
 
