@@ -3,9 +3,9 @@ title: AEM デスクトップアプリケーションバージョン 1.x の使�
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.x の使用方法と、デスクトップでアセットを効率的に取り扱う方法について説明します。
 contentOwner: AG
 translation-type: tm+mt
-source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2474'
 ht-degree: 97%
 
 ---
@@ -253,7 +253,5 @@ AEM デスクトップアプリケーションでは、アセットを含むフ�
 
 >[!MORELIKETHIS]
 >
->* [AEM デスクトップアプリケーションの概要](https://helpx.adobe.com/jp/customer-care-office-hours/aem/desktop-app.html)
->* [AEM デスクトップアプリケーションでのチェックインとチェックアウトについて](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 >* [AEM デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
 
