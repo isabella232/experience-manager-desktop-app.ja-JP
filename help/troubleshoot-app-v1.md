@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
+source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
 workflow-type: tm+mt
-source-wordcount: '3374'
-ht-degree: 100%
+source-wordcount: '3379'
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ AEM デスクトップアプリケーションにおけるキャッシュの仕�
 
 Windows で AEM を実行する場合は、WebDAV クライアントのパフォーマンスを向上させるように Windows の設定をすることができます。詳しくは、[https://support.microsoft.com/ja-jp/kb/2445570](https://support.microsoft.com/ja-jp/kb/2445570) を参照してください。
 
-Windows 7 では、IE 設定を変更すると、WebDAV のパフォーマンスを向上させることができます。詳しくは、[http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/](http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/) を参照してください。
+Windows 7 では、IE 設定を変更すると、WebDAV のパフォーマンスを向上させることができます。詳細については、「 Windows 7でWebDAVのパフォーマンスの低下を [修正する方法](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/)」を参照してください。
 
 ## 同時操作 {#concurrent-operations}
 
