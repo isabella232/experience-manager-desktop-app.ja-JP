@@ -6,9 +6,9 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: f5f65fa8ddceae62f2e046f2d20e853aef572f2c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+workflow-type: tm+mt
 source-wordcount: '3999'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用し�
 1. 「**[!UICONTROL My Preferences]**」をクリックまたはタップして、**[!UICONTROL Preferences]**&#x200B;ダイアログを表示します。
 1. ユーザーの環境設定ダイアログで、「**[!UICONTROL Show Desktop Actions For Assets]**」を選択します。「**[!UICONTROL Accept]**」をクリックまたはタップします。
 
-   ![「アセットのデスクトップアクションを表示」をチェックしてデスクトップアクションを有効化](assets/chlimage_1-3.png)
+   ![「アセットのデスクトップアクションを表示」をチェックしてデスクトップアクションを有効化](assets/enable_desktop_actions.png)
 
    「[!UICONTROL Show Desktop Actions For Assets]」をオンにすると、デスクトップアクションが有効になります。
 
