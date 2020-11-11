@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_E
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '3999'
-ht-degree: 100%
+source-wordcount: '3993'
+ht-degree: 99%
 
 ---
 
@@ -159,7 +159,7 @@ AEM リポジトリで使用可能なアセットをデスクトップアプリ�
 * 先にアセットをチェックアウトせずに（例えば単に開いて）アセットの編集を開始した。
 * アセットの編集をすぐに開始するつもりであり、他のユーザーには編集されないようにしたい。
 
-編集が完了すると、変更したアセットのステータスが「**[!UICONTROL Edited Locally]**」としてデスクトップアプリケーションに表示されます。アセットに保存した変更は、AEM にアップロードするまでは、すべてローカルのみの変更になります。個々のアセットまたは複数のアセットを 1 つずつアップロードするには、アセットのオプションから「**[!UICONTROL Upload Changes]**」をクリックします。そのアセットの 1 つのバージョンが AEM に作成されます。AEM Assets の Web インターフェイスを使用して、[タイムラインビュー](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/using/activity-stream.html)でアセット履歴を参照できます。
+編集が完了すると、変更したアセットのステータスが「**[!UICONTROL Edited Locally]**」としてデスクトップアプリケーションに表示されます。アセットに保存した変更は、AEM にアップロードするまでは、すべてローカルのみの変更になります。個々のアセットまたは複数のアセットを 1 つずつアップロードするには、アセットのオプションから「**[!UICONTROL Upload Changes]**」をクリックします。そのアセットの 1 つのバージョンが AEM に作成されます。AEM Assets の Web インターフェイスを使用して、[タイムラインビュー](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html)でアセット履歴を参照できます。
 
 ![デスクトップアプリケーションの「Upload Changes」オプション](assets/upload_changes_single1_da2.png "デスクトップアプリケーションの「Upload Changes」オプション")
 
@@ -177,7 +177,7 @@ AEM リポジトリで使用可能なアセットをデスクトップアプリ�
 
 ## AEM への新しいアセットのアップロードと追加 {#upload-and-add-new-assets-to-aem}
 
-ユーザーは、DAM リポジトリに新しいアセットを追加できます。例えば、代理店のカメラマンや請負業者であれば、撮影した大量の写真を AEM リポジトリに追加したいと考えるかもしれません。新しいコンテンツを AEM に追加するには、デスクトップアプリケーションの上部バーにある![クラウドにアップロード](assets/do-not-localize/upload_to_cloud_da2.png)アイコンをクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。アセットのアップロードが開始され、アップロードに時間がかかる場合は、デスクトップアプリケーションの下部に進行状況バーが表示されます。フォルダーの作成やアップロード時には、空白や無効な文字を使用しないでください。該当する文字のリストについては、[AEM Assets でのフォルダーの作成](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders)を参照してください。
+ユーザーは、DAM リポジトリに新しいアセットを追加できます。例えば、代理店のカメラマンや請負業者であれば、撮影した大量の写真を AEM リポジトリに追加したいと考えるかもしれません。新しいコンテンツを AEM に追加するには、デスクトップアプリケーションの上部バーにある![クラウドにアップロード](assets/do-not-localize/upload_to_cloud_da2.png)アイコンをクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。アセットのアップロードが開始され、アップロードに時間がかかる場合は、デスクトップアプリケーションの下部に進行状況バーが表示されます。フォルダーの作成やアップロード時には、空白や無効な文字を使用しないでください。該当する文字のリストについては、[AEM Assets でのフォルダーの作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders)を参照してください。
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
@@ -232,7 +232,7 @@ AEM リポジトリで使用可能なアセットをデスクトップアプリ�
 
 >[!NOTE]
 >
->アップロード機能を使用して 2 つの AEM デプロイメントをまたいでアセットを移行することは避けてください。その代わり、[移行ガイド](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/administer/assets-migration-guide.html)を参照してください。
+>アップロード機能を使用して 2 つの AEM デプロイメントをまたいでアセットを移行することは避けてください。その代わり、[移行ガイド](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html)を参照してください。
 
 ### 転送したアセットのリスト {#list-of-transferred-assets}
 
