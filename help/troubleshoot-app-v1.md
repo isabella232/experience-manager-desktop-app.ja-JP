@@ -94,7 +94,7 @@ AEM デスクトップアプリケーションにおけるキャッシュの仕�
 * フォルダーに対するあらゆる操作（作成、削除など）。
 * バージョン 1.4 で導入されたフォルダーアップロード機能を使用すると、ファイルをローカルにキャッシュすることなく、ローカルフォルダー階層をアップロードできます
 
-## 個別の操作     {#individual-operations}
+## 個別の操作 {#individual-operations}
 
 個別のユーザーについてパフォーマンス関連のトラブルシューティングをおこなう際は、まず[制限事項](https://helpx.adobe.com/jp/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations)を確認してください。以降の節では、個別のユーザーのパフォーマンスを向上させるための推奨事項について説明します。
 
