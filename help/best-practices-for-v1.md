@@ -1,18 +1,11 @@
 ---
 title: AEM デスクトップアプリケーションバージョン 1.x のベストプラクティス
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.x の主要な機能と推奨される使用例
-uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 100%
+source-wordcount: '1694'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +22,7 @@ AEM デスクトップアプリケーションは誤ったローカルコピー�
 
 >[!NOTE]
 >
->このドキュメントを読む前に、[AEM と Creative Cloud の統合のベストプラクティス](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/assets/administer/aem-cc-integration-best-practices.html)全体をよく読むと、このトピックについて概要を把握することができます。
+>このドキュメントを読む前に、[AEM と Creative Cloud の統合のベストプラクティス](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/aem-cc-integration-best-practices.html)全体をよく読むと、このトピックについて概要を把握することができます。
 
 ## AEM デスクトップアプリケーションのアーキテクチャ {#aem-desktop-app-architecture}
 
@@ -71,7 +64,7 @@ AEM デスクトップアプリケーションの主要な機能は次のとお�
 
 * アセットを頻繁に保存するために AEM デスクトップアプリケーションを使用しないでください。AEM Assets にはすべての保存作業が送信されます。このため、マウントされた AEM Assets リポジトリで集中的な編集作業を直接おこなうのは実用的ではありません。マウントされたリポジトリで直接アセットを編集すると、アセットのタイムラインに不要なバージョンを詰め込み、サーバーに余分なオーバーヘッドを課すことになります。
 
-* ある AEM インスタンスから別のインスタンスに大量のデータを移行する際には、AEM デスクトップアプリケーションを使用しないでください。アセット移行の計画と実行については、[移行ガイド](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/administer/assets-migration-guide.html)を参照してください。一方、デスクトップアプリケーションは、[!DNL Adobe Experience Manager] で初めて大量のアセットの[一括アップロードをサポート](use-app-v1.md#bulkupload)します。
+* ある AEM インスタンスから別のインスタンスに大量のデータを移行する際には、AEM デスクトップアプリケーションを使用しないでください。アセット移行の計画と実行については、[移行ガイド](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html)を参照してください。一方、デスクトップアプリケーションは、[!DNL Adobe Experience Manager] で初めて大量のアセットの[一括アップロードをサポート](use-app-v1.md#bulkupload)します。
 
 ## 一部の使用例に関するレコメンデーション {#recommendations-for-selected-use-cases}
 
@@ -127,7 +120,7 @@ AEM デスクトップアプリケーションを使用する上でのユーザ�
 
 ### ネットワークに関する考慮事項 {#network-considerations}
 
-AEM Assets のネットワーク設定に関するベストプラクティスについて理解するには、[AEM Assets ネットワークに関する考慮事項](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/assets/administer/assets-migration-guide.html)ドキュメントを参照してください。AEM デスクトップアプリケーションのユーザーエクスペリエンスの最適化に重要な事項としては、以下が挙げられます。
+AEM Assets のネットワーク設定に関するベストプラクティスについて理解するには、[AEM Assets ネットワークに関する考慮事項](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html)ドキュメントを参照してください。AEM デスクトップアプリケーションのユーザーエクスペリエンスの最適化に重要な事項としては、以下が挙げられます。
 
 * **適切に設定された Dispatcher を使用する。**&#x200B;セキュリティを強化するために AEM Dispatcher を使用し、[Dispatcher の背後で AEM デスクトップアプリケーションと AEM の接続](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)についての設定がおこなわれていることを確認します。
 
@@ -139,8 +132,8 @@ AEM Assets のネットワーク設定に関するベストプラクティスに
 
 ### サーバーパフォーマンスの最適化 {#optimizing-server-performance}
 
-AEM Assets サーバーのパフォーマンスを最適化する方法については、[AEM Assets パフォーマンス調整ガイド](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/administer/performance-tuning-guidelines.html)を参照してください。AEM デスクトップアプリケーションのサーバーパフォーマンスに関する重要な側面としては、アセットアップロードのパフォーマンスが向上するようにワークフロー設定を最適化することが挙げられます。
+AEM Assets サーバーのパフォーマンスを最適化する方法については、[AEM Assets パフォーマンス調整ガイド](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html)を参照してください。AEM デスクトップアプリケーションのサーバーパフォーマンスに関する重要な側面としては、アセットアップロードのパフォーマンスが向上するようにワークフロー設定を最適化することが挙げられます。
 
-* **アセットアップロードのパフォーマンス向上：**[AEM Asset 更新ワークフローモデルを一時的ワークフローとして設定](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/administer/performance-tuning-guidelines.html#Workflows)します。
+* **アセットアップロードのパフォーマンス向上：**[AEM Asset 更新ワークフローモデルを一時的ワークフローとして設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html)します。
 
 * **アップロード用のサーバー CPU を制限：**&#x200B;アップロードで CPU リソースを独占しないように、並列ワークフロージョブの最大数パラメーターが正しく設定されていることを確認します。
