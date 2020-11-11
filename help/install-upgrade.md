@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
-workflow-type: ht
-source-wordcount: '1241'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+workflow-type: tm+mt
+source-wordcount: '1234'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 1. 別のバージョンのアプリケーションからアップグレードする場合は、[デスクトップアプリケーションのアップグレード](#upgrade-from-previous-version)を参照してください。
 
-1. Adobe Experience Manager as a Cloud Service、Adobe Experience Manager 6.4.4 以降、Adobe Experience Manager 6.5.0 以降のいずれかを使用している場合は、この手順をスキップします。Adobe Experience Manager の設定が、[リリースノート](release-notes.md)に記載されている互換性要件を満たしていることを確認します。必要に応じて、該当する[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をダウンロードし、Adobe Experience Manager 管理者として Adobe Experience Manager パッケージマネージャーを使用してインストールします。パッケージのインストールについては、[パッケージの作業方法](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/administering/contentmanagement/package-manager.html)を参照してください。
+1. Adobe Experience Manager as a Cloud Service、Adobe Experience Manager 6.4.4 以降、Adobe Experience Manager 6.5.0 以降のいずれかを使用している場合は、この手順をスキップします。Adobe Experience Manager の設定が、[リリースノート](release-notes.md)に記載されている互換性要件を満たしていることを確認します。必要に応じて、該当する[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をダウンロードし、Adobe Experience Manager 管理者として Adobe Experience Manager パッケージマネージャーを使用してインストールします。パッケージのインストールについては、[パッケージの作業方法](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html)を参照してください。
 
 1. インストーラーのバイナリを実行し、画面の指示に従ってインストールします。
 
@@ -93,7 +93,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
    *図：ログイン後に DAM コンテンツが表示される*
 
-1. （Adobe Experience Manager 6.5.1 以降）デスクトップアプリケーションを Adobe Experience Manager 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。詳しくは、[Azure コネクタ](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore)または [S3 コネクタ](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore)を参照してください。
+1. （Adobe Experience Manager 6.5.1 以降）デスクトップアプリケーションを Adobe Experience Manager 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。詳しくは、[Azure コネクタ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store)または [S3 コネクタ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store)を参照してください。
 
    Adobe Managed Services（AMS）を使用している場合は、アドビカスタマーケアにお問い合わせください。
 
@@ -101,9 +101,9 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 環境設定を変更するには、![その他のオプションアイコン](assets/do-not-localize/more_options_da2.png)と&#x200B;**[!UICONTROL Preference]**![&#x200B;環境設定アイコン](assets/do-not-localize/preferences_icon_da2.png)を順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
 
-* [!UICONTROL Launch application on login]
+* [!UICONTROL Launch application on login].
 
-* [!UICONTROL Show window when application starts]
+* [!UICONTROL Show window when application starts].
 
 * **[!UICONTROL Cache Directory]**：デスクトップアプリケーションのローカルキャッシュの場所（ローカルにダウンロードされたアセットが格納されます）
 
