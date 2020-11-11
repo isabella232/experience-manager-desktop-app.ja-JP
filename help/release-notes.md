@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
-workflow-type: ht
-source-wordcount: '1415'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+workflow-type: tm+mt
+source-wordcount: '1406'
+ht-degree: 97%
 
 ---
 
@@ -42,11 +42,11 @@ Adobe Experience Manager デスクトップアプリケーションは次のオ�
 
 Adobe Experience Manager デスクトップアプリケーションは、AEM as a Cloud Service、Adobe Managed Services（AMS）、On-Premise のどちらでデプロイされている場合でも、次の Adobe Experience Manager バージョンと連携します。
 
-* [Adobe Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/release-notes/home.html)。
+* [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html)。
 
-* [Adobe Experience Manager 6.5.0](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/release-notes/release-notes.html) 以降。
+* [Adobe Experience Manager 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html) 以降。
 
-* [Adobe Experience Manager 6.4.4](https://docs.adobe.com/content/help/ja-JP/experience-manager-64/release-notes/release-notes.html) 以降。
+* [Adobe Experience Manager 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) 以降。
 
 * Adobe Experience Manager 6.4.0～6.4.3（[互換性パッケージ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)を使用）。
 
@@ -169,8 +169,8 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 
 >[!MORELIKETHIS]
 >
->* [AEM as a Cloud Service のドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/landing/home.html)
->* [AEM as a Cloud Service Assets のドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-manager-cloud-service/assets/home.html)
+>* [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
+>* [AEM as a Cloud Service Assets のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
 >* [Adobe Experience Manager デスクトップアプリケーションの使用方法](using.md)
 >* [デスクトップアプリケーションのインストールとアップグレード](install-upgrade.md)
 >* [ベストプラクティスとトラブルシューティングのヒント](troubleshoot.md)
