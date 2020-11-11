@@ -3,9 +3,9 @@ title: AEM デスクトップアプリケーションバージョン 1.x の使�
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.x の使用方法と、デスクトップでアセットを効率的に取り扱う方法について説明します。
 contentOwner: AG
 translation-type: tm+mt
-source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2472'
 ht-degree: 97%
 
 ---
@@ -161,7 +161,7 @@ AEM Assets リポジトリをローカルドライブにマッピングした後
 
 AEM Assets では、編集のためにアセットをチェックアウトし、変更終了後にアセットをチェックインすることができます。アセットをチェックアウトした後は、その人だけがアセットを編集、注釈、公開、移動、削除できるようになります。アセットをチェックアウトすると、そのアセットがロックされ、他のユーザーはそのアセットに対する操作ができなくなります。アセットをチェックイン／チェックアウトするには、アセットへの書き込み権限が必要です。
 
-AEM Web インターフェイスからアセットをチェックアウトするには、2 つの方法があります。1 つ目の方法について詳しくは、[Assets UI からのファイルのチェックインとチェックアウト](https://docs.adobe.com/content/help/ja-JP/experience-manager-65/assets/managing/check-out-and-submit-assets.html)を参照してください。AEM デスクトップアプリケーションがインストールされている場合にアセットをチェックアウトして開く 2 つ目の方法を使用するには、以下の手順に従います。
+AEM Web インターフェイスからアセットをチェックアウトするには、2 つの方法があります。1 つ目の方法について詳しくは、[Assets UI からのファイルのチェックインとチェックアウト](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/check-out-and-submit-assets.html)を参照してください。AEM デスクトップアプリケーションがインストールされている場合にアセットをチェックアウトして開く 2 つ目の方法を使用するには、以下の手順に従います。
 
 1. AEM Assets インターフェイスを開き、フォルダーまたはアセットの上にマウスポインターを置くと、デスクトップアクションがカード表示のクイックアクションとして表示されます。
 
