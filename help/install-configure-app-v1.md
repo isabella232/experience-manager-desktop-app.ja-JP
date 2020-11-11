@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
+source-git-commit: 9c11f0b8ace17e7f596bcfe26e69f4ca649e0126
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 99%
+source-wordcount: '951'
+ht-degree: 97%
 
 ---
 
@@ -69,9 +69,9 @@ Assets API のコピーおよび移動メソッドでは、次の追加ヘッダ
 * X-Depth
 * X-Overwrite
 
-AEM デスクトップアプリケーションは、デフォルトポートを含む URL を使用して AEM に接続します。したがって、Dispatcher 設定の `virtualhosts` の設定にデフォルトポート番号を含める必要があります。`virtualhosts` の設定について詳しくは、[仮想ホストの識別](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts)を参照してください。
+AEM デスクトップアプリケーションは、デフォルトポートを含む URL を使用して AEM に接続します。したがって、Dispatcher 設定の `virtualhosts` の設定にデフォルトポート番号を含める必要があります。`virtualhosts` の設定について詳しくは、[仮想ホストの識別](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts)を参照してください。
 
-これらの追加ヘッダーを引き渡すように Dispatcher を設定する方法について詳しくは、[HTTP ヘッダーの指定](https://docs.adobe.com/content/help/ja-JP/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)を参照してください。
+これらの追加ヘッダーを引き渡すように Dispatcher を設定する方法について詳しくは、[HTTP ヘッダーの指定](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)を参照してください。
 
 ### プロキシのサポート {#proxy-support}
 
@@ -95,7 +95,7 @@ Asset Info ダイアログは、次のコンポーネントの一方または両
 
 オーバーレイされるコンポーネントは、カスタマイズの性質によって変わります。Asset Info ダイアログの一部として表示されるコンポーネントを変更するには、Granite ユーザーインターフェイスページをオーバーレイします。ダイアログの HTML、CSS、JavaScript コンテンツを変更するには、HTL コンポーネントをオーバーレイします。
 
-## キャッシュの管理      {#manage-cache}
+## キャッシュの管理       {#manage-cache}
 
 Windows では、キャッシュは `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\` にあります。ここには、デスクトップアプリケーションで設定されている、エンコード済みバージョンの AEM ホストがあります。例えば、`http://localhost:4502` は `http%3A%2F%2Flocalhost%3A4502%2F` と表示されます。
 
@@ -109,7 +109,7 @@ Mac OS X では、同様のディレクトリが `~/Library/Group Containers/gro
 >
 >キャッシュをクリアした場合でも、未保存の変更内容は維持されます。AEM サーバーにチェックインしていないアセットは、削除されずにそのまま保持されます。
 
-### Windows でのキャッシュの場所の変更      {#change-location-of-cache-on-windows}
+### Windows でのキャッシュの場所の変更       {#change-location-of-cache-on-windows}
 
 AEM デスクトップアプリケーションのキャッシュのデフォルトの場所は次のとおりです。
 
@@ -134,7 +134,7 @@ AEM デスクトップアプリケーションのキャッシュのデフォル�
    >自動的に *&lt;エンコードされた AEM エンドポイント>* サブディレクトリが作成されます。この動作は設定で変更することはできません。
 
 >[!MORELIKETHIS]
-* [AEM デスクトップアプリケーションの概要](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+* [AEM デスクトップアプリケーションの概要](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
 * [AEM デスクトップアプリケーションの使用](use-app-v1.md).
 * [AEM デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md).
 
