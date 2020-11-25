@@ -8,11 +8,11 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3379'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ AEM デスクトップアプリケーションにおけるキャッシュの仕�
 
 Windows で AEM を実行する場合は、WebDAV クライアントのパフォーマンスを向上させるように Windows の設定をすることができます。詳しくは、[https://support.microsoft.com/ja-jp/kb/2445570](https://support.microsoft.com/ja-jp/kb/2445570) を参照してください。
 
-Windows 7 では、IE 設定を変更すると、WebDAV のパフォーマンスを向上させることができます。詳細については、「 Windows 7でWebDAVのパフォーマンスの低下を [修正する方法](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/)」を参照してください。
+Windows 7 では、IE 設定を変更すると、WebDAV のパフォーマンスを向上させることができます。詳しくは、[Windows 7 で WebDAV のパフォーマンス低下を修正する方法](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/)を参照してください。
 
 ## 同時操作 {#concurrent-operations}
 
@@ -176,7 +176,7 @@ AEM のパフォーマンスを向上させるもう 1 つの方法は、「Gran
 
 ファイルを置換しても警告やエラーは表示されませんが、AEM にアセットをチェックインすると、変更されていない状態のままになっています。AEM 内でアセットを更新またはチェックインすると、アセットが変更されていないことを確認できます。
 
-## デスクトップアプリケーションのアイコンに関する問題のトラブルシューティング（Mac OS X）{#troubleshooting-desktop-app-icon-issues-mac-os-x}
+## デスクトップアプリケーションのアイコンに関する問題のトラブルシューティング（Mac OS X） {#troubleshooting-desktop-app-icon-issues-mac-os-x}
 
 デスクトップアプリケーションをインストールすると、デスクトップアプリケーションのメニューアイコンがメニューバーに表示されます。アイコンが表示されない場合は、問題解決のために以下の手順を実行してください。
 
@@ -242,7 +242,7 @@ Mac の場合、`~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
 AEM デスクトップアプリケーションのバージョンの確認手順は、Windows と Mac OS の両方で同じです。
 
-AEM デスクトップアプリケーションのアイコンをクリックして、「**About**」を選択します。画面にバージョン番号が表示されます。
+AEM デスクトップアプリケーションのアイコンをクリックして、「**バージョン情報**」を選択します。画面にバージョン番号が表示されます。
 
 ## macOS での AEM デスクトップアプリケーションのアップグレード {#upgrading-aem-desktop-app-on-macos}
 
