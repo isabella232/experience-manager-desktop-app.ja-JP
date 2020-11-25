@@ -6,15 +6,15 @@ user-guide-title: AEM デスクトップアプリケーションガイド
 breadcrumb-title: デスクトップアプリケーションガイド
 user-guide-description: AEM デスクトップアプリを使用してリポジトリとデスクトップアプリケーションを接続し、リソースへの迅速なアクセスと効率化されたワークフローを提供する方法について説明します。
 solution-title: AEM Assets
-solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html
-getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html
+solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=ja
+getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=ja
 tutorials-title: AEM チュートリアル
 tutorials-url: https://helpx.adobe.com/jp/experience-manager/kt/index/aem-tutorials.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '83'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
