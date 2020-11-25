@@ -1,11 +1,11 @@
 ---
 title: AEM デスクトップアプリケーションバージョン 1.x のベストプラクティス
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.x の主要な機能と推奨される使用例
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1694'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ AEM デスクトップアプリケーションは誤ったローカルコピー�
 
 >[!NOTE]
 >
->このドキュメントを読む前に、[AEM と Creative Cloud の統合のベストプラクティス](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/aem-cc-integration-best-practices.html)全体をよく読むと、このトピックについて概要を把握することができます。
+>このドキュメントを読む前に、[AEM と Creative Cloud の統合のベストプラクティス](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/aem-cc-integration-best-practices.html?lang=ja)全体をよく読むと、このトピックについて概要を把握することができます。
 
 ## AEM デスクトップアプリケーションのアーキテクチャ {#aem-desktop-app-architecture}
 
@@ -38,11 +38,11 @@ AEM デスクトップアプリケーションは WebDAV（Windows）あるい�
 
 AEM デスクトップアプリケーションの主要な機能は次のとおりです。
 
-* **デスクトップの AEM Assets Web UI からファイルを開く。Web UI から、デスクトップ（Finder またはエクスプローラーにて）でアセットを表示できます。あるいはデスクトップアプリケーションでアセットを開くことができます。**
+* **デスクトップの AEM Assets Web UI からファイルを開く。** Web UI から、デスクトップ（Finder またはエクスプローラーにて）でアセットを表示できます。あるいはデスクトップアプリケーションでアセットを開くことができます。
 
-* **チェックアウトおよびチェックイン。アセットはチェックアウトして編集することが可能で、AEM Assets のユーザーにはロック済みとして表示されます。**&#x200B;編集後に、アセットをチェックインすればロックが解除されます。
+* **チェックアウトおよびチェックイン。**&#x200B;アセットはチェックアウトして編集することが可能で、AEM Assets のユーザーにはロック済みとして表示されます。編集後に、アセットをチェックインすればロックが解除されます。
 
-* **ファイルへの変更を保存する。ネットワーク共有内でファイルに保存した変更内容は、AEM へ自動的にアップロードされ、新たなバージョンが作成されます。**
+* **ファイルへの変更を保存する。**&#x200B;ネットワーク共有内でファイルに保存した変更内容は、AEM へ自動的にアップロードされ、新たなバージョンが作成されます。
 
 * **リンクされたアセットを他のドキュメントに配置します**。Creative Cloud（[!DNL Adobe Photoshop]、[!DNL Adobe InDesign]、[!DNL Adobe Illustrator]）などのアプリケーションでは、外部ファイルをリンクとして配置できます。例えば、InDesign ドキュメントに画像を配置できます。この場合は、ネットワーク共有マウントにより AEM のアセットを閲覧し、ドキュメントに配置するアセットを選択できます。MS Office など、アドビ以外のアプリでもリンクしたファイルを配置できるものがあります。
 
@@ -64,7 +64,7 @@ AEM デスクトップアプリケーションの主要な機能は次のとお�
 
 * アセットを頻繁に保存するために AEM デスクトップアプリケーションを使用しないでください。AEM Assets にはすべての保存作業が送信されます。このため、マウントされた AEM Assets リポジトリで集中的な編集作業を直接おこなうのは実用的ではありません。マウントされたリポジトリで直接アセットを編集すると、アセットのタイムラインに不要なバージョンを詰め込み、サーバーに余分なオーバーヘッドを課すことになります。
 
-* ある AEM インスタンスから別のインスタンスに大量のデータを移行する際には、AEM デスクトップアプリケーションを使用しないでください。アセット移行の計画と実行については、[移行ガイド](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html)を参照してください。一方、デスクトップアプリケーションは、[!DNL Adobe Experience Manager] で初めて大量のアセットの[一括アップロードをサポート](use-app-v1.md#bulkupload)します。
+* ある AEM インスタンスから別のインスタンスに大量のデータを移行する際には、AEM デスクトップアプリケーションを使用しないでください。アセット移行の計画と実行については、[移行ガイド](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html?lang=ja)を参照してください。一方、デスクトップアプリケーションは、[!DNL Adobe Experience Manager] で初めて大量のアセットの[一括アップロードをサポート](use-app-v1.md#bulkupload)します。
 
 ## 一部の使用例に関するレコメンデーション {#recommendations-for-selected-use-cases}
 
@@ -86,9 +86,9 @@ AEM デスクトップアプリケーションは DAM リポジトリ全体へ�
 
 デスクトップ上で開きたいファイルを検索するには：
 
-* AEM Assets の Web UI を利用してアセットを見つけます。AEM Assets の検索（検索ファセット、保存済み検索結果）は強力なだけでなく、正しいアセットを見つけるための特別な機能も提供します。これには、ステータス（承認、有効期限満了）、コレクション、タスク、通知、他のユーザー／グループとのフォルダー／コレクションの共有に基づいてアセットを検索する機能など追加のフィルターなどが含まれます。
+* AEM Assets の Web UI を利用してアセットを見つけます。AEM Assets の    検索（検索ファセット、保存済み検索結果）は強力なだけでなく、正しいアセットを見つけるための特別な機能も提供します。これには、ステータス（承認、有効期限満了）、コレクション、タスク、通知、他のユーザー／グループとのフォルダー／コレクションの共有に基づいてアセットを検索する機能など追加のフィルターなどが含まれます。
 
-* アセットを見つけたら、AEM UI のデスクトップアクションを使用して          デスクトップのアセットにアクセスします。
+* アセットを見つけたら、AEM UI のデスクトップアクションを使用して              デスクトップのアセットにアクセスします。
 
 ### AEM デスクトップアプリケーションで開いたアセットの更新 {#updating-assets-opened-using-aem-desktop-app}
 
@@ -102,7 +102,7 @@ AEM に保存されたアセットを更新する必要がある場合：
 
    * ファイルを更新します。
 
-   * 更新したバージョンを保存します。アセットは更新され、タイムラインには比較のため元のバージョンも表示されます。。
+   * 更新したバージョンを保存します。アセットは更新され、タイムラインには比較のため元のバージョンも表示されます。
 
 * 小規模なクリエイティブ WIP サイクルが必要な更新要求など&#x200B;**メジャーなアップデート**&#x200B;の場合：
 
@@ -110,7 +110,7 @@ AEM に保存されたアセットを更新する必要がある場合：
 
    * マップされた AEM Assets 共有の外にある WIP フォルダーにファイルをコピーします（例えば、Adobe Creative Cloud デスクトップアプリと同期されているフォルダーにファイルをコピーします）。
 
-   * ファイルで作業し、随時保存します。変更内容は AEM Assets には保存されません.
+   * ファイルで作業し、随時保存します。変更内容は AEM Assets には保存されません。
 
    * 編集が完了したら、AEM からマップされたファイルを移動、コピーあるいは保存し、新規バージョンとしてアップロードします。
 
@@ -120,7 +120,7 @@ AEM デスクトップアプリケーションを使用する上でのユーザ�
 
 ### ネットワークに関する考慮事項 {#network-considerations}
 
-AEM Assets のネットワーク設定に関するベストプラクティスについて理解するには、[AEM Assets ネットワークに関する考慮事項](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html)ドキュメントを参照してください。AEM デスクトップアプリケーションのユーザーエクスペリエンスの最適化に重要な事項としては、以下が挙げられます。
+AEM Assets のネットワーク設定に関するベストプラクティスについて理解するには、[AEM Assets ネットワークに関する考慮事項](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html?lang=ja)ドキュメントを参照してください。AEM デスクトップアプリケーションのユーザーエクスペリエンスの最適化に重要な事項としては、以下が挙げられます。
 
 * **適切に設定された Dispatcher を使用する。**&#x200B;セキュリティを強化するために AEM Dispatcher を使用し、[Dispatcher の背後で AEM デスクトップアプリケーションと AEM の接続](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)についての設定がおこなわれていることを確認します。
 
@@ -132,8 +132,8 @@ AEM Assets のネットワーク設定に関するベストプラクティスに
 
 ### サーバーパフォーマンスの最適化 {#optimizing-server-performance}
 
-AEM Assets サーバーのパフォーマンスを最適化する方法については、[AEM Assets パフォーマンス調整ガイド](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html)を参照してください。AEM デスクトップアプリケーションのサーバーパフォーマンスに関する重要な側面としては、アセットアップロードのパフォーマンスが向上するようにワークフロー設定を最適化することが挙げられます。
+AEM Assets サーバーのパフォーマンスを最適化する方法については、[AEM Assets パフォーマンス調整ガイド](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=ja)を参照してください。AEM デスクトップアプリケーションのサーバーパフォーマンスに関する重要な側面としては、アセットアップロードのパフォーマンスが向上するようにワークフロー設定を最適化することが挙げられます。
 
-* **アセットアップロードのパフォーマンス向上：**[AEM Asset 更新ワークフローモデルを一時的ワークフローとして設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html)します。
+* **アセットアップロードのパフォーマンス向上：**[AEM Asset 更新ワークフローモデルを一時的ワークフローとして設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=ja)します。
 
 * **アップロード用のサーバー CPU を制限：**&#x200B;アップロードで CPU リソースを独占しないように、並列ワークフロージョブの最大数パラメーターが正しく設定されていることを確認します。
