@@ -1,9 +1,9 @@
 ---
 source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '534'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # Adobe Experience Manager デスクトップアプリケーションドキュメントへの貢献
@@ -49,7 +49,7 @@ AEM ドキュメントを改善するためのあらゆる投稿を歓迎しま�
 
 以下のビデオで、イシューとプル要求の作成方法についての概要を簡単に確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/27069)
+>[!VIDEO](https://video.tv.adobe.com/v/27069?captions=jpn)
 
 ### アドビ従業員による投稿
 
@@ -59,4 +59,4 @@ AEM ドキュメントを改善するためのあらゆる投稿を歓迎しま�
 
 ## その他の情報
 
-GitHub オーサリングプラットフォームの使用方法の詳細については、[アドビドキュメント寄稿者ガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)を参照してください。
+GitHub オーサリングプラットフォームの使用方法の詳細については、[アドビドキュメント寄稿者ガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)を参照してください。
