@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: ht
-source-wordcount: '1406'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+workflow-type: tm+mt
+source-wordcount: '1422'
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 | 製品 | Adobe Experience Manager デスクトップアプリケーション |
 |--- |--- |
 | アプリのバージョン（リビジョン） | 2.0（2.0.3.2） |
-| サポートされている AEM バージョン | AEM as a Cloud Service、AEM 6.5、AEM 6.4、AEM 6.3（互換性パッケージを使用） |
+| サポートされるExperience Managerのバージョン | Cloud ServiceとしてのExperience ManagerExperience Manager6.5;Experience Manager6.4;Experience Manager6.3 （互換性パッケージ付き） |
 | 種類 | マイナーリリース |
 | リリース日 | 2020 年 8 月 28 日（Mac および Win） |
 | ダウンロード URL | [macOS 64 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg)、[Windows 64 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe)、[Windows 32 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
@@ -107,7 +107,7 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 
 * `%APPDATA%` パスに一致する `%Temp%` ディレクトリを構成するオプションが許可されます。 <!-- CQ-4282665 -->
 
-* ユーザーが Okta SAML 認証を使用して AEM オーサーにログインできるようになります。 <!-- CQ-4278134 -->
+* Allow users to log in on Experience Manager Author via Okta SAML authentication. <!-- CQ-4278134 -->
 
 ## インストール手順 {#installation-instructions-v2}
 
@@ -119,17 +119,17 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 
 デスクトップアプリケーションとその動作の仕組みについて、以下の点を理解しておくことが重要です。
 
-* デスクトップアプリケーションは、AEM との間でアセットバイナリを完全に転送する必要がある操作（開く、編集、変更のアップロード、アセットのアップロード）を完全にコントロールできます。
+* アプリケーションは、Experience Managerとの間でアセットバイナリの完全な転送（開く、編集、変更のアップロード、アセットのアップロード）を必要とする操作を完全に制御します。
 
    * デスクトップ上でアセットを操作する場合は、個別、フォルダー単位、複数選択のいずれの場合でも、「開く」、「編集」、デスクトップへの「ダウンロード」のいずれかを明示的に実行する必要があります。
 
-   * アセットに対するローカルな変更を AEM にアップロードする場合は、個別のアセットまたは同時に選択した複数のアセットに対して「[!UICONTROL Upload Changes]」を選択する必要があります。
+   * If you want to get local changes to assets uploaded to Experience Manager, you need to select [!UICONTROL Upload Changes], either individually or via multi-selection.
 
-   * デスクトップアプリケーションは、デスクトップと AEM をまたいでアセットを同期させる「同期クライアント」ではありません。
+   * アプリケーションは、デスクトップとExperience Manager間でアセットを同期する「同期クライアント」ではありません。
 
-   * デスクトップアプリケーションは、AEM リポジトリを仮想フォルダー構造としてマッピングするネットワーク共有を提供しません。
+   * Experience Managerリポジトリを仮想フォルダー構造としてマップするネットワーク共有は、アプリケーションに提供されません。
 
-* デスクトップアプリケーションに表示されるアセットのリストは、AEM Assets リポジトリのステータスに基づいています。ローカルにダウンロードされた後でローカルファイルまたはキャッシュフォルダー内で名前が変更されたファイルは、デスクトップアプリケーションでは表示または管理されません。
+* デスクトップアプリケーションに表示されるアセットのリストは、 Assets リポジトリのステータスに基づいています。ローカルにダウンロードされた後でローカルファイルまたはキャッシュフォルダー内で名前が変更されたファイルは、デスクトップアプリケーションでは表示または管理されません。
 
 * 期待した結果がデスクトップアプリケーションに表示されない場合は、上部のバーにある更新アイコンをクリックしてください。
 
@@ -139,7 +139,7 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 
 ユーザーのアクションによってクラウドとローカルファイルシステムの間で開始されるアセットおよびファイルのフローを次の図に示します。
 
-![デスクトップアプリケーションを介した AEM サーバーからネイティブデスクトップアプリへのアセットのフロー](assets/da20_flow_diagram.png)
+![デスクトップアプリを使用したExperience Managerサーバーからネイティブデスクトップアプリへのアセットのフロー](assets/da20_flow_diagram.png)
 
 ## 既知の問題 {#known-issues-v2}
 
@@ -153,13 +153,13 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 
 * フィルターを適用後に解除してローカルに編集されたすべてのアセットを検索すると、開始時点の検索結果やフォルダー表示に戻りません。DAM リポジトリのルートフォルダーが表示されます。
 
-* AEM サーバーが動作していない URL に接続すると、接続画面が応答しなくなることがあります。アプリケーションを終了して、再度起動してください。
+* Experience Managerサーバーが実行されていないURLに接続すると、接続画面が応答しなくなることがあります。 アプリケーションを終了して、再度起動してください。
 
 **CRUD（作成、読み取り、更新、削除）操作に関する問題：**
 
 * 無効な文字が含まれていても、アプリケーションがファイルのアップロードを試みるので、サーバー側のアップロードが失敗する可能性があります。<!-- CQ-4273652 -->
 
-* アセットに対する変更をコメント付きでアップロードすると、コメントはアセットと共に AEM に保存されますが、バージョン管理コメントとして表示されません。この問題は AEM 6.4.5 および AEM 6.5.1 で解決済みです。Adobe では、最新のサービスパックをインストールすることを強くお勧めします。 <!-- CQ-4268990 -->
+* コメントを含むアセットに対する変更をアップロードする場合、コメントはExperience Manager内のアセットと共に保存されますが、バージョン管理コメントとしては表示されません。 This issue is resolved in Experience Manager 6.4.5 and Experience Manager 6.5.1. Adobe strongly recommends installing the latest service packs. <!-- CQ-4268990 -->
 
 * アセット転送をユーザーがキャンセルできません。意図しない大量の転送をトリガーした場合は、アプリケーションを終了して、再度起動してください。<!-- CQ-4278940 -->
 
@@ -169,8 +169,8 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 
 >[!MORELIKETHIS]
 >
->* [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja)
->* [AEM as a Cloud Service Assets のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=ja)
+>* [Cloud ServiceドキュメントとしてのExperience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja)
+>* [Cloud ServiceアセットドキュメントとしてのExperience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=ja)
 >* [Adobe Experience Manager デスクトップアプリケーションの使用方法](using.md)
 >* [デスクトップアプリケーションのインストールとアップグレード](install-upgrade.md)
 >* [ベストプラクティスとトラブルシューティングのヒント](troubleshoot.md)
