@@ -8,11 +8,11 @@ discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: ht
-source-wordcount: '1234'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+workflow-type: tm+mt
+source-wordcount: '1222'
+ht-degree: 89%
 
 ---
 
@@ -65,29 +65,29 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 1. Adobe Experience Manager デプロイメントの URL と認証情報を手元に用意します。
 
-1. 別のバージョンのアプリケーションからアップグレードする場合は、[デスクトップアプリケーションのアップグレード](#upgrade-from-previous-version)を参照してください。
+1. If you are upgrading from another version of the app, see [upgrade desktop app](#upgrade-from-previous-version).
 
 1. Adobe Experience Manager as a Cloud Service、Adobe Experience Manager 6.4.4 以降、Adobe Experience Manager 6.5.0 以降のいずれかを使用している場合は、この手順をスキップします。Adobe Experience Manager の設定が、[リリースノート](release-notes.md)に記載されている互換性要件を満たしていることを確認します。必要に応じて、該当する[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をダウンロードし、Adobe Experience Manager 管理者として Adobe Experience Manager パッケージマネージャーを使用してインストールします。パッケージのインストールについては、[パッケージの作業方法](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ja)を参照してください。
 
 1. インストーラーのバイナリを実行し、画面の指示に従ってインストールします。
 
-1. Windows では、`Visual Studio C++ Redistributable 2015` をインストールするように求められる場合があります。その場合は、画面の指示に従ってインストールします。インストールに失敗した場合は、手動でインストールします。インストーラーを[ここ](https://www.microsoft.com/ja-jp/download/details.aspx?id=52685)からダウンロードし、`vc_redist.x64.exe` ファイルと `vc_redist.x86.exe` ファイルを両方ともインストールします。AEM デスクトップアプリケーションインストーラーを再実行します。
+1. Windows では、`Visual Studio C++ Redistributable 2015` をインストールするように求められる場合があります。その場合は、画面の指示に従ってインストールします。インストールに失敗した場合は、手動でインストールします。インストーラーを[ここ](https://www.microsoft.com/ja-jp/download/details.aspx?id=52685)からダウンロードし、`vc_redist.x64.exe` ファイルと `vc_redist.x86.exe` ファイルを両方ともインストールします。Re-run the [!DNL Experience Manager] desktop app installer.
 
 1. 指示に従ってコンピューターを再起動します。デスクトップアプリケーションを起動し設定します。
 
-1. アプリケーションを AEM リポジトリに接続するには、トレイのアプリケーションアイコンをクリックしてアプリケーションを起動します。AEM サーバーのアドレスを `https://[aem-server-url]:[port]/` の形式で指定します。
+1. To connect the app with an [!DNL Experience Manager] repository, click the app icon in the tray and launch the app. Provide the address of the [!DNL Experience Manager] server in the format `https://[aem_server]:[port]/`.
 
    「**[!UICONTROL Connect]**」をクリックし、認証情報を入力します。
 
    ![入力サーバーアドレスへのデスクトップアプリの接続画面](assets/connect_da2.png)
 
-   *図：入力サーバーアドレスへの接続画面*
+   *図：入力サーバーアドレスへの接続画面.*
 
    >[!CAUTION]
    >
-   >AEM サーバーのアドレスの前後にスペースがないことを確認します。スペースがあると、デスクトップアプリケーションが AEM サーバーに接続できません。
+   >Ensure there are no leading or trailing spaces before or after the address of the [!DNL Experience Manager] server. Otherwise the app cannot connect to the [!DNL Experience Manager] server.
 
-1. 接続に成功すると、AEM DAM のルートフォルダーにあるフォルダーやアセットのリストが表示されます。デスクトップアプリケーション内からフォルダーを参照できます。
+1. Upon successful connection, you can view the list of folders and assets available in the root folder of the [!DNL Experience Manager] DAM. デスクトップアプリケーション内からフォルダーを参照できます。
 
    ![ログイン時に、アプリケーションに DAM コンテンツが表示されます](assets/firstview_da2.png)
 
@@ -101,13 +101,13 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 環境設定を変更するには、![その他のオプションアイコン](assets/do-not-localize/more_options_da2.png)と&#x200B;**[!UICONTROL Preference]**![&#x200B;環境設定アイコン](assets/do-not-localize/preferences_icon_da2.png)を順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
 
-* [!UICONTROL Launch application on login]
+* [!UICONTROL Launch application on login].
 
-* [!UICONTROL Show window when application starts]
+* [!UICONTROL Show window when application starts].
 
 * **[!UICONTROL Cache Directory]**：デスクトップアプリケーションのローカルキャッシュの場所（ローカルにダウンロードされたアセットが格納されます）
 
-* **[!UICONTROL Network Drive Letter]**：AEM DAM へのマッピングに使用されるドライブ文字。確信がない限り、この値を変更しないでください。デスクトップアプリケーションでは、Windows の任意のドライブ文字にマッピングできます。2 人のユーザーが異なるドライブ文字のアセットを配置した場合、互いに相手が配置したアセットは表示されません。アセットのパスが変更されます。アセットは、バイナリファイル（INDD など）に配置されたままで、削除されません。使用可能なすべてのドライブ文字がデスクトップアプリケーションに一覧表示され、最後に使用可能な文字（通常は `Z`）がデフォルトで使用されます。
+* **[!UICONTROL Network Drive Letter]**[!DNL Experience Manager]： DAM へのマッピングに使用されるドライブ文字。確信がない限り、この値を変更しないでください。デスクトップアプリケーションでは、Windows の任意のドライブ文字にマッピングできます。2 人のユーザーが異なるドライブ文字のアセットを配置した場合、互いに相手が配置したアセットは表示されません。アセットのパスが変更されます。アセットは、バイナリファイル（INDD など）に配置されたままで、削除されません。使用可能なすべてのドライブ文字がデスクトップアプリケーションに一覧表示され、最後に使用可能な文字（通常は `Z`）がデフォルトで使用されます。
 
 * **[!UICONTROL Maximum Cache Size]**：ローカルにダウンロードしたアセットの保存に使用できる、ハードディスク上のキャッシュのサイズ（GB 単位）
 
@@ -119,17 +119,17 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 * **[!UICONTROL Upload Acceleration]**：アプリケーションでアセットをアップロードする際に同時アップロードを使用して、アップロード速度を向上させることができます。スライダーを右に動かして、アップロードの同時実行性を高めることができます。スライダーが最も左側にある場合は、同時実行をおこなわないこと（シングルスレッドアップロード）を意味し、中央にある場合は 10 個の同時スレッドに相当し、右端の上限にある場合は 20 個の同時スレッドに相当します。同時実行性の上限を高くすると、ローカルマシンのプロセッサのリソース消費量が増えます。
 
-使用できない環境設定を更新するには、AEM サーバーからログアウトします。環境設定を更新した後、![環境設定の保存](assets/do-not-localize/save_preferences_da2.png)アイコンをクリックして、変更内容を保存します。
+To update the unavailable preferences, log out of the [!DNL Experience Manager] server. 環境設定を更新した後、![環境設定の保存](assets/do-not-localize/save_preferences_da2.png)アイコンをクリックして、変更内容を保存します。
 
 ![デスクトップアプリケーションの環境設定](assets/preferences_da2.png)
 
-*図：デスクトップアプリケーションの環境設定*
+*図：デスクトップアプリケーションの環境設定.*
 
 ## デスクトップアプリケーションのアンインストール {#uninstall-the-app}
 
 Windows でデスクトップアプリケーションをアンインストールするには、次の手順に従います。
 
-1. AEM に変更内容をすべてアップロードして、編集内容が失われないようにします。詳しくは、[アセットの編集と AEM への更新済みアセットのアップロード](using.md#edit-assets-upload-updated-assets)を参照してください。ログオフし、デスクトップアプリケーションの「[!UICONTROL Exit]」を実行します。
+1. Upload all your changes to [!DNL Experience Manager] to avoid losing any edits. 詳しくは、[アセットの編集と への更新済みアセットのアップロード [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets)を参照してください。ログオフし、デスクトップアプリケーションの「[!UICONTROL Exit]」を実行します。
 
 1. 他の OS アプリケーションを削除する場合と同様に、デスクトップアプリケーションを削除します。Windows のプログラムの追加と削除からアンインストールします。
 
@@ -141,7 +141,7 @@ Windows でデスクトップアプリケーションをアンインストール
 
 Mac でデスクトップアプリケーションをアンインストールするには、次の手順に従います。
 
-1. AEM に変更内容をすべてアップロードして、編集内容が失われないようにします。詳しくは、[アセットの編集と AEM への更新済みアセットのアップロード](using.md#edit-assets-upload-updated-assets)を参照してください。ログオフし、デスクトップアプリケーションの「[!UICONTROL Exit]」を実行します。
+1. Upload all your changes to [!DNL Experience Manager] to avoid losing any edits. 詳しくは、[アセットの編集と への更新済みアセットのアップロード [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets)を参照してください。ログオフし、デスクトップアプリケーションの「[!UICONTROL Exit]」を実行します。
 
 1. `/Applications` から `Adobe Experience Manager Desktop.app` を削除します。
 
