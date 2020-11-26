@@ -1,23 +1,19 @@
 ---
 title: Adobe Experience Manager デスクトップアプリケーションの使用
 description: Adobe Experience Manager デスクトップアプリケーションをインストールして使用し、Windows または Mac デスクトップから直接 Adobe Experience Manager DAM Assets を操作する方法について説明します。ベストプラクティスとトラブルシューティングの情報を把握します。
-uuid: 55057617-89de-43cd-8419-1252a42ab2fb
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: ht
-source-wordcount: '3993'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+workflow-type: tm+mt
+source-wordcount: '4022'
+ht-degree: 79%
 
 ---
 
 
-# Adobe Experience Manager デスクトップアプリケーションの使用 {#use-aem-desktop-app-v2}
+# Use [!DNL Adobe Experience Manager] desktop app {#use-aem-desktop-app-v2}
 
-Adobe Experience Manager（AEM）デスクトップアプリケーションを使用すると、ローカルデスクトップ上で Adobe Experience Manager DAM Assets に簡単にアクセスして、これらのアセットを任意のデスクトップアプリケーションで使用することができます。デスクトップアプリケーションでアセットを開き、アセットをローカルで編集できます。その後、バージョン管理を使用して変更を元の Adobe Experience Manager にアップロードし、更新内容を他のユーザーと共有できます。また、新しいファイルおよびフォルダー階層を Adobe Experience Manager にアップロードしたり、フォルダーを作成したり、Adobe Experience Manager DAM からアセットやフォルダーを削除したりすることもできます。
+Use the [!DNL Adobe Experience Manager] desktop app, to easily access the Adobe Experience Manager DAM assets on your local desktop and use these assets in any desktop applications. デスクトップアプリケーションでアセットを開き、アセットをローカルで編集できます。その後、バージョン管理を使用して変更を元の Adobe Experience Manager にアップロードし、更新内容を他のユーザーと共有できます。また、新しいファイルおよびフォルダー階層を Adobe Experience Manager にアップロードしたり、フォルダーを作成したり、Adobe Experience Manager DAM からアセットやフォルダーを削除したりすることもできます。
 
 この統合により、組織内の様々な役割のユーザーがアセットを Adobe Experience Manager Assets で一元管理し、Windows または Mac OS のローカルデスクトップでネイティブアプリケーションからアセットにアクセスできます。
 
@@ -44,25 +40,25 @@ Adobe Experience Manager デスクトップアプリケーションを使用し�
 
 * ファイルのステータスが「**[!UICONTROL Modified remotely]**」：ダウンロードしたアセットが Adobe Experience Manager サーバー上で変更されたことをデスクトップアプリケーションが知らせます。また、最新バージョンをダウンロードするか、ローカルコピーを更新するかの選択肢も提示されます。詳しくは、[編集上の競合の回避方法](using.md#adv-workflow-collaborate-avoid-conflicts)を参照してください。
 
-* **[!UICONTROL Check-out]**：ファイルを編集しようとしている場合やファイルを編集する予定である場合は、ステータスをチェックアウトに切り替えます。デスクトップアプリケーションと AEM Web インターフェイスで、アセットにロックアイコンが表示されます。ロックアイコンは、編集上の競合が発生するので同じアセットを同時に編集しないように他のユーザーに指示する働きをします。
+* **[!UICONTROL Check-out]**：ファイルを編集しようとしている場合やファイルを編集する予定である場合は、ステータスをチェックアウトに切り替えます。アプリケーションおよびExperience ManagerのWebインターフェイスのアセットに錠前のアイコンが追加されます。 ロックアイコンは、編集上の競合が発生するので同じアセットを同時に編集しないように他のユーザーに指示する働きをします。
 
 * **[!UICONTROL Check-in]**：編集上の競合が発生することなく他のユーザーが安全にアセットを編集できることを知らせます。変更内容をアップロードすると、ロックアイコンは自動的に削除されます。チェックインステータスに切り替えた場合も、ロックアイコンが削除されますが、変更内容をアップロードせずに手動でチェックインすることは避けた方がよいでしょう。変更内容を破棄した場合は、手動でチェックインに切り替えます。
 
 * 「**[!UICONTROL Open]**」アクション：アセットを開いて、ネイティブアプリケーションでプレビューするだけです。このアクションではアセットはチェックアウトされず、他のユーザーが編集をおこなえるので、編集上の競合が発生する可能性があります。そのため、このアクションを使用してアセットを編集することはお勧めしません。
 
-* 「**[!UICONTROL Edit]**」アクション：アセットを編集できます。「[!UICONTROL Edit]」アクションをクリックすると、アセットが自動的にチェックアウトされ、アセットにロックアイコンが表示されます。このアクションをクリックした後、アセットを編集しない場合は、「[!UICONTROL Toggle check-in]」をクリックします。AEM DAM フォルダー階層内のアセットを削除、名前変更または移動するには、編集アクションではなく、AEM Web インターフェイスのアクションを使用します。
+* 「**[!UICONTROL Edit]**」アクション：アセットを編集できます。「[!UICONTROL Edit]」アクションをクリックすると、アセットが自動的にチェックアウトされ、アセットにロックアイコンが表示されます。このアクションをクリックした後、アセットを編集しない場合は、「[!UICONTROL Toggle check-in]」をクリックします。Experience ManagerDAMフォルダー階層内のアセットを削除、名前変更または移動するには、編集アクションではなく、Experience ManagerWebインターフェイスアクションを使用します。
 
 * 「**[!UICONTROL Download]**」アクション：アセットをローカルマシンにダウンロードします。アセットをすぐにダウンロードし、後で編集できます。オフラインで作業し、後で変更内容をアップロードすることができます。アセットは、ファイルシステム上のキャッシュフォルダーにダウンロードされます。
 
 * 「**[!UICONTROL Reveal File]**」または「**[!UICONTROL Reveal Folder]**」アクション：アセットがローカルキャッシュフォルダーにダウンロードされると、デスクトップアプリケーションはローカルネットワークドライブを模倣し、各アセットのローカルパスを提供します。このパスを確認するには、デスクトップアプリケーションで適切な表示オプションを使用します。Creative Cloud アプリケーションにアセットを配置するには、このアクションが必要です。詳しくは、[アセットの配置](using.md#place-assets-in-native-documents)を参照してください。
 
-* 「**[!UICONTROL Open In Web]**」アクション：AEM Web インターフェイスでアセットを確認するには、アセットを Web で開きます。AEM インターフェイスからは、メタデータの更新やアセットの検出など、さらに多くのワークフローを開始できます。
+* **[!UICONTROL Open In Web]** action:アセットをExperience ManagerWebインターフェイスで表示するには、Webで開きます。 メタデータの更新やアセットの検出など、Experience Managerインターフェイスからさらに多くのワークフローを開始できます。
 
-* 「**[!UICONTROL Delete]**」アクション：AEM DAM リポジトリからアセットを削除します。このアクションで、AEM サーバーにあるアセットの元のコピーが削除されます。ローカルアセットに対する変更だけを破棄する場合は、[変更の破棄](using.md#edit-assets-upload-updated-assets)を参照してください。
+* **[!UICONTROL Delete]** action:Experience ManagerDAMリポジトリからアセットを削除します。 この操作により、Experience Managerサーバー上のアセットの元のコピーが削除されます。 ローカルアセットに対する変更だけを破棄する場合は、[変更の破棄](using.md#edit-assets-upload-updated-assets)を参照してください。
 
-* 「**[!UICONTROL Upload Changes]**」アクション：AEM サーバーに明示的にアップロードする場合にのみ、デスクトップアプリケーションは更新されたアセットをアップロードします。編集内容を保存しても、変更内容はローカルマシンにのみ保存されます。アップロードすると、アセットは自動的にチェックインされ、ロックアイコンが削除されます。詳しくは、[アセットの編集](using.md#edit-assets-upload-updated-assets)を参照してください。
+* **[!UICONTROL Upload Changes]**:デスクトップアプリは、Experience Managerサーバーに明示的にアップロードする場合にのみ、更新されたアセットをアップロードします。 編集内容を保存しても、変更内容はローカルマシンにのみ保存されます。アップロードすると、アセットは自動的にチェックインされ、ロックアイコンが削除されます。詳しくは、[アセットの編集](using.md#edit-assets-upload-updated-assets)を参照してください。
 
-## AEM Web インターフェイスでのデスクトップアクションの有効化 {#desktopactions-v2}
+## Enable desktop actions in Experience Manager web interface {#desktopactions-v2}
 
 ブラウザーの Assets ユーザーインターフェイスから、アセットの場所を参照したり、アセットをチェックアウトしてデスクトップアプリケーションで編集用に開くことができます。これらのオプションは「[!UICONTROL Desktop Actions]」と呼ばれ、デフォルトでは有効になっていません。有効にするには、次の手順に従います。
 
@@ -76,7 +72,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用し�
 
 ## アセットの参照、検索、プレビュー {#browse-search-preview-assets}
 
-AEM リポジトリで使用可能なアセットをデスクトップアプリケーション内から参照、検索およびプレビューできます。それには、デスクトップアプリケーションで以下をおこないます。
+Experience Managerリポジトリで使用可能なアセットを参照、検索、プレビューできます。すべてデスクトップアプリケーション内で実行できます。 それには、デスクトップアプリケーションで以下をおこないます。
 
 1. フォルダーを参照し、そのフォルダー内で使用可能なアセットの基本情報と、すべてのアセットの小さなサムネールを確認します。
 
@@ -87,7 +83,7 @@ AEM リポジトリで使用可能なアセットをデスクトップアプリ�
    ![アセットとアクションの大きいプレビューの表示](assets/large_preview_actions_da2.png "アセットとアクションの大きいプレビューの表示")
 
 1. 「**[!UICONTROL Open]**」または「**[!UICONTROL Edit]**」をクリックすると、ファイルがローカルにダウンロードされ、それぞれネイティブアプリケーションでファイルを表示または編集することができます。
-1. キーワードを使用して検索すると、AEM リポジトリ内の関連アセットを見つけることができます。`?` や `*` をワイルドカードとして使用します。これらのワイルドカードは、それぞれ 1 文字または複数文字に置き換えられます。必要に応じて、検索結果をフィルタリングしたり並べ替えたりします。
+1. キーワードを使用して検索を行い、Experience Managerリポジトリ内の関連アセットを検索します。 `?` や `*` をワイルドカードとして使用します。これらのワイルドカードは、それぞれ 1 文字または複数文字に置き換えられます。必要に応じて、検索結果をフィルタリングしたり並べ替えたりします。
 
    ![アスタリスクワイルドカードを使用した検索例](assets/search_wildcard_da2.png "アスタリスクワイルドカードを使用した検索例")
 
@@ -99,7 +95,7 @@ AEM リポジトリで使用可能なアセットをデスクトップアプリ�
 
 ## アセットのダウンロード {#download-assets}
 
-アセットはローカルファイルシステムにダウンロードできます。デスクトップアプリケーションは AEM サーバーからアセットを取得し、それと同じコピーをローカルファイルシステムに保存します。
+アセットはローカルファイルシステムにダウンロードできます。アプリケーションは、Experience Managerサーバーからアセットを取得し、同じコピーをローカルファイルシステムに保存します。
 
 ![その他のオプション](assets/do-not-localize/more2_da2.png)アイコンをクリックし、![ダウンロード](assets/do-not-localize/download_cloud_da2.png)アイコンをクリックしてダウンロードします。
 
@@ -113,7 +109,7 @@ AEM リポジトリで使用可能なアセットをデスクトップアプリ�
 
 ![比較的多くのアセットをダウンロードする場合の確認](assets/download_confirmation_da2.png "比較的多くのアセットをダウンロードする場合の確認")
 
-フォルダーを選択してダウンロードした場合、AEM のフォルダーに直接保存されているアセットのみダウンロードされます。サブフォルダー内のアセットが自動的にダウンロードされることはありません。
+フォルダを選択してダウンロードすると、Experience Manager内のフォルダに直接保存されているアセットのみがダウンロードされます。 サブフォルダー内のアセットが自動的にダウンロードされることはありません。
 
 ## デスクトップでアセットを開く {#openondesktop-v2}
 
@@ -136,21 +132,21 @@ AEM リポジトリで使用可能なアセットをデスクトップアプリ�
 
 ![アセットの「Reveal File」アクション](assets/revealfile_action_da2.png "アセットの「Reveal File」アクション")
 
-事前にローカルマシン上でファイルまたはフォルダーを選択して、「**[!UICONTROL Reveal File]**」または「**[!UICONTROL Reveal Folder]**」（フォルダーの場合）をクリックすると、Windows エクスプローラーまたは Mac Finder が開き、選択したファイルまたはフォルダーが表示されます。このオプションは、ローカルファイルの配置やリンクをサポートしているネイティブアプリケーションに AEM ファイルを配置する場合などに役に立ちます。Adobe InDesign にファイルを配置する方法については、[グラフィックの配置](https://helpx.adobe.com/jp/indesign/using/placing-graphics.html)を参照してください。
+事前にローカルマシン上でファイルまたはフォルダーを選択して、「**[!UICONTROL Reveal File]**」または「**[!UICONTROL Reveal Folder]**」（フォルダーの場合）をクリックすると、Windows エクスプローラーまたは Mac Finder が開き、選択したファイルまたはフォルダーが表示されます。このオプションは、ローカルファイルの配置やリンクをサポートするネイティブアプリケーションにExperience Managerファイルを配置する場合などに役立ちます。 Adobe InDesign にファイルを配置する方法については、[グラフィックの配置](https://helpx.adobe.com/jp/indesign/using/placing-graphics.html)を参照してください。
 
-「**[!UICONTROL Reveal File]**」アクションを実行すると、ローカルネットワーク共有が開き、ローカルで使用可能なアセットのみ表示されます。つまり、デスクトップアプリケーションを使用して表示、ダウンロードまたは開いて編集したアセットが表示されます。ローカルネットワーク共有からは、変更内容が AEM にアップロードされません。変更内容をアップロードするには、デスクトップアプリケーションで明示的に「**[!UICONTROL Upload Changes]**」または「**[!UICONTROL Upload]**」アクションを使用します。
+「**[!UICONTROL Reveal File]**」アクションを実行すると、ローカルネットワーク共有が開き、ローカルで使用可能なアセットのみ表示されます。つまり、デスクトップアプリケーションを使用して表示、ダウンロードまたは開いて編集したアセットが表示されます。ローカルネットワーク共有は、変更をExperience Managerにアップロードしません。 変更内容をアップロードするには、デスクトップアプリケーションで明示的に「**[!UICONTROL Upload Changes]**」または「**[!UICONTROL Upload]**」アクションを使用します。
 
 >[!NOTE]
 >
->AEM デスクトップアプリケーション v1.x との下位互換性を保つため、表示されるファイルはローカルネットワーク共有から提供され、ローカルで使用可能なファイルのみ公開されます。表示されるファイルのデスクトップパスは、デスクトップアプリケーション v1.x で作成されたパスと同じです。
+>Experience Managerのデスクトップアプリケーションv1.xとの下位互換性を確保するため、表示されるファイルはローカルネットワーク共有から提供され、ローカルで使用できるファイルのみが公開されます。 表示されるファイルのデスクトップパスは、デスクトップアプリケーション v1.x で作成されたパスと同じです。
 
 >[!CAUTION]
 >
 >「**[!UICONTROL Reveal File]**」オプションを使用してネイティブアプリケーションでアセットを編集しないでください。代わりに、「**[!UICONTROL Edit]**」アクションを使用します。詳しくは、[高度なワークフロー：同じファイルに対する共同作業と編集上の競合の回避](#adv-workflow-collaborate-avoid-conflicts)を参照してください。
 
-## アセットの編集と AEM への更新済みアセットのアップロード {#edit-assets-upload-updated-assets}
+## Edit assets and upload updated assets to Experience Manager {#edit-assets-upload-updated-assets}
 
-アセットに変更を加え、更新したアセットを AEM サーバーにアップロードする際場合は、アセットを編集用に開きます。他のユーザーの編集内容と競合しないように、デスクトップアプリケーションを使用して編集セッションを開始します。編集を開始する前に、アセットにロックアイコンが付いていないこと、つまり別のユーザーがアセットを編集していないことを確認します。
+変更を加える際に、編集用にアセットを開き、更新したアセットをExperience Manager EMサーバーにアップロードします。 他のユーザーの編集内容と競合しないように、デスクトップアプリケーションを使用して編集セッションを開始します。編集を開始する前に、アセットにロックアイコンが付いていないこと、つまり別のユーザーがアセットを編集していないことを確認します。
 
 アセットを編集するには、該当するアセットを検索するか、アセットの場所を参照します。![その他](assets/do-not-localize/more2_da2.png)アイコンをクリックし、「**[!UICONTROL Edit]**」をクリックします。
 
@@ -159,7 +155,7 @@ AEM リポジトリで使用可能なアセットをデスクトップアプリ�
 * 先にアセットをチェックアウトせずに（例えば単に開いて）アセットの編集を開始した。
 * アセットの編集をすぐに開始するつもりであり、他のユーザーには編集されないようにしたい。
 
-編集が完了すると、変更したアセットのステータスが「**[!UICONTROL Edited Locally]**」としてデスクトップアプリケーションに表示されます。アセットに保存した変更は、AEM にアップロードするまでは、すべてローカルのみの変更になります。個々のアセットまたは複数のアセットを 1 つずつアップロードするには、アセットのオプションから「**[!UICONTROL Upload Changes]**」をクリックします。そのアセットの 1 つのバージョンが AEM に作成されます。AEM Assets の Web インターフェイスを使用して、[タイムラインビュー](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=ja)でアセット履歴を参照できます。
+編集が完了すると、変更したアセットのステータスが「**[!UICONTROL Edited Locally]**」としてデスクトップアプリケーションに表示されます。アセットに保存された変更はすべて、Experience Managerにアップロードするまで、ローカルのみに反映されます。 個々のアセットまたは複数のアセットを 1 つずつアップロードするには、アセットのオプションから「**[!UICONTROL Upload Changes]**」をクリックします。Experience Manager内にアセットのバージョンが作成されます。 Using the web interface of [!DNL Assets], you can see asset history in the [Timeline view](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=ja).
 
 ![デスクトップアプリケーションの「Upload Changes」オプション](assets/upload_changes_single1_da2.png "デスクトップアプリケーションの「Upload Changes」オプション")
 
@@ -169,15 +165,15 @@ AEM リポジトリで使用可能なアセットをデスクトップアプリ�
 
 次の場合は、ローカルアセットに対する変更や編集を破棄することができます。「**[!UICONTROL Discard Changes]**」をクリックします。
 
-* ローカルの変更内容を AEM に保存しない場合。
+* ローカルの変更をExperience Managerに保存しない場合。
 * 変更内容を保存した後、元のアセットに対する変更を開始した場合。
 * 必要なくなったのでアセットの編集を停止した場合。
 
 必要に応じて、チェックアウトを切り替えます。更新されたアセットがローカルキャッシュフォルダーから削除され、編集時または開く際に再度ダウンロードされます。
 
-## AEM への新しいアセットのアップロードと追加 {#upload-and-add-new-assets-to-aem}
+## Upload and add new assets to Experience Manager {#upload-and-add-new-assets-to-aem}
 
-ユーザーは、DAM リポジトリに新しいアセットを追加できます。例えば、代理店のカメラマンや請負業者であれば、撮影した大量の写真を AEM リポジトリに追加したいと考えるかもしれません。新しいコンテンツを AEM に追加するには、デスクトップアプリケーションの上部バーにある![クラウドにアップロード](assets/do-not-localize/upload_to_cloud_da2.png)アイコンをクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。アセットのアップロードが開始され、アップロードに時間がかかる場合は、デスクトップアプリケーションの下部に進行状況バーが表示されます。フォルダーの作成やアップロード時には、空白や無効な文字を使用しないでください。該当する文字のリストについては、[AEM Assets でのフォルダーの作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=ja#creating-folders)を参照してください。
+ユーザーは、DAM リポジトリに新しいアセットを追加できます。例えば、代理店の写真家や契約業者で、写真からExperience Managerリポジトリに多数の写真を追加したい場合があります。 To add fresh content to Experience Manager, click ![Upload to cloud icon](assets/do-not-localize/upload_to_cloud_da2.png) in the top-bar of the app. ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。アセットのアップロードが開始され、アップロードに時間がかかる場合は、デスクトップアプリケーションの下部に進行状況バーが表示されます。フォルダーの作成やアップロード時には、空白や無効な文字を使用しないでください。See a list of characters at [Create folders in [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=ja#creating-folders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
@@ -196,7 +192,7 @@ AEM リポジトリで使用可能なアセットをデスクトップアプリ�
 
 >[!NOTE]
 >
->ファイルのアップロードに失敗した場合や、AEM 6.5.1 以降のデプロイメントに接続する場合は、この[トラブルシューティング情報](troubleshoot.md#upload-fails)を参照してください。
+>If the files fail to upload and if you are connecting to Experience Manager 6.5.1 or later deployment, see this [troubleshooting information](troubleshoot.md#upload-fails).
 
 ## 複数アセットの操作 {#work-with-multiple-assets}
 
@@ -224,23 +220,23 @@ AEM リポジトリで使用可能なアセットをデスクトップアプリ�
 
 ### アセットの一括アップロード {#bulk-upload-assets}
 
-カメラマンやクリエイティブ制作代理店などのユーザーや組織は、AEM の外部でおこなった撮影、レタッチ、大量の写真からの選択などの状況で、多数のローカルアセットを作成する可能性があります。これらの大きなローカルフォルダーを、デスクトップアプリケーションから直接 AEM Assets にアップロードできます。フォルダー階層が保持され、ネストしたサブフォルダーとその中に含まれているアセットがすべてアップロードされます。アップロードしたアセットは、同じサーバーの他のユーザーからもすぐに利用できます。アセットはバックグラウンドでアップロードされるので、操作が Web ブラウザーセッションに縛られることはありません。
+写真家やクリエイティブエージェンシーなどのユーザーや組織は、撮影、レタッチ、Experience Manager外で行った大きなセットからの選択など、シナリオで多数のローカルアセットを作成できます。 They can upload these large local folders to [!DNL Assets] directly from the desktop app. フォルダー階層が保持され、ネストしたサブフォルダーとその中に含まれているアセットがすべてアップロードされます。アップロードしたアセットは、同じサーバーの他のユーザーからもすぐに利用できます。アセットはバックグラウンドでアップロードされるので、操作が Web ブラウザーセッションに縛られることはありません。
 
-![デスクトップから AEM への複数のローカルフォルダーの一括アップロード](assets/upload_local_folders_da2.png "デスクトップから AEM への複数のローカルフォルダーの一括アップロード")
+![複数のローカルフォルダーをデスクトップからExperience](assets/upload_local_folders_da2.png "Managerに一括アップロードデスクトップからExperience Managerに一括アップロード")
 
 アップロード後に、期待した変更がデスクトップアプリケーションに反映されない場合は、更新アイコン![更新アイコン](assets/do-not-localize/refresh.png)をクリックします。
 
 >[!NOTE]
 >
->アップロード機能を使用して 2 つの AEM デプロイメントをまたいでアセットを移行することは避けてください。その代わり、[移行ガイド](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html?lang=ja)を参照してください。
+>2つのExperience Managerデプロイメント間でアセットを移行する場合は、アップロード機能を使用しないでください。 その代わり、[移行ガイド](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html?lang=ja)を参照してください。
 
 ### 転送したアセットのリスト {#list-of-transferred-assets}
 
-特定のセッションで転送されたアセットのリストを表示するには、[AEM へのアセットのアップロード](#upload-and-add-new-assets-to-aem)を参照してください。
+To view the list of assets transferred in a given session, see [Upload assets to Experience Manager](#upload-and-add-new-assets-to-aem).
 
-## 高度なワークフロー：AEM Assets Web インターフェイスからの開始 {#adv-workflow-start-from-aem-ui}
+## Advanced workflow: start from the [!DNL Assets] web interface {#adv-workflow-start-from-aem-ui}
 
-必要に応じて、AEM Assets Web インターフェイスからワークフローを開始します。デスクトップアプリケーションは AEM と統合されており、デスクトップアクションを使用して操作が要求された場合、その処理を引き継ぎます。
+必要に応じて、 Assets Web インターフェイスからワークフローを開始します。デスクトップアプリは、Experience Managerと統合され、Desktop Actionsを使用して要求されたときに引き継がれます。
 
 Web インターフェイスからワークフローを開始する特殊なケースに、アセット検出があります。Assets ユーザーインターフェイスのオムニサーチバーを利用すると、各種の高度な検索を実行できます。まず Web 上で目的のアセットを探してから、「[!UICONTROL Desktop Actions]」を使用してデスクトップアプリケーションでワークフローを開始することができます。例えば、ファセットを使用した検索結果のフィルタリング、Adobe Stock からライセンスを取得した特定アセットの検索、Web インターフェイスからの検出を強化できるカスタマイズの組織的実装などがあります。
 
@@ -252,7 +248,7 @@ Assets Web インターフェイスで以下のアクションを実行しよう
 
 例えば、デスクトップアプリケーションでチェックアウトされたアセットに対して Web インターフェイス上で使用できるアクションは、「[!UICONTROL Open]」、「[!UICONTROL Reveal]」、「[!UICONTROL Check-in]」です。
 
-![AEM Web インターフェイスのデスクトップアクション ](assets/assets_web_actions_da2.png "AEM Web インターフェイスのデスクトップアクション")
+![デスクトップExperience ManagerWebインターフェイスのDesktop](assets/assets_web_actions_da2.png "Experience ManagerWebインターフェイスのDesktopアクション")
 
 >[!NOTE]
 >
@@ -262,7 +258,7 @@ Web インターフェイスを使用しても、以下の情報やワークフ�
 
 * ローカルで編集されたファイル
 * 編集上の競合とその解決方法があるファイル
-* AEM へのローカル変更のアップロード
+* ローカルでの変更をExperience Managerにアップロードします。
 * ローカルで使用できるファイルの様々なステータス
 
 むしろ、「**[!UICONTROL Open In Web]**」アクションを使用して、デスクトップアプリケーションから Web インターフェイスを起動し、そこにアセットを開くことができます。
@@ -279,7 +275,7 @@ Web インターフェイスを使用しても、以下の情報やワークフ�
 
 ![編集上の競合を示すステータス](assets/edits_conflicts_status_da2.png "編集上の競合を示すステータス")
 
-ローカルにダウンロードしたアセットが AEM サーバー上で更新されると、デスクトップアプリケーションに「**[!UICONTROL Modified remotely]**」ステータスが表示されます。「[!UICONTROL Remove]」か「[!UICONTROL Update]」をクリックして、ローカルコピーを削除するか更新することができます。ダイアログ上のリンクを使用すると、アセットのどちらのバージョンも表示できます。
+If a locally downloaded asset is updated on the Experience Manager server, the app displays a **[!UICONTROL Modified remotely]** status. 「[!UICONTROL Remove]」か「[!UICONTROL Update]」をクリックして、ローカルコピーを削除するか更新することができます。ダイアログ上のリンクを使用すると、アセットのどちらのバージョンも表示できます。
 
 ![アセットがリモートで変更された場合に競合を解決するオプション](assets/modified_remotely_dialog_da2.png "アセットがリモートで変更された場合に競合を解決するオプション")
 
@@ -289,9 +285,9 @@ Web インターフェイスを使用しても、以下の情報やワークフ�
 
 ## 高度なワークフロー：InDesign ファイルへのアセットの配置とリンク {#adv-workflow-place-assets-indesign}
 
-AEM デスクトップアプリケーションを使用して、リンクされたアセットを含んだファイルを開くと、そのアセットは事前にダウンロードされ、ネイティブアプリケーションに配置されて表示されます。このワークフローが機能するには、ローカルアセットへのリンクの配置がネイティブアプリケーションでサポートされている必要があり、AEM ではサーバー側参照へのリンクをバイナリファイル内で解決できる必要があります。
+Experience Managerデスクトップアプリを使用して、リンクされたアセットが含まれるファイルを開くと、アセットは事前にダウンロードされ、ネイティブアプリケーションに配置されて表示されます。 このワークフローを機能させるには、ネイティブアプリケーションでローカルアセットへのリンクの配置がサポートされている必要があり、Experience Managerでは、これらのリンクをサーバー側参照に対するバイナリファイルで解決できる必要があります。
 
-AEM デスクトップアプリケーションでは、Adobe InDesign、Adobe Illustrator、Adobe Photoshop など、厳選されたいくつかの Adobe Creative Cloud デスクトップアプリケーションおよびファイル形式で、このワークフローをサポートしています。このワークフローを使用すると、サポートされている Creative Cloud ファイルを効率的に操作できます。そのため、ユーザー A が InDesign ファイルにアセットをいくつか配置し、そのファイルを AEM にチェックインすると、そのアセットが InDesign ファイルに含まれていなくても、ユーザー B にはアセットがファイルに表示されます。このアセットは、ユーザー B のマシンにローカルでダウンロードされます。
+Experience Managerのデスクトップアプリケーションは、Adobe InDesign、Adobe Illustrator、Adobe Photoshopなど、Adobe Creative Cloudの一部のデスクトップアプリケーションとファイル形式で、このワークフローをサポートしています。 このワークフローを使用すると、サポートされている Creative Cloud ファイルを効率的に操作できます。したがって、ユーザAがInDesignファイルにいくつかのアセットを配置し、それをExperience Managerにチェックインすると、ユーザBは、そのアセットがファイルの一部ではないにもかかわらず、InDesignファイル内のアセットを確認します。 このアセットは、ユーザー B のマシンにローカルでダウンロードされます。
 
 >[!NOTE]
 >
@@ -301,16 +297,16 @@ AEM デスクトップアプリケーションでは、Adobe InDesign、Adobe Il
 
 画像アセットと InDesign でこのワークフローを試すには、以下の手順に従います。
 
-1. アセットを配置した INDD ファイルを AEM に用意します。このような INDD ファイルの作成方法については、[グラフィックの配置](https://helpx.adobe.com/jp/indesign/using/placing-graphics.html)を参照してください。
-1. デスクトップアプリケーションの「**[!UICONTROL Edit]**」で、（AEM にある）アセットを配置した INDD ファイルを編集します。
+1. INDDファイルを保存し、アセットをExperience Managerに配置しておきます。 このような INDD ファイルの作成方法については、[グラフィックの配置](https://helpx.adobe.com/jp/indesign/using/placing-graphics.html)を参照してください。
+1. From within desktop app, **[!UICONTROL Edit]** the INDD file with placed assets in Experience Manager.
 1. デスクトップアプリケーションが、InDesign ファイルおよびリンクされたアセットを両方ともダウンロードします。ドキュメントが InDesign で開かれると、リンクが解決され、アセットがダウンロードされて InDesign ドキュメントに表示されます。
 1. InDesign ファイルに新しいグラフィックを配置するには、アセットに対して「**[!UICONTROL Reveal File]**」アクションを使用します。このアクションにより、アセットがローカルにダウンロードされ、ローカルネットワーク共有の場所が Windows エクスプローラーまたは Mac Finder で開かれます。
 1. 表示されたアセットを InDesign ドキュメントに配置します。これで、ドキュメントにリンクが作成されます。
-1. InDesign ドキュメントの編集が完了したら、ドキュメントを保存し、デスクトップアプリケーションを使用して AEM にアップロードします。
+1. InDesignドキュメントでの編集が完了したら、保存し、デスクトップアプリを使用してExperience Managerにアップロードします。
 
 ## 高度なワークフロー：アセットのローカルダウンロード {#adv-workflow-download-assets-locally}
 
-デスクトップアプリケーションは、多くの状況で、AEM サーバーからユーザーのファイルシステムにアセットをローカルにダウンロードします。ダウンロードすると、帯域幅とディスク容量を消費します。状況を把握することで、ダウンロードが完了するまでの待ち時間を最適化できます。
+多くのシナリオで、Experience Managerサーバーからローカルのファイルシステム上にアセットがダウンロードされます。 ダウンロードすると、帯域幅とディスク容量を消費します。状況を把握することで、ダウンロードが完了するまでの待ち時間を最適化できます。
 
 デスクトップアプリケーション内からアセットをオンデマンドでダウンロードします。詳しくは、[アセットのダウンロード](#download-assets)を参照してください。
 
@@ -318,6 +314,6 @@ AEM デスクトップアプリケーションでは、Adobe InDesign、Adobe Il
 
 デスクトップアプリケーション内からアセットまたはフォルダーの場所を表示すると、そのアセットまたはフォルダーはまずローカルにダウンロードされてから、ユーザーのコンピューター上のローカルネットワーク共有内で開かれます。詳しくは、[アセットを開く](#openondesktop-v2)を参照してください。
 
-「[!UICONTROL Edit]」アクションを使用してネイティブデスクトップアプリケーションでアセットを編集すると、そのアセットがまだローカルで使用できない場合は、ローカルにダウンロードされます。詳しくは、[アセットの編集と AEM への更新済みアセットのアップロード](#edit-assets-upload-updated-assets)を参照してください。
+「[!UICONTROL Edit]」アクションを使用してネイティブデスクトップアプリケーションでアセットを編集すると、そのアセットがまだローカルで使用できない場合は、ローカルにダウンロードされます。See [Edit assets and upload updated assets to Experience Manager](#edit-assets-upload-updated-assets).
 
-デスクトップアプリケーションがインストール済みで、アクションの権限がある場合は、AEM Web インターフェイスで「[!UICONTROL Desktop Actions]」を使用すると、該当するアクションが実行されます。デスクトップアプリケーションはまずアセットをダウンロードしてから、アクションを実行します。
+If the app is installed and permitted to, it completes the actions when you use [!UICONTROL Desktop Actions] from Experience Manager web interface. デスクトップアプリケーションはまずアセットをダウンロードしてから、アクションを実行します。
