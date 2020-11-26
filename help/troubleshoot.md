@@ -8,18 +8,18 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: ht
-source-wordcount: '2228'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+workflow-type: tm+mt
+source-wordcount: '2171'
+ht-degree: 91%
 
 ---
 
 
 # Adobe Experience Manager デスクトップアプリケーションのトラブルシューティング {#troubleshoot-v2}
 
-Adobe Experience Manager（AEM）デスクトップアプリケーションは、リモート Adobe Experience Manager デプロイメントのデジタルアセット管理（DAM）リポジトリに接続します。デスクトップアプリケーションは、ユーザーのコンピューター上でリポジトリ情報と検索結果を取得し、ファイルやフォルダーをダウンロードおよびアップロードします。また、AEM Assets ユーザーインターフェイスとの競合を管理する機能も備えています。
+Adobe Experience Managerデスクトップアプリは、リモートExperience Manager展開のDigital Asset Management(DAM)リポジトリに接続します。 デスクトップアプリケーションは、ユーザーのコンピューター上でリポジトリ情報と検索結果を取得し、ファイルやフォルダーをダウンロードおよびアップロードします。また、 Assets ユーザーインターフェイスとの競合を管理する機能も備えています。
 
 デスクトップアプリケーションのトラブルシューティング、ベストプラクティス、制限事項について説明します。
 
@@ -105,7 +105,7 @@ Mac でアプリケーションをデバッグモードで使用するには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します。
 
-   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
 
 Windows でデバッグモードを有効にするには：
 
@@ -113,13 +113,13 @@ Windows でデバッグモードを有効にするには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します。
 
-`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
 ### キャッシュのクリア {#clear-cache-v2}
 
 以下の手順を実行します。
 
-1. アプリケーションを起動し、AEM インスタンスに接続します。
+1. アプリケーションを開始し、Experience Managerインスタンスを接続します。
 
 1. 右上隅の三点リーダーアイコンをクリックし「[!UICONTROL Preferences]」を選択して、アプリケーションの環境設定を開きます。
 
@@ -163,9 +163,9 @@ Windows でデバッグモードを有効にするには：
 
 * ファイルサイズ。サイズの大きいアセットは、ダウンロードと表示に時間がかかります。
 
-* ドライブ文字の一貫性。AEM DAM を別のドライブ文字にマッピングしている間に、自分自身または他の共同利用者がアセットを配置した場合、配置されたアセットは表示されません。
+* ドライブ文字の一貫性。Experience ManagerDAMを別のドライブ文字にマッピングしているときに、他の共同作業者がアセットを配置した場合、配置されたアセットは表示されません。
 
-* 権限。配置されたアセットを取得する権限があるかどうかを確認するには、AEM 管理者に問い合わせてください。
+* 権限。配置されたアセットを取得する権限があるかどうかを確認するには、Experience Manager管理者に問い合わせてください。
 
 ### デスクトップアプリケーションのユーザーインターフェイスでおこなったファイルの編集は [!DNL Adobe Experience Manager] にすぐには反映されない {#changes-on-da-not-visible-on-aem}
 
@@ -173,7 +173,7 @@ Windows でデバッグモードを有効にするには：
 
 ### macOS でアップグレードする際の問題 {#issues-when-upgrading-on-macos}
 
-macOS で AEM デスクトップアプリケーションをアップグレードするときに問題が発生することがあります。これは、AEM デスクトップアプリケーションの古いシステムフォルダーによって、AEM デスクトップアプリケーションの新しいバージョンが正しく読み込まれなくなるからです。この問題を修正するには、以下のフォルダーおよびファイルを手動で削除します。
+macOSでExperience Managerデスクトップアプリをアップグレードする際に、問題が発生する場合があります。 これは、Experience Managerデスクトップアプリのレガシーシステムフォルダーが原因で、新しいバージョンのExperience Managerデスクトップアプリが正しく読み込めないことが原因です。 この問題を修正するには、以下のフォルダーおよびファイルを手動で削除します。
 
 以下の手順を実行する前に、`Adobe Experience Manager Desktop` アプリケーションを macOS のアプリケーションフォルダーからゴミ箱にドラッグします。次に、ターミナルを開き、以下のコマンドを実行します。パスワードを求められたら入力します。
 
@@ -188,7 +188,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ### ファイルをアップロードできない {#upload-fails}
 
-デスクトップアプリケーションを AEM 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。これで、[OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) に関連するファイルアップロード失敗の問題が解決されます。[インストール手順](install-upgrade.md#install-v2)を参照してください。
+Experience Manager6.5.1以降でデスクトップアプリを使用している場合は、S3またはAzureコネクタをバージョン1.10.4以降にアップグレードします。 これで、[OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) に関連するファイルアップロード失敗の問題が解決されます。[インストール手順](install-upgrade.md#install-v2)を参照してください。
 
 ### [!DNL Experience Manager] デスクトップアプリケーションの接続の問題 {#connection-issues}
 
@@ -212,13 +212,9 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 最初に要求されたパスに SAML プロセスがリダイレクトされない場合や、[!DNL Adobe Experience Manager] デスクトップアプリケーションで設定されたものとは異なるホストに最終的にリダイレクトされる場合があります。それに該当しないことを確かめるには：
 
-1. Web ブラウザーを開きます。
+1. Web ブラウザーを開きます。アクセス `https://[aem_server]:[port]/content/dam.json` URL
 
-1. アドレスバーに `<AEM host>/content/dam.json` という URL を入力します。
-
-   `<AEM host>` をターゲット [!DNL Adobe Experience Manager] インスタンス（例：`http://localhost:4502/content/dam.json`）に置き換えます。
-
-1. [!DNL Adobe Experience Manager] インスタンスにログインします。
+1. Log in to the [!DNL Adobe Experience Manager] deployment.
 
 1. ログインが完了したら、アドレスバーでブラウザーの現在のアドレスを確認します。このアドレスが、最初に入力した URL と正確に一致している必要があります。
 
@@ -259,10 +255,9 @@ SAML プロセスでこれらのブラウザーがサポートされているこ
 
 #### SSL 設定の問題 {#ssl-config-v2}
 
-AEM デスクトップアプリケーションが HTTP 通信に使用するライブラリは SSL を厳格に適用します。ブラウザーでは成功する接続が、AEM デスクトップアプリケーションでは失敗することがあります。SSL を適切に設定するには、不足している中間証明書を Apache にインストールします。[中間 CA の証明書を Apache にインストールする](https://access.redhat.com/solutions/43575)を参照してください。
+Experience ManagerのデスクトップアプリがHTTP通信に使用するライブラリは、厳密なSSL強制を使用します。 ブラウザーの使用に成功しても、Experience Managerデスクトップアプリケーションの使用に失敗する場合があります。 SSL を適切に設定するには、不足している中間証明書を Apache にインストールします。[中間 CA の証明書を Apache にインストールする](https://access.redhat.com/solutions/43575)を参照してください。
 
-
-AEM Desktop が HTTP 通信に使用するライブラリは SSL を厳格に適用します。そのため、ブラウザーで成功した SSL 接続でも、[!DNL Adobe Experience Manager] デスクトップアプリケーションでは失敗する場合があります。これは、SSL の正しい設定を推奨しセキュリティを強化するので、良いことですが、アプリケーションが接続できないことによって不満が生じる可能性があります。
+Experience ManagerデスクトップがHTTP通信に使用するライブラリでは、厳密なSSLの強制が使用されます。 そのため、ブラウザーで成功した SSL 接続でも、[!DNL Adobe Experience Manager] デスクトップアプリケーションでは失敗する場合があります。これは、SSL の正しい設定を推奨しセキュリティを強化するので、良いことですが、アプリケーションが接続できないことによって不満が生じる可能性があります。
 
 このような場合の推奨されるアプローチは、ツールを使用してサーバーの SSL 証明書を分析し、問題を特定して修正できるようにすることです。URL を提供するとサーバーの証明書を検査する Web サイトがあります。
 
@@ -304,21 +299,23 @@ AEM Desktop が HTTP 通信に使用するライブラリは SSL を厳格に適
 
 どちらの方法でも、DAM のルートフォルダーがデスクトップアプリケーションの初期状態として表示されます。
 
-### [!DNL Experience Manager] デスクトップアプリケーションに関するその他のヘルプが必要 {#additional-help}
+<!--
+### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
 
-次の情報を含んだ Jira チケットを作成します。
+Create Jira ticket with the following information:
 
-* `DAM - Companion App` を「[!UICONTROL Component]」として使用します。
+* Use `DAM - Companion App` as the [!UICONTROL Component].
 
-* 問題を再現する詳細な手順を「[!UICONTROL Description]」に記述します。
+* Detailed steps to reproduce the issue in [!UICONTROL Description].
 
-* 問題の再現中に取り込まれたデバッグレベルのログ。
+* DEBUG level logs that were captured while reproducing the issue.
 
-* ターゲットの AEM バージョン。
+* Target Experience Manager version.
 
-* オペレーティングシステムのバージョン。
+* Operating system version.
 
-* [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョン。アプリケーションのバージョンを把握するには、[AEM デスクトップアプリケーションのバージョンの確認](#know-app-version-v2)を参照してください。
+* [!DNL Adobe Experience Manager] desktop app version. To know your app version, see [finding the desktop app version](#know-app-version-v2).
+-->
 
 >[!MORELIKETHIS]
 >
