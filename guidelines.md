@@ -1,43 +1,46 @@
 ---
-source-git-commit: 26373450fd36a4d726190c0252f60c4d77bf8b7f
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '732'
+ht-degree: 57%
 
 ---
 # Adobe Experience Manager ドキュメントへの投稿に関するガイドライン
 
 ## ドキュメントの理念
 
-Adobe Experience Manager ユーザーは、競争の厳しい環境でビジネスを展開しており、競合他社より優位に立つためのデジタルエクスペリエンスを構築しようと懸命に努力しています。したがって、アドビが AEM で高度な新しいツールを提供する際には、お客様が AEM への投資をすぐに活かし ROI を最大化できるような正確かつ明快なドキュメントで、これらのツールが補完されることが不可欠です。
+Adobe Experience Manager ユーザーは、競争の厳しい環境でビジネスを展開しており、競合他社より優位に立つためのデジタルエクスペリエンスを構築しようと懸命に努力しています。Therefore it is vital that when Adobe delivers advanced new tools in [!DNL Experience Manager], that these tools are complemented with accurate and clear documentation to allow the customer to immediately leverage their [!DNL Experience Manager] investment and maximize ROI.
 
-AEM ドキュメントの目標は、ドキュメントをできるだけ早く AEM ユーザーに届けることです。そのため、正確で使いやすいドキュメントを最優先し、ドキュメントの継続的な更新と改善に努めます。
+The goal of the [!DNL Experience Manager] documentation is to put documentation into the hands of [!DNL Experience Manager] users as soon as possible. そのため、正確で使いやすいドキュメントを最優先し、ドキュメントの継続的な更新と改善に努めます。
 
-## ドキュメントへの貢献
+## ドキュメントへの投稿
 
-AEM ドキュメントを継続的に改善するため、AEM ユーザーコミュニティ全体からドキュメントに貢献いただければ幸いです。変更修正依頼（プル要求）であるか問題報告（イシュー）であるかを問わず、修正、明確化、増補、例の追加などがドキュメントの改善になります。
+In the interest of continually improving [!DNL Experience Manager] documentation, the entire community of [!DNL Experience Manager] users is welcome to contribute to the documentation. 変更修正依頼（プル要求）であるか問題報告（イシュー）であるかを問わず、修正、明確化、増補、例の追加などがドキュメントの改善になります。
 
 ## ドキュメント標準
 
-アドビのドキュメントへの投稿を歓迎しますが、AEM ドキュメントへの投稿は、プル要求またはイシューの形式でおこない、投稿とドキュメントに関するアドビの標準に準拠する必要があります。
+While we welcome contributions to our documentation, any contribution to the [!DNL Experience Manager] documentation, either in the form of a pull request or an issue, should conform to our contribution and documentation standards.
 
-これらの標準に合致しない投稿は拒否される可能性があります。
+標準に合致しない投稿は拒否される可能性があります。
 
-### 標準的な使用例について記載します。
+### ドキュメント標準の使用例
 
-AEM ドキュメントでは標準的な使用例を扱っています。製品の標準的なインストールや使用の範囲を超える使用例は、AEM ドキュメントに含まれていません。
+[!DNL Experience Manager] ドキュメントでは標準的な使用例を扱っています。Use cases beyond the scope of standard installation and usage of the product are not part of [!DNL Experience Manager] documentation.
 
-### バグやそれらの回避策については一般に記載しません。
+### 一般的に、ドキュメントのバグや対処方法はありません
 
-AEM ドキュメントでは標準的な使用例を扱っています。この理由から、バグ、バグによる影響、バグの回避策は、一般にドキュメントには記載されません。
+[!DNL Experience Manager] ドキュメントでは標準的な使用例を扱っています。この理由から、バグ、バグによる影響、バグの回避策は、一般にドキュメントには記載されません。
 
-このルールの例外は、AEM 製品管理によって承認された、考えられる解決策と共に既知の問題を記載するリリースノートに適用されます。
+Exceptions to this rule apply to the release notes where known issues can be listed with possible solutions that have been approved by [!DNL Experience Manager] Product Management.
 
-### ドキュメントへの投稿は、技術的な質問に回答するためのものではありません。
+### ドキュメントの寄与は、技術的な質問に答えるためのものではありません。
 
-AEM ドキュメントの改善に役立つアイデアの投稿を歓迎します。ただし、コメント、問題報告（イシュー）および変更修正依頼（プル要求）は、*投稿*&#x200B;専用です。これらを、AEM の使用方法や、AEM プロジェクトの実装法、また技術的な問題の解決方法についての質問に回答するために使用することはできません。
+Any ideas you may have to improve [!DNL Experience Manager] documentation are welcome as contributions. ただし、コメント、問題報告（イシュー）および変更修正依頼（プル要求）は、*投稿*&#x200B;専用です。They are not intended to be used to answer your questions about how to use [!DNL Experience Manager], implement your [!DNL Experience Manager] project, or solve technical problems.
 
-AEM の使用方法や技術的な問題に関して質問がある場合は、[Experience Cloud Enterprise サポートポータル](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)の通常のサポートプロセスを通じて報告したり、[Adobe Experience Manager コミュニティ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)でディスカッションしたりする必要があります。
+Any questions about the usage of [!DNL Experience Manager] or technical errors you may have should be reported through the normal support process via the [Experience Cloud Enterprise Support portal](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html) or discussed in the [Experience Manager community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
-***AEM ドキュメントへの貢献は、アドビのサポートに代わるものではありません。***&#x200B;サポート関連の質問に対する回答を求めるような投稿は拒否されます。
+***[!DNL Experience Manager]ドキュメントへの貢献は、アドビのサポートに代わるものではありません。***&#x200B;サポート関連の質問に対する回答を求めるような投稿は拒否されます。
 
 ### 投稿は、影響を受けるドキュメントページを明確に参照する必要があります。
 
@@ -47,7 +50,7 @@ AEM の使用方法や技術的な問題に関して質問がある場合は、[
 
 ## ドキュメントガイドライン
 
-アドビのドキュメントに貢献いただく場合は、特定のスタイルガイドラインに従ってください。
+アドビのドキュメントに投稿いただく場合は、特定のスタイルガイドラインに従ってください。
 
 これらのガイドラインに従っていただくと、投稿のレビューが容易になり、投稿がアドビのドキュメントにすばやく統合されるようになります。
 
@@ -55,15 +58,15 @@ AEM の使用方法や技術的な問題に関して質問がある場合は、[
 
 #### 言葉遣い
 
-* AEM ドキュメントは米国英語で作成および維持管理されています。
+* [!DNL Experience Manager] ドキュメントは米国英語で作成および維持管理されています。
 * 文章をできるだけ簡単にしてください。
 * 言葉遣いを明快かつ簡潔にしてください。
 
-AEM ドキュメントの読者は世界中に存在し、英語を母国語としていたり流暢に使えるとは限りません。口語的な表現を避け、言葉遣いをできるだけ明快で簡潔なものにしてください。
+Remember, readers of [!DNL Experience Manager] documentation are worldwide and can not be expected to be native or fluent English speakers. 口語的な表現を避け、言葉遣いをできるだけ明快で簡潔なものにしてください。
 
 #### マイクロソフトのスタイルガイドへの準拠
 
-マイクロソフトのスタイルガイド『[The Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/)』』（英語版）は、ソフトウェアドキュメントに重点を置いたドキュメントスタイルガイドで、無料で入手できます。AEM ドキュメントは、可能な限り、このガイドに従っています。
+マイクロソフトのスタイルガイド『[The Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/)[!DNL Experience Manager]』』（英語版）は、ソフトウェアドキュメントに重点を置いたドキュメントスタイルガイドで、無料で入手できます。 ドキュメントは、可能な限り、このガイドに従っています。
 
 ### 書式設定
 
@@ -83,8 +86,8 @@ AEM ドキュメントの読者は世界中に存在し、英語を母国語と�
 
 ドキュメントコンテンツ全体で特定バージョンへの直接参照をできるだけ避けてください。これにより、今後のバージョンについて、ドキュメントの柔軟性と拡張性が高まります。
 
-### 呼称としての Day、AEM、CQ、CRX の使用
+### Use of Day, [!DNL Experience Manager], CQ, CRX
 
-ドキュメントでの初出時には必ず、本製品をフルネームである **Adobe Experience Manager** と記載します。その後は **AEM** と記載してもかまいません。
+The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **Experience Manager**.
 
-Day、Day Software、CQ、CRX は、クラス名や AEM の履歴に言及する場合など、やむを得ない場合を除き、使用しないでください。
+Day, Day Software, CQ, and CRX should not be used except where unavoidable such as in class names or referring to the history of [!DNL Experience Manager].
