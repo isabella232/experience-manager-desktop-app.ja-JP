@@ -1,9 +1,9 @@
 ---
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
-workflow-type: ht
-translation-type: ht
-source-wordcount: '534'
-ht-degree: 100%
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '529'
+ht-degree: 85%
 
 ---
 # Adobe Experience Manager デスクトップアプリケーションドキュメントへの貢献
@@ -14,11 +14,11 @@ Adobe Experience Manager デスクトップアプリケーションドキュメ�
 
 ## アドビオープンソース行動規範
 
-このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md)を採用しています。AEM ドキュメントに貢献すると、この行動規範の順守に同意したことになります。許容できない行為は [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) までご報告ください。
+このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md)を採用しています。By contributing to [!DNL Adobe Experience Manager] documentation, you agree to adhere to this code of conduct. 許容できない行為は [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) までご報告ください。
 
 ## 投稿のガイドライン
 
-AEM ドキュメントを改善するためのあらゆる投稿を歓迎しますが、可能な場合は所定のガイドラインや標準に準拠した投稿をお願いします。詳しくは、[AEM ドキュメントへの投稿に関するガイドライン](guidelines.md)を参照してください。
+While we welcome any contributions to improve [!DNL Experience Manager] documentation, we do ask that contributions adhere to certain guidelines and standards where possible. 詳しくは、[ [!DNL Experience Manager]  ドキュメントへの投稿に関するガイドライン](guidelines.md)を参照してください。
 
 ## 投稿の方法
 
@@ -37,11 +37,11 @@ AEM ドキュメントを改善するためのあらゆる投稿を歓迎しま�
 
 提案がある場合や、現在のドキュメントに関する意見がある場合、または説明されている方法に質問がある場合は、イシューを作成してください。また、イシューは、貢献できることがあるものの、ドキュメントを編集したり自分でプル要求をおこなったりすることに不安がある場合に適しています。
 
-イシューを使用すると、ドキュメントに対する改善案を簡単に説明でき、AEM Docs チームメンバーはレビューを実施できます。どのページにも右側のナビゲーションパネル上部に「**Log an issue**」リンクがあるので、それをクリックするだけでイシューが作成できます。
+Issues allow you to easily describe your idea for improvement to the docs and an [!DNL Experience Manager] Docs Team member can review it. どのページにも右側のナビゲーションパネル上部に「**Log an issue**」リンクがあるので、それをクリックするだけでイシューが作成できます。
 
 ### プル要求の作成 {#create-a-pull-request}
 
-問題が見つかり、その修正方法が正確にわかっている場合は、プル要求の作成を検討してください。プル要求を使用すると、ドキュメントに編集を加えることができ、それを AEM Docs チームメンバーがドキュメントに含めるかどうかをレビューします。どのページにも右側のナビゲーションパネル上部に「**Edit this page**」リンクがあるので、それをクリックするだけで変更を提案し、プル要求が作成できます。
+問題が見つかり、その修正方法が正確にわかっている場合は、プル要求の作成を検討してください。Pull requests allow you to make your own edits to the documentation, which are then reviewed for inclusion by an [!DNL Experience Manager] Docs Team member. どのページにも右側のナビゲーションパネル上部に「**Edit this page**」リンクがあるので、それをクリックするだけで変更を提案し、プル要求が作成できます。
 
 すべてのプル要求には、署名付きの[寄稿者ライセンス同意書（CLA）が添付されている必要があります。](https://opensource.adobe.com/cla.html) これにより、アドビはお客様の投稿をプロジェクトの一部として再配布できるようになります。アドビの CLA は一度提出するだけでよいので、以前に提出したことがある場合は、次へ進むことができます。
 
@@ -49,7 +49,7 @@ AEM ドキュメントを改善するためのあらゆる投稿を歓迎しま�
 
 以下のビデオで、イシューとプル要求の作成方法についての概要を簡単に確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/27069?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
 
 ### アドビ従業員による投稿
 
