@@ -12,14 +12,14 @@ translation-type: tm+mt
 source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
 workflow-type: tm+mt
 source-wordcount: '2171'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Experience Manager デスクトップアプリケーションのトラブルシューティング {#troubleshoot-v2}
 
-Adobe Experience Managerデスクトップアプリは、リモートExperience Manager展開のDigital Asset Management(DAM)リポジトリに接続します。 デスクトップアプリケーションは、ユーザーのコンピューター上でリポジトリ情報と検索結果を取得し、ファイルやフォルダーをダウンロードおよびアップロードします。また、 Assets ユーザーインターフェイスとの競合を管理する機能も備えています。
+Adobe Experience Manager デスクトップアプリケーションは、リモート Adobe Experience Manager デプロイメントのデジタルアセット管理（DAM）リポジトリーに接続します。デスクトップアプリケーションは、ユーザーのコンピューター上でリポジトリー情報と検索結果を取得し、ファイルやフォルダーをダウンロードおよびアップロードします。また、Assets ユーザーインターフェイスとの競合を管理する機能も備えています。
 
 デスクトップアプリケーションのトラブルシューティング、ベストプラクティス、制限事項について説明します。
 
@@ -27,7 +27,7 @@ Adobe Experience Managerデスクトップアプリは、リモートExperience 
 
 一般的な問題の回避やトラブルシューティングを図るには、次のベストプラクティスに従います。
 
-* **デスクトップアプリケーションの動作の仕組みを理解する**：使用を開始する前に、少し時間を割いてデスクトップアプリケーションの動作の仕組みを理解してください。Adobe Experience Manager の Web インターフェイスとデスクトップアプリケーションの連携、リポジトリマッピング、アセットキャッシング、ローカルでの保存、バックグラウンドでのアップロードについて把握します。[動作の仕組み](release-notes.md#how-app-works)を参照してください。
+* **デスクトップアプリケーションの動作の仕組みを理解する**：使用を開始する前に、少し時間を割いてデスクトップアプリケーションの動作の仕組みを理解してください。Adobe Experience Manager の Web インターフェイスとデスクトップアプリケーションの連携、リポジトリーマッピング、アセットキャッシング、ローカルでの保存、バックグラウンドでのアップロードについて把握します。[動作の仕組み](release-notes.md#how-app-works)を参照してください。
 
 * **サポートされていない文字をフォルダー名に使用しない**：フォルダーの作成やアップロードの際には、空白や無効な文字を使用しないでください。該当する文字のリストについては、[Adobe Experience Manager Assets でのフォルダーの作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=ja#creating-folders)を参照してください。Adobe Experience Manager の一部の使用例では、サポートされていない文字がフォルダー名に使用されていた場合、影響を受ける可能性があります。
 
@@ -105,7 +105,7 @@ Mac でアプリケーションをデバッグモードで使用するには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します。
 
-   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
 
 Windows でデバッグモードを有効にするには：
 
@@ -119,7 +119,7 @@ Windows でデバッグモードを有効にするには：
 
 以下の手順を実行します。
 
-1. アプリケーションを開始し、Experience Managerインスタンスを接続します。
+1. アプリケーションを起動し、Adobe Experience Manager インスタンスに接続します。
 
 1. 右上隅の三点リーダーアイコンをクリックし「[!UICONTROL Preferences]」を選択して、アプリケーションの環境設定を開きます。
 
@@ -163,9 +163,9 @@ Windows でデバッグモードを有効にするには：
 
 * ファイルサイズ。サイズの大きいアセットは、ダウンロードと表示に時間がかかります。
 
-* ドライブ文字の一貫性。Experience ManagerDAMを別のドライブ文字にマッピングしているときに、他の共同作業者がアセットを配置した場合、配置されたアセットは表示されません。
+* ドライブ文字の一貫性。Adobe Experience Manager DAM を別のドライブ文字にマッピングしている間に、自分自身または他の共同利用者がアセットを配置した場合、配置されたアセットは表示されません。
 
-* 権限。配置されたアセットを取得する権限があるかどうかを確認するには、Experience Manager管理者に問い合わせてください。
+* 権限。配置されたアセットを取得する権限があるかどうかを確認するには、Adobe Experience Manager 管理者に問い合わせてください。
 
 ### デスクトップアプリケーションのユーザーインターフェイスでおこなったファイルの編集は [!DNL Adobe Experience Manager] にすぐには反映されない {#changes-on-da-not-visible-on-aem}
 
@@ -173,7 +173,7 @@ Windows でデバッグモードを有効にするには：
 
 ### macOS でアップグレードする際の問題 {#issues-when-upgrading-on-macos}
 
-macOSでExperience Managerデスクトップアプリをアップグレードする際に、問題が発生する場合があります。 これは、Experience Managerデスクトップアプリのレガシーシステムフォルダーが原因で、新しいバージョンのExperience Managerデスクトップアプリが正しく読み込めないことが原因です。 この問題を修正するには、以下のフォルダーおよびファイルを手動で削除します。
+macOS で Adobe Experience Manager デスクトップアプリケーションをアップグレードするときに問題が発生することがあります。これは、Adobe Experience Manager デスクトップアプリケーションの古いシステムフォルダーによって、Adobe Experience Manager デスクトップアプリケーションの新しいバージョンが正しく読み込まれなくなるからです。この問題を修正するには、以下のフォルダーおよびファイルを手動で削除します。
 
 以下の手順を実行する前に、`Adobe Experience Manager Desktop` アプリケーションを macOS のアプリケーションフォルダーからゴミ箱にドラッグします。次に、ターミナルを開き、以下のコマンドを実行します。パスワードを求められたら入力します。
 
@@ -188,7 +188,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ### ファイルをアップロードできない {#upload-fails}
 
-Experience Manager6.5.1以降でデスクトップアプリを使用している場合は、S3またはAzureコネクタをバージョン1.10.4以降にアップグレードします。 これで、[OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) に関連するファイルアップロード失敗の問題が解決されます。[インストール手順](install-upgrade.md#install-v2)を参照してください。
+デスクトップアプリケーションを Adobe Experience Manager 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。これで、[OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) に関連するファイルアップロード失敗の問題が解決されます。[インストール手順](install-upgrade.md#install-v2)を参照してください。
 
 ### [!DNL Experience Manager] デスクトップアプリケーションの接続の問題 {#connection-issues}
 
@@ -212,9 +212,9 @@ Experience Manager6.5.1以降でデスクトップアプリを使用している
 
 最初に要求されたパスに SAML プロセスがリダイレクトされない場合や、[!DNL Adobe Experience Manager] デスクトップアプリケーションで設定されたものとは異なるホストに最終的にリダイレクトされる場合があります。それに該当しないことを確かめるには：
 
-1. Web ブラウザーを開きます。アクセス `https://[aem_server]:[port]/content/dam.json` URL
+1. Web ブラウザーを開きます。`https://[aem_server]:[port]/content/dam.json` の URL にアクセスします。
 
-1. Log in to the [!DNL Adobe Experience Manager] deployment.
+1. [!DNL Adobe Experience Manager] デプロイメントにログインします。
 
 1. ログインが完了したら、アドレスバーでブラウザーの現在のアドレスを確認します。このアドレスが、最初に入力した URL と正確に一致している必要があります。
 
@@ -255,9 +255,9 @@ SAML プロセスでこれらのブラウザーがサポートされているこ
 
 #### SSL 設定の問題 {#ssl-config-v2}
 
-Experience ManagerのデスクトップアプリがHTTP通信に使用するライブラリは、厳密なSSL強制を使用します。 ブラウザーの使用に成功しても、Experience Managerデスクトップアプリケーションの使用に失敗する場合があります。 SSL を適切に設定するには、不足している中間証明書を Apache にインストールします。[中間 CA の証明書を Apache にインストールする](https://access.redhat.com/solutions/43575)を参照してください。
+Adobe Experience Manager デスクトップアプリケーションが HTTP 通信に使用するライブラリでは SSL を厳格に適用します。ブラウザーでは成功する接続が、Adobe Experience Manager デスクトップアプリケーションでは失敗することがあります。SSL を適切に設定するには、不足している中間証明書を Apache にインストールします。[中間 CA の証明書を Apache にインストールする](https://access.redhat.com/solutions/43575)を参照してください。
 
-Experience ManagerデスクトップがHTTP通信に使用するライブラリでは、厳密なSSLの強制が使用されます。 そのため、ブラウザーで成功した SSL 接続でも、[!DNL Adobe Experience Manager] デスクトップアプリケーションでは失敗する場合があります。これは、SSL の正しい設定を推奨しセキュリティを強化するので、良いことですが、アプリケーションが接続できないことによって不満が生じる可能性があります。
+Adobe Experience Manager デスクトップアプリケーションが HTTP 通信に使用するライブラリでは SSL を厳格に適用します。そのため、ブラウザーで成功した SSL 接続でも、[!DNL Adobe Experience Manager] デスクトップアプリケーションでは失敗する場合があります。これは、SSL の正しい設定を推奨しセキュリティを強化するので、良いことですが、アプリケーションが接続できないことによって不満が生じる可能性があります。
 
 このような場合の推奨されるアプローチは、ツールを使用してサーバーの SSL 証明書を分析し、問題を特定して修正できるようにすることです。URL を提供するとサーバーの証明書を検査する Web サイトがあります。
 
