@@ -8,9 +8,9 @@ discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3379'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ AEM デスクトップアプリケーションにおけるキャッシュの仕�
 * フォルダーに対するあらゆる操作（作成、削除など）。
 * バージョン 1.4 で導入されたフォルダーアップロード機能を使用すると、ファイルをローカルにキャッシュすることなく、ローカルフォルダー階層をアップロードできます
 
-## 個別の操作 {#individual-operations}
+## 個別の操作  {#individual-operations}
 
 個別のユーザーについてパフォーマンス関連のトラブルシューティングをおこなう際は、まず[制限事項](https://helpx.adobe.com/jp/experience-manager/desktop-app/troubleshooting-desktop-app.html#limitations)を確認してください。以降の節では、個別のユーザーのパフォーマンスを向上させるための推奨事項について説明します。
 
@@ -104,7 +104,7 @@ AEM デスクトップアプリケーションにおけるキャッシュの仕�
 
 個別のユーザーのアップロード速度を 10 Mbps 近くにすることをお勧めします。無線接続では、帯域幅が複数のユーザーで共有されることがよくあります。ネットワークの帯域幅を消費するタスクを複数のユーザーが同時に実行すると、パフォーマンスがさらに低下する可能性があります。このような問題を避けるために、有線接続を使用してください。
 
-## Windows 固有の設定 {#windows-specific-configurations}
+## Windows 固有の設定  {#windows-specific-configurations}
 
 Windows で AEM を実行する場合は、WebDAV クライアントのパフォーマンスを向上させるように Windows の設定をすることができます。詳しくは、[https://support.microsoft.com/ja-jp/kb/2445570](https://support.microsoft.com/ja-jp/kb/2445570) を参照してください。
 
@@ -126,11 +126,11 @@ Windows 7 では、IE 設定を変更すると、WebDAV のパフォーマンス
 * ターゲット AEM インスタンスの前に Dispatcher が存在するかどうか
 * ターゲット AEM インスタンスの現在の負荷
 
-## 追加の AEM 設定 {#additional-aem-configurations}
+## 追加の AEM 設定  {#additional-aem-configurations}
 
 複数のユーザーが同時に作業すると WebDAV／SMB のパフォーマンスが大幅に低下する場合は、AEM でいくつかの設定をおこなって、パフォーマンスの向上を図ることができます。
 
-## アセットの更新の一時的なワークフロー {#update-asset-transient-workflows}
+## アセットの更新の一時的なワークフロー  {#update-asset-transient-workflows}
 
 DAM アセットの更新ワークフローで一時的なワークフローを有効にすることで、AEM 側のパフォーマンスを向上できます。一時的なワークフローを有効にすることで、AEM でアセットを作成または変更する際に、アセットの更新に必要な処理能力を低く抑えることができます。
 
@@ -148,7 +148,7 @@ AEM のパフォーマンスを向上させるもう 1 つの方法は、「Gran
 1. **QueueConfiguration** を検索し、各ジョブをクリックして開き、「**Granite 一時的なワークフローキュー**」ジョブを探します。横にある「編集」をクリックします。
 1. 「**並列ジョブの最大数**」の値を変更して、「**保存**」をクリックします。
 
-## AWS 設定 {#aws-configuration}
+## AWS 設定  {#aws-configuration}
 
 複数のユーザーが同時に作業をおこなうと、ネットワーク帯域幅の制限により、WebDAV／SMB のパフォーマンスが低下することがあります。WebDAV／SMB のパフォーマンスを向上させるために、AWS 上で実行されるターゲット AEM インスタンス用の AWS インスタンスのサイズを大きくすることをお勧めします。
 
@@ -158,7 +158,7 @@ AEM のパフォーマンスを向上させるもう 1 つの方法は、「Gran
 * アドビが大口顧客のためにトラブルシューティングをおこなう際には、AEM インスタンスのサイズを c4.8xlarge に設定します。これは主に、そのインスタンスが提供する専用の帯域幅を 4,000 Mbps にするためです。
 * AEM インスタンスの前に Dispatcher がある場合は、Dispatcher のサイズが適切であることを確認します。AEM インスタンスの帯域幅が 4,000 Mbps であっても、Dispatcher が 500 Mbps しかなければ、実効帯域幅は 500 Mbps になります。これは、Dispatcher がネットワークのボトルネックとなるからです。
 
-## チェックアウトしたファイルの制限 {#checked-out-file-limitations}
+## チェックアウトしたファイルの制限  {#checked-out-file-limitations}
 
 チェックアウトしたファイルをエクスプローラー／Finder から操作する方法については、いくつか既知の制限があります。チェックアウトされたファイルは、そのファイルをチェックアウトしたユーザー以外のユーザーに対しては読み取り専用となっていることが必要です。AEM の WebDAV／SMB1 プロトコルの実装では、このルールが適用されます。しかし、OS の WebDAV／SMB クライアントは、チェックアウトされたファイルに対して適切な処理をおこなわないことがあります。以下に、不適切な動作のいくつかを示します。
 
@@ -172,7 +172,7 @@ AEM のパフォーマンスを向上させるもう 1 つの方法は、「Gran
 
 ファイルを削除すると、そのファイルが Windows のエクスプローラーに表示されなくなるので、処理が成功したように見えます。しかし、ディレクトリを更新して AEM アセットをチェックインすると、ファイルがまだ存在していると表示されます。また、ファイルの編集も成功したように見えます（警告ダイアログやエラーメッセージは表示されません）。しかし、ファイルを再度開いたり、AEM アセットをチェックインすると、ファイルが変更されていないことがわかります。
 
-#### Mac OS X {#mac-os-x}
+#### Mac OS X  {#mac-os-x}
 
 ファイルを置換しても警告やエラーは表示されませんが、AEM にアセットをチェックインすると、変更されていない状態のままになっています。AEM 内でアセットを更新またはチェックインすると、アセットが変更されていないことを確認できます。
 
@@ -267,11 +267,11 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 この動作にもかかわらず、チェックインしたときには、ファイルが変更されていません。異なるバージョンのファイルが表示されている場合でも、変更内容は AEM に同期されません。
 
-## ファイルの移動に関する問題のトラブルシューティング {#troubleshooting-problems-around-moving-files}
+## ファイルの移動に関する問題のトラブルシューティング  {#troubleshooting-problems-around-moving-files}
 
 移動およびコピー操作を機能させるには、サーバー API に追加のヘッダー X-Destination、X-Depth および X-Overwrite を渡す必要があります。Dispatcher はこれらのヘッダーをデフォルトで渡さないので、それが原因で操作が失敗します。詳しくは、[Dispatcher の背後にある AEM インスタンスへの接続](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)を参照してください。
 
-## AEM デスクトップアプリケーションの接続の問題のトラブルシューティング {#troubleshooting-aem-desktop-connection-issues}
+## AEM デスクトップアプリケーションの接続の問題のトラブルシューティング  {#troubleshooting-aem-desktop-connection-issues}
 
 ### SAML のリダイレクトの問題 {#saml-redirect-issue}
 
