@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: adobe experience manager
 audience: end-user
-user-guide-title: Experience Managerデスクトップアプリケーションガイド
+user-guide-title: Adobe Experience Manager デスクトップアプリケーションガイド
 breadcrumb-title: デスクトップアプリケーションガイド
-user-guide-description: Experience Managerデスクトップアプリを使用してリポジトリとデスクトップアプリケーションを接続し、リソースへの迅速なアクセスと合理化されたワークフローを提供する方法を説明します。
+user-guide-description: Adobe Experience Manager デスクトップアプリケーションを使用してリポジトリーとデスクトップアプリケーションを接続し、リソースへの迅速なアクセスと効率化されたワークフローを提供する方法について説明します。
 solution-title: AEM Assets
 solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=ja
 getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=ja
@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
