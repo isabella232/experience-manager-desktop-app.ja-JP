@@ -81,7 +81,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
    ![入力サーバーアドレスへのデスクトップアプリの接続画面](assets/connect_da2.png)
 
-   *図：入力サーバーアドレスへの接続画面.*
+   *図：入力サーバーアドレスへの接続画面。*
 
    >[!CAUTION]
    >
@@ -129,7 +129,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 Windows でデスクトップアプリケーションをアンインストールするには、次の手順に従います。
 
-1. [!DNL Experience Manager] に変更内容をすべてアップロードして、編集内容が失われないようにします。詳しくは、[アセットの編集と への更新済みアセットのアップロード [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets)を参照してください。ログオフし、デスクトップアプリケーションの「[!UICONTROL Exit]」を実行します。
+1. [!DNL Experience Manager] に変更内容をすべてアップロードして、編集内容が失われないようにします。詳しくは、「[アセットの編集と  [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets) への更新済みアセットのアップロード」を参照してください。ログオフし、デスクトップアプリケーションの「[!UICONTROL Exit]」を実行します。
 
 1. 他の OS アプリケーションを削除する場合と同様に、デスクトップアプリケーションを削除します。Windows のプログラムの追加と削除からアンインストールします。
 
@@ -141,7 +141,7 @@ Windows でデスクトップアプリケーションをアンインストール
 
 Mac でデスクトップアプリケーションをアンインストールするには、次の手順に従います。
 
-1. [!DNL Experience Manager] に変更内容をすべてアップロードして、編集内容が失われないようにします。詳しくは、[アセットの編集と への更新済みアセットのアップロード [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets)を参照してください。ログオフし、デスクトップアプリケーションの「[!UICONTROL Exit]」を実行します。
+1. [!DNL Experience Manager] に変更内容をすべてアップロードして、編集内容が失われないようにします。詳しくは、「[アセットの編集と  [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets) への更新済みアセットのアップロード」を参照してください。ログオフし、デスクトップアプリケーションの「[!UICONTROL Exit]」を実行します。
 
 1. `/Applications` から `Adobe Experience Manager Desktop.app` を削除します。
 
