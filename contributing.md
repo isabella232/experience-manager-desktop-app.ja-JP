@@ -1,9 +1,9 @@
 ---
 source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '529'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 # Adobe Experience Manager デスクトップアプリケーションドキュメントへの貢献
@@ -14,11 +14,11 @@ Adobe Experience Manager デスクトップアプリケーションドキュメ�
 
 ## アドビオープンソース行動規範
 
-このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md)を採用しています。By contributing to [!DNL Adobe Experience Manager] documentation, you agree to adhere to this code of conduct. 許容できない行為は [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) までご報告ください。
+このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md)を採用しています。[!DNL Adobe Experience Manager] ドキュメントに投稿すると、この行動規範の順守に同意したことになります。許容できない行為は [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) までご報告ください。
 
 ## 投稿のガイドライン
 
-While we welcome any contributions to improve [!DNL Experience Manager] documentation, we do ask that contributions adhere to certain guidelines and standards where possible. 詳しくは、[ [!DNL Experience Manager]  ドキュメントへの投稿に関するガイドライン](guidelines.md)を参照してください。
+[!DNL Experience Manager] ドキュメントを改善するためのあらゆる投稿を歓迎しますが、可能な限り所定のガイドラインや標準に準拠した投稿をお願いします。詳しくは、[ [!DNL Experience Manager]  ドキュメントへの投稿に関するガイドライン](guidelines.md)を参照してください。
 
 ## 投稿の方法
 
@@ -37,11 +37,11 @@ While we welcome any contributions to improve [!DNL Experience Manager] document
 
 提案がある場合や、現在のドキュメントに関する意見がある場合、または説明されている方法に質問がある場合は、イシューを作成してください。また、イシューは、貢献できることがあるものの、ドキュメントを編集したり自分でプル要求をおこなったりすることに不安がある場合に適しています。
 
-Issues allow you to easily describe your idea for improvement to the docs and an [!DNL Experience Manager] Docs Team member can review it. どのページにも右側のナビゲーションパネル上部に「**Log an issue**」リンクがあるので、それをクリックするだけでイシューが作成できます。
+イシューを使用すると、ドキュメントに対する改善案を簡単に説明でき、[!DNL Experience Manager] ドキュメントチームのメンバーがそのレビューを実施できます。どのページにも右側のナビゲーションパネル上部に「**Log an issue**」リンクがあるので、それをクリックするだけでイシューが作成できます。
 
 ### プル要求の作成 {#create-a-pull-request}
 
-問題が見つかり、その修正方法が正確にわかっている場合は、プル要求の作成を検討してください。Pull requests allow you to make your own edits to the documentation, which are then reviewed for inclusion by an [!DNL Experience Manager] Docs Team member. どのページにも右側のナビゲーションパネル上部に「**Edit this page**」リンクがあるので、それをクリックするだけで変更を提案し、プル要求が作成できます。
+問題が見つかり、その修正方法が正確にわかっている場合は、プル要求の作成を検討してください。プル要求を使用すると、ドキュメントに編集を加えることができ、それを [!DNL Experience Manager] ドキュメントチームのメンバーがレビューして、ドキュメントに含めるかどうかを判断します。どのページにも右側のナビゲーションパネル上部に「**Edit this page**」リンクがあるので、それをクリックするだけで変更を提案し、プル要求が作成できます。
 
 すべてのプル要求には、署名付きの[寄稿者ライセンス同意書（CLA）が添付されている必要があります。](https://opensource.adobe.com/cla.html) これにより、アドビはお客様の投稿をプロジェクトの一部として再配布できるようになります。アドビの CLA は一度提出するだけでよいので、以前に提出したことがある場合は、次へ進むことができます。
 
@@ -49,13 +49,13 @@ Issues allow you to easily describe your idea for improvement to the docs and an
 
 以下のビデオで、イシューとプル要求の作成方法についての概要を簡単に確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/27069)
+>[!VIDEO](https://video.tv.adobe.com/v/27069?captions=jpn)
 
 ### アドビ従業員による投稿
 
 アドビの従業員で貢献したいことがある場合は、会社用 Git の `AdobeDocs` org を使用します。
 
-もちろん、公開リポジトリへ投稿しても問題なく、レビューもおこなわれますが、アドビの従業員からのプル要求は処理が容易で、会社のレポジトリで迅速に承認できます。機密情報は、会社のレポジトリでのみ議論します。
+もちろん、公開リポジトリーへ投稿しても問題なく、レビューもおこなわれますが、アドビの従業員からのプル要求は処理が容易で、会社のリポジトリーで迅速に承認できます。機密情報は、会社のレポジトリでのみ議論します。
 
 ## その他の情報
 
