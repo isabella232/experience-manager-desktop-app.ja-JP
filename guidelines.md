@@ -1,44 +1,44 @@
 ---
 source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '732'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 # Adobe Experience Manager ドキュメントへの投稿に関するガイドライン
 
 ## ドキュメントの理念
 
-Adobe Experience Manager ユーザーは、競争の厳しい環境でビジネスを展開しており、競合他社より優位に立つためのデジタルエクスペリエンスを構築しようと懸命に努力しています。Therefore it is vital that when Adobe delivers advanced new tools in [!DNL Experience Manager], that these tools are complemented with accurate and clear documentation to allow the customer to immediately leverage their [!DNL Experience Manager] investment and maximize ROI.
+Adobe Experience Manager ユーザーは、競争の厳しい環境でビジネスを展開しており、競合他社より優位に立つためのデジタルエクスペリエンスを構築しようと懸命に努力しています。したがって、アドビが [!DNL Experience Manager] で高度な新しいツールを提供する際には、お客様が [!DNL Experience Manager] への投資をすぐに活かし ROI を最大化できるように、正確かつ明快なドキュメントでこれらのツールを補うことが不可欠です。
 
-The goal of the [!DNL Experience Manager] documentation is to put documentation into the hands of [!DNL Experience Manager] users as soon as possible. そのため、正確で使いやすいドキュメントを最優先し、ドキュメントの継続的な更新と改善に努めます。
+[!DNL Experience Manager] ドキュメントの目標は、ドキュメントをできるだけ早く [!DNL Experience Manager] ユーザーに届けることです。そのため、正確で使いやすいドキュメントを最優先し、ドキュメントの継続的な更新と改善に努めます。
 
 ## ドキュメントへの投稿
 
-In the interest of continually improving [!DNL Experience Manager] documentation, the entire community of [!DNL Experience Manager] users is welcome to contribute to the documentation. 変更修正依頼（プル要求）であるか問題報告（イシュー）であるかを問わず、修正、明確化、増補、例の追加などがドキュメントの改善になります。
+[!DNL Experience Manager] ドキュメントを継続的に改善するため、[!DNL Experience Manager] ユーザーコミュニティ全体からドキュメントに投稿いただければ幸いです。変更修正依頼（プル要求）であるか問題報告（イシュー）であるかを問わず、修正、明確化、増補、例の追加などがドキュメントの改善になります。
 
 ## ドキュメント標準
 
-While we welcome contributions to our documentation, any contribution to the [!DNL Experience Manager] documentation, either in the form of a pull request or an issue, should conform to our contribution and documentation standards.
+アドビのドキュメントへの投稿を歓迎しますが、[!DNL Experience Manager] ドキュメントへの投稿は、プル要求またはイシューの形式でおこない、投稿とドキュメントに関するアドビの標準に準拠する必要があります。
 
 標準に合致しない投稿は拒否される可能性があります。
 
-### ドキュメント標準の使用例
+### 標準的な使用例を記載する
 
-[!DNL Experience Manager] ドキュメントでは標準的な使用例を扱っています。Use cases beyond the scope of standard installation and usage of the product are not part of [!DNL Experience Manager] documentation.
+[!DNL Experience Manager] ドキュメントでは標準的な使用例を扱っています。製品の標準的なインストールや使用の範囲を超える使用例は、[!DNL Experience Manager] ドキュメントに含まれていません。
 
-### 一般的に、ドキュメントのバグや対処方法はありません
+### バグやそれらの回避策については一般に記載しない
 
 [!DNL Experience Manager] ドキュメントでは標準的な使用例を扱っています。この理由から、バグ、バグによる影響、バグの回避策は、一般にドキュメントには記載されません。
 
-Exceptions to this rule apply to the release notes where known issues can be listed with possible solutions that have been approved by [!DNL Experience Manager] Product Management.
+ただし、既知の問題と [!DNL Experience Manager] 製品管理部門で承認された実行可能な解決策を記載できるリリースノートは、このルールの例外です。
 
-### ドキュメントの寄与は、技術的な質問に答えるためのものではありません。
+### ドキュメントへの投稿は技術的な質問に回答するためのものではない
 
-Any ideas you may have to improve [!DNL Experience Manager] documentation are welcome as contributions. ただし、コメント、問題報告（イシュー）および変更修正依頼（プル要求）は、*投稿*&#x200B;専用です。They are not intended to be used to answer your questions about how to use [!DNL Experience Manager], implement your [!DNL Experience Manager] project, or solve technical problems.
+[!DNL Experience Manager] ドキュメントの改善に役立つアイデアの投稿を歓迎します。ただし、コメント、問題報告（イシュー）および変更修正依頼（プル要求）は、*投稿*&#x200B;専用です。これらを、[!DNL Experience Manager] の使用方法、[!DNL Experience Manager] プロジェクトの実装方法、技術的な問題の解決方法についての質問に回答するために使用することはできません。
 
-Any questions about the usage of [!DNL Experience Manager] or technical errors you may have should be reported through the normal support process via the [Experience Cloud Enterprise Support portal](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html) or discussed in the [Experience Manager community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+[!DNL Experience Manager] の使用方法や技術的な問題に関して質問がある場合は、[Experience Cloud Enterprise サポートポータル](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)の通常のサポートプロセスを通じて報告したり、[Adobe Experience Manager コミュニティ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)でディスカッションしたりする必要があります。
 
 ***[!DNL Experience Manager]ドキュメントへの貢献は、アドビのサポートに代わるものではありません。***&#x200B;サポート関連の質問に対する回答を求めるような投稿は拒否されます。
 
@@ -62,11 +62,11 @@ Any questions about the usage of [!DNL Experience Manager] or technical errors y
 * 文章をできるだけ簡単にしてください。
 * 言葉遣いを明快かつ簡潔にしてください。
 
-Remember, readers of [!DNL Experience Manager] documentation are worldwide and can not be expected to be native or fluent English speakers. 口語的な表現を避け、言葉遣いをできるだけ明快で簡潔なものにしてください。
+[!DNL Experience Manager] ドキュメントの読者は世界中に存在し、英語が母国語である、または英語を流暢に使えるとは限りません。口語的な表現を避け、言葉遣いをできるだけ明快で簡潔なものにしてください。
 
 #### マイクロソフトのスタイルガイドへの準拠
 
-マイクロソフトのスタイルガイド『[The Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/)[!DNL Experience Manager]』』（英語版）は、ソフトウェアドキュメントに重点を置いたドキュメントスタイルガイドで、無料で入手できます。 ドキュメントは、可能な限り、このガイドに従っています。
+マイクロソフトのスタイルガイド『[The Microsoft Manual of Style](https://docs.microsoft.com/ja-jp/style-guide/welcome/)』（英語版）は、ソフトウェアドキュメントに重点を置いたドキュメントスタイルガイドで、無料で入手できます。[!DNL Experience Manager] ドキュメントは、可能な限り、このガイドに従っています。
 
 ### 書式設定
 
@@ -86,8 +86,8 @@ Remember, readers of [!DNL Experience Manager] documentation are worldwide and c
 
 ドキュメントコンテンツ全体で特定バージョンへの直接参照をできるだけ避けてください。これにより、今後のバージョンについて、ドキュメントの柔軟性と拡張性が高まります。
 
-### Use of Day, [!DNL Experience Manager], CQ, CRX
+### 呼称としての Day、[!DNL Experience Manager]、CQ、CRX の使用
 
-The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **Experience Manager**.
+ドキュメントでの初出時には必ず、本製品をフルネームである **Adobe Experience Manager** と記載します。その後は **Experience Manager** と記載してもかまいません。
 
-Day, Day Software, CQ, and CRX should not be used except where unavoidable such as in class names or referring to the history of [!DNL Experience Manager].
+Day、Day Software、CQ、CRX は、クラス名や [!DNL Experience Manager] の歴史に言及する場合など、やむを得ない場合を除き、使用しないでください。
