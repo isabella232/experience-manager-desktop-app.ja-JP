@@ -40,7 +40,7 @@ Adobe Experience Manager デスクトップアプリケーションは次のオ�
 >
 >Windows 7 のベンダーサポートは終了しました（https://support.microsoft.com/ja-jp/help/4057281/windows-7-support-ended-on-january-14-2020）。
 
-Adobe Experience Manager デスクトップアプリケーションは、AEM as a Cloud Service、Adobe Managed Services（AMS）、On-Premise のどちらでデプロイされている場合でも、次の Adobe Experience Manager バージョンと連携します。
+Adobe Experience Manager デスクトップアプリケーションは、AEM as a Cloud Service、Adobe Managed Services（AMS）、オンプレミスのどれでデプロイされている場合でも、次の Adobe Experience Manager バージョンと連携します。
 
 * [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=ja)。
 
@@ -61,7 +61,7 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 
 デスクトップアプリケーションでは、Adobe Experience Manager に保存されているアセットのうち、アプリケーションの基本操作に対応するバイナリファイルを表すものをサポートします。ネイティブデスクトップアプリケーションでファイルを開くには、PNG や JPG などの特定のファイルタイプと Mac Preview や Adobe Photoshop などの特定のアプリケーションとの関連付けがオペレーティングシステムで設定されている必要があります。
 
-一部のファイルタイプでは、リンクされたアセットをバイナリ内に配置することができます。このようなバイナリファイルをデスクトップアプリケーションで開くときにアセットが Adobe Experience Manager リポジトリーに存在する場合は、リンクされたアセットが事前にダウンロードされます。現在サポートされているファイルタイプは次のとおりです。
+一部のファイルタイプでは、リンクされたアセットをバイナリ内に配置することができます。デスクトップアプリケーションでこのようなバイナリファイルを開く際、Adobe Experience Manager リポジトリーにアセットがあると、リンクされたアセットが事前にダウンロードされます。現在サポートされているファイルタイプは次のとおりです。
 
 * [!DNL Adobe InDesign] ファイル（INDD 形式）
 * [!DNL Adobe Illustrator] ファイル（AI 形式）
@@ -105,9 +105,9 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 
 バグ修正と更新点は次のとおりです。
 
-* `%APPDATA%` パスに一致する `%Temp%` ディレクトリを構成するオプションが許可されます。 <!-- CQ-4282665 -->
+* `%APPDATA%` パスに一致する `%Temp%` ディレクトリを構成するオプションが許可されます。<!-- CQ-4282665 -->
 
-* ユーザーが Okta SAML 認証を使用して Adobe Experience Manager オーサーにログインできるようになります。 <!-- CQ-4278134 -->
+* ユーザーが Okta SAML 認証を使用して Adobe Experience Manager オーサーにログインできるようになります。<!-- CQ-4278134 -->
 
 ## インストール手順 {#installation-instructions-v2}
 
@@ -121,7 +121,7 @@ Adobe Experience Manager デスクトップアプリケーションは、AEM as 
 
 * デスクトップアプリケーションは、Adobe Experience Manager との間でアセットバイナリを完全に転送する必要がある操作（開く、編集、変更のアップロード、アセットのアップロード）を完全にコントロールできます。
 
-   * デスクトップ上でアセットを操作する場合は、個別、フォルダー単位、複数選択のいずれの場合でも、「開く」、「編集」、デスクトップへの「ダウンロード」のいずれかを明示的に実行する必要があります。
+   * デスクトップ上でアセットを操作する場合は、個別、フォルダー単位、複数選択のいずれの場合でも、「Open」、「Edit」、デスクトップへの「Download」のいずれかを明示的に実行する必要があります。
 
    * アセットに対するローカルな変更を Adobe Experience Manager にアップロードする場合は、個別のアセットまたは同時に選択した複数のアセットに対して「[!UICONTROL Upload Changes]」を選択する必要があります。
 
