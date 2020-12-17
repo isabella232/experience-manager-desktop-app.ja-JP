@@ -3,10 +3,10 @@ title: Adobe Experience Manager デスクトップアプリケーションの使
 description: Adobe Experience Manager デスクトップアプリケーションをインストールして使用し、Windows または Mac デスクトップから直接 Adobe Experience Manager DAM Assets を操作する方法について説明します。ベストプラクティスとトラブルシューティングの情報を把握します。
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: 41625c59df00b82ceda8a566b35341bc51c2a30f
 workflow-type: tm+mt
-source-wordcount: '4022'
-ht-degree: 100%
+source-wordcount: '4028'
+ht-degree: 97%
 
 ---
 
@@ -173,7 +173,7 @@ Adobe Experience Manager リポジトリーで使用可能なアセットをデ�
 
 ## Adobe Experience Manager への新しいアセットのアップロードと追加 {#upload-and-add-new-assets-to-aem}
 
-ユーザーは、DAM リポジトリーに新しいアセットを追加できます。例えば、代理店のカメラマンや請負業者であれば、撮影した大量の写真を Adobe Experience Manager リポジトリーに追加したいと考えるかもしれません。新しいコンテンツを Adobe Experience Manager に追加するには、デスクトップアプリケーションの上部バーにある ![クラウドにアップロード](assets/do-not-localize/upload_to_cloud_da2.png) アイコンをクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。アセットのアップロードが開始され、アップロードに時間がかかる場合は、デスクトップアプリケーションの下部に進行状況バーが表示されます。フォルダーの作成やアップロード時には、空白や無効な文字を使用しないでください。該当する文字の一覧については、[ [!DNL Assets] でのフォルダーの作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=ja#creating-folders)を参照してください。
+ユーザーは、DAM リポジトリーに新しいアセットを追加できます。例えば、代理店の写真家や契約業者で、写真から[!DNL Experience Manager]リポジトリに多数の写真を追加したい場合があります。 [!DNL Experience Manager]に新しいコンテンツを追加するには、アプリの上部バーにある「クラウドにアップロード」オプション](assets/do-not-localize/upload_to_cloud_da2.png)を選択します。 ![ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。または、アプリケーションインターフェイス上でファイルまたはフォルダーをドラッグします。 アプリの開始がアセットをアップロードします。 アップロードに時間がかかると、アプリの下部に進行状況バーが表示されます。 フォルダーの作成やアップロード時には、空白や無効な文字を使用しないでください。[ [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=ja#creating-folders)のフォルダーを作成する&lt;a0/>で、許可されているリストを参照してください。
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
