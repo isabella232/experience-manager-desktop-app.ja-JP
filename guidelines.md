@@ -1,16 +1,16 @@
 ---
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
-workflow-type: ht
-translation-type: ht
-source-wordcount: '732'
-ht-degree: 100%
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '721'
+ht-degree: 89%
 
 ---
-# Adobe Experience Manager ドキュメントへの投稿に関するガイドライン
+# [!DNL Adobe Experience Manager]ドキュメントへの貢献に関するガイドライン
 
 ## ドキュメントの理念
 
-Adobe Experience Manager ユーザーは、競争の厳しい環境でビジネスを展開しており、競合他社より優位に立つためのデジタルエクスペリエンスを構築しようと懸命に努力しています。したがって、アドビが [!DNL Experience Manager] で高度な新しいツールを提供する際には、お客様が [!DNL Experience Manager] への投資をすぐに活かし ROI を最大化できるように、正確かつ明快なドキュメントでこれらのツールを補うことが不可欠です。
+[!DNL Adobe Experience Manager]ユーザーは、競争の激しい環境で働いており、競合他社とは別のデジタルエクスペリエンスを作ろうと努力しています。 したがって、アドビが [!DNL Experience Manager] で高度な新しいツールを提供する際には、お客様が [!DNL Experience Manager] への投資をすぐに活かし ROI を最大化できるように、正確かつ明快なドキュメントでこれらのツールを補うことが不可欠です。
 
 [!DNL Experience Manager] ドキュメントの目標は、ドキュメントをできるだけ早く [!DNL Experience Manager] ユーザーに届けることです。そのため、正確で使いやすいドキュメントを最優先し、ドキュメントの継続的な更新と改善に努めます。
 
@@ -88,6 +88,6 @@ Adobe Experience Manager ユーザーは、競争の厳しい環境でビジネ�
 
 ### 呼称としての Day、[!DNL Experience Manager]、CQ、CRX の使用
 
-ドキュメントでの初出時には必ず、本製品をフルネームである **Adobe Experience Manager** と記載します。その後は **Experience Manager** と記載してもかまいません。
+記事の最初の使用方法については、商品を&#x200B;**Adobe Experience Manager**&#x200B;というフルネームで参照し、**Experience Manager**&#x200B;として参照します。
 
-Day、Day Software、CQ、CRX は、クラス名や [!DNL Experience Manager] の歴史に言及する場合など、やむを得ない場合を除き、使用しないでください。
+Day、Day Software、CQ、およびCRXの用語は使用しないでください。ただし、クラス名や[!DNL Experience Manager]の履歴を参照する場合など、避けられない場合を除きます。
