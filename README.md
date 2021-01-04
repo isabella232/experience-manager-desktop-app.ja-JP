@@ -1,17 +1,25 @@
 ---
-source-git-commit: 637d132ad0379fd3866dbd7fad8018c5751d271a
-workflow-type: ht
-translation-type: ht
-source-wordcount: '75'
-ht-degree: 100%
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '321'
+ht-degree: 17%
 
 ---
-# Adobe Experience Manager デスクトップアプリケーションドキュメント
+# [!DNL Adobe Experience Manager]デスクトップアプリについて
 
-Adobe Experience Manager デスクトップアプリケーションドキュメントのリポジトリです。
+[!DNL Adobe Experience Manager]デスクトップアプリは、[!DNL Experience Manager] DAMリポジトリをデスクトップに接続し、リソースへのアクセスを高速化し、ワークフローを合理化します。 この削減により、デスクトップワークフローーでデジタルアセットを扱うユーザーの効率性が向上します。 [!DNL Experience Manager Assets]内のアセットは、アプリを使用すると、ローカルデスクトップ上で簡単にアクセスでき、どのデスクトップアプリケーションでも使用できます。 任意のデスクトップアプリケーションでアセットを開いて編集できます。ローカルの編集は、[!DNL Experience Manager] DAMリポジトリで使用できます。 任意のソースからリポジトリに追加された新しいアセットは、デスクトップでも使用できます。
 
-ドキュメントに対する貢献を歓迎します。次のリソースを参照してください。
+このような統合により、組織の様々な役割が[!DNL Experience Manager Assets]内でアセットを一元的に管理できます。 マーケティング担当者やビジネスユーザーは、ブランディングやライセンスなどの様々な標準に確実に準拠できます。クリエイティブユーザーは、デスクトップ上の[!DNL Creative Cloud]や他のネイティブアプリケーションのアセットにアクセスすることもできます。
 
-* [contributing.md](contributing.md)：ドキュメントに対する貢献方法の概要。
-* [guidelines.md](guidelines.md)：投稿で期待される内容とドキュメント投稿の作成方法の概要。
-* [code-of-conduct.md](code-of-conduct.md)：このドキュメントプロジェクトへの投稿時に期待される行動の基準の概要。
+## ドキュメントに寄稿する
+
+このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md) または [.NET Foundation 行動規範](https://dotnetfoundation.org/code-of-conduct)を採用しています。詳しくは、[寄稿](contributing.md)を参照してください。
+
+**小さな変更**:記事の右側の余白にある「編集」をクリックして、小さな修正や説明を加えて送信する開始を選択します。または、変更を説明する雑誌号をこのリポジトリに作成します。 このような小さな貢献は、Adobeの利用条件でカバーされます。
+
+**主な変更**:記事の「編集」をクリックして、Contributeを使用し、プルリクエストを作成するか、雑誌号を作成します。どちらにしても、ドキュメントチームのメンバーがユーザーとやり取りし、詳細情報を取得します。 AdobeCLAに1回だけ署名してから、Adobeドキュメントに何度も署名する必要があります。 [貢献方法](contributing.md)の記事を参照してください。
+
+**Adobe従業員の場合**:Adobeの従業員の場合は、会社のGitを使用して貢献します。[contributing.md](contributing.md)を参照してください。 メジャーアップデートを行うには、雑誌号を開くと、ドキュメントチームのメンバーから連絡が来ます。
+
+お客様が貢献すると予想される行動の標準については、[行動コード](code-of-conduct.md)を参照してください。
