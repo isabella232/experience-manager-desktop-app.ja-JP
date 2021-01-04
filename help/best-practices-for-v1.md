@@ -1,11 +1,11 @@
 ---
-title: AEM デスクトップアプリケーションバージョン 1.x のベストプラクティス
-description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.x の主要な機能と推奨される使用例
+title: '[!DNL Adobe Experience Manager] デスクトップアプリケーションバージョン 1.x のベストプラクティス'
+description: 主な機能と推奨される [!DNL Adobe Experience Manager] デスクトップアプリバージョン1.xの使用
 translation-type: tm+mt
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 100%
+source-wordcount: '1686'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## 概要 {#overview}
 
-Adobe Experience Manager（AEM）デスクトップアプリケーションは、デジタルアセット管理（DAM）ソリューションとユーザーのデスクトップをリンクさせます。これにより、ユーザーは、AEM Web UI で使用できるファイルをデスクトップで直接開くことができます。デスクトップからアセットを保存すると AEM の適切な場所にアップロードされます。
+[!DNL Adobe Experience Manager] デスクトップアプリは、AEM web UIで使用可能なファイルをデスクトップ上で直接開くことができるように、Digital Asset Management(DAM)ソリューションをデスクトップにリンクします。デスクトップからアセットを保存すると AEM の適切な場所にアップロードされます。
 
 AEM デスクトップアプリケーションは誤ったローカルコピーや AEM 内の誤ったアセットを更新してしまう可能性をなくします。デスクトップアプリケーションの使いやすいワークフローは、デスクトップのオペレーティングシステムから提供されるネットワーク共有テクノロジにより有効化されます。
 
