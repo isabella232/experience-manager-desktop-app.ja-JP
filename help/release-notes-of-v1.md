@@ -1,27 +1,20 @@
 ---
 title: AEM デスクトップアプリケーションバージョン 1.x リリースノート
 description: AEM デスクトップアプリケーションバージョン 1.x のリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。
-uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '3920'
-ht-degree: 99%
+source-wordcount: '3906'
+ht-degree: 97%
 
 ---
 
 
-# AEM デスクトップアプリケーション v1.x リリースノート {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager] デスクトップアプリケーション v1.x リリースノート {#aem-desktop-app-release-notes}
 
 デスクトップアプリケーション v1.x リリースのダウンロードリンクと AEM の互換性情報を次に示します。
 
-| 製品 | Adobe Experience Manager（AEM）デスクトップアプリケーション |
+| 製品 | [!DNL Adobe Experience Manager] デスクトップアプリ |
 |--- |--- |
 | バージョン | 1.10（Mac 上では 1.10.0.6、Windows 上では 1.10.0.3） |
 | 種類 | マイナーリリース |
@@ -75,9 +68,9 @@ AEM デスクトップアプリケーション 1.10 は、大容量のアップ�
 
 ## 以前のバージョンの機能強化 {#enhancements-in-the-previous-versions}
 
-このリリースは、次の重要な機能強化が加えられた Adobe Experience Manager デスクトップアプリケーションの以前のバージョンを拡張して置き換えるものです。
+このリリースは、以前のバージョンの[!DNL Experience Manager]デスクトップアプリケーションを拡張および置き換えるものです。以下の主な機能強化が行われました。
 
-* **バージョン 1.9／1.9.1**：再開可能なアップロード、ステータスウィンドウの強化、アプリケーション／接続の状態を示すアプリケーションアイコン、InDesign ファイルのリンクされたアセットのプリフェッチ。。
+* **バージョン1.9/1.9.1**:再開可能なアップロード、改善されたステータスウィンドウ、アプリケーション/InDesignのステータスを示すアプリケーションアイコン、接続ファイルのリンクされたアセットのプリフェッチ。
 
 * **バージョン 1.8**：ユーザーのキャッシュサイズの管理の機能向上、Windows の SAML／SSO でのログインの改善、Mac の .pac ネットワークプロキシのサポート、お客様から報告された問題への対応。
 
@@ -93,7 +86,7 @@ AEM デスクトップアプリケーション 1.10 は、大容量のアップ�
 
 ### AEM デスクトップアプリケーション 1.9 以降で使用可能な機能強化 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-Adobe Experience Manager（AEM）デスクトップアプリケーション 1.9.1 は、ユーザーがアセットのチェックアウトやネットワーク共有からローカルディレクトリへのファイルコピーをおこなう際に経験していたいくつかの重要な問題に対応するためのパッチリリースです。
+[!DNL Adobe Experience Manager] デスクトップアプリ1.9.1はパッチリリースで、アセットのチェックアウトやネットワーク共有からローカルディレクトリへのファイルのコピーに関するお客様の主な問題に対処しました。
 
 * 特定のユーザーがチェックアウトしたアセットは、他のユーザーが変更できてはいけません（CQ-4246009）。
 
@@ -135,7 +128,7 @@ AEM デスクトップアプリケーション 1.9 は、大容量のアップ�
 
 * フッターには、ダウンロードされた合計ファイル数と平均転送速度が表示されます。
 
-* Experience Manager Assets Web UI から複数のファイルを開くまたは編集する場合、ファイルはグループ化されます。例：myasset.jpeg とその他 4 ファイル。
+* ユーザーが[!DNL Experience Manager Assets] Webインターフェイスから複数のファイルを開いたり編集したりする場合、それらはグループ化されます。 例：myasset.jpeg とその他 4 ファイル。
 
 * AEM Assets に保存されているリンクされたアセットを含む InDesign ドキュメントをダウンロードする場合、デスクトップアプリケーションは [!UICONTROL Adobe InDesign] ドキュメントを開く前にリンクされているすべてのアセットをダウンロードし、リンクされたアセットのダウンロード状況を表示します（例：5/24）。
 
