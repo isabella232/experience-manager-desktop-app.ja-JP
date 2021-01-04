@@ -1,27 +1,20 @@
 ---
-title: AEM デスクトップアプリケーションバージョン 1.x のトラブルシューティング
-description: AEM デスクトップアプリケーションのトラブルシューティングバージョン 1.x のインストール、アップグレード、設定などで発生することのある問題のトラブルシューティングについて説明します。
-uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
-index: y
-internal: n
-snippet: y
+title: ' [!DNL Adobe Experience Manager] デスクトップアプリバージョン1.xのトラブルシューティング'
+description: ' [!DNL Adobe Experience Manager] デスクトップアプリケーションバージョン1.xのトラブルシューティングを行い、インストール、アップグレード、設定に関する、時折発生する問題を解決します。'
 translation-type: tm+mt
-source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '3379'
-ht-degree: 100%
+source-wordcount: '3366'
+ht-degree: 98%
 
 ---
 
 
-# AEM デスクトップアプリケーション v1.x のトラブルシューティング {#troubleshoot-aem-desktop-app}
+# [!DNL Adobe Experience Manager]デスクトップアプリv1.x {#troubleshoot-aem-desktop-app}のトラブルシューティング
 
 AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することのある問題のトラブルシューティングについて説明します。
 
-Adobe Experience Manager（AEM）デスクトップアプリケーションには、AEM Assets リポジトリをデスクトップのネットワーク共有（Mac OS では SMB 共有）としてマッピングするのに役立つユーティリティが含まれています。ネットワーク共有とは、リモートソースをコンピューターのローカルファイルシステムの一部であるかのように扱うオペレーティングシステム（OS）テクノロジーです。デスクトップアプリケーションの場合は、リモート AEM インスタンスのデジタルアセット管理（DAM）リポジトリ構造をリモートファイルソースとして利用します。デスクトップアプリケーションのトポロジを次の図に示します。
+[!DNL Adobe Experience Manager] デスクトップアプリケーションには、AEM Assetsリポジトリをデスクトップ上のネットワーク共有（Mac OSでのSMB共有）としてマッピングするのに役立つユーティリティが含まれています。ネットワーク共有とは、リモートソースをコンピューターのローカルファイルシステムの一部であるかのように扱うオペレーティングシステム（OS）テクノロジーです。デスクトップアプリケーションの場合は、リモート AEM インスタンスのデジタルアセット管理（DAM）リポジトリ構造をリモートファイルソースとして利用します。デスクトップアプリケーションのトポロジを次の図に示します。
 
 ![デスクトップアプリケーションのトポロジ図](assets/aem-desktopapp-architecture.png)
 
@@ -70,7 +63,7 @@ AEM デスクトップアプリケーションは、以下のような大量の 
 
 オペレーティングシステムの制限により、Windows ではファイルサイズの上限が 4,294,967,295 バイト（約 4.29 GB）と定められています。この制限は、ネットワーク共有上のファイルサイズの上限を定めるレジストリ設定に由来します。このレジストリ設定は DWORD 値であり、DWORD 値の上限が前述の数値になっています。
 
-Adobe Experience Manager デスクトップアプリケーションには、一定時間の経過後に Adobe Experience Manager サーバーとデスクトップアプリケーションの間の接続を切断するための設定可能なタイムアウト値がありません。サイズの大きいアセットをアップロードする際に、しばらくして接続がタイムアウトした場合、アプリケーションはアップロードタイムアウトを長くして、アセットのアップロードを数回再試行します。デフォルトのタイムアウト設定を変更するお勧めの方法はありません。
+[!DNL Experience Manager]Adobe デスクトップアプリケーションには、一定時間の経過後に Adobe サーバーとデスクトップアプリケーションの間の接続を切断するための設定可能なタイムアウト値がありません。[!DNL Experience Manager]サイズの大きいアセットをアップロードする際に、しばらくして接続がタイムアウトした場合、アプリケーションはアップロードタイムアウトを長くして、アセットのアップロードを数回再試行します。デフォルトのタイムアウト設定を変更するお勧めの方法はありません。
 
 ## キャッシュと AEM との通信 {#caching-and-communication-with-aem}
 
