@@ -1,9 +1,9 @@
 ---
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18cebce065f9b55259bf96d14cb50cf5bc6c8ec6
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '509'
-ht-degree: 74%
+source-wordcount: '516'
+ht-degree: 73%
 
 ---
 # [!DNL Adobe Experience Manager]デスクトップアプリのドキュメントに貢献
@@ -53,7 +53,7 @@ ht-degree: 74%
 
 ### アドビ従業員による投稿
 
-Adobeの従業員で貢献度を持っている場合は、`AdobeDocs`組織を社内投資に使用するようお願いします。 GitHub.comのこの公開リポジトリに貢献できますが、貢献度は会社のレポジトリで簡単に処理できます。 会社のレポートでのみ、独自情報や未リリース情報についての説明が行われていることを確認します。
+Adobeの従業員で貢献度を持っている場合は、`AdobeDocs`組織を社内投資に使用するようお願いします。 GitHub.comのこの公開リポジトリに貢献できますが、貢献度は会社のレポジトリで簡単に処理できます。 会社のレポートでのみ、独自情報や未リリース情報についての説明が行われていることを確認します。 Adobe従業員は、CLAに署名する必要はありません。
 
 ## AdobeのGitHubオーサリングプラットフォームとMarkdownについて
 
