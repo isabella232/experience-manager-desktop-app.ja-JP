@@ -1,35 +1,28 @@
 ---
-title: Adobe Experience Manager デスクトップアプリケーションのインストールと設定
-description: Adobe Experience Manager デスクトップアプリケーションをインストールして、Adobe Experience Manager Assets サーバーと連携し、アセットをローカルファイルシステムにダウンロードするように設定します。
-uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f6365302-1690-4719-9b8c-035719422740
-index: y
-internal: n
-snippet: y
+title: ' [!DNL Adobe Experience Manager] デスクトップアプリのインストールと設定'
+description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] サーバーをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。'
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 100%
+source-wordcount: '1162'
+ht-degree: 84%
 
 ---
 
 
-# Adobe Experience Manager デスクトップアプリケーションのインストール {#install-app-v2}
+# [!DNL Adobe Experience Manager]デスクトップアプリ{#install-app-v2}をインストール
 
-Adobe Experience Manager デスクトップアプリケーションを使用すると、Adobe Experience Manager 内のアセットをローカルデスクトップから手軽に入手し、任意のネイティブデスクトップアプリケーションで利用できるようになります。アセットをプレビューしたり、ネイティブデスクトップアプリケーションで開いたり、Mac Finder や Windows エクスプローラーで表示して他のドキュメント内に配置したり、ローカルで変更したりできます。変更したアセットをアップロードすると、変更内容が Adobe Experience Manager に保存され、リポジトリー内に新しいバージョンが作成されます。
+[!DNL Adobe Experience Manager]デスクトップアプリを使用すると、[!DNL Experience Manager]内のアセットはローカルデスクトップで簡単に入手でき、任意のネイティブデスクトップアプリケーションで使用できます。 アセットのプレビュー、ネイティブデスクトップアプリケーションでの開き方、Mac FinderまたはWindowsエクスプローラでの配置用に表示、ローカルでの変更が可能です。アップロード時に変更内容が[!DNL Experience Manager]に保存され、リポジトリに新しいバージョンが作成されます。
 
 このような統合により、組織内の様々な役割のユーザーが以下をおこなえます。
 
-* アセットを Adobe Experience Manager Assets で一元管理する。
+* [!DNL Experience Manager Assets]でアセットを一元的に管理します。
 
 * サードパーティアプリケーションや Adobe Creative Cloud アプリケーションなど、任意のネイティブデスクトップアプリケーションでアセットにアクセスする。その間、ユーザーはブランディングなどの様々な標準に容易に準拠できます。
 
-Adobe Experience Manager デスクトップアプリケーションを使用するには、次の手順に従います。
+[!DNL Experience Manager] デスクトップアプリケーションを使用するには、次の手順に従います。
 
-* Adobe Experience Manager のバージョンが Adobe Experience Manager デスクトップアプリケーションでサポートされていることを確認します。以下の[必要システム構成](release-notes.md#system-requirements-and-prerequisites-v2)を参照してください。
+* [!DNL Experience Manager]バージョンが[!DNL Experience Manager]デスクトップアプリでサポートされていることを確認してください。 以下の[必要システム構成](release-notes.md#system-requirements-and-prerequisites-v2)を参照してください。
 
 * アプリケーションをダウンロードしてインストールします。下記の[デスクトップアプリケーションのインストール方法](#install-v2)を参照してください。
 
@@ -37,7 +30,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 ## 必要システム構成、前提条件およびダウンロードリンク {#tech-specs-v2}
 
-詳しくは、[Adobe Experience Manager デスクトップアプリケーションリリースノート](release-notes.md)を参照してください。
+詳しくは、[[!DNL Experience Manager] Adobe デスクトップアプリケーションリリースノート](release-notes.md)を参照してください。
 
 ## 以前のバージョンからのアップグレード {#upgrade-from-previous-version}
 
@@ -49,7 +42,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 以前のバージョンのアプリケーションからアップグレードするには、次の手順に従います。
 
-1. アップグレードする前に、すべてのアセットを同期し、変更を Adobe Experience Manager にアップロードします。これは、アプリケーションをアンインストールする際に編集内容が失われないようにするためです。
+1. アップグレードする前に、すべてのアセットを同期し、変更を[!DNL Experience Manager]にアップロードします。 これは、アプリケーションをアンインストールする際に編集内容が失われないようにするためです。
 
 1. 以前のバージョンのアプリケーションをアンインストールします。アンインストール時に、キャッシュをクリアするオプションを選択します。
 
@@ -59,15 +52,15 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
 ## インストール {#install-v2}
 
-デスクトップアプリケーションをインストールするには、次の手順に従います。最新のデスクトップアプリケーションをインストールする前に、既存の Adobe Experience Manager デスクトップアプリケーション v1.x をアンインストールします。詳しくは、上記を参照してください。
+デスクトップアプリケーションをインストールするには、次の手順に従います。最新のAdobeをインストールする前に、既存の[!DNL Experience Manager]デスクトップアプリケーションv1.xをアンインストールしてください。 詳しくは、上記を参照してください。
 
 1. 最新のインストーラーを[リリースノート](release-notes.md)ページからダウンロードします。
 
-1. Adobe Experience Manager デプロイメントの URL と認証情報を手元に用意します。
+1. [!DNL Experience Manager]デプロイメントのURLと資格情報を手元に置いておきます。
 
 1. 別のバージョンのアプリケーションからアップグレードする場合は、[デスクトップアプリケーションのアップグレード](#upgrade-from-previous-version)を参照してください。
 
-1. Adobe Experience Manager as a Cloud Service、Adobe Experience Manager 6.4.4 以降、Adobe Experience Manager 6.5.0 以降のいずれかを使用している場合は、この手順をスキップします。Adobe Experience Manager の設定が、[リリースノート](release-notes.md)に記載されている互換性要件を満たしていることを確認します。必要に応じて、該当する[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をダウンロードし、Adobe Experience Manager 管理者として Adobe Experience Manager パッケージマネージャーを使用してインストールします。パッケージのインストールについては、[パッケージの作業方法](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ja)を参照してください。
+1. [!DNL Experience Manager]を[!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4以降、または[!DNL Experience Manager] 6.5.0以降として使用する場合は、この手順をスキップします。 [!DNL Experience Manager]の設定が、[リリースノート](release-notes.md)に記載されている互換性要件を満たしていることを確認してください。 必要に応じて、該当する[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をダウンロードし、Adobe 管理者として Adobe パッケージマネージャーを使用してインストールします。[!DNL Experience Manager][!DNL Experience Manager]パッケージのインストールについては、[パッケージの作業方法](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ja)を参照してください。
 
 1. インストーラーのバイナリを実行し、画面の指示に従ってインストールします。
 
@@ -93,7 +86,7 @@ Adobe Experience Manager デスクトップアプリケーションを使用す�
 
    *図：ログイン後に DAM コンテンツが表示される*
 
-1. （Adobe Experience Manager 6.5.1 以降）デスクトップアプリケーションを Adobe Experience Manager 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。詳しくは、[Azure コネクタ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=ja#azure-data-store)または [S3 コネクタ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=ja#amazon-s-data-store)を参照してください。
+1. （[!DNL Experience Manager] 6.5.1以降）[!DNL Experience Manager] 6.5.1以降のデスクトップアプリを使用している場合は、S3またはAzureコネクタをバージョン1.10.4以降にアップグレードします。 詳しくは、[Azure コネクタ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=ja#azure-data-store)または [S3 コネクタ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=ja#amazon-s-data-store)を参照してください。
 
    Adobe Managed Services（AMS）を使用している場合は、アドビカスタマーケアにお問い合わせください。
 
