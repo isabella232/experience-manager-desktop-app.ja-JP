@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
 source-wordcount: '3906'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 82%
 
 [!DNL Experience Manager]デスクトップアプリを使用して行う主なタスクは次のとおりです。
 
-![[!DNL Experience Manager]デスクトップアプリケーションを使用して実行できるワークフローとタスク ](assets/aem_desktop_app_usecases_v2.png " [!DNL Adobe Experience Manager]  デスクトップアプリケーションを使用して実行できるワークフローとタスク")
+![[!DNL Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク ](assets/aem_desktop_app_usecases_v2.png " [!DNL Adobe Experience Manager]  デスクトップアプリケーションを使用して実行できるワークフローとタスク")
 [この](assets/aem_desktop_app_usecases_print.pdf)印刷可能な PDF ファイルをダウンロードします。
 
 ## デスクトップアプリケーションの動作の仕組み {#how-app-works2}
@@ -173,7 +173,7 @@ ht-degree: 82%
 
 ##  への新しいアセットのアップロードと追加 [!DNL Experience Manager]{#upload-and-add-new-assets-to-aem}
 
-ユーザーは、DAM リポジトリーに新しいアセットを追加できます。例えば、代理店の写真家や契約業者で、写真から[!DNL Experience Manager]リポジトリに多数の写真を追加したい場合があります。 [!DNL Experience Manager]に新しいコンテンツを追加するには、アプリの上部バーにある「クラウドにアップロード」オプション](assets/do-not-localize/upload_to_cloud_da2.png)を選択します。 ![ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。または、アプリケーションインターフェイス上でファイルまたはフォルダーをドラッグします。 アプリの開始がアセットをアップロードします。 アップロードに時間がかかると、アプリの下部に進行状況バーが表示されます。 フォルダーの作成やアップロード時には、空白や無効な文字を使用しないでください。[ [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=ja#creating-folders)のフォルダーを作成する&lt;a0/>で、許可されているリストを参照してください。
+ユーザーは、DAM リポジトリーに新しいアセットを追加できます。例えば、代理店のフォトグラファーや請負業者は、撮影した大量の写真を [!DNL Experience Manager] リポジトリーに追加したいと考えるかもしれません。新しいコンテンツを [!DNL Experience Manager] に追加するには、アプリの上部バーにある![クラウドにアップロードオプション](assets/do-not-localize/upload_to_cloud_da2.png)をクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。または、アプリケーションインターフェイス上でファイルまたはフォルダーをドラッグします。アプリがアセットのアップロードを開始します。アップロードに時間がかかると、アプリの下部に進行状況バーが表示されます。フォルダーの作成やアップロード時には、空白や無効な文字を使用しないでください。使用できる文字の一覧については、「[ [!DNL Assets] でのフォルダーの作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=ja#creating-folders)」を参照してください。
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
