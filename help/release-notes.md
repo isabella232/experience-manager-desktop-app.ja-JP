@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
 source-wordcount: '1346'
-ht-degree: 68%
+ht-degree: 73%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 68%
 
 | 製品 | [!DNL Adobe Experience Manager] デスクトップアプリ |
 |--- |--- |
-| アプリのバージョン（リビジョン） | 2.1 (2.1.0.0) |
-| サポートされる[!DNL Adobe Experience Manager]バージョン | [!DNL Experience Manager] という [!DNL Cloud Service]形で [!DNL Experience Manager] 6.5; [!DNL Experience Manager] 6.4; [!DNL Experience Manager] 6.3 （互換パッケージ付き） |
+| アプリのバージョン（リビジョン） | 2.1（2.1.0.0） |
+| サポートされる [!DNL Adobe Experience Manager] バージョン | [!DNL Experience Manager] as a [!DNL Cloud Service]、[!DNL Experience Manager] 6.5、[!DNL Experience Manager] 6.4、 [!DNL Experience Manager] 6.3（互換性パッケージを使用） |
 | 種類 | マイナーリリース |
 | リリース日 | 2020 年 17 月 12 日（Mac および Win） |
 | ダウンロード URL | [macOS 64 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg)、[Windows 64 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe)、[Windows 32 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
@@ -35,18 +35,18 @@ ht-degree: 68%
 
 このアプリは、[!DNL Cloud Service]、Adobe Managed Services(AMS)またはオンプレミスのいずれの形式でデプロイされているかに関係なく、次の[!DNL Experience Manager]バージョンと連携して動作します。
 
-* [[!DNL Experience Manager] として [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=ja)。
+* [[!DNL Experience Manager] as a [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=ja)。
 
-* [[!DNL Experience Manager] 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ja) 以降。
+* [[!DNL Experience Manager] 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ja) 以降
 
-* [[!DNL Experience Manager] 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja) 以降。
+* [[!DNL Experience Manager] 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja) 以降
 
-* [!DNL Experience Manager] 6.4.0 - 6.4.3( [互換性パッケージ付き](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support))。
+* [!DNL Experience Manager] 6.4.0～6.4.3（[互換性パッケージ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)を使用）。
 
 >[!NOTE]
 >
->[!DNL Experience Manager] 6.3のデスクトップアプリのサポートは廃止されました。 Adobeでは、新しくサポートされている[!DNL Adobe Experience Manager]バージョンにアップグレードすることをお勧めします。
->[!DNL Experience Manager] Adobe 6.3.3.1 以降は、[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をインストールした後、デスクトップアプリケーションで動作します。[!DNL Experience Manager] 6.3では、[サービスパックが計画されていないため、](https://helpx.adobe.com/jp/experience-manager/maintenance-releases-roadmap.html) 6.3ではそのようなパッケージはありません。
+>[!DNL Experience Manager] 6.3 のデスクトップアプリケーションのサポートは廃止されました。サポートされている新しい [!DNL Adobe Experience Manager] バージョンにアップグレードすることをお勧めします。
+>[!DNL Experience Manager] 6.3.3.1 以降は、[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をインストールした後、デスクトップアプリケーションで動作します。[!DNL Experience Manager] 6.3では、[サービスパックが計画されていないため、](https://helpx.adobe.com/jp/experience-manager/maintenance-releases-roadmap.html) 6.3ではそのようなパッケージはありません。
 
 ローカルコンピューターにインストールする予定のアプリケーションのバージョンには、特定の[!DNL Adobe Experience Manager]サーバーバージョン/追加のサーバー側コンポーネント（サービスパック、ホットフィックス、または機能パック）が必要です。 [!DNL Experience Manager]管理者に問い合わせてください。
 
@@ -76,7 +76,7 @@ ht-degree: 68%
 
 **AEM デスクトップアプリケーション v2.1.0.0 の更新点**
 
-* アセットをアップロードする際に、ユーザーがアプリケーションのインターフェイス上のファイルやフォルダーを、WindowsエクスプローラーまたはMac Finderから直接ドラッグできるようになりました。 これは、以前アプリケーションで使用可能だったアップロードオプションに加えて機能します。
+* アセットをアップロードする際に、アプリケーションのインターフェイス上でファイルやフォルダーを Windows エクスプローラーまたは Mac Finder から直接ドラッグできるようになりました。これは、以前アプリケーションで使用可能だったアップロードオプションに加えて機能します。
 
 **AEM デスクトップアプリケーション v2.0.3 の更新点**
 
