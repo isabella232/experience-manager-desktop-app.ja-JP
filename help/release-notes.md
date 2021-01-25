@@ -1,24 +1,24 @@
 ---
-title: '[!DNL Adobe Experience Manager] デスクトップアプリのリリースノート'
-description: リリースの詳細、機能強化、新機能、互換性、 [!DNL Adobe Experience Manager] デスクトップアプリのダウンロードリンク。
+title: '[!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート'
+description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。'
 mini-toc-levels: 1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1346'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Adobe Experience Manager] デスクトップアプリのリリースノート  {#release-notes-v2}
+# [!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート {#release-notes-v2}
 
-| 製品 | [!DNL Adobe Experience Manager] デスクトップアプリ |
+| 製品 | [!DNL Adobe Experience Manager] デスクトップアプリケーション |
 |--- |--- |
 | アプリのバージョン（リビジョン） | 2.1（2.1.0.0） |
 | サポートされる [!DNL Adobe Experience Manager] バージョン | [!DNL Experience Manager] as a [!DNL Cloud Service]、[!DNL Experience Manager] 6.5、[!DNL Experience Manager] 6.4、 [!DNL Experience Manager] 6.3（互換性パッケージを使用） |
 | 種類 | マイナーリリース |
-| リリース日 | 2020 年 17 月 12 日（Mac および Win） |
+| リリース日 | 2020 年 12 月 17 日（Mac および Win） |
 | ダウンロード URL | [macOS 64 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg)、[Windows 64 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe)、[Windows 32 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
 
 ## システム要件および使用条件 {#system-requirements-and-prerequisites-v2}
@@ -33,7 +33,7 @@ ht-degree: 73%
 >
 >Windows 7 のベンダーサポートは終了しました（https://support.microsoft.com/ja-jp/help/4057281/windows-7-support-ended-on-january-14-2020）。
 
-このアプリは、[!DNL Cloud Service]、Adobe Managed Services(AMS)またはオンプレミスのいずれの形式でデプロイされているかに関係なく、次の[!DNL Experience Manager]バージョンと連携して動作します。
+このアプリケーションは、[!DNL Cloud Service]、Adobe Managed Services（AMS）、オンプレミスのどれでデプロイされている場合でも、次の [!DNL Experience Manager] バージョンと連携します。
 
 * [[!DNL Experience Manager] as a [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=ja)。
 
@@ -46,29 +46,29 @@ ht-degree: 73%
 >[!NOTE]
 >
 >[!DNL Experience Manager] 6.3 のデスクトップアプリケーションのサポートは廃止されました。サポートされている新しい [!DNL Adobe Experience Manager] バージョンにアップグレードすることをお勧めします。
->[!DNL Experience Manager] 6.3.3.1 以降は、[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をインストールした後、デスクトップアプリケーションで動作します。[!DNL Experience Manager] 6.3では、[サービスパックが計画されていないため、](https://helpx.adobe.com/jp/experience-manager/maintenance-releases-roadmap.html) 6.3ではそのようなパッケージはありません。
+>[!DNL Experience Manager] 6.3.3.1 以降は、[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をインストールした後、デスクトップアプリケーションで動作します。[サービスパックが予定](https://helpx.adobe.com/jp/experience-manager/maintenance-releases-roadmap.html)されていないので、[!DNL Experience Manager] 6.3 ではそのようなパッケージはありません。
 
-ローカルコンピューターにインストールする予定のアプリケーションのバージョンには、特定の[!DNL Adobe Experience Manager]サーバーバージョン/追加のサーバー側コンポーネント（サービスパック、ホットフィックス、または機能パック）が必要です。 [!DNL Experience Manager]管理者に問い合わせてください。
+ローカルマシンにインストールする AEM デスクトップアプリケーションのバージョンに応じて、[!DNL Adobe Experience Manager] サーバーの特定のバージョンや、サーバー側の追加コンポーネント（サービスパック、ホットフィックスまたは機能パック）が必要になります。[!DNL Experience Manager] の管理者に問い合わせてください。
 
 ### 様々なアセットおよびファイルタイプのサポート {#support-for-file-types}
 
-アプリケーションは、基本的な操作のバイナリファイルを表す[!DNL Experience Manager]に格納されたアセットをサポートします。 ネイティブデスクトップアプリケーションでファイルを開くには、PNG や JPG などの特定のファイルタイプと Mac Preview や Adobe Photoshop などの特定のアプリケーションとの関連付けがオペレーティングシステムで設定されている必要があります。
+アプリケーションでは、[!DNL Experience Manager] に保存されているアセットのうち、アプリケーションの基本操作に対応するバイナリファイルを表すものをサポートします。ネイティブデスクトップアプリケーションでファイルを開くには、PNG や JPG などの特定のファイルタイプと Mac Preview や Adobe Photoshop などの特定のアプリケーションとの関連付けがオペレーティングシステムで設定されている必要があります。
 
-一部のファイルタイプでは、リンクされたアセットをバイナリ内に配置することができます。アセットが[!DNL Experience Manager]リポジトリに存在する場合、デスクトップアプリケーションでこのようなバイナリファイルを開くと、アプリケーションはリンクされたアセットを事前にダウンロードします。 現在サポートされているファイルタイプは次のとおりです。
+一部のファイルタイプでは、リンクされたアセットをバイナリ内に配置することができます。デスクトップアプリケーションでこのようなバイナリファイルを開く際、[!DNL Experience Manager] リポジトリーにアセットがあると、リンクされたアセットが事前にダウンロードされます。現在サポートされているファイルタイプは次のとおりです。
 
 * [!DNL Adobe InDesign] ファイル（INDD 形式）
 * [!DNL Adobe Illustrator] ファイル（AI 形式）
 * [!DNL Adobe Photoshop] ファイル（PS 形式）
 
-この機能は、上記のアプリケーションの[!DNL Adobe Creative Cloud] 2018および[!DNL Adobe Creative Cloud] 2019バージョンでサポートされています。 アプリは、発見的で最も一致するアプローチを使用して、リンクされたアセットのローカルデスクトップパスを[!DNL Experience Manager]サーバー上のURLにマッピングします。 このアプローチは、以下を前提としています。
+この機能は、上記アプリケーションの [!DNL Adobe Creative Cloud] 2018 バージョンおよび [!DNL Adobe Creative Cloud] 2019 バージョンでサポートされています。デスクトップアプリケーションは、発見的最良一致アプローチを使用して、リンクされたアセットのローカルデスクトップパスを [!DNL Experience Manager] サーバー上の URL にマッピングします。このアプローチは、以下を前提としています。
 
 * ネイティブアプリケーションでは、配置されたファイルのパスにグローバルデスクトップパスが使用されます（ローカルネットワーク共有から配置され、「[!UICONTROL Reveal]」オプションで表示されます）。
 
 * パスは、ネイティブアプリケーションによってファイルの XMP レコードに保存されます。
 
-* [!DNL Experience Manager]Adobe では、アセットのメタデータレコードへのパスを使用して XMP レコードの抽出が完了しています。
+* [!DNL Experience Manager] では、アセットのメタデータレコードへのパスを使用して XMP レコードの抽出が完了しています。
 
-* パスは[!DNL Experience Manager]内のアセットと一致させることができます。つまり、配置されたファイルも一致するパスの下の[!DNL Experience Manager]内にあります。
+* パスは [!DNL Experience Manager] 内のアセットと一致させることができます。つまり、配置されたファイルは [!DNL Experience Manager] 内でも一致したパスの下に存在しています。
 
 ## 新機能および機能強化 {#whats-new-added}
 
@@ -104,29 +104,29 @@ ht-degree: 73%
 
 * `%APPDATA%` パスに一致する `%Temp%` ディレクトリを構成するオプションが許可されます。<!-- CQ-4282665 -->
 
-* Okta SAML認証を使用した[!DNL Experience Manager]作成者でのログインをユーザーに許可します。<!-- CQ-4278134 -->
+* ユーザーが Okta SAML 認証を使用して [!DNL Experience Manager] オーサーにログインできるようになります。<!-- CQ-4278134 -->
 
 ## インストール手順 {#installation-instructions-v2}
 
-アプリのインストールと設定方法について詳しくは、[ [!DNL Experience Manager] デスクトップアプリ](install-upgrade.md)のインストールを参照してください。
+アプリケーションのインストールと設定の方法については、[ [!DNL Experience Manager]  デスクトップアプリケーションのインストール](install-upgrade.md)を参照してください。
 
-以前の[!DNL Experience Manager]デスクトップアプリケーションからアップグレードする場合は、[以前のバージョン](install-upgrade.md#upgrade-from-previous-version)からのアップグレードに記載されている移行のベストプラクティスに従う必要があります。
+以前の [!DNL Experience Manager] デスクトップアプリケーションからアップグレードする場合は、[以前のバージョンからのアップグレード](install-upgrade.md#upgrade-from-previous-version)にリストされている移行のベストプラクティスに従う必要があります。
 
 ## デスクトップアプリケーションの動作の仕組みに関する重要なメモ {#how-app-works}
 
 デスクトップアプリケーションとその動作の仕組みについて、以下の点を理解しておくことが重要です。
 
-* アプリケーションは、[!DNL Experience Manager]との間でアセットバイナリの完全な転送を必要とする操作（開く、編集、変更のアップロード、アセットのアップロード）を完全に制御します。
+* アプリケーションは、[!DNL Experience Manager] との間でアセットバイナリを完全に転送する必要がある操作（開く、編集、変更のアップロード、アセットのアップロード）を完全にコントロールできます。
 
-   * デスクトップ上でアセットを操作する場合は、個別、フォルダー単位、複数選択のいずれの場合でも、「Open」、「Edit」、デスクトップへの「Download」のいずれかを明示的に実行する必要があります。
+   * デスクトップ上でアセットを操作する場合は、個別、フォルダー単位、複数選択のいずれの場合でも、「開く」、「編集」、「デスクトップへのダウンロード」のいずれかを明示的に実行する必要があります。
 
-   * [!DNL Experience Manager]にアップロードされたアセットに対するローカルな変更を取得する場合は、[!UICONTROL Upload Changes]を個別に選択するか、複数選択を使用して選択する必要があります。
+   * アセットに対するローカルな変更を [!DNL Experience Manager] にアップロードする場合は、個別のアセットまたは同時に選択した複数のアセットに対して「[!UICONTROL Upload Changes]」を選択する必要があります。
 
-   * アプリケーションは、デスクトップと[!DNL Experience Manager]の間でアセットを同期する&#39;同期クライアント&#39;ではありません。
+   * アプリケーションは、デスクトップと [!DNL Experience Manager] をまたいでアセットを同期させる「同期クライアント」ではありません。
 
-   * アプリケーションは、[!DNL Experience Manager]リポジトリを仮想フォルダー構造としてマップするネットワーク共有を提供しません。
+   * アプリケーションは、[!DNL Experience Manager]リポジトリーを仮想フォルダー構造としてマッピングするネットワーク共有を提供しません。
 
-* デスクトップアプリケーションに表示されるアセットのリストは、 Assets リポジトリーのステータスに基づいています。ローカルにダウンロードされた後でローカルファイルまたはキャッシュフォルダー内で名前が変更されたファイルは、デスクトップアプリケーションでは表示または管理されません。
+* デスクトップアプリケーションに表示されるアセットのリストは、Assets リポジトリーのステータスに基づいています。ローカルにダウンロードされた後でローカルファイルまたはキャッシュフォルダー内で名前が変更されたファイルは、デスクトップアプリケーションでは表示または管理されません。
 
 * 期待した結果がデスクトップアプリケーションに表示されない場合は、上部のバーにある更新アイコンをクリックしてください。
 
@@ -136,7 +136,7 @@ ht-degree: 73%
 
 ユーザーのアクションによってクラウドとローカルファイルシステムの間で開始されるアセットおよびファイルのフローを次の図に示します。
 
-![[!DNL Experience Manager]デスクトップアプリケーションを介した Adobe サーバーからネイティブデスクトップアプリへのアセットのフロー](assets/da20_flow_diagram.png)
+![デスクトップアプリケーションを介した [!DNL Experience Manager] サーバーからネイティブデスクトップアプリへのアセットのフロー](assets/da20_flow_diagram.png)
 
 ## 既知の問題 {#known-issues-v2}
 
@@ -150,13 +150,13 @@ ht-degree: 73%
 
 * フィルターを適用後に解除してローカルに編集されたすべてのアセットを検索すると、開始時点の検索結果やフォルダー表示に戻りません。DAM リポジトリーのルートフォルダーが表示されます。
 
-* [!DNL Experience Manager]サーバーが実行されていないURLに接続すると、接続画面が応答しなくなることがあります。 アプリケーションを終了して、再度起動してください。
+* [!DNL Experience Manager] サーバーが動作していない URL に接続すると、接続画面が応答しなくなることがあります。アプリケーションを終了して、再度起動してください。
 
 **CRUD（作成、読み取り、更新、削除）操作に関する問題：**
 
 * 無効な文字が含まれていても、アプリケーションがファイルのアップロードを試みるので、サーバー側のアップロードが失敗する可能性があります。<!-- CQ-4273652 -->
 
-* コメントを含むアセットに対する変更をアップロードする場合、コメントはアセットと共に[!DNL Experience Manager]に保存されますが、バージョン管理コメントとしては表示されません。 この問題は[!DNL Experience Manager] 6.4.5と[!DNL Experience Manager] 6.5.1で解決されます。Adobeでは、最新のサービスパックをインストールすることをお勧めします。<!-- CQ-4268990 -->
+* アセットに対する変更をコメント付きでアップロードすると、コメントはアセットと共に [!DNL Experience Manager] に保存されますが、バージョン管理コメントとして表示されません。この問題は [!DNL Experience Manager] 6.4.5 および [!DNL Experience Manager] 6.5.1 で解決済みです。最新のサービスパックをインストールすることを強くお勧めします。 <!-- CQ-4268990 -->
 
 * アセット転送をユーザーがキャンセルできません。意図しない大量の転送をトリガーした場合は、アプリケーションを終了して、再度起動してください。<!-- CQ-4278940 -->
 
