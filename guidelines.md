@@ -1,16 +1,16 @@
 ---
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '721'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
-# [!DNL Adobe Experience Manager]ドキュメントへの貢献に関するガイドライン
+# [!DNL Adobe Experience Manager] ドキュメントへの投稿に関するガイドライン
 
 ## ドキュメントの理念
 
-[!DNL Adobe Experience Manager]ユーザーは、競争の激しい環境で働いており、競合他社とは別のデジタルエクスペリエンスを作ろうと努力しています。 したがって、アドビが [!DNL Experience Manager] で高度な新しいツールを提供する際には、お客様が [!DNL Experience Manager] への投資をすぐに活かし ROI を最大化できるように、正確かつ明快なドキュメントでこれらのツールを補うことが不可欠です。
+[!DNL Adobe Experience Manager] ユーザーは、競争の厳しい環境でビジネスを展開しており、競合他社より優位に立つためのデジタルエクスペリエンスを構築しようと懸命に努力しています。したがって、アドビが [!DNL Experience Manager] で高度な新しいツールを提供する際には、お客様が [!DNL Experience Manager] への投資をすぐに活かし ROI を最大化できるように、正確かつ明快なドキュメントでこれらのツールを補うことが不可欠です。
 
 [!DNL Experience Manager] ドキュメントの目標は、ドキュメントをできるだけ早く [!DNL Experience Manager] ユーザーに届けることです。そのため、正確で使いやすいドキュメントを最優先し、ドキュメントの継続的な更新と改善に努めます。
 
@@ -40,7 +40,7 @@ ht-degree: 89%
 
 [!DNL Experience Manager] の使用方法や技術的な問題に関して質問がある場合は、[Experience Cloud Enterprise サポートポータル](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)の通常のサポートプロセスを通じて報告したり、[Adobe Experience Manager コミュニティ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)でディスカッションしたりする必要があります。
 
-***[!DNL Experience Manager]ドキュメントへの貢献は、アドビのサポートに代わるものではありません。***&#x200B;サポート関連の質問に対する回答を求めるような投稿は拒否されます。
+***[!DNL Experience Manager]ドキュメントへの投稿は、アドビのサポートに代わるものではありません。***&#x200B;サポート関連の質問に対する回答を求めるような投稿は拒否されます。
 
 ### 投稿は、影響を受けるドキュメントページを明確に参照する必要があります。
 
@@ -88,6 +88,6 @@ ht-degree: 89%
 
 ### 呼称としての Day、[!DNL Experience Manager]、CQ、CRX の使用
 
-記事の最初の使用方法については、商品を&#x200B;**Adobe Experience Manager**&#x200B;というフルネームで参照し、**Experience Manager**&#x200B;として参照します。
+記事の最初に使用する際は、製品を **Adobe Experience Manager** という完全な名前で参照し、その後は **Experience Manager** として参照します。
 
-Day、Day Software、CQ、およびCRXの用語は使用しないでください。ただし、クラス名や[!DNL Experience Manager]の履歴を参照する場合など、避けられない場合を除きます。
+Day、Day Software、CQ、CRX の用語は使用しないでください。ただし、クラス名や [!DNL Experience Manager] の履歴を参照する場合など、避けられない場合を除きます。
