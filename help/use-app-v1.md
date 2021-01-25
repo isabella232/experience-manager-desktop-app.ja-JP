@@ -1,9 +1,9 @@
 ---
 title: ' [!DNL Experience Manager]  デスクトップアプリケーションバージョン 1.x の使用。'
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.x の使用方法と、デスクトップでアセットを効率的に取り扱う方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2379'
 ht-degree: 100%
 
@@ -140,11 +140,11 @@ Adobe InDesign（INDD）ファイルでは、コンテキストメニューで�
 
    これらのデスクトップアクションは、アセットを選択した後のツールバー、またはアセットページにあるツールバーの「**Desktop Actions**」オプションをクリックしても使用できます。
 
-1. 特定のファイル拡張子に関連付けられているデスクトップアプリケーションでアセットを表示するには、「**Open on desktop**」クイックアクション![デスクトップで開くアイコン](assets/do-not-localize/aemassets_icon_openondesktop.png)をクリックします。
+1. 特定のファイル拡張子に関連付けられているデスクトップアプリケーションでアセットを表示するには、「**Open on desktop**」クイックアクション ![デスクトップで開くアイコン](assets/do-not-localize/aemassets_icon_openondesktop.png) をクリックします。
 
    または、ツールバーの&#x200B;**デスクトップアクション**&#x200B;メニューから「**Open**」を選択します。
 
-ローカルファイルシステム上で特定のアセットを見つけるには、「**Reveal**」クイックアクション ![Reveal アイコン](assets/do-not-localize/aemassets_reveal_icon.png)をクリックします。または、ツールバーの&#x200B;**デスクトップアクション**&#x200B;メニューから「**Reveal**」を選択します。
+ローカルファイルシステム上で特定のアセットを見つけるには、「**Reveal**」クイックアクション ![Reveal アイコン](assets/do-not-localize/aemassets_reveal_icon.png) をクリックします。または、ツールバーの&#x200B;**デスクトップアクション**&#x200B;メニューから「**Reveal**」を選択します。
 
 ## アセットのステータスについて {#understand-the-asset-statuses}
 
@@ -168,7 +168,7 @@ Adobe InDesign（INDD）ファイルでは、コンテキストメニューで�
 
    これらのデスクトップアクションは、アセットを選択した後のツールバー、またはアセットページにあるツールバーの「Desktop Actions」アイコンをクリックまたはタップしても使用できます。
 
-1. アセットを開くには、「Open on desktop」クイックアクション![デスクトップで開くアイコン](assets/do-not-localize/aemassets_icon_openondesktop.png)をクリックまたはタップします。
+1. アセットを開くには、「Open on desktop」クイックアクション ![デスクトップで開くアイコン](assets/do-not-localize/aemassets_icon_openondesktop.png) をクリックまたはタップします。
 
    または、ツールバーのデスクトップアクションメニューから「Open」を選択します。
 
@@ -176,7 +176,7 @@ Adobe InDesign（INDD）ファイルでは、コンテキストメニューで�
    >
    >開いただけでチェックアウトしていないファイルを編集した場合、他のユーザーにはそのアセットが更新されていることは通知されません。
 
-1. アセットを開いて Adobe Creative Cloud アプリケーションで編集するには、「Edit Desktop」クイックアクション![デスクトップを編集アイコン](assets/do-not-localize/aemassets_icon_editdesktop.png)をクリックまたはタップします。この操作により、アセットが編集のためにチェックアウトされます。編集が終了したら、アセットをチェックインして、[!DNL Assets] で変更を更新します。
+1. アセットを開いて Adobe Creative Cloud アプリケーションで編集するには、「Edit Desktop」クイックアクション ![デスクトップを編集アイコン](assets/do-not-localize/aemassets_icon_editdesktop.png) をクリックまたはタップします。この操作により、アセットが編集のためにチェックアウトされます。編集が終了したら、アセットをチェックインして、[!DNL Assets] で変更を更新します。
 
    または、ツールバーのデスクトップアクションメニューから「Edit」を選択します。
 
@@ -212,7 +212,7 @@ AEM デスクトップアプリケーションでは、作業中のファイル�
 
    ![「Checkout」アイコンの切り替え](assets/checkout_icon_toggles.png)
 
-1. エクスプローラーでアセットを確認します。アセットのロックアイコン![アセットロックアイコン](assets/do-not-localize/aemassets_icon_lockcheckout.png)は、このアセットをチェックアウトしていることを示します。
+1. エクスプローラーでアセットを確認します。アセットのロックアイコン ![アセットロックアイコン](assets/do-not-localize/aemassets_icon_lockcheckout.png) は、このアセットをチェックアウトしていることを示します。
 
    >[!NOTE]
    >
@@ -224,7 +224,7 @@ AEM デスクトップアプリケーションでは、作業中のファイル�
 
 アセットの編集が終了したら、デスクトップアプリケーションでアセットを保存します。コンテキストメニューで「**More Assets Info**」を選択して、「Check-in」をクリックします。
 
-アセットが [!DNL Experience Manager] サーバーにアップロードされます。オプションで、システムトレイアイコンから「**View Asset Status**」を選択して、アップロードのステータスを確認できます。または、[!DNL Experience Manager] Web インターフェイスからアセットをチェックインすることもできます。チェックアウトされたアセットをクリックするか選択します。ツールバーのチェックインアイコン![チェックインアイコン](assets/do-not-localize/aemassets_icon_checkin.png)をクリックします。
+アセットが [!DNL Experience Manager] サーバーにアップロードされます。オプションで、システムトレイアイコンから「**View Asset Status**」を選択して、アップロードのステータスを確認できます。または、[!DNL Experience Manager] Web インターフェイスからアセットをチェックインすることもできます。チェックアウトされたアセットをクリックするか選択します。ツールバーのチェックインアイコン ![チェックインアイコン](assets/do-not-localize/aemassets_icon_checkin.png) をクリックします。
 
 変更内容がローカルに保存された後、アセットが [!DNL Experience Manager] に自動的にアップロードされます。このチェックイン操作により、他の [!DNL Experience Manager] ユーザーがアセットを編集できるようになります。
 
