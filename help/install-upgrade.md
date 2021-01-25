@@ -1,28 +1,28 @@
 ---
-title: ' [!DNL Adobe Experience Manager] デスクトップアプリのインストールと設定'
-description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] サーバーをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。'
-translation-type: tm+mt
+title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのインストールと設定'
+description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets]  サーバーをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。'
+translation-type: ht
 source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1162'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Adobe Experience Manager]デスクトップアプリ{#install-app-v2}をインストール
+# [!DNL Adobe Experience Manager] デスクトップアプリケーションのインストール {#install-app-v2}
 
-[!DNL Adobe Experience Manager]デスクトップアプリを使用すると、[!DNL Experience Manager]内のアセットはローカルデスクトップで簡単に入手でき、任意のネイティブデスクトップアプリケーションで使用できます。 アセットのプレビュー、ネイティブデスクトップアプリケーションでの開き方、Mac FinderまたはWindowsエクスプローラでの配置用に表示、ローカルでの変更が可能です。アップロード時に変更内容が[!DNL Experience Manager]に保存され、リポジトリに新しいバージョンが作成されます。
+[!DNL Adobe Experience Manager] デスクトップアプリケーションを使用すると、[!DNL Experience Manager] 内のアセットをローカルデスクトップから手軽に入手し、任意のネイティブデスクトップアプリケーションで利用できるようになります。アセットをプレビューしたり、ネイティブデスクトップアプリケーションで開いたり、Mac Finder や Windows エクスプローラーで表示して他のドキュメント内に配置したり、ローカルで変更したりできます。変更したアセットをアップロードすると、変更内容が [!DNL Experience Manager] に保存され、リポジトリー内に新しいバージョンが作成されます。
 
 このような統合により、組織内の様々な役割のユーザーが以下をおこなえます。
 
-* [!DNL Experience Manager Assets]でアセットを一元的に管理します。
+* アセットを [!DNL Experience Manager Assets] で一元管理する。
 
 * サードパーティアプリケーションや Adobe Creative Cloud アプリケーションなど、任意のネイティブデスクトップアプリケーションでアセットにアクセスする。その間、ユーザーはブランディングなどの様々な標準に容易に準拠できます。
 
 [!DNL Experience Manager] デスクトップアプリケーションを使用するには、次の手順に従います。
 
-* [!DNL Experience Manager]バージョンが[!DNL Experience Manager]デスクトップアプリでサポートされていることを確認してください。 以下の[必要システム構成](release-notes.md#system-requirements-and-prerequisites-v2)を参照してください。
+* [!DNL Experience Manager] のバージョンが [!DNL Experience Manager] デスクトップアプリケーションでサポートされていることを確認します。以下の[必要システム構成](release-notes.md#system-requirements-and-prerequisites-v2)を参照してください。
 
 * アプリケーションをダウンロードしてインストールします。下記の[デスクトップアプリケーションのインストール方法](#install-v2)を参照してください。
 
@@ -42,7 +42,7 @@ ht-degree: 84%
 
 以前のバージョンのアプリケーションからアップグレードするには、次の手順に従います。
 
-1. アップグレードする前に、すべてのアセットを同期し、変更を[!DNL Experience Manager]にアップロードします。 これは、アプリケーションをアンインストールする際に編集内容が失われないようにするためです。
+1. アップグレードする前に、すべてのアセットを同期し、変更を [!DNL Experience Manager] にアップロードします。これは、アプリケーションをアンインストールする際に編集内容が失われないようにするためです。
 
 1. 以前のバージョンのアプリケーションをアンインストールします。アンインストール時に、キャッシュをクリアするオプションを選択します。
 
@@ -52,15 +52,15 @@ ht-degree: 84%
 
 ## インストール {#install-v2}
 
-デスクトップアプリケーションをインストールするには、次の手順に従います。最新のAdobeをインストールする前に、既存の[!DNL Experience Manager]デスクトップアプリケーションv1.xをアンインストールしてください。 詳しくは、上記を参照してください。
+デスクトップアプリケーションをインストールするには、次の手順に従います。最新のデスクトップアプリケーションをインストールする前に、既存の Adobe [!DNL Experience Manager] デスクトップアプリケーション v1.x をアンインストールします。詳しくは、上記を参照してください。
 
 1. 最新のインストーラーを[リリースノート](release-notes.md)ページからダウンロードします。
 
-1. [!DNL Experience Manager]デプロイメントのURLと資格情報を手元に置いておきます。
+1. [!DNL Experience Manager] デプロイメントの URL と認証情報を手元に用意します。
 
 1. 別のバージョンのアプリケーションからアップグレードする場合は、[デスクトップアプリケーションのアップグレード](#upgrade-from-previous-version)を参照してください。
 
-1. [!DNL Experience Manager]を[!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4以降、または[!DNL Experience Manager] 6.5.0以降として使用する場合は、この手順をスキップします。 [!DNL Experience Manager]の設定が、[リリースノート](release-notes.md)に記載されている互換性要件を満たしていることを確認してください。 必要に応じて、該当する[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をダウンロードし、Adobe 管理者として Adobe パッケージマネージャーを使用してインストールします。[!DNL Experience Manager][!DNL Experience Manager]パッケージのインストールについては、[パッケージの作業方法](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ja)を参照してください。
+1. [!DNL Experience Manager] as a [!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4 以降、または [!DNL Experience Manager] 6.5.0 以降を使用する場合は、この手順をスキップします。[!DNL Experience Manager] の設定が、[リリースノート](release-notes.md)に記載されている互換性要件を満たしていることを確認します。必要に応じて、該当する[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をダウンロードし、[!DNL Experience Manager] 管理者として [!DNL Experience Manager] パッケージマネージャーを使用してインストールします。パッケージのインストールについては、[パッケージの作業方法](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ja)を参照してください。
 
 1. インストーラーのバイナリを実行し、画面の指示に従ってインストールします。
 
@@ -86,17 +86,17 @@ ht-degree: 84%
 
    *図：ログイン後に DAM コンテンツが表示される*
 
-1. （[!DNL Experience Manager] 6.5.1以降）[!DNL Experience Manager] 6.5.1以降のデスクトップアプリを使用している場合は、S3またはAzureコネクタをバージョン1.10.4以降にアップグレードします。 詳しくは、[Azure コネクタ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=ja#azure-data-store)または [S3 コネクタ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=ja#amazon-s-data-store)を参照してください。
+1. （[!DNL Experience Manager] 6.5.1 以降）デスクトップアプリケーションを [!DNL Experience Manager] 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。詳しくは、[Azure コネクタ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=ja#azure-data-store)または [S3 コネクタ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=ja#amazon-s-data-store)を参照してください。
 
    Adobe Managed Services（AMS）を使用している場合は、アドビカスタマーケアにお問い合わせください。
 
 ## 環境設定の指定 {#set-preferences}
 
-環境設定を変更するには、![その他のオプションアイコン](assets/do-not-localize/more_options_da2.png)と&#x200B;**[!UICONTROL Preference]**![&#x200B;環境設定アイコン](assets/do-not-localize/preferences_icon_da2.png)を順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
+環境設定を変更するには、![その他のオプションアイコン](assets/do-not-localize/more_options_da2.png)と **[!UICONTROL Preference]** ![環境設定アイコン](assets/do-not-localize/preferences_icon_da2.png)を順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
 
 * [!UICONTROL Launch application on login]
 
-* [!UICONTROL Show window when application starts].
+* [!UICONTROL Show window when application starts]
 
 * **[!UICONTROL Cache Directory]**：デスクトップアプリケーションのローカルキャッシュの場所（ローカルにダウンロードされたアセットが格納されます）
 
@@ -110,9 +110,9 @@ ht-degree: 84%
 
 * **[!UICONTROL Maximum number of downloads]**：（「Reveal」、「Open」、「Edit」、「Download」などのオプションを使用して）初めてアセットをダウンロードする場合は、バッチに含まれているアセットがこの数より少ない場合にのみ、アセットがダウンロードされます。デフォルト値は 50 です。不明な場合は、値を変更しないでください。値を増やすと、待ち時間が長くなり、値を減らすと、必要なアセットやフォルダーを 1 回でダウンロードできなくなる場合があります。
 
-* **[!UICONTROL Upload Acceleration]**：アプリケーションでアセットをアップロードする際に同時アップロードを使用して、アップロード速度を向上させることができます。スライダーを右に動かして、アップロードの同時実行性を高めることができます。スライダーが最も左側にある場合は、同時実行をおこなわないこと（シングルスレッドアップロード）を意味し、中央にある場合は 10 個の同時スレッドに相当し、右端の上限にある場合は 20 個の同時スレッドに相当します。同時実行性の上限を高くすると、ローカルマシンのプロセッサのリソース消費量が増えます。
+* **[!UICONTROL Upload Acceleration]**：アプリケーションでアセットをアップロードする際に同時アップロードを使用して、アップロード速度を向上させることができます。スライダーを右に動かして、アップロードの同時実行性を高めることができます。スライダーが最も左側にある場合は、同時実行なし（シングルスレッドアップロード）、中央にある場合は 10 個の同時スレッド、右端にある場合は 20 個の同時スレッドを示します。同時実行の上限を増やすと、ローカルマシンのプロセッサのリソース消費量も増加します。
 
-使用できない環境設定を更新するには、[!DNL Experience Manager] サーバーからログアウトします。環境設定を更新した後、![環境設定の保存](assets/do-not-localize/save_preferences_da2.png)アイコンをクリックして、変更内容を保存します。
+使用できない環境設定を更新するには、[!DNL Experience Manager] サーバーからログアウトします。環境設定を更新した後、 ![環境設定の保存](assets/do-not-localize/save_preferences_da2.png) アイコンをクリックして、変更内容を保存します。
 
 ![デスクトップアプリケーションの環境設定](assets/preferences_da2.png)
 
