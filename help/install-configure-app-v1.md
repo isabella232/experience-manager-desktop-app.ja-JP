@@ -1,16 +1,16 @@
 ---
-title: ' [!DNL Experience Manager]  デスクトップアプリケーションバージョン 1.x のインストールと設定'
-description: ' [!DNL Experience Manager] desktop app version 1.x to work with [!DNL Assets]  サーバーをインストールして設定し、アセットをデスクトップ上にドライブとしてマウントするようにマッピングします。'
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '903'
-ht-degree: 100%
+title: デスクトップアプリケーションv1.10のインストールと設定
+description: ' [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets]  サーバーをインストールして設定し、アセットをデスクトップ上にドライブとしてマウントするようにマッピングします。'
+translation-type: tm+mt
+source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
+workflow-type: tm+mt
+source-wordcount: '901'
+ht-degree: 98%
 
 ---
 
 
-# [!DNL Experience Manager] デスクトップアプリケーション v1.x のインストールと設定 {#install-and-configure-aem-desktop-app}
+# [!DNL Experience Manager]デスクトップアプリケーションv1.10 {#install-and-configure-aem-desktop-app}のインストールと設定
 
 [!DNL Experience Manager] デスクトップアプリケーションを使用すると、[!DNL Experience Manager] 内のアセットにローカルデスクトップから手軽にアクセスし、任意のデスクトップアプリケーションで利用できるようになります。アセットは Mac Finder や Windows エクスプローラーで容易に表示したり、デスクトップアプリケーションで開いたり、ローカルで変更したりできます。変更したアセットをアップロードすると、変更内容が [!DNL Experience Manager] に保存され、リポジトリー内に新しいバージョンが作成されます。
 
@@ -102,7 +102,7 @@ Mac OS X では、同様のディレクトリが `~/Library/Group Containers/gro
 >
 >キャッシュをクリアした場合でも、未保存の変更内容は維持されます。[!DNL Experience Manager] サーバーにチェックインしていないアセットは、削除されずにそのまま保持されます。
 
-### Windows でのキャッシュの場所の変更 {#change-location-of-cache-on-windows}
+### Windows でのキャッシュの場所の変更  {#change-location-of-cache-on-windows}
 
 [!DNL Experience Manager] デスクトップアプリケーションのキャッシュのデフォルトの場所は次のとおりです。
 
