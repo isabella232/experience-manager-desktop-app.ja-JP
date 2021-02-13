@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Adobe Experience Manager] デスクトップアプリケーションバージョン 1.x のベストプラクティス'
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションバージョン 1.x の主要な機能と推奨される使用例'
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '1686'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
+workflow-type: tm+mt
+source-wordcount: '1677'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ AEM デスクトップアプリケーションは DAM リポジトリー全体�
 
 デスクトップ上で開きたいファイルを検索するには：
 
-* AEM Assets の Web UI を利用してアセットを見つけます。AEM Assets の    検索（検索ファセット、保存済み検索結果）は強力なだけでなく、正しいアセットを見つけるための特別な機能も提供します。これには、ステータス（承認、有効期限満了）、コレクション、タスク、通知、他のユーザー／グループとのフォルダー／コレクションの共有に基づいてアセットを検索する機能など追加のフィルターなどが含まれます。
+* AEM Assets の Web UI を利用してアセットを見つけます。AEM Assets の検索（検索ファセット、保存済み検索結果）は強力なだけでなく、正しいアセットを見つけるための特別な機能も提供します。これには、ステータス（承認、有効期限満了）、コレクション、タスク、通知、他のユーザー／グループとのフォルダー／コレクションの共有に基づいてアセットを検索する機能など追加のフィルターなどが含まれます。
 
 * アセットを見つけたら、AEM UI のデスクトップアクションを使用して                  デスクトップのアセットにアクセスします。
 
@@ -116,9 +116,9 @@ AEM に保存されたアセットを更新する必要がある場合：
 
 ## ネットワークパフォーマンス {#network-performance}
 
-AEM デスクトップアプリケーションを使用する上でのユーザーエクスペリエンスは、デスクトップと AEM サーバー間の優良で安定したネットワーク接続と、特にアセットのアップロードと更新パフォーマンス改善のためのサーバー調整に強い影響を受けます。下記のレコメンデーションは、組織のネットワーク／IT チーム向けです。
+AEM デスクトップアプリケーションを使用する上でのユーザーエクスペリエンスは、デスクトップと AEM サーバー間の優良で安定したネットワーク接続と、特にアセットのアップロードと更新パフォーマンス改善のためのサーバー調整に強い影響を受けます。下記のレコメンデーションは、組織のネットワーク／ＩＴ チーム向けです。
 
-### ネットワークに関する考慮事項 {#network-considerations}
+### ネットワークに関する考慮事項  {#network-considerations}
 
 AEM Assets のネットワーク設定に関するベストプラクティスについて理解するには、[AEM Assets ネットワークに関する考慮事項](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html?lang=ja)ドキュメントを参照してください。AEM デスクトップアプリケーションのユーザーエクスペリエンスの最適化に重要な事項としては、以下が挙げられます。
 
@@ -128,12 +128,12 @@ AEM Assets のネットワーク設定に関するベストプラクティスに
 
 >[!NOTE]
 >
->アイコンのプレビューを無効にするには、Finder で表示に移動して表示オプションを選択し、「アイコンプレビューを表示」オプションのチェックを外します。これは、現在のフォルダーのみで有効です。デフォルト設定にするには、同じウィンドウ内の「デフォルトとして使用」ボタンをクリックしてください。
+>アイコンプレビューをオフにするには、Finderで[!UICONTROL View]に移動し、[!UICONTROL View Options]を選択してから[!UICONTROL Show icon preview]オプションのチェックを外します。 これは、現在のフォルダーに対してのみ機能します。デフォルトにするには、同じダイアログで[!UICONTROL Use as default]オプションをクリックします。
 
 ### サーバーパフォーマンスの最適化 {#optimizing-server-performance}
 
 AEM Assets サーバーのパフォーマンスを最適化する方法については、[AEM Assets パフォーマンス調整ガイド](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=ja)を参照してください。AEM デスクトップアプリケーションのサーバーパフォーマンスに関する重要な側面としては、アセットアップロードのパフォーマンスが向上するようにワークフロー設定を最適化することが挙げられます。
 
-* **アセットアップロードのパフォーマンス向上：**[AEM Asset 更新ワークフローモデルを一時的ワークフローとして設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=ja)します。
+* **アセットアップロードのパフォーマンス向上：**[AEM Asset 更新ワークフローモデルを一時的ワークフローとして設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html)します。
 
 * **アップロード用のサーバー CPU を制限：**&#x200B;アップロードで CPU リソースを独占しないように、並列ワークフロージョブの最大数パラメーターが正しく設定されていることを確認します。
