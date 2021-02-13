@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Adobe Experience Manager] デスクトップアプリケーションバージョン 1.x のベストプラクティス'
-description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションバージョン 1.x の主要な機能と推奨される使用例'
+title: デスクトップアプリケーションv1.10のベストプラクティス
+description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションバージョン 1.10. の主要な機能と推奨される使用例'
 translation-type: tm+mt
-source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
+source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1674'
 ht-degree: 97%
 
 ---
 
 
-# AEM デスクトップアプリケーション v1.x のベストプラクティス {#aem-desktop-app-best-practices}
+# AEMデスクトップアプリケーションv1.10のベストプラクティス{#aem-desktop-app-best-practices}
 
 ## 概要 {#overview}
 
