@@ -1,16 +1,16 @@
 ---
-title: AEM デスクトップアプリケーションバージョン 1.x リリースノート
-description: AEM デスクトップアプリケーションバージョン 1.x のリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。
+title: デスクトップアプリケーションv1.10のリリースノート
+description: AEM デスクトップアプリケーションバージョン 1.10. のリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。
 translation-type: tm+mt
-source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
-source-wordcount: '3904'
-ht-degree: 99%
+source-wordcount: '3901'
+ht-degree: 98%
 
 ---
 
 
-# [!DNL Adobe Experience Manager] デスクトップアプリケーション v1.x リリースノート {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager] デスクトップアプリケーションv1.10リリースノート  {#aem-desktop-app-release-notes}
 
 デスクトップアプリケーション v1.x リリースのダウンロードリンクと AEM の互換性情報を次に示します。
 
@@ -44,7 +44,7 @@ ht-degree: 99%
 
 セットアップの前提条件を評価するには、このドキュメントの末尾の[詳細な互換表](#compatibilitymatrix)を参照してください。
 
-## AEM デスクトップアプリケーション 1.10 の新機能 {#what-s-new-in-aem-desktop-app}
+## デスクトップアプリケーションv1.10 {#what-s-new-in-aem-desktop-app}の新機能
 
 AEM デスクトップアプリケーション 1.10 は、大容量のアップロード、バックグラウンド操作に関する情報、リンクされたファイル（InDesign など）を含むアセットを開く際のエクスペリエンスの最適化に関するユーザーエクスペリエンスの向上に注力しています。
 
