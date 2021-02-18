@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 ## 概要 {#overview}
 
-[!DNL Adobe Experience Manager] デスクトップアプリケーションは、デジタルアセット管理（DAM）ソリューションとデスクトップをつなぎ、AEM の Web UI にあるファイルを直接デスクトップで開けるようにデスクトップ. デスクトップからアセットを保存すると AEM の適切な場所にアップロードされます。
+[!DNL Adobe Experience Manager] デスクトップアプリケーションは、デジタルアセット管理（DAM）ソリューションとデスクトップをつなぎ、AEM の Web UI にあるファイルを直接デスクトップで開けるようにデスクトップ.デスクトップからアセットを保存すると AEM の適切な場所にアップロードされます。
 
 AEM デスクトップアプリケーションは誤ったローカルコピーや AEM 内の誤ったアセットを更新してしまう可能性をなくします。デスクトップアプリケーションの使いやすいワークフローは、デスクトップのオペレーティングシステムから提供されるネットワーク共有テクノロジにより有効化されます。
 
@@ -82,13 +82,13 @@ AEM デスクトップアプリケーションは DAM リポジトリー全体�
 
    * 変更あるいは修正が必要なアセットのみクリエイティブユーザーの書き込みを有効にします。作成した AEM プロジェクトとフォルダーを利用して、まだ変更される可能性のあるアセットを保存する組織もあります。
 
-### アセットの検索   {#searching-assets}
+### アセットの検索  {#searching-assets}
 
 デスクトップ上で開きたいファイルを検索するには：
 
 * AEM Assets の Web UI を利用してアセットを見つけます。AEM Assets の検索（検索ファセット、保存済み検索結果）は強力なだけでなく、正しいアセットを見つけるための特別な機能も提供します。これには、ステータス（承認、有効期限満了）、コレクション、タスク、通知、他のユーザー／グループとのフォルダー／コレクションの共有に基づいてアセットを検索する機能など追加のフィルターなどが含まれます。
 
-* アセットを見つけたら、AEM UI のデスクトップアクションを使用して                  デスクトップのアセットにアクセスします。
+* アセットを見つけたら、AEM UI のデスクトップアクションを使用してデスクトップのアセットにアクセスします。
 
 ### AEM デスクトップアプリケーションで開いたアセットの更新 {#updating-assets-opened-using-aem-desktop-app}
 
@@ -128,12 +128,12 @@ AEM Assets のネットワーク設定に関するベストプラクティスに
 
 >[!NOTE]
 >
->アイコンプレビューをオフにするには、Finderで[!UICONTROL View]に移動し、[!UICONTROL View Options]を選択してから[!UICONTROL Show icon preview]オプションのチェックを外します。 これは、現在のフォルダーに対してのみ機能します。デフォルトにするには、同じダイアログで[!UICONTROL Use as default]オプションをクリックします。
+>アイコンプレビューをオフにするには、Finder で[!UICONTROL View] に移動し、[!UICONTROL View Options] を選択してから[!UICONTROL Show icon preview] オプションのチェックを外します。これは、現在のフォルダーのみで有効です。デフォルト設定にするには、同じダイアログ内の [!UICONTROL Use as default] オプションをクリックします。
 
 ### サーバーパフォーマンスの最適化 {#optimizing-server-performance}
 
 AEM Assets サーバーのパフォーマンスを最適化する方法については、[AEM Assets パフォーマンス調整ガイド](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html?lang=ja)を参照してください。AEM デスクトップアプリケーションのサーバーパフォーマンスに関する重要な側面としては、アセットアップロードのパフォーマンスが向上するようにワークフロー設定を最適化することが挙げられます。
 
-* **アセットアップロードのパフォーマンス向上：**[AEM Asset 更新ワークフローモデルを一時的ワークフローとして設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html)します。
+* **アセットアップロードのパフォーマンス向上**：[AEM Asset 更新ワークフローモデルを一時的ワークフローとして設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html)します。
 
 * **アップロード用のサーバー CPU を制限：**&#x200B;アップロードで CPU リソースを独占しないように、並列ワークフロージョブの最大数パラメーターが正しく設定されていることを確認します。
