@@ -1,16 +1,16 @@
 ---
-title: デスクトップアプリケーションv1.10のインストールと設定
+title: デスクトップアプリケーション v1.10 のインストールと設定
 description: ' [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets]  サーバーをインストールして設定し、アセットをデスクトップ上にドライブとしてマウントするようにマッピングします。'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '901'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Experience Manager]デスクトップアプリケーションv1.10 {#install-and-configure-aem-desktop-app}のインストールと設定
+# [!DNL Experience Manager] デスクトップアプリケーション v1.10 のインストールと設定 {#install-and-configure-aem-desktop-app}
 
 [!DNL Experience Manager] デスクトップアプリケーションを使用すると、[!DNL Experience Manager] 内のアセットにローカルデスクトップから手軽にアクセスし、任意のデスクトップアプリケーションで利用できるようになります。アセットは Mac Finder や Windows エクスプローラーで容易に表示したり、デスクトップアプリケーションで開いたり、ローカルで変更したりできます。変更したアセットをアップロードすると、変更内容が [!DNL Experience Manager] に保存され、リポジトリー内に新しいバージョンが作成されます。
 
@@ -88,7 +88,7 @@ Asset Info ダイアログは、次のコンポーネントの一方または両
 
 オーバーレイされるコンポーネントは、カスタマイズの性質によって変わります。Asset Info ダイアログの一部として表示されるコンポーネントを変更するには、Granite ユーザーインターフェイスページをオーバーレイします。ダイアログの HTML、CSS、JavaScript コンテンツを変更するには、HTL コンポーネントをオーバーレイします。
 
-## キャッシュの管理    {#manage-cache}
+## キャッシュの管理   {#manage-cache}
 
 Windows では、キャッシュは `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\` にあります。ここには、デスクトップアプリケーションで設定されている、エンコード済みバージョンの [!DNL Experience Manager] ホストがあります。例えば、`http://localhost:4502` は `http%3A%2F%2Flocalhost%3A4502%2F` と表示されます。
 
@@ -102,7 +102,7 @@ Mac OS X では、同様のディレクトリが `~/Library/Group Containers/gro
 >
 >キャッシュをクリアした場合でも、未保存の変更内容は維持されます。[!DNL Experience Manager] サーバーにチェックインしていないアセットは、削除されずにそのまま保持されます。
 
-### Windows でのキャッシュの場所の変更  {#change-location-of-cache-on-windows}
+### Windows でのキャッシュの場所の変更 {#change-location-of-cache-on-windows}
 
 [!DNL Experience Manager] デスクトップアプリケーションのキャッシュのデフォルトの場所は次のとおりです。
 
