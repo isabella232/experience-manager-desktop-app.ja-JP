@@ -1,16 +1,16 @@
 ---
-title: デスクトップアプリケーションv1.10のリリースノート
+title: デスクトップアプリケーション v1.10 のリリースノート
 description: AEM デスクトップアプリケーションバージョン 1.10. のリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3901'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Adobe Experience Manager] デスクトップアプリケーションv1.10リリースノート  {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager] デスクトップアプリケーション v1.10 リリースノート {#aem-desktop-app-release-notes}
 
 デスクトップアプリケーション v1.x リリースのダウンロードリンクと AEM の互換性情報を次に示します。
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 | バージョン | 1.10（Mac 上では 1.10.0.6、Windows 上では 1.10.0.3） |
 | 種類 | マイナーリリース |
 | 日付 | 1.10.0.6（Mac）：2020 年 4 月 15 日、1.10.0.3（Win）：2018 年 8 月 31 日 |
-| ダウンロード URL | [Mac OS X 64 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/ja-JP/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg)、[Windows 32 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/ja-JP/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe)、[Windows 64 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/ja-JP/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
+| ダウンロード URL | [Mac OS X 64 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg)、[Windows 32 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe)、[Windows 64 ビット版](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
 | 互換性 | AEM 6.5.x、AEM 6.4.x、AEM 6.3 SP2、AEM 6.2 SP1 CFP2+、AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
@@ -44,7 +44,7 @@ ht-degree: 99%
 
 セットアップの前提条件を評価するには、このドキュメントの末尾の[詳細な互換表](#compatibilitymatrix)を参照してください。
 
-## デスクトップアプリケーションv1.10 {#what-s-new-in-aem-desktop-app}の新機能
+## デスクトップアプリケーション v1.10 の新機能 {#what-s-new-in-aem-desktop-app}
 
 AEM デスクトップアプリケーション 1.10 は、大容量のアップロード、バックグラウンド操作に関する情報、リンクされたファイル（InDesign など）を含むアセットを開く際のエクスペリエンスの最適化に関するユーザーエクスペリエンスの向上に注力しています。
 
@@ -344,7 +344,7 @@ AEM デスクトップアプリケーション 1.8.1 ファストフォローリ
 * ファイルの保存に中間ファイル操作（部分保存や一時ファイル）を使用するデスクトップアプリケーションの処理が改善されました。これにより、AEM Assets のタイムラインに正しいバージョンとアセットのアップロード情報が表示されます。
 * バックグラウンドのアップロードタスクのステータスを追跡するダイアログが提供されました。
 
-## 変更について  {#list-of-changes}
+## 変更について {#list-of-changes}
 
 ### Mac 上のマウントポイント {#mount-point-on-mac}
 
@@ -404,7 +404,7 @@ AEM デスクトップアプリケーションは、ローカルマシン上で�
    * 各国語の名前を持つアセットでは、表示と非表示が数秒ごとに切り替わる場合があります
 * チェックインおよびチェックアウト：
    * あるユーザーによってチェックアウトされたアセットを別のユーザーがタッチ操作対応 UI の開く操作で開くことや、デスクトップで直接開くことはできません。アプリケーションによっては、このアセットを開こうとしたときに、アセットがロックされている、または破損していると報告される場合や、ハングすることもあります（CQ-4199234）。
-   * 複数のユーザーがファイルを同時に変更すると、一部の変更内容が失われることがあります。この問題を回避するには、チェックイン／チェックアウト機能を使用して、複数のユーザーが同じファイルを変更できないようにします（CQ-97035）。
+   * 複数のユーザーがファイルを同時に変更すると、一部の変更内容が失われることがあります。この問題を回避するには、    チェックイン／チェックアウト機能を使用して、複数のユーザーが同じファイルを変更できないようにします（CQ-97035）。
    * 一部のアプリケーションで読み取り専用フラグが正しくサポートされず、あるユーザーがチェックアウトしたファイルを別のユーザーが保存できてしまいます。変更されたファイルは別のユーザーがチェックインするまで転送されません。AEM では、両方の変更がアセットの別のバージョンとして有効になります（CQ-89551、CQ-87572、CQ-89615）。
    * チェックアウトと読み取り専用ステータスは Finder に別個に報告されます。これにより、ユーザーがアセットをチェックアウトすると 2 つの鍵アイコンが表示されます（CQ-89507）。
 * Finder の統合：
