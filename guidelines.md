@@ -1,9 +1,9 @@
 ---
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-translation-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '719'
+ht-degree: 92%
 
 ---
 # [!DNL Adobe Experience Manager] ドキュメントへの投稿に関するガイドライン
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 [!DNL Experience Manager] ドキュメントの改善に役立つアイデアの投稿を歓迎します。ただし、コメント、問題報告（イシュー）および変更修正依頼（プル要求）は、*投稿*&#x200B;専用です。これらを、[!DNL Experience Manager] の使用方法、[!DNL Experience Manager] プロジェクトの実装方法、技術的な問題の解決方法についての質問に回答するために使用することはできません。
 
-[!DNL Experience Manager] の使用方法や技術的な問題に関して質問がある場合は、[Experience Cloud Enterprise サポートポータル](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)の通常のサポートプロセスを通じて報告したり、[Adobe Experience Manager コミュニティ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)でディスカッションしたりする必要があります。
+[!DNL Experience Manager]の使い方や技術的なエラーに関する質問は、通常のサポートプロセスで[[!DNL Experience Cloud] サポートポータル](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support)経由で報告するか、[Experience Managerコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)で議論する必要があります。
 
 ***[!DNL Experience Manager]ドキュメントへの投稿は、アドビのサポートに代わるものではありません。***&#x200B;サポート関連の質問に対する回答を求めるような投稿は拒否されます。
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ドキュメントの改善を提案するイシューを作成する場合は、影響を受けるページへのリンクを含める必要があります。ドキュメントページで「**Edit this page**」リンクを使用してイシューを作成すると、そのイシューは自動的に該当ページへのリンク付きで作成されます。
 
-プル要求は影響を受けるページを参照するので、プル要求には適用されません。
+プルリクエストは影響を受けるページを参照するので、プルリクエストには適用されません。
 
 ## ドキュメントガイドライン
 
