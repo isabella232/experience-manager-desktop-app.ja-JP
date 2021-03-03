@@ -1,11 +1,11 @@
 ---
 title: デスクトップアプリケーション v1.10 のリリースノート
 description: AEM デスクトップアプリケーションバージョン 1.10. のリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。
-translation-type: ht
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
-workflow-type: ht
-source-wordcount: '3901'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
+workflow-type: tm+mt
+source-wordcount: '3897'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Windows 7 のベンダーサポートは終了しました（https://support.microsoft.com/ja-jp/help/4057281/windows-7-support-ended-on-january-14-2020）。
+>Windows 7はサポートされなくなりました。 [Windows 7のEOLに関する記事](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020)を参照してください。
 
 最新の機能、最新のバグ修正、そして最高のパフォーマンスを利用するため、最新バージョンの AEM デスクトップアプリケーションを使用することを強くお勧めします。
 
@@ -217,7 +217,7 @@ AEM デスクトップアプリケーション 1.8.1 ファストフォローリ
 
 ### AEM デスクトップアプリケーション 1.6 以降で使用可能な機能強化 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* ドキュメント：新しいドキュメント[デスクトップアプリケーション v1.x のベストプラクティス](https://helpx.adobe.com/jp/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html)が用意されました。
+* ドキュメント：新しいドキュメント[デスクトップアプリケーション v1.x のベストプラクティス](/help/best-practices-for-v1.md)が用意されました。
 
 * AEM へのログインプロセスの改善：
 
@@ -344,7 +344,7 @@ AEM デスクトップアプリケーション 1.8.1 ファストフォローリ
 * ファイルの保存に中間ファイル操作（部分保存や一時ファイル）を使用するデスクトップアプリケーションの処理が改善されました。これにより、AEM Assets のタイムラインに正しいバージョンとアセットのアップロード情報が表示されます。
 * バックグラウンドのアップロードタスクのステータスを追跡するダイアログが提供されました。
 
-## 変更について {#list-of-changes}
+## 変更について  {#list-of-changes}
 
 ### Mac 上のマウントポイント {#mount-point-on-mac}
 
@@ -421,7 +421,7 @@ AEM デスクトップアプリケーションは、ローカルマシン上で�
 
 ## 参考リソース {#helpful-resources}
 
-* [AEM のドキュメント](https://helpx.adobe.com/jp/support/experience-manager/6-4.html)
+* [AEM のドキュメント](https://experienceleague.adobe.com/docs/)
 * [AEM デスクトップアプリケーション v1.x の使用 ](use-app-v1.md)
 * [AEM デスクトップアプリケーション v1.x のベストプラクティス ](best-practices-for-v1.md)
 
