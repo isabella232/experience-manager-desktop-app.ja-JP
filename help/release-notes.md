@@ -2,11 +2,11 @@
 title: '[!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート'
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。'
 mini-toc-levels: 1
-translation-type: ht
-source-git-commit: b5292d9386432bd7c6ba5d7117dbc9fd9f014941
-workflow-type: ht
-source-wordcount: '1418'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
+workflow-type: tm+mt
+source-wordcount: '1424'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Windows 7 のベンダーサポートは終了しました（https://support.microsoft.com/ja-jp/help/4057281/windows-7-support-ended-on-january-14-2020）。
+>Windows 7はサポートされなくなりました。 [Windows 7のEOLに関する記事](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020)を参照してください。
 
 このアプリケーションは、[!DNL Cloud Service]、Adobe Managed Services（AMS）、オンプレミスのどれでデプロイされている場合でも、次の [!DNL Experience Manager] バージョンと連携します。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 >[!NOTE]
 >
 >[!DNL Experience Manager] 6.3 のデスクトップアプリケーションのサポートは廃止されました。サポートされている新しい [!DNL Adobe Experience Manager] バージョンにアップグレードすることをお勧めします。
->[!DNL Experience Manager] 6.3.3.1 以降は、[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をインストールした後、デスクトップアプリケーションで動作します。[サービスパックが予定](https://helpx.adobe.com/jp/experience-manager/maintenance-releases-roadmap.html)されていないので、[!DNL Experience Manager] 6.3 ではそのようなパッケージはありません。
+>[!DNL Experience Manager] 6.3.3.1 以降は、[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をインストールした後、デスクトップアプリケーションで動作します。[サービスパックが予定](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap.html)されていないので、[!DNL Experience Manager] 6.3 ではそのようなパッケージはありません。
 
 ローカルマシンにインストールする AEM デスクトップアプリケーションのバージョンに応じて、[!DNL Adobe Experience Manager] サーバーの特定のバージョンや、サーバー側の追加コンポーネント（サービスパック、ホットフィックスまたは機能パック）が必要になります。[!DNL Experience Manager] の管理者に問い合わせてください。
 
