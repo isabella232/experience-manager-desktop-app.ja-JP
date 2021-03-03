@@ -1,11 +1,11 @@
 ---
 title: ' [!DNL Experience Manager]  デスクトップアプリケーションバージョン 1.10 の使用。'
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.10 の使用方法と、デスクトップでアセットを効率的に取り扱う方法について説明します。
-translation-type: ht
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
-workflow-type: ht
-source-wordcount: '2377'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
+workflow-type: tm+mt
+source-wordcount: '2373'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 ネットワークおよびシステムの環境設定によっては、詳細な設定が必要になることがあります。詳しくは、[ [!DNL Experience Manager]  デスクトップアプリケーションのインストールと設定](install-configure-app-v1.md)を参照してください。
 
-1. [[!DNL Experience Manager]  デスクトップアプリケーションのダウンロードページ](https://helpx.adobe.com/jp/experience-manager/kb/download-companion-app.html)に移動し、オペレーティングシステムに適したバイナリをダウンロードします。
+1. [[!DNL Experience Manager] デスクトップアプリケーションv1.10ダウンロードページ](/help/release-notes-of-v1.md)に移動し、お使いのオペレーティングシステムに適したバイナリをダウンロードします。
 1. ダウンロードしたインストールファイルを実行し、画面上の指示に従ってアプリケーションをインストールします。
 
    >[!NOTE]
@@ -123,6 +123,9 @@ Adobe InDesign（INDD）ファイルでは、コンテキストメニューで�
 >[!NOTE]
 >
 >Windows の場合、[Windows 7 のデフォルト設定](https://support.microsoft.com/ja-jp/kb/2668751)では、50 MB より大きなアセットを [!DNL Experience Manager] デスクトップアプリケーションで処理できません。
+
+<!-- TBD: The above note is for Windows 7 which is not supported by the app anymore. Remove it later.
+-->
 
 >[!NOTE]
 >
