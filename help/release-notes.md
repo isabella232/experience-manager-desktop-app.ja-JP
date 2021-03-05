@@ -3,7 +3,7 @@ title: '[!DNL Adobe Experience Manager] デスクトップアプリケーショ�
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。'
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 784ffb2468d856589fbf29b10b965b3c3d919a2f
+source-git-commit: 06ce2dc1c47bc1ba71b4fd1d053131d9dbdb08ba
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 76%
@@ -15,7 +15,7 @@ ht-degree: 76%
 
 最新のデスクトップアプリケーションバージョン2.1(2.1.1.0)のリリース情報は以下のとおりです。 リリース日は2021年3月5日です。 これは、機能が強化されたマイナーリリースです。
 
-サポートされる[!DNL Experience Manager]バージョンは次のとおりです。
+**サポートされる[!DNL Experience Manager]バージョン**&#x200B;は次のとおりです。
 
 * [!DNL Experience Manager] as a [!DNL Cloud Service]. [リリースノート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=ja)を参照してください。
 * [!DNL Experience Manager] 6.5.0以降(Adobe Managed Services(AMS)またはオンプレミス)。[サービスパックリリースノート](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ja)を参照してください。
@@ -24,12 +24,12 @@ ht-degree: 76%
 * [!DNL Experience Manager] 6.3 （互換パッケージ付き）
 * [!DNL Experience Manager] 6.3.3.1以降( [互換性](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) パッケージがインストールされています)。デスクトップアプリは、[!DNL Experience Manager] 6.3.3.0以前のバージョンではサポートされていません。
 
-[!DNL Adobe Experience Manager] デスクトップアプリは、次のオペレーティングシステムで使用できます。
+[!DNL Adobe Experience Manager] デスクトップアプリは、次の **オペレーティングシステムで使用できます**。
 
 * macOS X 10.14以降（最新のバグ修正を含む）。
 * 最新のサービスパックとバグ修正が適用された Windows 10。
 
-サポートされているOSのダウンロードURLは次のとおりです。
+サポートされるOSの&#x200B;**ダウンロードURL**&#x200B;は次のとおりです。
 
 | オペレーティングシステム | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
