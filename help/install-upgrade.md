@@ -1,11 +1,11 @@
 ---
 title: ' デスクトップアプリケーションのインストールと設定'
 description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets]  サーバーをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。'
-translation-type: ht
-source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
-workflow-type: ht
-source-wordcount: '1162'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: caf6faf17157a0e9e3bffd40b4bdd0802a71dad7
+workflow-type: tm+mt
+source-wordcount: '1300'
+ht-degree: 83%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Experience Manager] デスクトップアプリケーションを使用するには、次の手順に従います。
 
-* [!DNL Experience Manager] のバージョンが [!DNL Experience Manager] デスクトップアプリケーションでサポートされていることを確認します。以下の[必要システム構成](release-notes.md#system-requirements-and-prerequisites-v2)を参照してください。
+* [!DNL Experience Manager] のバージョンが [!DNL Experience Manager] デスクトップアプリケーションでサポートされていることを確認します。[必要システム構成](release-notes.md)を参照してください。
 
 * アプリケーションをダウンロードしてインストールします。下記の[デスクトップアプリケーションのインストール方法](#install-v2)を参照してください。
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 
 * [!UICONTROL Launch application on login]
 
-* [!UICONTROL Show window when application starts]
+* [!UICONTROL Show window when application starts].
 
 * **[!UICONTROL Cache Directory]**：デスクトップアプリケーションのローカルキャッシュの場所（ローカルにダウンロードされたアセットが格納されます）
 
@@ -108,11 +108,15 @@ ht-degree: 100%
 
 * **[!UICONTROL Automatically download linked assets]**：サポート対象のネイティブ Creative Cloud アプリケーションに配置されたアセットは、元のファイルをダウンロードすると自動的に取得されます。
 
-* **[!UICONTROL Maximum number of downloads]**：（「Reveal」、「Open」、「Edit」、「Download」などのオプションを使用して）初めてアセットをダウンロードする場合は、バッチに含まれているアセットがこの数より少ない場合にのみ、アセットがダウンロードされます。デフォルト値は 50 です。不明な場合は、値を変更しないでください。値を増やすと、待ち時間が長くなり、値を減らすと、必要なアセットやフォルダーを 1 回でダウンロードできなくなる場合があります。
+* **[!UICONTROL Maximum number of downloads]**: ![注意](assets/do-not-localize/caution-icon.png) iconChangeは注意してください。アセットを（「表示」、「開く」、「編集」、「ダウンロード」などのオプションを使用して）初めてダウンロードする場合、バッチに含まれる数がこの数より少ない場合にのみ、アセットがダウンロードされます。 デフォルト値は 50 です。不明な場合は、値を変更しないでください。値を増やすと、待ち時間が長くなり、値を減らすと、必要なアセットやフォルダーを 1 回でダウンロードできなくなる場合があります。
 
-* **[!UICONTROL Upload Acceleration]**：アプリケーションでアセットをアップロードする際に同時アップロードを使用して、アップロード速度を向上させることができます。スライダーを右に動かして、アップロードの同時実行性を高めることができます。スライダーが最も左側にある場合は、同時実行なし（シングルスレッドアップロード）、中央にある場合は 10 個の同時スレッド、右端にある場合は 20 個の同時スレッドを示します。同時実行の上限を増やすと、ローカルマシンのプロセッサのリソース消費量も増加します。
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![注意](assets/do-not-localize/caution-icon.png) iconChangeは注意してください。この設定により、フォルダーのアップロード時のv1.10アプリの動作をエミュレートできます。 v1.10では、リポジトリで作成されたノード名は、ユーザーが指定したフォルダー名のスペースと大文字と小文字に従います。 ただし、アプリケーションのv2.1では、フォルダー名の余分なスペースはダッシュに変換されます。 例えば、`New Folder`または`new   folder`をアップロードすると、オプションが選択されておらず、v2.1のデフォルト動作が維持される場合、リポジトリに同じノードが作成されます。 このオプションを選択すると、上記の2つのフォルダーのリポジトリに異なるノードが作成され、v1.10アプリケーションの動作と一致します。
 
-使用できない環境設定を更新するには、[!DNL Experience Manager] サーバーからログアウトします。環境設定を更新した後、 ![環境設定の保存](assets/do-not-localize/save_preferences_da2.png) アイコンをクリックして、変更内容を保存します。
+   v2.1のデフォルトの動作は引き続き同じです。つまり、リポジトリノード名でフォルダー名の複数のスペースをダッシュに置き換え、小文字のノード名に変換します。
+
+* **[!UICONTROL Upload Acceleration]**: ![注意](assets/do-not-localize/caution-icon.png) iconChangeは注意してください。アセットをアップロードする場合、アプリケーションは同時アップロードを使用して、アップロード速度を向上できます。 スライダーを右に動かして、アップロードの同時実行性を高めることができます。スライダーが最も左側にある場合は、同時実行なし（シングルスレッドアップロード）、中央にある場合は 10 個の同時スレッド、右端にある場合は 20 個の同時スレッドを示します。同時実行性の上限が高いほど、リソースの負荷が大きくなります。
+
+使用できない環境設定を更新するには、[!DNL Experience Manager]サーバーからログアウトし、更新します。 環境設定を更新したら、「![環境設定を保存](assets/do-not-localize/save_preferences_da2.png)」をクリックします。
 
 ![デスクトップアプリケーションの環境設定](assets/preferences_da2.png)
 
