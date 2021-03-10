@@ -9,12 +9,12 @@ solution-title: AEM Assets
 solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=ja
 getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=ja
 tutorials-title: AEM チュートリアル
-tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
-translation-type: tm+mt
+tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html?lang=ja
+translation-type: ht
 source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '83'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
