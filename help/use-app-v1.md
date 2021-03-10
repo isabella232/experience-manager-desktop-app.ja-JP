@@ -1,11 +1,11 @@
 ---
 title: ' [!DNL Experience Manager]  デスクトップアプリケーションバージョン 1.10 の使用。'
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.10 の使用方法と、デスクトップでアセットを効率的に取り扱う方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2373'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 99%
 
 ネットワークおよびシステムの環境設定によっては、詳細な設定が必要になることがあります。詳しくは、[ [!DNL Experience Manager]  デスクトップアプリケーションのインストールと設定](install-configure-app-v1.md)を参照してください。
 
-1. [[!DNL Experience Manager] デスクトップアプリケーションv1.10ダウンロードページ](/help/release-notes-of-v1.md)に移動し、お使いのオペレーティングシステムに適したバイナリをダウンロードします。
+1. [[!DNL Experience Manager]  デスクトップアプリケーション v1.10 のダウンロードページ](/help/release-notes-of-v1.md)に移動し、オペレーティングシステムに適したバイナリをダウンロードします。
 1. ダウンロードしたインストールファイルを実行し、画面上の指示に従ってアプリケーションをインストールします。
 
    >[!NOTE]
