@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 06ce2dc1c47bc1ba71b4fd1d053131d9dbdb08ba
 workflow-type: tm+mt
 source-wordcount: '1468'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->Windows 7はサポートされなくなりました。 [Windows 7のEOLに関する記事](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020)を参照してください。
+>Windows 7 はサポートされなくなりました。[Windows 7 のサポート終了（EOL）に関する記事](https://support.microsoft.com/ja-jp/help/4057281/windows-7-support-ended-on-january-14-2020)を参照してください。
 
 <!-- The version of the app you plan to install on your local machine requires a specific [!DNL Adobe Experience Manager] server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your [!DNL Experience Manager] administrator for help.
 -->
