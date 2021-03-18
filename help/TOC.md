@@ -5,16 +5,14 @@ audience: end-user
 user-guide-title: Adobe Experience Manager デスクトップアプリケーションガイド
 breadcrumb-title: デスクトップアプリケーションガイド
 user-guide-description: Adobe Experience Manager デスクトップアプリケーションを使用してリポジトリーとデスクトップアプリケーションを接続し、リソースへの迅速なアクセスと効率化されたワークフローを提供する方法について説明します。
-solution-title: AEM Assets
-solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html?lang=ja
-getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=ja
-tutorials-title: AEM チュートリアル
-tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html?lang=ja
-translation-type: ht
-source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
-workflow-type: ht
-source-wordcount: '83'
-ht-degree: 100%
+feature-set: Experience Manager Assets
+feature: Experience Manager Desktop App
+role: 営業者、管理者
+translation-type: tm+mt
+source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
