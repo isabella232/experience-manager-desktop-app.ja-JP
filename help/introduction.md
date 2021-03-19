@@ -1,11 +1,12 @@
 ---
 title: ' [!DNL Experience Manager]  デスクトップアプリケーションの概要'
 description: デスクトップから直接 [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] を使用する方法を学びます。
-translation-type: ht
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
-workflow-type: ht
-source-wordcount: '619'
-ht-degree: 100%
+role: 実業家、管理者、リーダー
+translation-type: tm+mt
+source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 99%
 
 ---
 
