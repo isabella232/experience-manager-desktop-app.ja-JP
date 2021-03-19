@@ -1,20 +1,15 @@
 ---
 cloud: experience-cloud
-solution-title: ラーニングとサポート
-solution-hub-url: https://experienceleague.adobe.com/docs/
-solution-icon: assets/experience-cloud-logo-24.png
-getting-started-title: 開始
-getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
-tutorials-title: チュートリアル
-tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
+solution: Experience Manager, Experience Manager Assets
+type: ドキュメント
 mini-toc-levels: 1
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-desktop-app.ja-JP
 index: y
 translation-type: tm+mt
-source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
+source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 66%
+source-wordcount: '135'
+ht-degree: 71%
 
 ---
 
@@ -25,9 +20,9 @@ metadata.md ファイルには、リポジトリー内にあるユーザーガ�
 
 | メタデータ | 動作 |
 |--- |--- |
-| solution-title | 記事ヘッダーでリンクとして使用されます。. |
+| solution-title | 記事ヘッダーでリンクとして使用されます。。 |
 | solution-hub-url | 学習とサポートのハブページを開きます。 |
-| solution-icon | ソリューションタイトルの横にソリューションアイコンを表示します。まだ実装されていません。. |
+| solution-icon | ソリューションタイトルの横にソリューションアイコンを表示します。まだ実装されていません。。 |
 | getting-started-url | 「はじめに」ページへのリンクです。 |
 | tutorials-url | ビデオチュートリアルへのリンク |
 | mini-toc-levels | 右側のレールに表示される見出しレベルの数を決定します。デフォルト値は 2 です。 |
@@ -37,5 +32,5 @@ TOC.md ファイル内
 
 | メタデータ | 動作 |
 |--- |--- |
-| user-guide-title | 記事ヘッダーでリンクとして使用されます。. |
+| user-guide-title | 記事ヘッダーでリンクとして使用されます。。 |
 | user-guide-url | 学習とサポートのハブページを開きます。 |
