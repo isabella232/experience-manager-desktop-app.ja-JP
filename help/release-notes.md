@@ -7,36 +7,36 @@ translation-type: tm+mt
 source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 77%
+ht-degree: 99%
 
 ---
 
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート {#release-notes-v2}
 
-最新のデスクトップアプリケーションバージョン2.1(2.1.1.0)のリリース情報は以下のとおりです。 リリース日は2021年3月5日です。 これは、機能が強化されたマイナーリリースです。
+最新のデスクトップアプリケーションバージョン 2.1（2.1.1.0）のリリース情報は以下のとおりです。リリース日は 2021 年 3 月 5 日です。これは、機能が強化されたマイナーリリースです。
 
-**サポートされる[!DNL Experience Manager]バージョン**&#x200B;は次のとおりです。
+**サポートされている [!DNL Experience Manager] バージョン**&#x200B;は次のとおりです。
 
-* [!DNL Experience Manager] as a [!DNL Cloud Service]. [リリースノート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=ja)を参照してください。
-* [!DNL Experience Manager] 6.5.0以降(Adobe Managed Services(AMS)またはオンプレミス)。[サービスパックリリースノート](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ja)を参照してください。
-* [!DNL Experience Manager] 6.4.4以降、Adobe Managed Services(AMS)またはOn-Premiseで実行。[サービスパックリリースノート](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja)を参照してください。
-* [!DNL Experience Manager] 6.4.0 - 6.4.3( [互換](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) パッケージがインストールされている)。Adobe Managed Services(AMS)またはOn-Premiseにインストールされます。
-* [!DNL Experience Manager] 6.3 （互換パッケージ付き）
-* [!DNL Experience Manager] 6.3.3.1以降( [互換性](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) パッケージがインストールされています)。デスクトップアプリは、[!DNL Experience Manager] 6.3.3.0以前のバージョンではサポートされていません。
+* [!DNL Experience Manager] as a [!DNL Cloud Service]。[リリースノート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=ja)を参照してください。
+* [!DNL Experience Manager] 6.5.0 以降（Adobe Managed Services（AMS）版またはオンプレミス版）。[サービスパックのリリースノート](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=ja)を参照してください。
+* [!DNL Experience Manager] 6.4.4 以降（Adobe Managed Services（AMS）版またはオンプレミス版）。[サービスパックのリリースノート](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja)を参照してください。
+* [!DNL Experience Manager] 6.4.0 ～ 6.4.3（[互換性パッケージ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をインストール。Adobe Managed Services（AMS）版またはオンプレミス版）。
+* [!DNL Experience Manager] 6.3（互換性パッケージを使用）
+* [!DNL Experience Manager] 6.3.3.1 以降（[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をインストール）。[!DNL Experience Manager] 6.3.3.0 以前のバージョンではデスクトップアプリケーションはサポートされていません。
 
-[!DNL Adobe Experience Manager] デスクトップアプリは、次の **オペレーティングシステムで使用できます**。
+[!DNL Adobe Experience Manager] デスクトップアプリケーションは次の&#x200B;**オペレーティングシステム**&#x200B;で使用できます。
 
-* macOS X 10.14以降（最新のバグ修正を含む）。
+* 最新のバグ修正が適用された macOS X 10.14 以降。
 * 最新のサービスパックとバグ修正が適用された Windows 10。
 
-サポートされるOSの&#x200B;**ダウンロードURL**&#x200B;は次のとおりです。
+サポートされている OS の&#x200B;**ダウンロード URL** は次のとおりです。
 
 | オペレーティングシステム | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS 64ビット | [ダウンロード リンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.1.0.dmg) | [ダウンロード リンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.1.0.dmg) |
-| Windows 64-bit | [ダウンロード リンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.1.0.exe) | [ダウンロード リンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.1.0.exe) |
-| Windows 32-bit | [ダウンロード リンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.1.0.exe) | [ダウンロード リンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.1.0.exe) |
+| macOS 64 ビット | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.1.0.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.1.0.dmg) |
+| Windows 64 ビット | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.1.0.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.1.0.exe) |
+| Windows 32 ビット | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.1.0.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.1.0.exe) |
 
 >[!NOTE]
 >
@@ -65,31 +65,31 @@ ht-degree: 77%
 
 * パスは [!DNL Experience Manager] 内のアセットと一致させることができます。つまり、配置されたファイルは [!DNL Experience Manager] 内でも一致したパスの下に存在しています。
 
-## 新機能、拡張機能、およびバグ修正{#what-is-new}
+## 新機能、機能強化、バグ修正 {#what-is-new}
 
 詳しくは、[v2.0 の新機能](introduction.md#whats-new-v2)を参照してください。
 
-**アプリケーションv2.1.1.0のアップデート**
+**AEM デスクトップアプリケーション v2.1.1.0 の更新点**
 
-* 詳細設定を使用すると、フォルダーのアップロード時にアプリケーションがv1.10で行う動作をエミュレートできます。 v1.10では、リポジトリで作成されたノード名は、ユーザーが指定したフォルダー名のスペースと大文字と小文字に従います。 v2.1のデフォルトの動作は引き続き同じです。つまり、フォルダー名の複数のスペースをリポジトリノード名のハイフンに置き換え、小文字のノード名に変換します。 [アプリの環境設定](/help/install-upgrade.md#set-preferences)を参照してください。
+* 詳細設定により、フォルダーのアップロード時に v1.10 アプリケーションの動作をエミュレートできます。v1.10 では、ユーザーが指定したフォルダー名のスペースと大文字／小文字の区別をそのまま使用した名前のノードがリポジトリー内に作成されます。v2.1 アプリケーションのデフォルトの動作はそのまま変わりません。つまり、フォルダー名の複数のスペースはリポジトリーノード名ではハイフンに置き換わり、小文字のノード名に変換されます。[デスクトップアプリケーションの環境設定](/help/install-upgrade.md#set-preferences)を参照してください。
 
-**アプリケーションv2.1.0.0のアップデート**
+**AEM デスクトップアプリケーション v2.1.0.0 の更新点**
 
 * アセットをアップロードする際に、アプリケーションのインターフェイス上でファイルやフォルダーを Windows エクスプローラーまたは Mac Finder から直接ドラッグできるようになりました。これは、以前アプリケーションで使用可能だったアップロードオプションに加えて機能します。  <!-- CQ-4309527 -->
 
-**アプリケーションv2.0.3のアップデート**
+**AEM デスクトップアプリケーション v2.0.3 の更新点**
 
 現在のバージョンで修正されたバグは次のとおりです。
 
-* Windows上で[!DNL Adobe Experience Manager] 6.5.5.0のDAMリポジトリにアクセスしようとするアプリユーザーのログインの問題を修正しました。
+* Windows 版アプリケーションのユーザーが [!DNL Adobe Experience Manager] 6.5.5.0 の DAM リポジトリーにアクセスしようとするときのログインの問題を修正しました。
 
 **AEM デスクトップアプリケーション v2.0.2 の更新点**
 
 バグ修正と更新点は次のとおりです。
 
-* アップロードの高速化設定が利用可能になり、アップロードのパフォーマンスが向上しました。 この設定を有効にすると、ローカルのCPUスレッドを多く使用して、アプリのアップロードが高速になり、リソースの消費量が増えます。
+* アップロードの高速化設定が使用可能になり、アップロードのパフォーマンスが向上しました。この設定を有効にすると、アップロードの高速化のために、AEM デスクトップアプリケーションで使用されるローカル CPU スレッドが増え、リソースがさらに大量に消費されるようになります。
 
-* 特定のGB18030文字を含むファイル名またはパスが修正された場合のアセットのアップロード。<!-- CQ-4283494 -->
+* ファイル名またはパスに特定の GB18030 文字が含まれている場合に発生するアセットアップロードの問題を修正しました。<!-- CQ-4283494 -->
 
 * 検索結果で別の並べ替えタイプに切り替えた後で、「関連性順に並べ替え」オプションを使用できます。<!-- CQ-4286874 -->
 
@@ -117,7 +117,7 @@ ht-degree: 77%
 
 * アプリケーションは、[!DNL Experience Manager] との間でアセットバイナリを完全に転送する必要がある操作（開く、編集、変更のアップロード、アセットのアップロード）を完全にコントロールできます。
 
-   * デスクトップでアセットを操作する場合は、デスクトップに対して、個別、フォルダー内または複数選択を使用して、「開く」、「編集」または「ダウンロード」を明示的に指定する必要があります。
+   * デスクトップ上でアセットを操作する場合は、個別、フォルダー単位、複数選択のいずれの場合でも、「開く」、「編集」、デスクトップへの「ダウンロード」のいずれかを明示的に実行する必要があります。
 
    * アセットに対するローカルな変更を [!DNL Experience Manager] にアップロードする場合は、個別のアセットまたは同時に選択した複数のアセットに対して「[!UICONTROL Upload Changes]」を選択する必要があります。
 
@@ -133,7 +133,7 @@ ht-degree: 77%
 
 * Adobe Creative Cloud アプリのネイティブファイルにリンクまたは配置されたアセットファイルを Creative Cloud アプリが読み取るときに、SMB（Mac）／WebDAV（Win）ローカルネットワーク共有が使用されます。
 
-次の図は、アセットとファイルがクラウドからローカルファイルシステムに流れる様子と、ユーザーの操作によって開始されたその逆の方法を示しています。
+ユーザーのアクションによってクラウドとローカルファイルシステムの間で開始されるアセットおよびファイルのフローを次の図に示します。
 
 ![デスクトップアプリケーションを介した [!DNL Experience Manager] サーバーからネイティブデスクトップアプリへのアセットのフロー](assets/da20_flow_diagram.png)
 
@@ -141,7 +141,7 @@ ht-degree: 77%
 
 **ユーザーインターフェイスに関する問題：**
 
-* デスクトップアプリケーションのインターフェイスが空白になることがあります。右クリックし、[!UICONTROL Refresh]をクリックして、アプリケーションを再読み込みします。 更新後、DAM リポジトリーのルートから開始します。アセットのアップデートまたはステータスは保持されます。 <!-- CQ-4270267 -->
+* デスクトップアプリケーションのインターフェイスが空白になることがあります。右クリックし「[!UICONTROL Refresh]」をクリックして、アプリケーションを再度読み込みます。更新後、DAM リポジトリーのルートから開始します。アセットのアップデートまたはステータスは保持されます。<!-- CQ-4270267 -->
 
 * トラックパッドやマウスホイールを使用せずにフォルダーや検索結果間を移動するのが困難。マウスホイールのないマウスデバイスでは、スクロールバーが表示されないことがあります。<!-- CQ-4269947 -->
 
