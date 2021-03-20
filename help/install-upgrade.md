@@ -3,10 +3,10 @@ title: ' デスクトップアプリケーションのインストールと設�
 description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets]  サーバーをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。'
 feature: Experience Managerデスクトップアプリ、リリース情報
 translation-type: tm+mt
-source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
+source-git-commit: 3804d684a3a7e78eda7692969f312ef023965ffd
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 99%
+source-wordcount: '1405'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->2 つのバージョンのデスクトップアプリケーションを 1 台のコンピューターに共存させることはできません。あるバージョンをインストールするには、その前に他のバージョンをアンインストールします。
+>2つのバージョンのデスクトップアプリは、1つのマシンに共存できません。 あるバージョンをインストールするには、その前に他のバージョンをアンインストールします。
 
 以前のバージョンのアプリケーションからアップグレードするには、次の手順に従います。
 
@@ -122,6 +122,14 @@ ht-degree: 99%
 ![デスクトップアプリケーションの環境設定](assets/preferences_da2.png)
 
 *図：デスクトップアプリケーションの環境設定*
+
+### プロキシのサポート {#proxy-support}
+
+[!DNL Experience Manager] デスクトップアプリケーションは、システムで事前に定義されたプロキシ経由で、HTTPS を使用してインターネットに接続します。AEM デスクトップアプリケーションは、追加の認証が必要ないネットワークプロキシのみを使用して接続できます。
+
+Windows のプロキシサーバー設定（インターネットオプション／LAN の設定）を設定または変更した場合、変更内容を反映するには、[!DNL Experience Manager] デスクトップアプリケーションを再起動します。プロキシ設定は、デスクトップアプリを開始する場合に適用されます。 変更内容を反映するには、アプリケーションを閉じて再起動します。
+
+プロキシで認証が必要な場合、ITチームはプロキシサーバー設定の[!DNL Experience Manager Assets] URLを許可して、アプリケーショントラフィックが通過するようにします。
 
 ## デスクトップアプリケーションのアンインストール {#uninstall-the-app}
 
