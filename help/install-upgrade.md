@@ -3,10 +3,10 @@ title: ' デスクトップアプリケーションのインストールと設�
 description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets]  サーバーをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。'
 feature: Experience Managerデスクトップアプリ、リリース情報
 translation-type: tm+mt
-source-git-commit: 3804d684a3a7e78eda7692969f312ef023965ffd
+source-git-commit: 7204e3afb6d3a0908c076cf042072e3157572797
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 96%
 
 * **[!UICONTROL Maximum number of downloads]**：![注意アイコン](assets/do-not-localize/caution-icon.png) 変更は慎重におこなう必要があります。（「表示」、「開く」、「編集」、「ダウンロード」などのオプションを使用して）初めてアセットをダウンロードする場合は、バッチに含まれているアセットがこの数より少ない場合にのみ、アセットがダウンロードされます。デフォルト値は 50 です。不明な場合は、値を変更しないでください。値を増やすと、待ち時間が長くなり、値を減らすと、必要なアセットやフォルダーを 1 回でダウンロードできなくなる場合があります。
 
-* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**：![注意アイコン](assets/do-not-localize/caution-icon.png) 変更は慎重におこなう必要があります。この設定により、フォルダーをアップロードする際に v1.10 アプリケーションの動作をエミュレートできます。v1.10 では、ユーザーが指定したフォルダー名のスペースと大文字／小文字の区別をそのまま使用した名前のノードがリポジトリー内に作成されます。一方、アプリケーション v2.1 では、フォルダー名の余分なスペースはハイフンに変換されます。例えば、このオプションが選択されておらず、v2.1 のデフォルト動作が維持される場合は、`New Folder` または `new   folder` をアップロードすると、リポジトリーに同じノードが作成されます。このオプションを選択すると、上記の 2 つのフォルダーに対して異なるノードがリポジトリーに作成されます。これは v1.10 アプリケーションの動作と一致します。
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**：![注意アイコン](assets/do-not-localize/caution-icon.png) 変更は慎重におこなう必要があります。この設定により、フォルダーをアップロードする際に v1.10 アプリケーションの動作をエミュレートできます。v1.10では、リポジトリで作成されたノード名は、ユーザーが指定したフォルダー名のスペースと大文字と小文字を考慮します。 一方、アプリケーション v2.1 では、フォルダー名の余分なスペースはハイフンに変換されます。例えば、このオプションが選択されておらず、v2.1 のデフォルト動作が維持される場合は、`New Folder` または `new   folder` をアップロードすると、リポジトリーに同じノードが作成されます。このオプションを選択すると、上記の 2 つのフォルダーに対して異なるノードがリポジトリーに作成されます。これは v1.10 アプリケーションの動作と一致します。
 
    v2.1 アプリケーションのデフォルトの動作はそのまま変わりません。つまり、フォルダー名の複数のスペースはリポジトリーノード名ではダッシュに置き換わり、小文字のノード名に変換されます。
 
