@@ -1,11 +1,11 @@
 ---
 title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのベストプラクティスとトラブルシューティング'
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
-translation-type: ht
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
-workflow-type: ht
-source-wordcount: '2120'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9d90bdcab79604e03d1ad3f30ed2aca2eb03e1c5
+workflow-type: tm+mt
+source-wordcount: '2110'
+ht-degree: 98%
 
 ---
 
@@ -106,7 +106,7 @@ Windows でデバッグモードを有効にするには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
 ### キャッシュのクリア {#clear-cache-v2}
 
@@ -201,7 +201,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 #### SAML ログイン認証が機能しない {#da-connection-issue-with-saml-aem}
 
-[!DNL Experience Manager] デスクトップアプリケーションが SSO 対応（SAML）[!DNL Adobe Experience Manager] インスタンスに接続できない場合は、この節を参照してトラブルシューティングしてください。SSO プロセスは様々で、時には複雑な場合もあります。アプリケーションは、できる限りこれらの種類の接続に対応できるように設計されています。ただし、一部の設定では、追加のトラブルシューティングが必要になります。
+[!DNL Experience Manager] デスクトップアプリは、SSO対応(SAML) [!DNL Adobe Experience Manager] デプロイメントに接続できない場合があります。アプリケーションのデザインは、SSO接続とプロセスのバリエーションと複雑さに対応しようとします。 ただし、セットアップには、追加のトラブルシューティングが必要な場合があります。
 
 最初に要求されたパスに SAML プロセスがリダイレクトされない場合や、[!DNL Adobe Experience Manager] デスクトップアプリケーションで設定されたものとは異なるホストに最終的にリダイレクトされる場合があります。それに該当しないことを確かめるには：
 
