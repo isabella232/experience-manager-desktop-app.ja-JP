@@ -1,12 +1,12 @@
 ---
 title: ' デスクトップアプリケーションのインストールと設定'
 description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets]  サーバーをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。'
-feature: Experience Managerデスクトップアプリ、リリース情報
+feature: Experience Manager デスクトップアプリケーション、リリース情報
 translation-type: tm+mt
 source-git-commit: 7204e3afb6d3a0908c076cf042072e3157572797
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
