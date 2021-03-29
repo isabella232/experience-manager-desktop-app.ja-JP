@@ -7,12 +7,12 @@ breadcrumb-title: デスクトップアプリケーションガイド
 user-guide-description: Adobe Experience Manager デスクトップアプリケーションを使用してリポジトリーとデスクトップアプリケーションを接続し、リソースへの迅速なアクセスと効率化されたワークフローを提供する方法について説明します。
 feature-set: Experience Manager Assets
 feature: Experience Manager Desktop App
-role: 営業者、管理者
-translation-type: tm+mt
+role: 業務担当者、管理者
+translation-type: ht
 source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '70'
+ht-degree: 100%
 
 ---
 
