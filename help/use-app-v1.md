@@ -1,12 +1,12 @@
 ---
 title: ' [!DNL Experience Manager]  デスクトップアプリケーションバージョン 1.10 の使用。'
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.10 の使用方法と、デスクトップでアセットを効率的に取り扱う方法について説明します。
-feature: Experience Managerデスクトップアプリ、アセット管理
-translation-type: tm+mt
+feature: Experience Manager デスクトップアプリ、アセット管理
+translation-type: ht
 source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2379'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
