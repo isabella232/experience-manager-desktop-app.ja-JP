@@ -2,10 +2,10 @@
 title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのベストプラクティスとトラブルシューティング'
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
 translation-type: tm+mt
-source-git-commit: 9d90bdcab79604e03d1ad3f30ed2aca2eb03e1c5
+source-git-commit: a766855c0670e9f291b8020ee6ab7addc50689a4
 workflow-type: tm+mt
-source-wordcount: '2110'
-ht-degree: 98%
+source-wordcount: '2175'
+ht-degree: 95%
 
 ---
 
@@ -108,6 +108,16 @@ Windows でデバッグモードを有効にするには：
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
+### [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョンの把握 {#know-app-version-v2}
+
+バージョン番号を確認するには：
+
+1. アプリケーションを起動します。
+
+1. 右上隅の三点リーダーアイコンをクリックし、「[!UICONTROL Help]」にマウスポインターを置いて、「[!UICONTROL About]」をクリックします。
+
+   この画面にバージョン番号が表示されます。
+
 ### キャッシュのクリア {#clear-cache-v2}
 
 以下の手順を実行します。
@@ -138,17 +148,7 @@ Windows でデバッグモードを有効にするには：
 
 [!DNL Adobe Experience Manager] デスクトップアプリケーションのキャッシュのクリアは、トラブルシューティングの予備的作業で、これによりいくつかの問題を解決できます。キャッシュのクリアは、アプリの環境設定からおこないます。[環境設定の指定](install-upgrade.md#set-preferences)を参照してください。キャッシュフォルダーのデフォルトの場所は次のとおりです。
 
-### [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョンの把握 {#know-app-version-v2}
-
-バージョン番号を確認するには：
-
-1. アプリケーションを起動します。
-
-1. 右上隅の三点リーダーアイコンをクリックし、「[!UICONTROL Help]」にマウスポインターを置いて、「[!UICONTROL About]」をクリックします。
-
-   この画面にバージョン番号が表示されます。
-
-### 配置されたアセットが表示されない {#placed-assets-missing}
+## 配置されたアセットが表示されない {#placed-assets-missing}
 
 サポートファイル（INDD ファイルなど）に自分自身または他のクリエイティブプロフェッショナルが配置したアセットが表示されない場合は、次の点を確認してください。
 
@@ -179,11 +179,11 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-### ファイルをアップロードできない {#upload-fails}
+## ファイルをアップロードできない {#upload-fails}
 
 デスクトップアプリケーションを [!DNL Experience Manager] 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。これで、[OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) に関連するファイルアップロード失敗の問題が解決されます。[インストール手順](install-upgrade.md#install-v2)を参照してください。
 
-### [!DNL Experience Manager] デスクトップアプリケーションの接続の問題 {#connection-issues}
+## [!DNL Experience Manager] デスクトップアプリケーションの接続の問題 {#connection-issues}
 
 接続に関する一般的な問題が発生した場合は、[!DNL Experience Manager] デスクトップアプリケーションの処理内容に関する詳しい情報を以下のいずれかの方法で入手できます。
 
@@ -199,7 +199,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 アプリケーションのリクエストの大部分は、リクエストログに記録されています。ただし、そこで有用な情報が得られない場合は、送信されたリクエストをアプリケーションの組み込みブラウザーで調べると役立ちます。これらのリクエストの表示方法については、[SAML に関する節](#da-connection-issue-with-saml-aem)を参照してください。
 
-#### SAML ログイン認証が機能しない {#da-connection-issue-with-saml-aem}
+### SAML ログイン認証が機能しない {#da-connection-issue-with-saml-aem}
 
 [!DNL Experience Manager] デスクトップアプリは、SSO対応(SAML) [!DNL Adobe Experience Manager] デプロイメントに接続できない場合があります。アプリケーションのデザインは、SSO接続とプロセスのバリエーションと複雑さに対応しようとします。 ただし、セットアップには、追加のトラブルシューティングが必要な場合があります。
 
@@ -246,7 +246,7 @@ SAML プロセスでこれらのブラウザーがサポートされているこ
 
 読み込まれる URL シーケンスを調べると、SAML の終わりでトラブルシューティングして、何が悪いかを判断するのに役立ちます。
 
-#### SSL 設定の問題 {#ssl-config-v2}
+### SSL 設定の問題 {#ssl-config-v2}
 
 [!DNL Experience Manager] デスクトップアプリケーションが HTTP 通信に使用するライブラリでは SSL を厳格に適用します。ブラウザーでは成功する接続が、[!DNL Experience Manager] デスクトップアプリケーションでは失敗することがあります。SSL を適切に設定するには、不足している中間証明書を Apache にインストールします。[中間 CA の証明書を Apache にインストールするには](https://access.redhat.com/solutions/43575)を参照してください。
 
@@ -283,7 +283,13 @@ SAML プロセスでこれらのブラウザーがサポートされているこ
 
 1. ファイルを保存し、[!DNL Adobe Experience Manager] デスクトップアプリケーションを再起動します。
 
-### デスクトップアプリケーションが応答しない {#unresponsive}
+### 別のサーバーに切り替えるとログインの問題{#cannot-login-cookies-issue}
+
+[!DNL Experience Manager]サーバを使用した後、別のサーバへの接続を変更しようとすると、ログインの問題が発生する場合があります。 古いcookieが新しい認証に干渉しているためです。 [!UICONTROL Clear Cookies]に対するメインメニューのオプションが役立ちます。 アプリの現在のセッションからログアウトし、[!UICONTROL Clear Cookies]を選択してから接続を続行します。
+
+![サーバーの切り替え時にcookieをクリア](assets/main_menu_logout_da2.png)
+
+## デスクトップアプリケーションが応答しない {#unresponsive}
 
 まれに、デスクトップアプリケーションが応答しなくなって、白い画面だけが表示されたり、インターフェイスにオプションが表示されずにインターフェイスの下部にエラーが表示されたりする場合があります。このような場合には、以下をこの順に試します。
 
