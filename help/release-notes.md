@@ -2,11 +2,11 @@
 title: '[!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート'
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。'
 mini-toc-levels: 1
-feature: Experience Managerデスクトップアプリ、リリース情報
+feature: Experience Manager デスクトップアプリケーション、リリース情報
 translation-type: tm+mt
-source-git-commit: e8a299c7357faf2c19c11a56f2868f6679c15ac1
+source-git-commit: 861f2e8994ae7eb9b35c78036479fe47dc793cf3
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1512'
 ht-degree: 96%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 96%
 
 **AEM デスクトップアプリケーション v2.1.2.0 の更新点**
 
-* [!UICONTROL Clear Cookies]に対する新しいオプションが、アプリケーションのメインメニューに追加されます。 サーバー接続を別のサーバーに変更する場合など、ログインの問題に役立ちます。
+* [!UICONTROL Clear Cookies]に対する新しいオプションが、アプリケーションのメインメニューに追加されます。 サーバー接続を別のサーバーに変更する場合など、ログインの問題に役立ちます。 [接続前にcookieをクリアする](/help/troubleshoot.md#cannot-login-cookies-issue)を参照してください。
 
 **AEM デスクトップアプリケーション v2.1.1.0 の更新点**
 
