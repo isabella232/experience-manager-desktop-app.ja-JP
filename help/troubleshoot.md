@@ -1,14 +1,14 @@
 ---
 title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのベストプラクティスとトラブルシューティング'
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
+exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 translation-type: tm+mt
-source-git-commit: a766855c0670e9f291b8020ee6ab7addc50689a4
+source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 95%
+source-wordcount: '2261'
+ht-degree: 91%
 
 ---
-
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションのトラブルシューティング {#troubleshoot-v2}
 
@@ -297,6 +297,13 @@ SAML プロセスでこれらのブラウザーがサポートされているこ
 * アプリケーションを終了して、再度開きます。
 
 どちらの方法でも、DAM のルートフォルダーがデスクトップアプリケーションの初期状態として表示されます。
+
+## 期限切れのアセットを非表示{#hide-expired-assets}
+
+[!DNL Experience Manager]ユーザーインターフェイス内からアセットを参照する場合、期限切れのアセットは表示されません。 デスクトップアプリとアセットリンクからアセットを参照する際に、期限切れのアセットの表示、検索および取得を防ぐために、管理者は次の設定を行うことができます。 この設定は、管理者権限に関係なく、すべてのユーザーで機能します。
+
+* [Experience Manager6.5で、期限切れのアセットを非表示にするための設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#hide-expired-assets-via-acp-api)。
+* [期限切れのアセットを非表示にするCloud ServiceとしてのExperience Managerでの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api)。
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
