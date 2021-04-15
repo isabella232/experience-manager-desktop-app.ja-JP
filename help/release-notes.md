@@ -5,10 +5,10 @@ mini-toc-levels: 1
 feature: デスクトップアプリ，リリース情報
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 translation-type: tm+mt
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 96%
+source-wordcount: '1523'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 [!DNL Adobe Experience Manager] デスクトップアプリケーションは次の&#x200B;**オペレーティングシステム**&#x200B;で使用できます。
 
-* 最新のバグ修正が適用された macOS X 10.14 以降。
+* 最新のバグ修正が適用された macOS X 10.14 以降。[Apple Siliconareを搭載したMac](https://support.apple.com/ja-jp/HT211814) コンピュータは、まだサポートされていません。
 * 最新のサービスパックとバグ修正が適用された Windows 10。
 
 サポートされている OS の&#x200B;**ダウンロード URL** は次のとおりです。
