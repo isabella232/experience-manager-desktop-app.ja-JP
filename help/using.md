@@ -22,7 +22,7 @@ ht-degree: 99%
 
 [!DNL Experience Manager] デスクトップアプリケーションを使用しておこなう主なタスクは次のとおりです。
 
-![[!DNL Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク ](assets/aem_desktop_app_usecases_v2.png " [!DNL Adobe Experience Manager]  デスクトップアプリケーションを使用して実行できるワークフローとタスク")
+![[!DNL Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク](assets/aem_desktop_app_usecases_v2.png " [!DNL Adobe Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク")
 [この](assets/aem_desktop_app_usecases_print.pdf)印刷用 PDF ファイルをダウンロードします。
 
 ## デスクトップアプリケーションの動作の仕組み {#how-app-works2}
@@ -63,15 +63,15 @@ ht-degree: 99%
 
 ブラウザーの [!DNL Assets] ユーザーインターフェイスから、アセットの場所を参照したり、アセットをチェックアウトしてデスクトップアプリケーションで編集用に開いたりできます。これらのオプションは「[!UICONTROL Desktop Actions]」と呼ばれ、デフォルトでは有効になっていません。有効にするには、次の手順に従います。
 
-1. [!DNL Assets]コンソールで、ツールバーの&#x200B;**[!UICONTROL User]**&#x200B;アイコンをクリックします。
+1. [!DNL Assets] コンソールで、ツールバーの「**[!UICONTROL User]**」アイコンをクリックします。
 1. 「**[!UICONTROL My Preferences]**」をクリックして、**[!UICONTROL Preferences]** ダイアログを表示します。
 
 1. ユーザーの環境設定ダイアログで、「**[!UICONTROL Show Desktop Actions For Assets]**」を選択します。「**[!UICONTROL Accept]**」をクリックします。
 
 
-   ![「アセットのデスクトップアクションを表示」を選択して、デスクトップアクションを有効にします。](assets/enable_desktop_actions.png)
+   ![「アセットのデスクトップアクションを表示」をオンにしてデスクトップアクションを有効化](assets/enable_desktop_actions.png)
 
-   *図：デスクトップ [!UICONTROL Show Desktop Actions For Assets] の操作を有効にする場合に選択します。*
+   *図：「[!UICONTROL Show Desktop Actions For Assets]」をオンにしてデスクトップアクションを有効化*
 
 ## アセットの参照、検索、プレビュー {#browse-search-preview-assets}
 
