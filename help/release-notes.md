@@ -2,13 +2,13 @@
 title: '[!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート'
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。'
 mini-toc-levels: 1
-feature: Desktop App,Release Information
+feature: デスクトップアプリ、リリース情報
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 [!DNL Adobe Experience Manager] デスクトップアプリケーションは次の&#x200B;**オペレーティングシステム**&#x200B;で使用できます。
 
-* 最新のバグ修正が適用された macOS X 10.14 以降。[Apple Siliconareを搭載したMac](https://support.apple.com/ja-jp/HT211814) コンピュータは、まだサポートされていません。
+* 最新のバグ修正が適用された macOS X 10.14 以降。[Apple シリコンを搭載した Mac コンピューター](https://support.apple.com/ja-jp/HT211814)はまだサポートされていません。
 * 最新のサービスパックとバグ修正が適用された Windows 10。
 
 サポートされている OS の&#x200B;**ダウンロード URL** は次のとおりです。
@@ -71,7 +71,7 @@ ht-degree: 98%
 
 **AEM デスクトップアプリケーション v2.1.2.0 の更新点**
 
-* 新しいオプション「[!UICONTROL Clear Cookies]」がアプリケーションのメインメニューに追加されました。これは、接続先のサーバーを変更した場合などに発生する可能性のある、ログインの問題を解決するのに役立ちます。[接続前にcookieをクリアする](/help/troubleshoot.md#cannot-login-cookies-issue)を参照してください。
+* 新しいオプション「[!UICONTROL Clear Cookies]」がアプリケーションのメインメニューに追加されました。これは、接続先のサーバーを変更した場合などに発生する可能性のある、ログインの問題を解決するのに役立ちます。[接続前に cookie をクリアする](/help/troubleshoot.md#cannot-login-cookies-issue)を参照してください。
 
 **AEM デスクトップアプリケーション v2.1.1.0 の更新点**
 
@@ -79,7 +79,7 @@ ht-degree: 98%
 
 **AEM デスクトップアプリケーション v2.1.0.0 の更新点**
 
-* アセットをアップロードする際に、アプリケーションのインターフェイス上でファイルやフォルダーを Windows エクスプローラーまたは Mac Finder から直接ドラッグできるようになりました。これは、以前アプリケーションで使用可能だったアップロードオプションに加えて機能します。  <!-- CQ-4309527 -->
+* アセットをアップロードする際に、アプリケーションのインターフェイス上でファイルやフォルダーを Windows エクスプローラーまたは Mac Finder から直接ドラッグできるようになりました。これは、以前アプリケーションで使用可能だったアップロードオプションに加えて機能します。 <!-- CQ-4309527 -->
 
 **AEM デスクトップアプリケーション v2.0.3 の更新点**
 
