@@ -2,13 +2,13 @@
 title: ' [!DNL Experience Manager]  デスクトップアプリケーションの使用 '
 description: Win または Mac デスクトップから直接 [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager]  DAM アセットを使用し、他のアプリケーションで使用します。
 mini-toc-levels: 1
-feature: Desktop App,Asset Management
+feature: デスクトップアプリ、アセット管理
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3905'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -300,7 +300,7 @@ Web インターフェイスを使用しても、以下の情報やワークフ�
 
 画像アセットと InDesign でこのワークフローを試すには、以下の手順に従います。
 
-1. アセットを配置した INDD ファイルを [!DNL Experience Manager] に用意します。このような INDD ファイルの作成方法については、[グラフィックの配置](https://helpx.adobe.com/indesign/using/placing-graphics.html)を参照してください。
+1. アセットを配置した INDD ファイルを [!DNL Experience Manager] に用意します。このような INDD ファイルの作成方法については、[グラフィックの配置](https://helpx.adobe.com/jp/indesign/using/placing-graphics.html)を参照してください。
 1. デスクトップアプリケーションの「**[!UICONTROL Edit]**」で、（[!DNL Experience Manager] にある）アセットを配置した INDD ファイルを編集します。
 1. デスクトップアプリケーションが、InDesign ファイルおよびリンクされたアセットを両方ともダウンロードします。ドキュメントが InDesign で開かれると、リンクが解決され、アセットがダウンロードされて InDesign ドキュメントに表示されます。
 1. InDesign ファイルに新しいグラフィックを配置するには、アセットに対して「**[!UICONTROL Reveal File]**」アクションを使用します。このアクションにより、アセットがローカルにダウンロードされ、ローカルネットワーク共有の場所が Windows エクスプローラーまたは Mac Finder で開かれます。
