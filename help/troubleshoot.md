@@ -2,11 +2,11 @@
 title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのベストプラクティスとトラブルシューティング'
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2261'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Windows でデバッグモードを有効にするには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`
 
 ### [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョンの把握 {#know-app-version-v2}
 
@@ -201,7 +201,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ### SAML ログイン認証が機能しない {#da-connection-issue-with-saml-aem}
 
-[!DNL Experience Manager] デスクトップアプリは、SSO対応(SAML) [!DNL Adobe Experience Manager] デプロイメントに接続できない場合があります。アプリケーションのデザインは、SSO接続とプロセスのバリエーションと複雑さに対応しようとします。 ただし、セットアップには、追加のトラブルシューティングが必要な場合があります。
+[!DNL Experience Manager] デスクトップアプリケーションは、SSO 対応（SAML）[!DNL Adobe Experience Manager] デプロイメントに接続できない場合があります。SSO 接続およびプロセスのバリエーションと複雑さに対応するようにアプリケーションを設計します。ただし、設定については、追加のトラブルシューティングが必要になる可能性があります。
 
 最初に要求されたパスに SAML プロセスがリダイレクトされない場合や、[!DNL Adobe Experience Manager] デスクトップアプリケーションで設定されたものとは異なるホストに最終的にリダイレクトされる場合があります。それに該当しないことを確かめるには：
 
@@ -283,11 +283,11 @@ SAML プロセスでこれらのブラウザーがサポートされているこ
 
 1. ファイルを保存し、[!DNL Adobe Experience Manager] デスクトップアプリケーションを再起動します。
 
-### 別のサーバーに切り替えるとログインの問題{#cannot-login-cookies-issue}
+### 別のサーバーに切り替える際のログインの問題 {#cannot-login-cookies-issue}
 
-[!DNL Experience Manager]サーバを使用した後、別のサーバへの接続を変更しようとすると、ログインの問題が発生する場合があります。 古いcookieが新しい認証に干渉しているためです。 [!UICONTROL Clear Cookies]に対するメインメニューのオプションが役立ちます。 アプリの現在のセッションからログアウトし、[!UICONTROL Clear Cookies]を選択してから接続を続行します。
+[!DNL Experience Manager] サーバーを使用した後、別のサーバーへの接続を変更しようとすると、ログインの問題が発生する場合があります。これは、古い cookie が新しい認証に干渉しているためです。[!UICONTROL Clear Cookies] に対するメインメニューのオプションが役立ちます。アプリの現在のセッションからログアウトし、「[!UICONTROL Clear Cookies]」を選択してから接続を続行します。
 
-![サーバーの切り替え時にcookieをクリア](assets/main_menu_logout_da2.png)
+![サーバーの切り替え時に cookie をクリア](assets/main_menu_logout_da2.png)
 
 ## デスクトップアプリケーションが応答しない {#unresponsive}
 
@@ -298,12 +298,12 @@ SAML プロセスでこれらのブラウザーがサポートされているこ
 
 どちらの方法でも、DAM のルートフォルダーがデスクトップアプリケーションの初期状態として表示されます。
 
-## 期限切れのアセットを非表示{#hide-expired-assets}
+## 期限切れのアセットを非表示にする {#hide-expired-assets}
 
-[!DNL Experience Manager]ユーザーインターフェイス内からアセットを参照する場合、期限切れのアセットは表示されません。 デスクトップアプリとアセットリンクからアセットを参照する際に、期限切れのアセットの表示、検索および取得を防ぐために、管理者は次の設定を行うことができます。 この設定は、管理者権限に関係なく、すべてのユーザーで機能します。
+[!DNL Experience Manager] ユーザーインターフェイス内からアセットを参照すると、期限切れのアセットは表示されません。デスクトップアプリと Assets リンクからアセットを参照する際に、期限切れのアセットが表示、検索、および取得される防ぐために、管理者は次の設定をおこなうことができます。この設定は、管理者権限に関係なく、すべてのユーザーで機能します。
 
-* [Experience Manager6.5で、期限切れのアセットを非表示にするための設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#hide-expired-assets-via-acp-api)。
-* [期限切れのアセットを非表示にするCloud ServiceとしてのExperience Managerでの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api)。
+* [期限切れのアセットを非表示にするよう Experience Manager 6.5 を設定します](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=ja#hide-expired-assets-via-acp-api)。
+* [期限切れのアセットを非表示にするよう Experience Manager as a Cloud Service を設定します](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=ja#hide-expired-assets-via-acp-api)。
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
