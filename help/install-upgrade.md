@@ -1,13 +1,13 @@
 ---
 title: ' デスクトップアプリケーションのインストールと設定'
 description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets]  サーバーをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。'
-feature: Desktop App,Release Information
+feature: デスクトップアプリ、リリース情報
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1403'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 99%
 
 1. 別のバージョンのアプリケーションからアップグレードする場合は、[デスクトップアプリケーションのアップグレード](#upgrade-from-previous-version)を参照してください。
 
-1. [!DNL Experience Manager] as a [!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4 以降、または [!DNL Experience Manager] 6.5.0 以降を使用する場合は、この手順をスキップします。[!DNL Experience Manager] の設定が、[リリースノート](release-notes.md)に記載されている互換性要件を満たしていることを確認します。必要に応じて、該当する[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をダウンロードし、[!DNL Experience Manager] 管理者として [!DNL Experience Manager] パッケージマネージャーを使用してインストールします。パッケージのインストールについては、[パッケージの作業方法](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html)を参照してください。
+1. [!DNL Experience Manager] as a [!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4 以降、または [!DNL Experience Manager] 6.5.0 以降を使用する場合は、この手順をスキップします。[!DNL Experience Manager] の設定が、[リリースノート](release-notes.md)に記載されている互換性要件を満たしていることを確認します。必要に応じて、該当する[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をダウンロードし、[!DNL Experience Manager] 管理者として [!DNL Experience Manager] パッケージマネージャーを使用してインストールします。パッケージのインストールについては、[パッケージの作業方法](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ja)を参照してください。
 
 1. インストーラーのバイナリを実行し、画面の指示に従ってインストールします。
 
@@ -97,7 +97,7 @@ ht-degree: 99%
 
 * [!UICONTROL Launch application on login]
 
-* [!UICONTROL Show window when application starts].
+* [!UICONTROL Show window when application starts]
 
 * **[!UICONTROL Cache Directory]**：デスクトップアプリケーションのローカルキャッシュの場所（ローカルにダウンロードされたアセットが格納されます）
 
