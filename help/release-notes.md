@@ -4,9 +4,8 @@ description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケ�
 mini-toc-levels: 1
 feature: デスクトップアプリ、リリース情報
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-translation-type: ht
 source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1523'
 ht-degree: 100%
 
@@ -79,7 +78,7 @@ ht-degree: 100%
 
 **AEM デスクトップアプリケーション v2.1.0.0 の更新点**
 
-* アセットをアップロードする際に、アプリケーションのインターフェイス上でファイルやフォルダーを Windows エクスプローラーまたは Mac Finder から直接ドラッグできるようになりました。これは、以前アプリケーションで使用可能だったアップロードオプションに加えて機能します。 <!-- CQ-4309527 -->
+* アセットをアップロードする際に、アプリケーションのインターフェイス上でファイルやフォルダーを Windows エクスプローラーまたは Mac Finder から直接ドラッグできるようになりました。これは、以前アプリケーションで使用可能だったアップロードオプションに加えて機能します。  <!-- CQ-4309527 -->
 
 **AEM デスクトップアプリケーション v2.0.3 の更新点**
 
@@ -172,6 +171,6 @@ ht-degree: 100%
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] 詳細を見る](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja)
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] 詳細を見る](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=ja)
 >* [ [!DNL Experience Manager]  デスクトップアプリケーションを使用するには、以下をおこないます。](using.md)
->* [デスクトップアプリケーションのインストールとアップグレード](install-upgrade.md)
->* [ベストプラクティスとトラブルシューティングのヒント](troubleshoot.md)
+* [デスクトップアプリケーションのインストールとアップグレード](install-upgrade.md)
+* [ベストプラクティスとトラブルシューティングのヒント](troubleshoot.md)
 
