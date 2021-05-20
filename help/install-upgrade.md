@@ -3,9 +3,8 @@ title: ' デスクトップアプリケーションのインストールと設�
 description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets]  サーバーをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。'
 feature: デスクトップアプリ、リリース情報
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-translation-type: ht
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 100%
 
@@ -97,7 +96,7 @@ ht-degree: 100%
 
 * [!UICONTROL Launch application on login]
 
-* [!UICONTROL Show window when application starts]
+* [!UICONTROL Show window when application starts].
 
 * **[!UICONTROL Cache Directory]**：デスクトップアプリケーションのローカルキャッシュの場所（ローカルにダウンロードされたアセットが格納されます）
 
