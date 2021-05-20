@@ -3,9 +3,8 @@ title: ' [!DNL Experience Manager]  デスクトップアプリケーション�
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.10 の使用方法と、デスクトップでアセットを効率的に取り扱う方法について説明します。
 feature: デスクトップアプリ、アセット管理
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-translation-type: ht
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2377'
 ht-degree: 100%
 
@@ -78,7 +77,7 @@ ht-degree: 100%
 
 **Advanced／Manage Cache**：ローカルキャッシュに使用するディスク容量を管理できます。[!DNL Assets] サーバーのアーティファクトがローカルにキャッシュされ、スムーズに利用できるようになります。要件に応じてデフォルト設定を変更することができます。キャッシュをクリアして、すべてのアセットを取得し直すこともできます。キャッシュをクリアした場合でも、未保存の変更内容は維持されます。[!DNL Experience Manager] サーバーにチェックインしていないアセットは、削除されずにそのまま保持されます。
 
-### [!DNL Experience Manager] サーバーへの接続 {#connect}
+### [!DNL Experience Manager] サーバーへの接続  {#connect}
 
 アプリは、Windows および Mac のプロキシ設定をサポートします。設定はアプリの起動時に読み込まれます。プロキシ設定を変更した場合は、変更を適用するためにアプリを再起動します。
 
@@ -94,7 +93,7 @@ ht-degree: 100%
 
    ![[!DNL Experience Manager] デスクトップアプリケーションのログイン画面での [!DNL Experience Manager] サーバーの資格情報の入力](assets/login_screen_v1.png)
 
-### [!DNL Experience Manager] Web インターフェイスでのデスクトップアクションの有効化 {#desktopactions}
+### [!DNL Experience Manager] Web インターフェイスでのデスクトップアクションの有効化  {#desktopactions}
 
 Assets ユーザーインターフェイスから、アセットの場所を参照したり、アセットをチェックアウトしてデスクトップアプリケーションで編集用に開いたりできます。これらのオプションはデスクトップアクションと呼ばれており、デフォルトでは有効になっていません。デスクトップアクションを有効にするには、以下の手順に従います。
 
@@ -232,7 +231,7 @@ AEM デスクトップアプリケーションでは、作業中のファイル�
 
 変更内容がローカルに保存された後、アセットが [!DNL Experience Manager] に自動的にアップロードされます。このチェックイン操作により、他の [!DNL Experience Manager] ユーザーがアセットを編集できるようになります。
 
-### [!DNL Experience Manager] サーバーへのアセットおよびフォルダーの一括アップロード {#bulkupload}
+### [!DNL Experience Manager] サーバーへのアセットおよびフォルダーの一括アップロード  {#bulkupload}
 
 [!DNL Experience Manager] デスクトップアプリケーションでは、アセットを含むフォルダー全体をローカルファイルディレクトリから [!DNL Assets] にアップロードできます。この方法では、フォルダー内のすべてのアセットが一度にアップロードされ、ファイルを 1 つずつアップロードする必要はありません。
 
