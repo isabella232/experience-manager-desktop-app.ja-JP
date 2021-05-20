@@ -2,9 +2,8 @@
 title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのベストプラクティスとトラブルシューティング'
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-translation-type: ht
 source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2261'
 ht-degree: 100%
 
@@ -106,7 +105,7 @@ Windows でデバッグモードを有効にするには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
 ### [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョンの把握 {#know-app-version-v2}
 
@@ -326,5 +325,5 @@ Create Jira ticket with the following information:
 >[!MORELIKETHIS]
 >
 >* [既知の問題](release-notes.md#known-issues-v2)
->* [編集上の競合の回避](using.md#adv-workflow-collaborate-avoid-conflicts)
+* [編集上の競合の回避](using.md#adv-workflow-collaborate-avoid-conflicts)
 
