@@ -8,9 +8,8 @@ user-guide-description: Adobe Experience Manager デスクトップアプリケ�
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: Business Practitioner, Administrator
-translation-type: ht
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
 
