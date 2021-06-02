@@ -4,10 +4,10 @@ description: Win または Mac デスクトップから直接 [!DNL Adobe Experi
 mini-toc-levels: 1
 feature: デスクトップアプリ、アセット管理
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+source-git-commit: bc938588d0d54a6f3b8b85e0d4097104f9df46c9
 workflow-type: tm+mt
-source-wordcount: '3905'
-ht-degree: 100%
+source-wordcount: '3923'
+ht-degree: 98%
 
 ---
 
@@ -175,7 +175,9 @@ ht-degree: 100%
 
 ## [!DNL Experience Manager] への新しいアセットのアップロードと追加 {#upload-and-add-new-assets-to-aem}
 
-ユーザーは、DAM リポジトリーに新しいアセットを追加できます。例えば、代理店のフォトグラファーや請負業者は、撮影した大量の写真を [!DNL Experience Manager] リポジトリーに追加したいと考えるかもしれません。新しいコンテンツを [!DNL Experience Manager] に追加するには、アプリの上部バーにある ![クラウドにアップロードオプション](assets/do-not-localize/upload_to_cloud_da2.png) をクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。または、アプリケーションインターフェイス上でファイルまたはフォルダーをドラッグします。アプリがアセットのアップロードを開始します。アップロードに時間がかかると、アプリの下部に進行状況バーが表示されます。フォルダーの作成やアップロード時には、空白や無効な文字を使用しないでください。使用できる文字の一覧については、「[ [!DNL Assets] でのフォルダーの作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=ja#creating-folders)」を参照してください。
+ユーザーは、DAM リポジトリーに新しいアセットを追加できます。例えば、代理店のフォトグラファーや請負業者は、撮影した大量の写真を [!DNL Experience Manager] リポジトリーに追加したいと考えるかもしれません。新しいコンテンツを [!DNL Experience Manager] に追加するには、アプリの上部バーにある ![クラウドにアップロードオプション](assets/do-not-localize/upload_to_cloud_da2.png) をクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。または、アセットをアップロードするには、アプリケーションインターフェイス上でファイルまたはフォルダーをドラッグします。 Windowsでは、デスクトップアプリケーション内のフォルダーにアセットをドラッグすると、そのアセットがフォルダーにアップロードされます。
+
+アップロードに時間がかかると、デスクトップアプリケーションの下部に進行状況バーが表示されます。 フォルダーの作成やアップロード時には、空白や無効な文字を使用しないでください。使用できる文字の一覧については、「[ [!DNL Assets] でのフォルダーの作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=ja#creating-folders)」を参照してください。
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
