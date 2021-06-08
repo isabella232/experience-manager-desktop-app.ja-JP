@@ -4,10 +4,10 @@ description: Win または Mac デスクトップから直接 [!DNL Adobe Experi
 mini-toc-levels: 1
 feature: デスクトップアプリ、アセット管理
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: bc938588d0d54a6f3b8b85e0d4097104f9df46c9
+source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
 workflow-type: tm+mt
-source-wordcount: '3923'
-ht-degree: 98%
+source-wordcount: '3999'
+ht-degree: 96%
 
 ---
 
@@ -175,9 +175,19 @@ ht-degree: 98%
 
 ## [!DNL Experience Manager] への新しいアセットのアップロードと追加 {#upload-and-add-new-assets-to-aem}
 
-ユーザーは、DAM リポジトリーに新しいアセットを追加できます。例えば、代理店のフォトグラファーや請負業者は、撮影した大量の写真を [!DNL Experience Manager] リポジトリーに追加したいと考えるかもしれません。新しいコンテンツを [!DNL Experience Manager] に追加するには、アプリの上部バーにある ![クラウドにアップロードオプション](assets/do-not-localize/upload_to_cloud_da2.png) をクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。または、アセットをアップロードするには、アプリケーションインターフェイス上でファイルまたはフォルダーをドラッグします。 Windowsでは、デスクトップアプリケーション内のフォルダーにアセットをドラッグすると、そのアセットがフォルダーにアップロードされます。
+ユーザーは、DAM リポジトリーに新しいアセットを追加できます。例えば、代理店のフォトグラファーや請負業者は、撮影した大量の写真を [!DNL Experience Manager] リポジトリーに追加したいと考えるかもしれません。新しいコンテンツを [!DNL Experience Manager] に追加するには、アプリの上部バーにある ![クラウドにアップロードオプション](assets/do-not-localize/upload_to_cloud_da2.png) をクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。または、アセットをアップロードするには、アプリケーションインターフェイス上でファイルまたはフォルダーをドラッグします。 Windowsでは、デスクトップアプリケーション内のフォルダーにアセットをドラッグすると、そのアセットがフォルダーにアップロードされます。 アップロードに時間がかかる場合、アプリには進行状況バーが表示されます。
 
-アップロードに時間がかかると、デスクトップアプリケーションの下部に進行状況バーが表示されます。 フォルダーの作成やアップロード時には、空白や無効な文字を使用しないでください。使用できる文字の一覧については、「[ [!DNL Assets] でのフォルダーの作成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html?lang=ja#creating-folders)」を参照してください。
+ファイルやフォルダーに名前を付ける場合、次の文字（スペース区切りのリスト）は使用しないでください。
+
+* ファイル名`\\`で、
+
+   `# % { } ? & . / : [ | ] *`という文字は、[!DNL Adobe Experience Manager]で作成されたノード名のダッシュに置き換えられます。しかし、ホワイトスペースと大文字と小文字は保持されます。
+
+* フォルダー名`\\ \t &`内。
+
+   フォルダー名の空白文字と文字`% ; # , + ? ^ { } " . / : [ ] | *`は、[!DNL Adobe Experience Manager]で作成されたノード名のフォルダーパスでダッシュに置き換えられます。 また、フォルダーパスでは大文字が小文字に変換されます。
+
+ただし、[!UICONTROL Preferences]で[!UICONTROL Use legacy conventions when creating nodes for assets and folders]が有効になっている場合は、フォルダーのアップロード時にv1.10アプリの動作をエミュレートします。 v1.10 では、ユーザーが指定したフォルダー名のスペースと大文字／小文字の区別をそのまま使用した名前のノードがリポジトリー内に作成されます。詳しくは、[アプリの環境設定](/help/install-upgrade.md#set-preferences)を参照してください。
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
