@@ -4,10 +4,10 @@ description: Win または Mac デスクトップから直接 [!DNL Adobe Experi
 mini-toc-levels: 1
 feature: デスクトップアプリ、アセット管理
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
+source-git-commit: 7c413be995ef087fab75114d65e87f6936c8e021
 workflow-type: tm+mt
-source-wordcount: '3999'
-ht-degree: 96%
+source-wordcount: '4054'
+ht-degree: 95%
 
 ---
 
@@ -175,19 +175,7 @@ ht-degree: 96%
 
 ## [!DNL Experience Manager] への新しいアセットのアップロードと追加 {#upload-and-add-new-assets-to-aem}
 
-ユーザーは、DAM リポジトリーに新しいアセットを追加できます。例えば、代理店のフォトグラファーや請負業者は、撮影した大量の写真を [!DNL Experience Manager] リポジトリーに追加したいと考えるかもしれません。新しいコンテンツを [!DNL Experience Manager] に追加するには、アプリの上部バーにある ![クラウドにアップロードオプション](assets/do-not-localize/upload_to_cloud_da2.png) をクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。または、アセットをアップロードするには、アプリケーションインターフェイス上でファイルまたはフォルダーをドラッグします。 Windowsでは、デスクトップアプリケーション内のフォルダーにアセットをドラッグすると、そのアセットがフォルダーにアップロードされます。 アップロードに時間がかかる場合、アプリには進行状況バーが表示されます。
-
-ファイルやフォルダーに名前を付ける場合、次の文字（スペース区切りのリスト）は使用しないでください。
-
-* ファイル名`\\`で、
-
-   `# % { } ? & . / : [ | ] *`という文字は、[!DNL Adobe Experience Manager]で作成されたノード名のダッシュに置き換えられます。しかし、ホワイトスペースと大文字と小文字は保持されます。
-
-* フォルダー名`\\ \t &`内。
-
-   フォルダー名の空白文字と文字`% ; # , + ? ^ { } " . / : [ ] | *`は、[!DNL Adobe Experience Manager]で作成されたノード名のフォルダーパスでダッシュに置き換えられます。 また、フォルダーパスでは大文字が小文字に変換されます。
-
-ただし、[!UICONTROL Preferences]で[!UICONTROL Use legacy conventions when creating nodes for assets and folders]が有効になっている場合は、フォルダーのアップロード時にv1.10アプリの動作をエミュレートします。 v1.10 では、ユーザーが指定したフォルダー名のスペースと大文字／小文字の区別をそのまま使用した名前のノードがリポジトリー内に作成されます。詳しくは、[アプリの環境設定](/help/install-upgrade.md#set-preferences)を参照してください。
+ユーザーは、DAM リポジトリーに新しいアセットを追加できます。例えば、代理店のフォトグラファーや請負業者は、撮影した大量の写真を [!DNL Experience Manager] リポジトリーに追加したいと考えるかもしれません。新しいコンテンツを [!DNL Experience Manager] に追加するには、アプリの上部バーにある ![クラウドにアップロードオプション](assets/do-not-localize/upload_to_cloud_da2.png) をクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。または、アプリケーションインターフェイス上でファイルまたはフォルダーをドラッグしてアセットをアップロードします。Windows では、アプリ内のフォルダーにアセットをドラッグすると、そのアセットがフォルダーにアップロードされます。アップロードに時間がかかる場合、アプリには進行状況バーが表示されます。
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
@@ -204,9 +192,76 @@ ht-degree: 96%
 >
 >転送リストは永続的なものではなく、デスクトップアプリケーションを終了して再度開いた場合は使用できません。
 
+### アセット名の特殊文字を管理します{#special-characters-in-filename}
+
+レガシーアプリケーションでは、リポジトリで作成されたノード名は、ユーザーが指定したフォルダー名のスペースと大文字と小文字を保持していました。 現在のアプリケーションでv1.10アプリケーションのノード命名規則をエミュレートするには、[!UICONTROL Preferences]で[!UICONTROL Use legacy conventions when creating nodes for assets and folders]を有効にします。 [アプリの環境設定](/help/install-upgrade.md#set-preferences)を参照してください。 この従来の環境設定は、デフォルトでは無効になっています。
+
 >[!NOTE]
 >
->ファイルのアップロードに失敗した場合や、[!DNL Experience Manager] 6.5.1 以降のデプロイメントに接続する場合は、この[トラブルシューティング情報](troubleshoot.md#upload-fails)を参照してください。
+>デスクトップアプリケーションは、次の命名規則を使用して、リポジトリ内のノード名のみを変更します。 デスクトップアプリケーションは、アセットの`Title`をそのまま保持します。
+
+<!-- TBD: Do NOT use this table.
+
+| Where do characters occur | Characters | Legacy preference | Renaming convention | Example |
+|---|---|---|---|---|
+| In file name extension | `.` | Enabled or disabled | Retained as is | NA |
+| File or folder name | `. / : [ ] | *` | Enabled or disabled | Replaced with a `-` (hyphen) | `myimage.jpg` remains as is and `my.image.jpg` changes to `my-image.jpg`. |
+| Folder name | `% ; # , + ? ^ { } "` | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | `% # ? { } &` | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | Whitespaces | Enabled or disabled | Retained as is | NA |
+| Folder name | Whitespaces | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | Uppercase characters | Disabled | Retained as is | tbd |
+| Folder name | Uppercase characters | Disabled | Replaced with a `-` (hyphen) | tbd |
+-->
+
+| 文字数 ‡ | アプリ内の従来の環境設定 | ファイル名で発生する場合 | フォルダー名での使用 | 例 |
+|---|---|---|---|---|
+| `. / : [ ] | *` | 有効または無効 | `-`（ハイフン）に置き換えられます。 ファイル名拡張子の`.`（ドット）は、そのまま保持されます。 | `-`（ハイフン）に置き換えられます。 | `myimage.jpg` はそのまま残り、に変 `my.image.jpg` 更されま `my-image.jpg`す。 |
+| `% ; # , + ? ^ { } "` およびホワイトスペース | ![iconDisabledの選](assets/do-not-localize/deselect-icon.png) 択を解除 | 空白は保持されます | `-`（ハイフン）に置き換えられます。 | `My Folder.` がに変更されま `my-folder-`す。 |
+| `# % { } ? & .` | ![iconDisabledの選](assets/do-not-localize/deselect-icon.png) 択を解除 | `-`（ハイフン）に置き換えられます。 | 該当なし. | `#My New File.` がに変更されま `-My New File-`す。 |
+| 大文字 | ![iconDisabledの選](assets/do-not-localize/deselect-icon.png) 択を解除 | ケーシングはそのまま保持されます。 | 小文字に変更されました。 | `My New Folder` がに変更されま `my-new-folder`す。 |
+| 大文字 | ![selectionチェック済み](assets/do-not-localize/selection-checked-icon.png) iconEnabled | ケーシングはそのまま保持されます。 | ケーシングはそのまま保持されます。 | 該当なし. |
+
+‡文字のリストは空白で区切られたリストです。
+
+<!-- TBD: Check if the following is to be included in the footnote.
+
+Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders. 
+-->
+
+
+<!-- TBD: Securing the below presentation of the same content in a comment.
+
+**File names**
+
+| Characters | Replaced by |
+|---|---|
+| &#35; &#37; &#123; &#63; &#125; &#38; &#46; &#47; &#58; &#91; &#124; &#93; &#42; | hyphen (-) |
+| whitespaces | whitespaces are retained |
+| capital case | casing is retained |
+
+>[!CAUTION]
+>
+>Avoid using &#92;&#92; in file names.
+
+**Folder names**
+
+| Characters | Replaced by |
+|---|---|
+| Characters | Replaced by |
+| &#37; &#59; &#35; &#44; &#43; &#63; &#94; &#123; &#123; &#34; &#46; &#47; &#59; &#91; &#93; &#124; &#42; | hyphen (-) |
+| whitespaces | hyphen (-) |
+| capital case | lower case |
+
+>[!CAUTION]
+>
+>Avoid using &#92;&#92; &#92;&#116; &#38; in folder names.
+
+>[!NOTE]
+>
+>If you enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in app [!UICONTROL Preferences], then the app emulates v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. For more information, see [app Preferences](/help/install-upgrade.md#set-preferences).
+
+-->
 
 ## 複数アセットの操作 {#work-with-multiple-assets}
 
