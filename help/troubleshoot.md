@@ -2,14 +2,14 @@
 title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのベストプラクティスとトラブルシューティング'
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
+source-git-commit: db5aaf7127b94879cb24842fb41b55c099d6221d
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 100%
+source-wordcount: '2260'
+ht-degree: 99%
 
 ---
 
-# [!DNL Adobe Experience Manager] デスクトップアプリケーションのトラブルシューティング {#troubleshoot-v2}
+# [!DNL Adobe Experience Manager] デスクトップアプリケーションのトラブルシューティング  {#troubleshoot-v2}
 
 [!DNL Adobe Experience Manager] デスクトップアプリケーションは、[!DNL Experience Manager] デプロイメントのデジタルアセット管理（DAM）リポジトリーに接続します。デスクトップアプリケーションは、ユーザーのコンピューター上でリポジトリー情報と検索結果を取得し、ファイルやフォルダーをダウンロードおよびアップロードします。また、Assets ユーザーインターフェイスとの競合を管理する機能も備えています。
 
@@ -107,7 +107,7 @@ Windows でデバッグモードを有効にするには：
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
-### [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョンの把握 {#know-app-version-v2}
+### [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョンの把握  {#know-app-version-v2}
 
 バージョン番号を確認するには：
 
@@ -190,7 +190,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 [!DNL Experience Manager] デスクトップアプリケーションでは、送信したすべてのリクエストと各リクエストの応答コードが専用のログファイルに記録されます。
 
-1. アプリケーションのログディレクトリで `request.log` を開いて、これらのリクエストを確認します。
+1. アプリケーションのログディレクトリで`request.log`を開き、これらのリクエストを確認します。
 
 1. ログの各行は、リクエストか応答のどちらかを表しています。リクエストには、`>` 文字に続いて、リクエストされた URL が含まれます。応答には、`<` 文字に続いて、応答コードとリクエストされた URL が含まれます。各行の GUID を使用して、リクエストと応答を照合できます。
 
