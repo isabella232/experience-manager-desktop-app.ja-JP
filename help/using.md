@@ -4,14 +4,14 @@ description: Win または Mac デスクトップから直接 [!DNL Adobe Experi
 mini-toc-levels: 1
 feature: デスクトップアプリ、アセット管理
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 7c413be995ef087fab75114d65e87f6936c8e021
+source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4053'
 ht-degree: 95%
 
 ---
 
-# [!DNL Adobe Experience Manager] デスクトップアプリケーションの使用 {#use-aem-desktop-app-v2}
+# [!DNL Adobe Experience Manager] デスクトップアプリケーションの使用  {#use-aem-desktop-app-v2}
 
 [!DNL Adobe Experience Manager] デスクトップアプリケーションを使用すると、ローカルデスクトップ上で [!DNL Adobe Experience Manager] DAM レポジトリーに保存されたデジタルアセットに簡単にアクセスして、これらのアセットを任意のデスクトップアプリケーションで使用することができます。デスクトップアプリケーションでアセットを開き、アセットをローカルで編集できます。その後、バージョン管理を使用して変更を元の [!DNL Experience Manager] にアップロードし、更新内容を他のユーザーと共有できます。また、新しいファイルおよびフォルダー階層を [!DNL Experience Manager] にアップロードしたり、フォルダーを作成したり、[!DNL Experience Manager] DAM からアセットやフォルダーを削除したりすることもできます。
 
@@ -58,14 +58,14 @@ ht-degree: 95%
 
 * **[!UICONTROL Upload Changes]** アクション：[!DNL Experience Manager] サーバーに明示的にアップロードする場合にのみ、デスクトップアプリケーションは更新されたアセットをアップロードします。編集内容を保存しても、変更内容はローカルマシンにのみ保存されます。アップロードすると、アセットは自動的にチェックインされ、ロックアイコンが削除されます。詳しくは、[アセットの編集](using.md#edit-assets-upload-updated-assets)を参照してください。
 
-## [!DNL Experience Manager] Web インターフェイスでのデスクトップアクションの有効化 {#desktopactions-v2}
+## [!DNL Experience Manager] Web インターフェイスでのデスクトップアクションの有効化  {#desktopactions-v2}
 
 ブラウザーの [!DNL Assets] ユーザーインターフェイスから、アセットの場所を参照したり、アセットをチェックアウトしてデスクトップアプリケーションで編集用に開いたりできます。これらのオプションは「[!UICONTROL Desktop Actions]」と呼ばれ、デフォルトでは有効になっていません。有効にするには、次の手順に従います。
 
 1. [!DNL Assets] コンソールで、ツールバーの「**[!UICONTROL User]**」アイコンをクリックします。
 1. 「**[!UICONTROL My Preferences]**」をクリックして、**[!UICONTROL Preferences]** ダイアログを表示します。
 
-1. ユーザーの環境設定ダイアログで、「**[!UICONTROL Show Desktop Actions For Assets]**」を選択します。「**[!UICONTROL Accept]**」をクリックします。
+1. [!UICONTROL User Preferences]ダイアログで、「**[!UICONTROL Show Desktop Actions For Assets]**」を選択し、「**[!UICONTROL Accept]**」をクリックします。
 
 
    ![「アセットのデスクトップアクションを表示」をオンにしてデスクトップアクションを有効化](assets/enable_desktop_actions.png)
@@ -146,7 +146,7 @@ ht-degree: 95%
 >
 >「**[!UICONTROL Reveal File]**」オプションを使用してネイティブアプリケーションでアセットを編集しないでください。代わりに、「**[!UICONTROL Edit]**」アクションを使用します。詳しくは、[高度なワークフロー：同じファイルに対する共同作業と編集上の競合の回避](#adv-workflow-collaborate-avoid-conflicts)を参照してください。
 
-## アセットの編集と [!DNL Experience Manager] への更新済みアセットのアップロード {#edit-assets-upload-updated-assets}
+## アセットの編集と [!DNL Experience Manager] への更新済みアセットのアップロード  {#edit-assets-upload-updated-assets}
 
 アセットに変更を加え、更新したアセットを Adobe Experience Manager サーバーにアップロードする場合は、アセットを編集用に開きます。他のユーザーの編集内容と競合しないように、デスクトップアプリケーションを使用して編集セッションを開始します。編集を開始する前に、アセットにロックアイコンが付いていないこと、つまり別のユーザーがアセットを編集していないことを確認します。
 
@@ -173,7 +173,7 @@ ht-degree: 95%
 
 必要に応じて、チェックアウトを切り替えます。更新されたアセットがローカルキャッシュフォルダーから削除され、編集時または開く際に再度ダウンロードされます。
 
-## [!DNL Experience Manager] への新しいアセットのアップロードと追加 {#upload-and-add-new-assets-to-aem}
+## [!DNL Experience Manager] への新しいアセットのアップロードと追加  {#upload-and-add-new-assets-to-aem}
 
 ユーザーは、DAM リポジトリーに新しいアセットを追加できます。例えば、代理店のフォトグラファーや請負業者は、撮影した大量の写真を [!DNL Experience Manager] リポジトリーに追加したいと考えるかもしれません。新しいコンテンツを [!DNL Experience Manager] に追加するには、アプリの上部バーにある ![クラウドにアップロードオプション](assets/do-not-localize/upload_to_cloud_da2.png) をクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。または、アプリケーションインターフェイス上でファイルまたはフォルダーをドラッグしてアセットをアップロードします。Windows では、アプリ内のフォルダーにアセットをドラッグすると、そのアセットがフォルダーにアップロードされます。アップロードに時間がかかる場合、アプリには進行状況バーが表示されます。
 
@@ -192,7 +192,7 @@ ht-degree: 95%
 >
 >転送リストは永続的なものではなく、デスクトップアプリケーションを終了して再度開いた場合は使用できません。
 
-### アセット名の特殊文字を管理します{#special-characters-in-filename}
+### アセット名の特殊文字の管理 {#special-characters-in-filename}
 
 レガシーアプリケーションでは、リポジトリで作成されたノード名は、ユーザーが指定したフォルダー名のスペースと大文字と小文字を保持していました。 現在のアプリケーションでv1.10アプリケーションのノード命名規則をエミュレートするには、[!UICONTROL Preferences]で[!UICONTROL Use legacy conventions when creating nodes for assets and folders]を有効にします。 [アプリの環境設定](/help/install-upgrade.md#set-preferences)を参照してください。 この従来の環境設定は、デフォルトでは無効になっています。
 
@@ -287,7 +287,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 ![ローカルで編集したすべてのアセットを表示するフィルター](assets/edited_locally_filter_da2.png "ローカルで編集したすべてのアセットを（編集内容のバルクアップロードなどのために）表示するフィルター")
 
-### アセットのバルクアップロード {#bulk-upload-assets}
+### アセットの一括アップロード {#bulk-upload-assets}
 
 カメラマンやクリエイティブ制作代理店などのユーザーや組織は、[!DNL Experience Manager] の外部でおこなった撮影、レタッチ、大量の写真からの選択など、多数のローカルアセットを作成することがあります。これらの大きなローカルフォルダーを、デスクトップアプリケーションから直接 [!DNL Assets] にアップロードできます。フォルダー階層が保持され、ネストしたサブフォルダーとその中に含まれているアセットがすべてアップロードされます。アップロードしたアセットは、同じサーバーの他のユーザーからもすぐに利用できます。アセットはバックグラウンドでアップロードされるので、操作が Web ブラウザーセッションに縛られることはありません。
 
