@@ -3,14 +3,14 @@ title: ' [!DNL Experience Manager]  デスクトップアプリケーション�
 description: Adobe Experience Manager デスクトップアプリケーションバージョン 1.10 の使用方法と、デスクトップでアセットを効率的に取り扱う方法について説明します。
 feature: デスクトップアプリ、アセット管理
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 100%
+source-wordcount: '2371'
+ht-degree: 99%
 
 ---
 
-# [!DNL Experience Manager] デスクトップアプリケーション v1.10 の使用 {#use-aem-desktop-app-v1x}
+# [!DNL Experience Manager] デスクトップアプリケーション v1.10 の使用  {#use-aem-desktop-app-v1x}
 
 デスクトップアプリケーションを使用すると、[!DNL Experience Manager] 内のアセットにローカルデスクトップから手軽にアクセスし、任意のデスクトップアプリケーションで利用できるようになります。アセットは Mac Finder や Windows エクスプローラーで容易に表示したり、デスクトップアプリケーションで開いたり、ローカルで変更したりできます。変更内容は [!DNL Experience Manager] に保存され、リポジトリー内に新しいバージョンが作成されます。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 >
 >デスクトップアプリケーションは [!DNL Experience Manager] 6.1 リリースで導入され、当初は [!DNL Experience Manager Assets Companion App] と呼ばれていました。
 
-## クリエイティブワークフローでの [!DNL Experience Manager] デスクトップアプリケーションのタッチポイント {#aem-desktop-app-touch-points-in-the-creative-workflow}
+## クリエイティブワークフローでの [!DNL Experience Manager] デスクトップアプリケーションのタッチポイント  {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
 [!DNL Experience Manager] デスクトップアプリケーションおよび [!DNL Assets] はクリエイティブワークフローで統合され、以下のタッチポイントが提供されます。
 
@@ -102,11 +102,11 @@ Assets ユーザーインターフェイスから、アセットの場所を参�
 
    ![[!DNL Experience Manager]ユーザーの環境設定を表示している インターフェイス](assets/aem_ui_user_preferences.png)
 
-1. ユーザーの環境設定ダイアログで、「**[!UICONTROL Show Desktop Actions For Assets]**」を選択します。「**[!UICONTROL Accept]**」をクリックします。
+1. [!UICONTROL User Preferences]ダイアログで、「**[!UICONTROL Show Desktop Actions For Assets]**」を選択し、「**[!UICONTROL Accept]**」をクリックします。
 
    ![「[!UICONTROL Show Desktop Actions For Assets]」をオンにすると、デスクトップアクションが有効になります。](assets/enable_desktop_actions.png)
 
-   *図：「Show Desktop Actions For Assets」をチェックしてデスクトップアクションを有効化する*
+   *図：「 」をオン [!UICONTROL Show Desktop Actions For Assets] にすると、デスクトップアクションが有効になります。*
 
 ## デスクトップでのアセットへのアクセスとオープン {#openondesktop}
 
@@ -131,7 +131,7 @@ Adobe InDesign（INDD）ファイルでは、コンテキストメニューで�
 >
 >Mac で Finder の表示オプションに移動し、マウントされた [!DNL Assets] フォルダーの「**Show item info**」、「**Show item preview**」、「**Show preview column**」の各オプションを無効にすることをお勧めします。それにより、パフォーマンスが向上します。
 
-### [!DNL Experience Manager] インターフェイスのその他のオプション {#additional-options-in-aem-assets}
+### [!DNL Experience Manager] インターフェイスのその他のオプション  {#additional-options-in-aem-assets}
 
 [!DNL Assets] リポジトリーをローカルドライブにマッピングした後で、マッピングされたアセットとフォルダーに対して追加のアイコンと「Folder Upload」機能が表示されるように設定できます。
 
@@ -159,7 +159,7 @@ Adobe InDesign（INDD）ファイルでは、コンテキストメニューで�
 
 ## アセットの操作 {#workonassets}
 
-### [!DNL Experience Manager] Web インターフェイスからのアセットのチェックアウト {#check-out-assets-from-the-aem-web-interface}
+### [!DNL Experience Manager] Web インターフェイスからのアセットのチェックアウト  {#check-out-assets-from-the-aem-web-interface}
 
 [!DNL Assets] では、編集のためにアセットをチェックアウトし、変更終了後にアセットをチェックインすることができます。アセットをチェックアウトした後は、その人だけがアセットを編集、注釈、公開、移動、削除できるようになります。アセットをチェックアウトすると、そのアセットがロックされ、他のユーザーはそのアセットに対する操作ができなくなります。アセットをチェックイン／チェックアウトするには、アセットへの書き込み権限が必要です。
 
