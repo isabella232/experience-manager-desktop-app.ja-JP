@@ -7,13 +7,13 @@ exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: d642a33c8e8c2f771a6f996a76167b7f6e42c1ce
 workflow-type: tm+mt
 source-wordcount: '1649'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート {#release-notes-v2}
 
-最新のデスクトップアプリケーションバージョン 2.1（2.1.3.1）のリリース情報は以下のとおりです。リリース日は2021年6月8日です。
+最新のデスクトップアプリケーションバージョン 2.1（2.1.3.1）のリリース情報は以下のとおりです。リリース日は 2021 年 6 月 8 日（PT）です。
 
 **サポートされている [!DNL Experience Manager] バージョン**&#x200B;は次のとおりです。
 
@@ -72,15 +72,15 @@ ht-degree: 91%
 
 現在のバージョンで修正されたバグは次のとおりです。
 
-* 大きなアセットでも、アセットのアップロードとダウンロードの速度が向上しました。 サイズの大きいファイルをアップロードすると、[!DNL desktop app]を使用したアセットのアップロードがますます失敗する問題を修正しました。
+* 大きなアセットの場合でも、アセットのアップロードとダウンロードの速度が向上しました。[!DNL desktop app] でサイズの大きいファイルをアップロードするとアセットのアップロードが次第に失敗する問題を修正しました。
 
 **AEM デスクトップアプリケーション v2.1.2.0 の更新点**
 
 * 新しいオプション「[!UICONTROL Clear Cookies]」がアプリケーションのメインメニューに追加されました。これは、接続先のサーバーを変更した場合などに発生する可能性のある、ログインの問題を解決するのに役立ちます。[接続前に cookie をクリアする](/help/troubleshoot.md#cannot-login-cookies-issue)を参照してください。
 
-* [!DNL Adobe Experience Manager]で作成されたノード名がローカルのファイル名やフォルダー名と同じになるように、アプリがフォルダーやファイルをアップロードできるオプションが（選択した場合）追加されます。
+* [!DNL Adobe Experience Manager] で作成されたノード名がローカルのファイル名やフォルダー名と同じになるように、フォルダーやファイルをアップロードするオプションが追加されました。
 
-   この動作は、デスクトップアプリケーションのバージョン1のデフォルトの動作と似ています。 一方、現在のバージョンでは、このオプションが有効になっていない場合、フォルダー名の空白と文字`% ; # , + ? ^ { } "`は、フォルダーパスのダッシュに置き換えられます。 また、フォルダーパスの大文字は小文字に変換されます。 ただし、ファイル名では、`# % { } ? &`はダッシュに置き換えられます。しかし、ホワイトスペースと大文字と小文字は保持されます。 詳しくは、[アプリの環境設定](/help/install-upgrade.md#set-preferences)および[新しいアセットのアップロードと追加](/help/using.md#upload-and-add-new-assets-to-aem)を参照してください。
+   この動作は、デスクトップアプリケーションのバージョン 1 のデフォルト動作と似ています。一方、現在のバージョンでは、このオプションが有効になっていない場合、フォルダー名の空白文字と `% ; # , + ? ^ { } "` の各文字は、フォルダーパスではダッシュに置き換えられます。また、大文字はフォルダーパスでは小文字に変換されます。ただし、ファイル名では、`# % { } ? &` の各文字はダッシュに置き換えられますが、空白文字と大文字／小文字の区別はそのまま保持されます。詳しくは、[環境設定の指定](/help/install-upgrade.md#set-preferences)および [Adobe Experience Manager への新しいアセットのアップロードと追加](/help/using.md#upload-and-add-new-assets-to-aem)を参照してください。
 
 **AEM デスクトップアプリケーション v2.1.1.0 の更新点**
 
@@ -178,7 +178,7 @@ ht-degree: 91%
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] 詳細を見る](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja)
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] 詳細を見る](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=ja)
->* [ [!DNL Experience Manager]  デスクトップアプリケーションを使用するには、以下をおこないます。](using.md)
+>* [ [!DNL Experience Manager]  デスクトップアプリケーションを使用するには、以下を行います。](using.md)
 * [デスクトップアプリケーションのインストールとアップグレード](install-upgrade.md)
 * [ベストプラクティスとトラブルシューティングのヒント](troubleshoot.md)
 
