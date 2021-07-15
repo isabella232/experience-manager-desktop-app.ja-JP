@@ -5,9 +5,9 @@ mini-toc-levels: 1
 feature: デスクトップアプリ、アセット管理
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4053'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 95%
 
 * **[!UICONTROL Upload Changes]** アクション：[!DNL Experience Manager] サーバーに明示的にアップロードする場合にのみ、デスクトップアプリケーションは更新されたアセットをアップロードします。編集内容を保存しても、変更内容はローカルマシンにのみ保存されます。アップロードすると、アセットは自動的にチェックインされ、ロックアイコンが削除されます。詳しくは、[アセットの編集](using.md#edit-assets-upload-updated-assets)を参照してください。
 
-## [!DNL Experience Manager] Web インターフェイスでのデスクトップアクションの有効化  {#desktopactions-v2}
+## [!DNL Experience Manager] Web インターフェイスでのデスクトップアクションの有効化 {#desktopactions-v2}
 
 ブラウザーの [!DNL Assets] ユーザーインターフェイスから、アセットの場所を参照したり、アセットをチェックアウトしてデスクトップアプリケーションで編集用に開いたりできます。これらのオプションは「[!UICONTROL Desktop Actions]」と呼ばれ、デフォルトでは有効になっていません。有効にするには、次の手順に従います。
 
@@ -194,11 +194,11 @@ ht-degree: 95%
 
 ### アセット名の特殊文字の管理 {#special-characters-in-filename}
 
-レガシーアプリケーションでは、リポジトリで作成されたノード名は、ユーザーが指定したフォルダー名のスペースと大文字と小文字を保持していました。 現在のアプリケーションでv1.10アプリケーションのノード命名規則をエミュレートするには、[!UICONTROL Preferences]で[!UICONTROL Use legacy conventions when creating nodes for assets and folders]を有効にします。 [アプリの環境設定](/help/install-upgrade.md#set-preferences)を参照してください。 この従来の環境設定は、デフォルトでは無効になっています。
+レガシーアプリでは、ユーザーが指定したフォルダー名のスペースと大文字／小文字の区別をそのまま使用した名前のノードが、リポジトリー内に作成されます。現在のアプリケーションでv1.10アプリケーションのノード命名規則をエミュレートするには、「[!UICONTROL Preferences]」で「[!UICONTROL Use legacy conventions when creating nodes for assets and folders]」を有効にします。[アプリケーションの環境設定](/help/install-upgrade.md#set-preferences)を参照してください。このレガシー環境設定は、デフォルトでは無効になっています。
 
 >[!NOTE]
 >
->デスクトップアプリケーションは、次の命名規則を使用して、リポジトリ内のノード名のみを変更します。 デスクトップアプリケーションは、アセットの`Title`をそのまま保持します。
+>アプリケーションは、次の命名規則を使用して、リポジトリ内のノード名のみを変更します。デスクトップアプリケーションは、アセットの`Title`をそのまま保持します。
 
 <!-- TBD: Do NOT use this table.
 
@@ -214,13 +214,13 @@ ht-degree: 95%
 | Folder name | Uppercase characters | Disabled | Replaced with a `-` (hyphen) | tbd |
 -->
 
-| 文字数 ‡ | アプリ内の従来の環境設定 | ファイル名で発生する場合 | フォルダー名での使用 | 例 |
+| 文字数‡ | アプリ内のレガシーの環境設定 | ファイル名で使用する場合 | フォルダー名で使用する場合 | 例 |
 |---|---|---|---|---|
-| `. / : [ ] | *` | 有効または無効 | `-`（ハイフン）に置き換えられます。 ファイル名拡張子の`.`（ドット）は、そのまま保持されます。 | `-`（ハイフン）に置き換えられます。 | `myimage.jpg` はそのまま残り、に変 `my.image.jpg` 更されま `my-image.jpg`す。 |
-| `% ; # , + ? ^ { } "` およびホワイトスペース | ![iconDisabledの選](assets/do-not-localize/deselect-icon.png) 択を解除 | 空白は保持されます | `-`（ハイフン）に置き換えられます。 | `My Folder.` がに変更されま `my-folder-`す。 |
-| `# % { } ? & .` | ![iconDisabledの選](assets/do-not-localize/deselect-icon.png) 択を解除 | `-`（ハイフン）に置き換えられます。 | 該当なし. | `#My New File.` がに変更されま `-My New File-`す。 |
-| 大文字 | ![iconDisabledの選](assets/do-not-localize/deselect-icon.png) 択を解除 | ケーシングはそのまま保持されます。 | 小文字に変更されました。 | `My New Folder` がに変更されま `my-new-folder`す。 |
-| 大文字 | ![selectionチェック済み](assets/do-not-localize/selection-checked-icon.png) iconEnabled | ケーシングはそのまま保持されます。 | ケーシングはそのまま保持されます。 | 該当なし. |
+| `. / : [ ] | *` | 有効または無効 | `-`（ハイフン）に置き換えられます。ファイル名拡張子の `.`（ドット）は、そのまま保持されます。 | `-`（ハイフン）に置き換えられます。 | `myimage.jpg` は保持され、`my.image.jpg` は `my-image.jpg` に変更されます。 |
+| `% ; # , + ? ^ { } "` および空白 | ![選択解除アイコン](assets/do-not-localize/deselect-icon.png)無効 | 空白は保持されます | `-`（ハイフン）に置き換えられます。 | `My Folder.` が `my-folder-` に変更されます。 |
+| `# % { } ? & .` | ![選択解除アイコン](assets/do-not-localize/deselect-icon.png)無効 | `-`（ハイフン）に置き換えられます。 | 該当なし。 | `#My New File.` が `-My New File-` に変更されます。 |
+| 大文字 | ![選択解除アイコン](assets/do-not-localize/deselect-icon.png)無効 | 大文字／小文字はそのまま保持されます。 | 小文字に変更されました。 | `My New Folder` が `my-new-folder` に変更されます。 |
+| 大文字 | ![選択チェック済みアイコン](assets/do-not-localize/selection-checked-icon.png)有効 | 大文字／小文字はそのまま保持されます。 | 大文字／小文字はそのまま保持されます。 | 該当なし。 |
 
 ‡文字のリストは空白で区切られたリストです。
 
@@ -366,7 +366,7 @@ Web インターフェイスを使用しても、以下の情報やワークフ�
 
 画像アセットと InDesign でこのワークフローを試すには、以下の手順に従います。
 
-1. アセットを配置した INDD ファイルを [!DNL Experience Manager] に用意します。このような INDD ファイルの作成方法については、[グラフィックの配置](https://helpx.adobe.com/indesign/using/placing-graphics.html)を参照してください。
+1. アセットを配置した INDD ファイルを [!DNL Experience Manager] に用意します。このような INDD ファイルの作成方法については、[グラフィックの配置](https://helpx.adobe.com/jp/indesign/using/placing-graphics.html)を参照してください。
 1. デスクトップアプリケーションの「**[!UICONTROL Edit]**」で、（[!DNL Experience Manager] にある）アセットを配置した INDD ファイルを編集します。
 1. デスクトップアプリケーションが、InDesign ファイルおよびリンクされたアセットを両方ともダウンロードします。ドキュメントが InDesign で開かれると、リンクが解決され、アセットがダウンロードされて InDesign ドキュメントに表示されます。
 1. InDesign ファイルに新しいグラフィックを配置するには、アセットに対して「**[!UICONTROL Reveal File]**」アクションを使用します。このアクションにより、アセットがローカルにダウンロードされ、ローカルネットワーク共有の場所が Windows エクスプローラーまたは Mac Finder で開かれます。
