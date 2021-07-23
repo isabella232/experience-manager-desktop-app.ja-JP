@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケ�
 mini-toc-levels: 1
 feature: デスクトップアプリ、リリース情報
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: d83f04fb4757bb8025489da7866d36a51ddfe374
+source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1675'
 ht-degree: 97%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 97%
 * [!DNL Experience Manager] 6.4.4 以降（Adobe Managed Services（AMS）版またはオンプレミス版）。[サービスパックのリリースノート](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=ja)を参照してください。
 * [!DNL Experience Manager] 6.4.0 ～ 6.4.3（[互換性パッケージ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をインストール。Adobe Managed Services（AMS）版またはオンプレミス版）。
 * [!DNL Experience Manager] 6.3（互換性パッケージを使用）
-* [!DNL Experience Manager] 6.3.3.1 以降（[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をインストール）。[!DNL Experience Manager] 6.3.3.0 以前のバージョンではデスクトップアプリケーションはサポートされていません。
+* [!DNL Experience Manager] 6.3.3.1 以降（[互換性パッケージ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をインストール）。[!DNL Experience Manager] 6.3.3.0 以前のバージョンではデスクトップアプリケーションはサポートされていません。
 
 [!DNL Adobe Experience Manager] デスクトップアプリケーションは次の&#x200B;**オペレーティングシステム**&#x200B;で使用できます。
 
