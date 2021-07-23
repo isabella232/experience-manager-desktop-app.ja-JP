@@ -3,14 +3,14 @@ title: ' デスクトップアプリケーションのインストールと設�
 description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets]  サーバーをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。'
 feature: デスクトップアプリ、リリース情報
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1410'
 ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Experience Manager] デスクトップアプリケーションのインストール {#install-app-v2}
+# [!DNL Adobe Experience Manager] デスクトップアプリケーションのインストール  {#install-app-v2}
 
 [!DNL Adobe Experience Manager] デスクトップアプリケーションを使用すると、[!DNL Experience Manager] 内のアセットをローカルデスクトップから手軽に入手し、任意のネイティブデスクトップアプリケーションで利用できるようになります。アセットをプレビューしたり、ネイティブデスクトップアプリケーションで開いたり、Mac Finder や Windows エクスプローラーで表示して他のドキュメント内に配置したり、ローカルで変更したりできます。変更したアセットをアップロードすると、変更内容が [!DNL Experience Manager] に保存され、リポジトリー内に新しいバージョンが作成されます。
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 1. 最新のデスクトップアプリケーションを[ダウンロード](release-notes.md)して[インストール](#install-v2)します。以下の手順に従ってください。
 
-## インストール {#install-v2}
+## 次をインストールします： {#install-v2}
 
 デスクトップアプリケーションをインストールするには、次の手順に従います。最新のデスクトップアプリケーションをインストールする前に、既存の Adobe [!DNL Experience Manager] デスクトップアプリケーション v1.x をアンインストールします。詳しくは、上記を参照してください。
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 1. 別のバージョンのアプリケーションからアップグレードする場合は、[デスクトップアプリケーションのアップグレード](#upgrade-from-previous-version)を参照してください。
 
-1. [!DNL Experience Manager] as a [!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4 以降、または [!DNL Experience Manager] 6.5.0 以降を使用する場合は、この手順をスキップします。[!DNL Experience Manager] の設定が、[リリースノート](release-notes.md)に記載されている互換性要件を満たしていることを確認します。必要に応じて、該当する[互換性パッケージ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をダウンロードし、[!DNL Experience Manager] 管理者として [!DNL Experience Manager] パッケージマネージャーを使用してインストールします。パッケージのインストールについては、[パッケージの作業方法](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ja)を参照してください。
+1. [!DNL Experience Manager] as a [!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4 以降、または [!DNL Experience Manager] 6.5.0 以降を使用する場合は、この手順をスキップします。[!DNL Experience Manager] の設定が、[リリースノート](release-notes.md)に記載されている互換性要件を満たしていることを確認します。必要に応じて、該当する[互換性パッケージ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)をダウンロードし、[!DNL Experience Manager] 管理者として [!DNL Experience Manager] パッケージマネージャーを使用してインストールします。パッケージのインストールについては、[パッケージの作業方法](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ja)を参照してください。
 
 1. インストーラーのバイナリを実行し、画面の指示に従ってインストールします。
 
