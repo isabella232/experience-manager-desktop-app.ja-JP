@@ -4,16 +4,16 @@ description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケ�
 mini-toc-levels: 1
 feature: デスクトップアプリ、リリース情報
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
+source-git-commit: a7a504d80891d68a0895dcf12d5b3734d7a584ec
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1681'
 ht-degree: 97%
 
 ---
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート {#release-notes-v2}
 
-最新のデスクトップアプリケーションバージョン 2.1（2.1.3.2）のリリース情報は以下のとおりです。リリース日は2021年7月20日です。
+最新のデスクトップアプリケーションバージョン 2.1（2.1.3.3）のリリース情報は以下のとおりです。リリース日は2021年7月30日です。
 
 **サポートされている [!DNL Experience Manager] バージョン**&#x200B;は次のとおりです。
 
@@ -33,8 +33,8 @@ ht-degree: 97%
 
 | オペレーティングシステム | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS(v2.1.3.2) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.2.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.2.dmg) |
-| Windows 64 ビット (v2.1.3.2) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.2.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.2.exe) |
+| macOS(v2.1.3.3) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) |
+| Windows 64 ビット (v2.1.3.3) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) |
 | Windows 32 ビット (v2.1.3.1) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
 >[!NOTE]
@@ -68,13 +68,17 @@ ht-degree: 97%
 
 詳しくは、[v2.0 の新機能](introduction.md#whats-new-v2)を参照してください。
 
-**AEM デスクトップアプリケーション v2.1.3.2 の更新点**
+**AEM デスクトップアプリケーション v2.1.3.3 の更新点**
 
 新しいバージョンのアプリケーションでは、バグ修正がおこなわれます。
 
+**AEM デスクトップアプリケーション v2.1.3.2 の更新点**
+
+このバージョンのアプリケーションではバグ修正が行われました。
+
 **AEM デスクトップアプリケーション v2.1.3.1 の更新点**
 
-現在のバージョンで修正されたバグは次のとおりです。
+このバージョンで修正されたバグは次のとおりです。
 
 * 大きなアセットの場合でも、アセットのアップロードとダウンロードの速度が向上しました。このリリースでは、非常に大きなファイルがアップロードされたときに[!DNL desktop app]を使用したアセットのアップロードが失敗することがある問題を修正しました。
 
