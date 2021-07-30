@@ -4,7 +4,7 @@ description: デスクトップから直接 [!DNL Adobe Experience Manager] desk
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
 source-git-commit: b661fedb6e33599921d39c0597c7d9f8e576798b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
 ht-degree: 100%
 
