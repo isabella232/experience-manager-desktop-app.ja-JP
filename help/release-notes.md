@@ -5,15 +5,15 @@ mini-toc-levels: 1
 feature: デスクトップアプリ、リリース情報
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 96be3f61388b7ec83bdb87d3d13a109d8cce0a1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1687'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート {#release-notes-v2}
 
-最新のデスクトップアプリケーションバージョン 2.1（2.1.3.3）のリリース情報は以下のとおりです。リリース日は2021年7月30日です。
+最新のデスクトップアプリケーションバージョン 2.1（2.1.3.3）のリリース情報は以下のとおりです。リリース日は 2021 年 7 月 29 日（PT）です。
 
 **サポートされている [!DNL Experience Manager] バージョン**&#x200B;は次のとおりです。
 
@@ -33,9 +33,9 @@ ht-degree: 97%
 
 | オペレーティングシステム | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS(v2.1.3.3) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) |
-| Windows 64 ビット (v2.1.3.3) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) |
-| Windows 32 ビット (v2.1.3.1) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
+| macOS（v2.1.3.3） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) |
+| Windows 64 ビット（v2.1.3.3） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) |
+| Windows 32 ビット（v2.1.3.1） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
 >[!NOTE]
 >
@@ -74,13 +74,13 @@ ht-degree: 97%
 
 **AEM デスクトップアプリケーション v2.1.3.2 の更新点**
 
-このバージョンのアプリケーションではバグ修正が行われました。
+このバージョンのアプリケーションではバグ修正がおこなわれました。
 
 **AEM デスクトップアプリケーション v2.1.3.1 の更新点**
 
 このバージョンで修正されたバグは次のとおりです。
 
-* 大きなアセットの場合でも、アセットのアップロードとダウンロードの速度が向上しました。このリリースでは、非常に大きなファイルがアップロードされたときに[!DNL desktop app]を使用したアセットのアップロードが失敗することがある問題を修正しました。
+* 大きなアセットの場合でも、アセットのアップロードとダウンロードの速度が向上しました。このリリースでは、非常に大きなファイルをアップロードする際に、[!DNL desktop app] を使用したアセットのアップロードが失敗することがある問題を修正しました。
 
 **AEM デスクトップアプリケーション v2.1.2.0 の更新点**
 
