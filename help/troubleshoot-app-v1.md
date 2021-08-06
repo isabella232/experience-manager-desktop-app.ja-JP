@@ -3,13 +3,13 @@ title: デスクトップアプリケーションバージョン 1.10 のトラ�
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションバージョン 1.10 のインストール、アップグレード、設定などで発生することのある問題のトラブルシューティングについて説明します。'
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
 source-git-commit: 32aff5d66f2cb67ab4bb440d7ace747a5cf1dd26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3350'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Experience Manager] デスクトップアプリケーション v1.x のトラブルシューティング  {#troubleshoot-aem-desktop-app}
+# [!DNL Adobe Experience Manager] デスクトップアプリケーション v1.x のトラブルシューティング {#troubleshoot-aem-desktop-app}
 
 AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することのある問題のトラブルシューティングについて説明します。
 
@@ -129,7 +129,7 @@ Windows 7 では、IE 設定を変更すると、WebDAV のパフォーマンス
 
 DAM アセットの更新ワークフローで一時的なワークフローを有効にすることで、AEM 側のパフォーマンスを向上できます。一時的なワークフローを有効にすることで、AEM でアセットを作成または変更する際に、アセットの更新に必要な処理能力を低く抑えることができます。
 
-1. Experience Managerインスタンス(`https://[aem_server]:[port]/miscadmin`)の`/miscadmin`に移動します。
+1. Experience Manager インスタンス（`https://[aem_server]:[port]/miscadmin`）の `/miscadmin` に移動します。
 1. ナビゲーションツリーで、**ツール**／**ワークフロー**／**モデル**／**dam** と展開します。
 1. 「**DAM アセットの更新**」をダブルクリックします。
 1. フローティングツールパネルで、「**ページ**」タブに切り替えて「**ページプロパティ**」をクリックします。
@@ -140,8 +140,8 @@ DAM アセットの更新ワークフローで一時的なワークフローを�
 AEM のパフォーマンスを向上させるもう 1 つの方法は、「Granite 一時的なワークフローキュー」ジョブについて並列ジョブの最大数を設定することです。推奨される値は、サーバーで利用可能な CPU の数の半分程度です。値を調整するには、以下の手順に従います。
 
 1. 設定する AEM インスタンスの `/system/console/configMgr` に移動します（例：`https://[aem_server]:[port]/system/console/configMgr`）。
-1. `QueueConfiguration`を検索し、各ジョブをクリックして開き、**Granite一時的なワークフローキュー**&#x200B;ジョブを探して、**編集**&#x200B;をクリックします。
-1. `Maximum Parallel Jobs`値を変更し、「**保存**」をクリックします。
+1. `QueueConfiguration` を検索し、各ジョブをクリックして開いて「**Granite 一時的なワークフローキュー**」ジョブを探し、**編集**」をクリックします。
+1. `Maximum Parallel Jobs` 値を変更し、「**保存**」をクリックします。
 
 ## AWS 設定 {#aws-configuration}
 
