@@ -4,13 +4,13 @@ description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Ad
 feature: デスクトップアプリ、リリース情報
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1410'
 ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Experience Manager] デスクトップアプリケーションのインストール  {#install-app-v2}
+# [!DNL Adobe Experience Manager] デスクトップアプリケーションのインストール {#install-app-v2}
 
 [!DNL Adobe Experience Manager] デスクトップアプリケーションを使用すると、[!DNL Experience Manager] 内のアセットをローカルデスクトップから手軽に入手し、任意のネイティブデスクトップアプリケーションで利用できるようになります。アセットをプレビューしたり、ネイティブデスクトップアプリケーションで開いたり、Mac Finder や Windows エクスプローラーで表示して他のドキュメント内に配置したり、ローカルで変更したりできます。変更したアセットをアップロードすると、変更内容が [!DNL Experience Manager] に保存され、リポジトリー内に新しいバージョンが作成されます。
 
@@ -94,9 +94,9 @@ ht-degree: 100%
 
 環境設定を変更するには、![その他のオプションアイコン](assets/do-not-localize/more_options_da2.png)と **[!UICONTROL Preference]** ![環境設定アイコン](assets/do-not-localize/preferences_icon_da2.png) を順にクリックします。**[!UICONTROL Preferences]** ウィンドウで、以下の値を調整します。
 
-* [!UICONTROL Launch application on login]
+* [!UICONTROL Launch application on login]。
 
-* [!UICONTROL Show window when application starts].
+* [!UICONTROL Show window when application starts]。
 
 * **[!UICONTROL Cache Directory]**：デスクトップアプリケーションのローカルキャッシュの場所（ローカルにダウンロードされたアセットが格納されます）
 
