@@ -2,9 +2,9 @@
 title: デスクトップアプリケーションバージョン 1.10 のトラブルシューティング。
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションバージョン 1.10 のインストール、アップグレード、設定などで発生することのある問題のトラブルシューティングについて説明します。'
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
-source-git-commit: 32aff5d66f2cb67ab4bb440d7ace747a5cf1dd26
-workflow-type: ht
-source-wordcount: '3350'
+source-git-commit: 2ae49374b362921a5a82fc2e040064b4e573b8c1
+workflow-type: tm+mt
+source-wordcount: '3291'
 ht-degree: 100%
 
 ---
@@ -96,13 +96,13 @@ AEM デスクトップアプリケーションにおけるキャッシュの仕�
 
 個別のユーザーのアップロード速度を 10 Mbps 近くにすることをお勧めします。無線接続では、帯域幅が複数のユーザーで共有されることがよくあります。ネットワークの帯域幅を消費するタスクを複数のユーザーが同時に実行すると、パフォーマンスがさらに低下する可能性があります。このような問題を避けるために、有線接続を使用してください。
 
-## Windows 固有の設定 {#windows-specific-configurations}
+<!-- AG, 8/18: The Windows KB article is removed by MS now. Giving 404. Also, Win 7 support is gone and the desktop app is also not supported on Win 7. Hiding this content for now.
 
-Windows で Experience Manager を実行する場合は、WebDAV クライアントのパフォーマンスを向上させるように Windows の設定をすることができます。詳しくは、[https://support.microsoft.com/ja-jp/kb/2445570](https://support.microsoft.com/ja-jp/kb/2445570) を参照してください。
+## Windows-specific configurations {#windows-specific-configurations}
 
-Windows 7 では、IE 設定を変更すると、WebDAV のパフォーマンスを向上させることができます。詳しくは、[Windows 7 で WebDAV のパフォーマンス低下を修正する方法](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/)を参照してください。
+If you use Experience Manager on Windows, you can configure Windows to enhance the performance of the WebDAV client. For more information, go to [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570).
 
-<!-- TBD: The above performance tip is for Windows 7 which is not supported by the app anymore. Remove it later.
+On Windows 7, modifying IE settings can improve the performance of WebDAV. For details, see how to [fix slow WebDAV performance in Windows 7](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
 -->
 
 ## 同時操作 {#concurrent-operations}
