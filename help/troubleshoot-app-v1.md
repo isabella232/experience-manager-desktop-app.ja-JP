@@ -1,9 +1,9 @@
 ---
 title: デスクトップアプリケーションバージョン 1.10 のトラブルシューティング。
-description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションバージョン 1.10 のインストール、アップグレード、設定などで発生することのある問題のトラブルシューティングについて説明します。'
+description: ' [!DNL Adobe Experience Manager] デスクトップアプリケーションバージョン 1.10 のインストール、アップグレード、設定などで発生することのある問題のトラブルシューティングについて説明します。'
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
 source-git-commit: 2ae49374b362921a5a82fc2e040064b4e573b8c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3291'
 ht-degree: 100%
 
@@ -140,7 +140,7 @@ DAM アセットの更新ワークフローで一時的なワークフローを�
 AEM のパフォーマンスを向上させるもう 1 つの方法は、「Granite 一時的なワークフローキュー」ジョブについて並列ジョブの最大数を設定することです。推奨される値は、サーバーで利用可能な CPU の数の半分程度です。値を調整するには、以下の手順に従います。
 
 1. 設定する AEM インスタンスの `/system/console/configMgr` に移動します（例：`https://[aem_server]:[port]/system/console/configMgr`）。
-1. `QueueConfiguration` を検索し、各ジョブをクリックして開いて「**Granite 一時的なワークフローキュー**」ジョブを探し、**編集**」をクリックします。
+1. `QueueConfiguration` を検索し、各ジョブをクリックして開いて「**Granite 一時的なワークフローキュー**」ジョブを探し、「**編集**」をクリックします。
 1. `Maximum Parallel Jobs` 値を変更し、「**保存**」をクリックします。
 
 ## AWS 設定 {#aws-configuration}
