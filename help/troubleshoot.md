@@ -2,10 +2,10 @@
 title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのベストプラクティスとトラブルシューティング'
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: db5aaf7127b94879cb24842fb41b55c099d6221d
-workflow-type: ht
+source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
+workflow-type: tm+mt
 source-wordcount: '2260'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## トラブルシューティング方法 {#troubleshooting-prep}
 
-デスクトップアプリケーションの問題をトラブルシューティングするには、以下の情報を把握しておいてください。また、それにより、サポートを依頼する場合にも、アドビカスタマーケアに問題を伝えやすくなります。
+デスクトップアプリケーションの問題をトラブルシューティングするには、以下の情報を把握しておいてください。また、サポートを受けるように選択した場合に、Adobeカスタマーサポートに問題を伝えやすくなります。
 
 ### ログファイルの場所 {#check-log-files-v2}
 
@@ -53,7 +53,7 @@ Mac の場合： `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 >[!NOTE]
 >
->サポート依頼やサポートチケットに基づいてアドビカスタマーケアと共同でトラブルシューティングをおこなう場合は、カスタマーケアチームが問題を理解しやすいように、ログファイルの提供を求められることがあります。`Logs` フォルダー全体をアーカイブして、カスタマーケアの担当者と共有します。
+>サポートリクエストまたはチケットでAdobeカスタマーサポートを使用する場合は、ログファイルを共有して、カスタマーサポートチームが問題を理解できるように依頼することができます。 `Logs` フォルダー全体をアーカイブし、カスタマーサポートの担当者と共有します。
 
 ### ログファイルの詳細レベルの変更 {#level-of-details-in-log}
 
@@ -97,7 +97,7 @@ Mac でアプリケーションをデバッグモードで使用するには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`。
 
 Windows でデバッグモードを有効にするには：
 
@@ -105,7 +105,7 @@ Windows でデバッグモードを有効にするには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
 ### [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョンの把握 {#know-app-version-v2}
 
@@ -325,5 +325,5 @@ Create Jira ticket with the following information:
 >[!MORELIKETHIS]
 >
 >* [既知の問題](release-notes.md#known-issues-v2)
-* [編集上の競合の回避](using.md#adv-workflow-collaborate-avoid-conflicts)
+>* [編集上の競合の回避](using.md#adv-workflow-collaborate-avoid-conflicts)
 
