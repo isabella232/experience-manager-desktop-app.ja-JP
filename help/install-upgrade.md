@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Ad
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1406'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 99%
 
 1. （[!DNL Experience Manager] 6.5.1 以降）デスクトップアプリケーションを [!DNL Experience Manager] 6.5.1 以降で使用している場合は、S3 または Azure コネクタをバージョン 1.10.4 以降にアップグレードします。詳しくは、[Azure コネクタ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=ja#azure-data-store)または [S3 コネクタ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html?lang=ja#amazon-s-data-store)を参照してください。
 
-   Adobe Managed Services(AMS) のお客様の場合は、Adobeカスタマーサポートにお問い合わせください。
+   Adobe Managed Services（AMS）を使用している場合は、アドビカスタマーサポートにお問い合わせください。
 
 ## 環境設定の指定 {#set-preferences}
 
