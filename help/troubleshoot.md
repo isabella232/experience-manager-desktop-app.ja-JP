@@ -3,9 +3,9 @@ title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーシ�
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2260'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 97%
 
 ## トラブルシューティング方法 {#troubleshooting-prep}
 
-デスクトップアプリケーションの問題をトラブルシューティングするには、以下の情報を把握しておいてください。また、サポートを受けるように選択した場合に、Adobeカスタマーサポートに問題を伝えやすくなります。
+デスクトップアプリケーションの問題をトラブルシューティングするには、以下の情報を把握しておいてください。また、それにより、サポートを依頼する場合にも、アドビカスタマーサポートに問題を伝えやすくなります。
 
 ### ログファイルの場所 {#check-log-files-v2}
 
@@ -53,7 +53,7 @@ Mac の場合： `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 >[!NOTE]
 >
->サポートリクエストまたはチケットでAdobeカスタマーサポートを使用する場合は、ログファイルを共有して、カスタマーサポートチームが問題を理解できるように依頼することができます。 `Logs` フォルダー全体をアーカイブし、カスタマーサポートの担当者と共有します。
+>サポート依頼やサポートチケットに基づいてアドビカスタマーサポートと共同でトラブルシューティングをおこなう場合は、カスタマーサポートチームが問題を理解しやすいように、ログファイルの提供を求められることがあります。`Logs` フォルダー全体をアーカイブして、カスタマーサポートの担当者と共有します。
 
 ### ログファイルの詳細レベルの変更 {#level-of-details-in-log}
 
@@ -97,7 +97,7 @@ Mac でアプリケーションをデバッグモードで使用するには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`。
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
 
 Windows でデバッグモードを有効にするには：
 
@@ -105,7 +105,7 @@ Windows でデバッグモードを有効にするには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`
 
 ### [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョンの把握 {#know-app-version-v2}
 
