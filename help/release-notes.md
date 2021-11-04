@@ -2,18 +2,18 @@
 title: '[!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート'
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。'
 mini-toc-levels: 1
-feature: デスクトップアプリ、リリース情報
+feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 96be3f61388b7ec83bdb87d3d13a109d8cce0a1c
-workflow-type: ht
-source-wordcount: '1687'
-ht-degree: 100%
+source-git-commit: 9b69ec8d8bc0d4b29fa13783cf2b618437c44a1b
+workflow-type: tm+mt
+source-wordcount: '1697'
+ht-degree: 99%
 
 ---
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート {#release-notes-v2}
 
-最新のデスクトップアプリケーションバージョン 2.1（2.1.3.3）のリリース情報は以下のとおりです。リリース日は 2021 年 7 月 29 日（PT）です。
+最新のデスクトップアプリケーションバージョン 2.1（2.1.3.4）のリリース情報は以下のとおりです。リリース日は 2021 年 11 月 6 日です。
 
 **サポートされている [!DNL Experience Manager] バージョン**&#x200B;は次のとおりです。
 
@@ -33,16 +33,13 @@ ht-degree: 100%
 
 | オペレーティングシステム | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS（v2.1.3.3） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.3.dmg) |
-| Windows 64 ビット（v2.1.3.3） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.3.exe) |
+| macOS（v2.1.3.4） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.4.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.4.dmg) |
+| Windows 64 ビット（v2.1.3.4） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.4.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.4.exe) |
 | Windows 32 ビット（v2.1.3.1） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
 >[!NOTE]
 >
 >Windows 7 はサポートされなくなりました。[Windows 7 のサポート終了（EOL）に関する記事](https://support.microsoft.com/ja-jp/help/4057281/windows-7-support-ended-on-january-14-2020)を参照してください。
-
-<!-- The version of the app you plan to install on your local machine requires a specific [!DNL Adobe Experience Manager] server version/additional server-side components (service packs, hot fixes, or feature packs). Contact your [!DNL Experience Manager] administrator for help.
--->
 
 ## 様々なアセットおよびファイルタイプのサポート {#support-for-file-types}
 
@@ -68,13 +65,17 @@ ht-degree: 100%
 
 詳しくは、[v2.0 の新機能](introduction.md#whats-new-v2)を参照してください。
 
+**AEM デスクトップアプリケーション v2.1.3.4 の更新点**
+
+新しいバージョンのアプリケーションでは、バグ修正がおこなわれます。
+
 **AEM デスクトップアプリケーション v2.1.3.3 の更新点**
 
 新しいバージョンのアプリケーションでは、バグ修正がおこなわれます。
 
 **AEM デスクトップアプリケーション v2.1.3.2 の更新点**
 
-このバージョンのアプリケーションではバグ修正がおこなわれました。
+このバージョンのアプリケーションでは、バグ修正がおこなわれています。
 
 **AEM デスクトップアプリケーション v2.1.3.1 の更新点**
 
@@ -186,7 +187,7 @@ ht-degree: 100%
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] 詳細を見る](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=ja)
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] 詳細を見る](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=ja)
->* [ [!DNL Experience Manager]  デスクトップアプリケーションを使用するには、以下を行います。](using.md)
-* [デスクトップアプリケーションのインストールとアップグレード](install-upgrade.md)
-* [ベストプラクティスとトラブルシューティングのヒント](troubleshoot.md)
+>* [ [!DNL Experience Manager]  デスクトップアプリケーションを使用するには、以下をおこないます。](using.md)
+>* [デスクトップアプリケーションのインストールとアップグレード](install-upgrade.md)
+>* [ベストプラクティスとトラブルシューティングのヒント](troubleshoot.md)
 
