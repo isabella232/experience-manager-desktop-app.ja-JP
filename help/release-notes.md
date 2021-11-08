@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケ�
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 9b69ec8d8bc0d4b29fa13783cf2b618437c44a1b
+source-git-commit: 9b7cb9c7114c1518f9b6c2e4c9ed9771f4a1716d
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 99%
@@ -13,7 +13,7 @@ ht-degree: 99%
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート {#release-notes-v2}
 
-最新のデスクトップアプリケーションバージョン 2.1（2.1.3.4）のリリース情報は以下のとおりです。リリース日は 2021 年 11 月 6 日です。
+最新のデスクトップアプリケーションバージョン 2.1（2.1.3.4）のリリース情報は以下のとおりです。リリース日は 2021 年 11 月 4 日です。
 
 **サポートされている [!DNL Experience Manager] バージョン**&#x200B;は次のとおりです。
 
