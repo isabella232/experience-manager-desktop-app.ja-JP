@@ -5,9 +5,9 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: c0a429a965d117ccd2db231c1b68f97616a3c384
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 99%
 
 **AEM デスクトップアプリケーション v2.1.4.0 の更新点**
 
-新しいバージョンのアプリケーションでは、バグが修正されています。
+アプリケーションの新しいバージョンでは、バグ修正が行われています。
 
 **AEM デスクトップアプリケーション v2.1.3.4 の更新点**
 
