@@ -1,11 +1,11 @@
 ---
-title: '"[!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート"'
+title: 「[!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート」
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーションのリリース詳細、機能強化、新機能、互換性、ダウンロードリンク。'
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 95ee365fd4bf9a749b681a75da412f9d83fbb508
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1853'
 ht-degree: 100%
 
