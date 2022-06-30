@@ -1,12 +1,12 @@
 ---
 title: ' デスクトップアプリケーションのインストールと設定'
-description: ' [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets]  サーバーをインストールして設定し、ローカルファイルシステムにアセットをダウンロードします。'
+description: インストールと設定 [!DNL Adobe Experience Manager] と連携するデスクトップアプリケーション [!DNL Adobe Experience Manager Assets] サーバーに接続し、ローカルファイルシステムにアセットをダウンロードします。
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
-workflow-type: ht
-source-wordcount: '1406'
-ht-degree: 100%
+source-git-commit: 7b884d89c34a6e45f49d4cacb0f5d537dc769742
+workflow-type: tm+mt
+source-wordcount: '1411'
+ht-degree: 97%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 [!DNL Adobe Experience Manager] デスクトップアプリケーションを使用すると、[!DNL Experience Manager] 内のアセットをローカルデスクトップから手軽に入手し、任意のネイティブデスクトップアプリケーションで利用できるようになります。アセットをプレビューしたり、ネイティブデスクトップアプリケーションで開いたり、Mac Finder や Windows エクスプローラーで表示して他のドキュメント内に配置したり、ローカルで変更したりできます。変更したアセットをアップロードすると、変更内容が [!DNL Experience Manager] に保存され、リポジトリー内に新しいバージョンが作成されます。
 
-このような統合により、組織内の様々な役割のユーザーが以下をおこなえます。
+このような統合により、組織内の様々な役割のユーザーは次のことができます。
 
 * アセットを [!DNL Experience Manager Assets] で一元管理する。
 
 * サードパーティアプリケーションや Adobe Creative Cloud アプリケーションなど、任意のネイティブデスクトップアプリケーションでアセットにアクセスする。その間、ユーザーはブランディングなどの様々な標準に容易に準拠できます。
 
-[!DNL Experience Manager] デスクトップアプリケーションを使用するには、次の手順に従います。
+使用する [!DNL Experience Manager] デスクトップアプリケーション：
 
 * [!DNL Experience Manager] のバージョンが [!DNL Experience Manager] デスクトップアプリケーションでサポートされていることを確認します。[必要システム構成](release-notes.md)を参照してください。
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## 以前のバージョンからのアップグレード {#upgrade-from-previous-version}
 
-デスクトップアプリケーション v1.x のユーザーの場合は、デスクトップアプリケーションの以前のバージョンと最新バージョンの相違点と類似点について理解してください。[デスクトップアプリの新機能](introduction.md#whats-new-v2)と、[アプリの仕組み](release-notes.md#how-app-works)を参照してください。
+デスクトップアプリケーション v1.x のユーザーの場合は、デスクトップアプリケーションの以前のバージョンと最新バージョンの相違点と類似点について理解してください。[デスクトップアプリの新機能](introduction.md#whats-new-v2)と、[アプリの仕組み](release-notes.md#how-app-works)を参照してください。。
 
 >[!NOTE]
 >
