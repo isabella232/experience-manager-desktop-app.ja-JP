@@ -1,13 +1,13 @@
 ---
 title: ' [!DNL Experience Manager]  デスクトップアプリケーションの使用 '
-description: 用途 [!DNL Adobe Experience Manager] デスクトップアプリケーション、操作する [!DNL Adobe Experience Manager] Win またはMacデスクトップから直接 DAM アセットを作成し、他のアプリケーションで使用します。
+description: ' [!DNL Adobe Experience Manager] デスクトップアプリを使用すると、Windows または Mac のデスクトップから直接 [!DNL Adobe Experience Manager]  DAM アセットを操作し、他のアプリケーションで使用することができます。'
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: ca04b64e1ebfee4b677fcc5ef84b0e8fd9950d17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4054'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 ログアウト後または初めてアプリケーションを開くときに、[!DNL Experience Manager] サーバーの URL を `https://[aem-server-url]:[port]/` の形式で指定します。次に、「[!UICONTROL Connect]」オプションを選択します。アプリケーションをサーバーに接続するための認証情報を入力します。
 
-を使用して実行する主なタスク [!DNL Adobe Experience Manager] デスクトップアプリケーションは次のとおりです。
+[!DNL Adobe Experience Manager] デスクトップアプリを使用して行う主なタスクは次のとおりです。
 
 ![[!DNL Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク](assets/aem_desktop_app_usecases_v2.png " [!DNL Adobe Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク")
 [この](assets/aem_desktop_app_usecases_print.pdf)印刷用 PDF ファイルをダウンロードします。
@@ -366,7 +366,7 @@ Web インターフェイスを使用しても、以下の情報やワークフ�
 
 画像アセットと InDesign でこのワークフローを試すには、以下の手順に従います。
 
-1. アセットを配置した INDD ファイルを [!DNL Experience Manager] に用意します。このような INDD ファイルの作成方法については、[グラフィックの配置](https://helpx.adobe.com/indesign/using/placing-graphics.html)を参照してください。
+1. アセットを配置した INDD ファイルを [!DNL Experience Manager] に用意します。このような INDD ファイルの作成方法については、[グラフィックの配置](https://helpx.adobe.com/jp/indesign/using/placing-graphics.html)を参照してください。
 1. デスクトップアプリケーションの「**[!UICONTROL Edit]**」で、（[!DNL Experience Manager] にある）アセットを配置した INDD ファイルを編集します。
 1. デスクトップアプリケーションが、InDesign ファイルおよびリンクされたアセットを両方ともダウンロードします。ドキュメントが InDesign で開かれると、リンクが解決され、アセットがダウンロードされて InDesign ドキュメントに表示されます。
 1. InDesign ファイルに新しいグラフィックを配置するには、アセットに対して「**[!UICONTROL Reveal File]**」アクションを使用します。このアクションにより、アセットがローカルにダウンロードされ、ローカルネットワーク共有の場所が Windows エクスプローラーまたは Mac Finder で開かれます。
