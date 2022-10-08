@@ -1,12 +1,12 @@
 ---
-title: ' デスクトップアプリケーションのインストールと設定'
+title: デスクトップアプリケーションのインストールと設定
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーション  [!DNL Adobe Experience Manager Assets]  をインストールして、 サーバーと連携しアセットをローカルファイルシステムにダウンロードするように設定します。'
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 7b884d89c34a6e45f49d4cacb0f5d537dc769742
-workflow-type: ht
-source-wordcount: '1411'
-ht-degree: 100%
+source-git-commit: 5b5970cec02d4a605bd7d826d1daa71fe228b0d9
+workflow-type: tm+mt
+source-wordcount: '1426'
+ht-degree: 98%
 
 ---
 
@@ -76,6 +76,8 @@ ht-degree: 100%
 
    *図：入力サーバーアドレスへの接続画面。*
 
+   選択 **[!UICONTROL Remember Connection]** を使用すると、デスクトップアプリケーションにログオンするたびに接続の詳細を入力するのを防ぐことができます。
+
    >[!CAUTION]
    >
    >[!DNL Experience Manager] サーバーのアドレスの前後にスペースがないことを確認します。スペースがあると、デスクトップアプリケーションが [!DNL Experience Manager] サーバーに接続できません。
@@ -136,7 +138,7 @@ Windows でデスクトップアプリケーションをアンインストール
 
 1. [!DNL Experience Manager] に変更内容をすべてアップロードして、編集内容が失われないようにします。詳しくは、「[アセットの編集と  [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets) への更新済みアセットのアップロード」を参照してください。ログオフし、デスクトップアプリケーションの「[!UICONTROL Exit]」を実行します。
 
-1. 他の OS アプリケーションを削除する場合と同様に、デスクトップアプリケーションを削除します。Windows のプログラムの追加と削除からアンインストールします。
+1. 他の OS アプリケーションを削除する場合と同様に、アプリを削除します。 Windows のプログラムの追加と削除からアンインストールします。
 
 1. キャッシュとログを削除するには、必要なチェックボックスをオンにします。
 
