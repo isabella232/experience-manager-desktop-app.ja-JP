@@ -4,22 +4,24 @@ description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケ�
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 2f49c1e952202e627e60fa9ad7998a4927aa817c
+source-git-commit: 6dfbfc6d0a1f1947ef03ebde73a5601b790a5d18
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 100%
+source-wordcount: '2368'
+ht-degree: 98%
 
 ---
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート {#release-notes-v2}
 
-最新のデスクトップアプリケーションバージョン 2.2.0 のリリース情報は以下の通りです。リリース日は 2022年10月7日（PT）です。
+最新のデスクトップアプリケーションバージョン 2.2.1 のリリース情報は以下の通りです。リリース日は 2023 年 2 月 10 日です。
 
-デスクトップアプリケーションの最新バージョンには、次の機能強化が含まれています。
+デスクトップアプリケーションの最新バージョンには、次のバグ修正が含まれています。
 
-* Apple Silicon（M1）のサポート。
+* デスクトップアプリケーションで、「 **[!UICONTROL Sign In]**.
 
-* デスクトップアプリケーションにログオンする際に接続文字列を記憶する機能。
+* macOS上のデスクトップアプリケーション v2.2.0 へのアクセス時の問題
+
+* 「 **[!UICONTROL Edited Locally]**.
 
 **サポートされている [!DNL Experience Manager] バージョン**&#x200B;は次のとおりです。
 
@@ -39,6 +41,9 @@ ht-degree: 100%
 
 | オペレーティングシステム | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS（v2.2.1） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.1.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.1.dmg) |
+| macOS Apple Silicon（M1）（v2.2.1） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.1.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.1.dmg) |
+| Windows 64 ビット (v2.2.1) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.1.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.1.exe) |
 | macOS（v2.2.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) |
 | macOS Apple Silicon（M1）（v2.2.0） | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) |
 | Windows 64 ビット (v2.2.0) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) | [ダウンロードリンク](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) |
@@ -79,6 +84,12 @@ ht-degree: 100%
 ## 新機能、機能強化、バグ修正 {#what-is-new}
 
 詳しくは、[v2.0 の新機能](introduction.md#whats-new-v2)を参照してください。
+
+**アプリケーション v2.2.0 のアップデート**
+
+* Apple Silicon（M1）のサポート。
+
+* デスクトップアプリケーションにログオンする際に接続文字列を記憶する機能。
 
 **アプリケーション v2.1.5.0 のアップデート**
 
