@@ -5,23 +5,23 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 source-git-commit: 6dfbfc6d0a1f1947ef03ebde73a5601b790a5d18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2368'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションリリースノート {#release-notes-v2}
 
-最新のデスクトップアプリケーションバージョン 2.2.1 のリリース情報は以下の通りです。リリース日は 2023 年 2 月 10 日です。
+最新のデスクトップアプリケーションバージョン 2.2.1 のリリース情報は以下の通りです。リリース日は2023年2月10日（PT）です。
 
 デスクトップアプリケーションの最新バージョンには、次のバグ修正が含まれています。
 
-* デスクトップアプリケーションで、「 **[!UICONTROL Sign In]**.
+* 「**[!UICONTROL Sign In]**」をクリックすると、デスクトップアプリケーションでセッションタイムアウトエラーメッセージが表示されます。
 
-* macOS上のデスクトップアプリケーション v2.2.0 へのアクセス時の問題
+* macOS上のデスクトップアプリケーションv2.2.0へのアクセス時の問題。
 
-* 「 **[!UICONTROL Edited Locally]**.
+* 「**[!UICONTROL Edited Locally]**」をクリックしてアセットを並べ替えると、デスクトップアプリケーションでエラーメッセージが表示されます。
 
 **サポートされている [!DNL Experience Manager] バージョン**&#x200B;は次のとおりです。
 
