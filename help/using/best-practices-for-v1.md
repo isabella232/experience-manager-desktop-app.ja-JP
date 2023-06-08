@@ -3,7 +3,7 @@ title: デスクトップアプリケーション v1.10 のベストプラクテ
 description: ' [!DNL Adobe Experience Manager] デスクトップアプリケーションバージョン 1.10. の主要な機能と推奨される使用例'
 exl-id: 5de06b33-c05c-47eb-b884-408b6f9afc94
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 100%
 
