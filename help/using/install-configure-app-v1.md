@@ -1,15 +1,15 @@
 ---
 title: デスクトップアプリケーション v1.10 のインストールと設定
-description: インストールと設定 [!DNL Experience Manager] 操作するデスクトップアプリケーションバージョン 1.10 [!DNL Assets] サーバーに接続し、アセットをデスクトップ上にドライブとしてマウントするようにマッピングします。
+description: ' [!DNL Experience Manager] デスクトップアプリバージョン 1.10 [!DNL Assets]  をインストールして、 サーバーと連携しアセットをデスクトップのドライブとしてマウントするように設定します。'
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# [!DNL Experience Manager] デスクトップアプリケーション v1.10 のインストールと設定  {#install-and-configure-aem-desktop-app}
+# [!DNL Experience Manager] デスクトップアプリケーション v1.10 のインストールと設定 {#install-and-configure-aem-desktop-app}
 
 [!DNL Experience Manager] デスクトップアプリケーションを使用すると、[!DNL Experience Manager] 内のアセットにローカルデスクトップから手軽にアクセスし、任意のデスクトップアプリケーションで利用できるようになります。アセットは Mac Finder や Windows エクスプローラーで容易に表示したり、デスクトップアプリケーションで開いたり、ローカルで変更したりできます。変更したアセットをアップロードすると、変更内容が [!DNL Experience Manager] に保存され、リポジトリー内に新しいバージョンが作成されます。
 
@@ -29,7 +29,7 @@ ht-degree: 87%
 
 ## デスクトップアプリケーションのインストールと [!DNL Experience Manager] サーバーへの接続 {#install-and-connect-aem-desktop-app-to-aem-server}
 
-詳しくは、[ [!DNL Experience Manager]  [!DNL Experience Manager]  デスクトップアプリケーションのインストールと サーバーへの接続](use-app-v1.md#installandconnect)を参照してください。
+詳しくは、[ [!DNL Experience Manager] デスクトップアプリケーションのインストールと [!DNL Experience Manager] サーバーへの接続](use-app-v1.md#installandconnect)を参照してください。
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ ht-degree: 87%
 
 ## ファイルの処理 {#file-handling}
 
-デスクトップアプリケーションによってマウントされたネットワーク共有の場所からファイルを変更した場合、ファイルは 2 つの段階を経てその場所に保存されます。第 1 段階では、ファイルはローカルに保存されます。 ユーザーは、転送が完了するのを待たずに、ファイルを保存し、ファイルの作業を続行できます。
+デスクトップアプリケーションによってマウントされたネットワーク共有の場所からファイルを変更した場合、ファイルは 2 つの段階を経てその場所に保存されます。第 1 段階では、ファイルはローカルに保存されます。ユーザーは、転送が完了するのを待たずに、ファイルを保存し、ファイルの作業を続行できます。
 
-第 2 段階では、事前定義された時間（例：30 秒）の経過後に、更新されたファイルが [!DNL Experience Manager] サーバーにアップロードされます。この処理はバックグラウンドで実行されます。アップロード処理のステータスを表示するには、「 View Asset Status 」オプションを使用します。
+第 2 段階では、事前定義された時間（例：30 秒）の経過後に、更新されたファイルが [!DNL Experience Manager] サーバーにアップロードされます。この処理はバックグラウンドで実行されます。「アセットステータスを表示」オプションを使用すると、アップロード処理のステータスを表示できます。
 
 1.  Assets にアセットをアップロードします。
 
@@ -57,9 +57,9 @@ ht-degree: 87%
 
 Assets API のコピーおよび移動メソッドでは、次の追加ヘッダーを [!DNL Experience Manager] に引き渡す必要があります。
 
-* X-Destination
-* X-Depth
-* X-Overwrite
+* X の宛先
+* X の深度
+* X の上書き
 
 [!DNL Experience Manager] デスクトップアプリケーションは、デフォルトポートを含む URL を使用して [!DNL Experience Manager] に接続します。したがって、Dispatcher 設定の `virtualhosts` の設定にデフォルトポート番号を含める必要があります。`virtualhosts` の設定について詳しくは、[仮想ホストの識別](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=ja#identifying-virtual-hosts-virtualhosts)を参照してください。
 
@@ -77,7 +77,7 @@ Windows のプロキシサーバー設定（インターネットオプション
 
 プロキシで認証が必要な場合は、IT チームがプロキシサーバー設定で Experience Manager Assets の URL を許可すれば、アプリケーションのトラフィックが通過できるようになります。
 
-## Asset Info ダイアログのカスタマイズ {#customize-the-asset-info-dialog}
+## Asset Info ダイアログをカスタマイズ {#customize-the-asset-info-dialog}
 
 Asset Info ダイアログは、次のコンポーネントの一方または両方をオーバーレイすることでカスタマイズできます。
 
@@ -85,7 +85,7 @@ Asset Info ダイアログは、次のコンポーネントの一方または両
 
 * HTL の `/css/javascript` コンポーネント（`/libs/dam/gui/components/admin/moreinfo`）。
 
-オーバーレイされるコンポーネントは、カスタマイズの性質に応じて異なります。 Asset Info ダイアログの一部として表示されるコンポーネントを変更するには、Granite ユーザーインターフェイスページをオーバーレイします。 ダイアログの HTML、CSS、JavaScript コンテンツを変更するには、HTL コンポーネントをオーバーレイします。
+オーバーレイされるコンポーネントは、カスタマイズの性質に応じて異なります。Asset Info ダイアログの一部として表示されるコンポーネントを変更するには、Granite ユーザーインターフェイスページをオーバーレイします。ダイアログの HTML、CSS、JavaScript コンテンツを変更するには、HTL コンポーネントをオーバーレイします。
 
 ## キャッシュの管理    {#manage-cache}
 
@@ -95,7 +95,7 @@ Mac OS X では、同様のディレクトリが `~/Library/Group Containers/gro
 
 ### キャッシュを管理するアプリケーション内のオプション {#in-app-option-to-manage-cache}
 
-ローカルキャッシュに使用するディスク容量を管理できます。Assets サーバーのアーティファクトはローカルにキャッシュされ、スムーズに利用することができます。必要に応じてデフォルトを変更できます。 また、キャッシュをクリアして、すべてのアセットを新しく取得することもできます。 必要なオプションを設定するには、アプリケーションのアイコンをクリックし、**[!UICONTROL Advanced]**／**[!UICONTROL Manage Cache]** を選択します。
+ローカルキャッシュに使用するディスク容量を管理できます。Assets サーバーのアーティファクトはローカルにキャッシュされ、スムーズに利用することができます。要件に応じてデフォルト設定を変更することができます。キャッシュをクリアして、すべてのアセットを取得し直すこともできます。必要なオプションを設定するには、アプリケーションのアイコンをクリックし、**[!UICONTROL Advanced]**／**[!UICONTROL Manage Cache]** を選択します。
 
 >[!NOTE]
 >
