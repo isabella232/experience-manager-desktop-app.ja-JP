@@ -3,9 +3,9 @@ title: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーシ�
 description: AEM デスクトップアプリケーションのインストール、アップグレード、設定などで発生することがある問題のトラブルシューティングと、デスクトップアプリケーションのベストプラクティスについて説明します。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2260'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ Mac でアプリケーションをデバッグモードで使用するには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`。
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
 
 Windows でデバッグモードを有効にするには：
 
@@ -105,7 +105,7 @@ Windows でデバッグモードを有効にするには：
 
 1. 次のコマンドを実行して、[!DNL Experience Manager] デスクトップアプリケーションを起動します：
 
-`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`。
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`
 
 ### [!DNL Adobe Experience Manager] デスクトップアプリケーションのバージョンの把握 {#know-app-version-v2}
 
@@ -246,7 +246,7 @@ SAML プロセスでこれらのブラウザーがサポートされているこ
 
 ### SSL 設定の問題 {#ssl-config-v2}
 
-[!DNL Experience Manager] デスクトップアプリケーションが HTTP 通信に使用するライブラリでは SSL を厳格に適用します。ブラウザーでは成功する接続が、[!DNL Experience Manager] デスクトップアプリケーションでは失敗することがあります。SSL を適切に設定するには、見つからない中間証明書を Apache にインストールします。 [中間 CA の証明書を Apache にインストールするには](https://access.redhat.com/solutions/43575)を参照してください。
+[!DNL Experience Manager] デスクトップアプリケーションが HTTP 通信に使用するライブラリでは SSL を厳格に適用します。ブラウザーでは成功する接続が、[!DNL Experience Manager] デスクトップアプリケーションでは失敗することがあります。SSL を適切に設定するには、不足している中間証明書を Apache にインストールします。[中間 CA の証明書を Apache にインストールするには](https://access.redhat.com/solutions/43575)を参照してください。
 
 [!DNL Experience Manager] デスクトップアプリケーションが HTTP 通信に使用するライブラリでは SSL を厳格に適用します。そのため、ブラウザーで成功した SSL 接続でも、[!DNL Adobe Experience Manager] デスクトップアプリケーションでは失敗する場合があります。これは、SSL の正しい設定を推奨しセキュリティを強化するので、良いことですが、アプリケーションが接続できないことによって不満が生じる可能性があります。
 
