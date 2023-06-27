@@ -127,6 +127,6 @@ Mac OS X では、同様のディレクトリが `~/Library/Group Containers/gro
 
 >[!MORELIKETHIS]
 >
-* [ [!DNL Experience Manager]  デスクトップアプリケーションの概要](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=ja)
-* [ [!DNL Experience Manager]  デスクトップアプリケーションの使用](use-app-v1.md)
-* [ [!DNL Experience Manager]  デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
+>* [ [!DNL Experience Manager]  デスクトップアプリケーションの概要](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html?lang=ja)
+>* [ [!DNL Experience Manager]  デスクトップアプリケーションの使用](use-app-v1.md)
+>* [ [!DNL Experience Manager]  デスクトップアプリケーションのトラブルシューティング](troubleshoot-app-v1.md)
