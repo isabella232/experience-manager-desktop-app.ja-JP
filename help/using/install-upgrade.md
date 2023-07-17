@@ -3,9 +3,9 @@ title: デスクトップアプリケーションのインストールと設定
 description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケーション  [!DNL Adobe Experience Manager Assets]  をインストールして、 サーバーと連携しアセットをローカルファイルシステムにダウンロードするように設定します。'
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 0f366e07b9d220cf04286b24e4bb45ce0b385e5c
+source-git-commit: e51547496b03ac42d13e7bee5e2e3d20e520d0ad
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1481'
 ht-degree: 96%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 96%
    >
    >[!DNL Experience Manager] サーバーのアドレスの前後にスペースがないことを確認します。スペースがあると、デスクトップアプリケーションが [!DNL Experience Manager] サーバーに接続できません。
 
-1. クリック **[!UICONTROL I want to connect a different way]** をクリックし、 **[!UICONTROL Adobe login]** をクリックし、AdobeIdentity Managementサービス (IMS) を使用してExperience Manager Assetsサーバーにログオンします。 IMS ログインを使用すると、Desktop App はアクセストークンの更新を自動的に実行し、ユーザーが最大 14 日間ログインし続けることができます。 クリック **[!UICONTROL Direct login]** にログオンする [!DNL Experience Manager] サーバーが認証情報を使用している。
+1. [オプション] クリック **[!UICONTROL I want to connect a different way]** をクリックし、 **[!UICONTROL Adobe login]** をクリックし、AdobeIdentity Managementサービス (IMS) を使用してExperience Manager Assetsサーバーにログオンします。 IMS ログインを使用すると、Desktop App はアクセストークンの更新を自動的に実行し、ユーザーが最大 14 日間ログインし続けることができます。 クリック **[!UICONTROL Direct login]** に対して標準ログオンを実行するには [!DNL Experience Manager] サーバーがユーザーの資格情報を使用している。
 
    ![Adobeログイン](assets/adobe-login.png)
 
