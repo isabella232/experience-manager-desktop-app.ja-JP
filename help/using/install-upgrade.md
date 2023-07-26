@@ -6,7 +6,7 @@ exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: 2382f615ae3a8b9c076d4037e1644233a2363677
 workflow-type: tm+mt
 source-wordcount: '1482'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -82,9 +82,9 @@ ht-degree: 96%
    >
    >[!DNL Experience Manager] サーバーのアドレスの前後にスペースがないことを確認します。スペースがあると、デスクトップアプリケーションが [!DNL Experience Manager] サーバーに接続できません。
 
-1. [オプション] クリック **[!UICONTROL I want to connect a different way]** をクリックし、 **[!UICONTROL Adobe login]** をクリックし、AdobeIdentity Managementサービス (IMS) を使用してExperience Manager Assetsサーバーにログオンします。 IMS ログインを使用すると、Desktop App はアクセストークンの更新を自動的に実行し、ユーザーが最大 14 日間ログインし続けることができます。 クリック **[!UICONTROL Direct login]** に対して標準ログオンを実行するには [!DNL Experience Manager] サーバーがユーザーの資格情報を使用している。
+1. [オプション] クリック **[!UICONTROL I want to connect a different way]** をクリックします。 **[!UICONTROL Adobe login]** をクリックし、AdobeIdentity Managementサービス (IMS) を使用してExperience Manager Assetsサーバーにログオンします。 IMS ログインを使用すると、デスクトップアプリケーションがアクセストークンの更新を自動的に実行できるので、ユーザーは最大 14 日間ログインしたままにすることができます。クリック **[!UICONTROL Direct login]** に対して標準ログオンを実行するには [!DNL Experience Manager] サーバーがユーザーの資格情報を使用している。
 
-   ![Adobeログイン](assets/adobe-login.png)
+   ![アドビにログイン](assets/adobe-login.png)
 
 1. 接続に成功すると、[!DNL Experience Manager] DAM のルートフォルダーにあるフォルダーやアセットのリストが表示されます。デスクトップアプリケーション内からフォルダーを参照できます。
 
