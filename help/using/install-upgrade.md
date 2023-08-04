@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Experience Manager]  デスクトップアプリケ�
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
 source-git-commit: 2382f615ae3a8b9c076d4037e1644233a2363677
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1482'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 
 ## 以前のバージョンからのアップグレード {#upgrade-from-previous-version}
 
-デスクトップアプリケーション v1.x のユーザーの場合は、デスクトップアプリケーションの以前のバージョンと最新バージョンの相違点と類似点について理解してください。[デスクトップアプリの新機能](introduction.md#whats-new-v2)と、[アプリの仕組み](release-notes.md#how-app-works)を参照してください。。
+デスクトップアプリケーション v1.x のユーザーの場合は、デスクトップアプリケーションの以前のバージョンと最新バージョンの相違点と類似点について理解してください。[デスクトップアプリの新機能](introduction.md#whats-new-v2)と、[アプリの仕組み](release-notes.md#how-app-works)を参照してください。
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ht-degree: 97%
    >
    >[!DNL Experience Manager] サーバーのアドレスの前後にスペースがないことを確認します。スペースがあると、デスクトップアプリケーションが [!DNL Experience Manager] サーバーに接続できません。
 
-1. [オプション] クリック **[!UICONTROL I want to connect a different way]** をクリックします。 **[!UICONTROL Adobe login]** をクリックし、AdobeIdentity Managementサービス (IMS) を使用してExperience Manager Assetsサーバーにログオンします。 IMS ログインを使用すると、デスクトップアプリケーションがアクセストークンの更新を自動的に実行できるので、ユーザーは最大 14 日間ログインしたままにすることができます。クリック **[!UICONTROL Direct login]** に対して標準ログオンを実行するには [!DNL Experience Manager] サーバーがユーザーの資格情報を使用している。
+1. [オプション]「**[!UICONTROL I want to connect a different way]**」、「**[!UICONTROL Adobe login]**」の順にクリックし、Adobe Identity Management サービス（IMS）を使用して Experience Manager Assets サーバーにログオンします。IMS ログインを使用すると、デスクトップアプリケーションがアクセストークンの更新を自動的に実行できるので、ユーザーは最大 14 日間ログイン状態を維持できます。「**[!UICONTROL Direct login]**」をクリックして、ユーザーの資格情報を使用して [!DNL Experience Manager] サーバーへの標準ログオンを実行します。
 
    ![アドビにログイン](assets/adobe-login.png)
 
