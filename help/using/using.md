@@ -4,16 +4,16 @@ description: ' [!DNL Adobe Experience Manager] デスクトップアプリを使
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 98e99ee48d835cea0098c4acfe49f6b247ccf658
 workflow-type: tm+mt
 source-wordcount: '4054'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # [!DNL Adobe Experience Manager] デスクトップアプリケーションの使用  {#use-aem-desktop-app-v2}
 
-[!DNL Adobe Experience Manager] デスクトップアプリケーションを使用すると、ローカルデスクトップ上で [!DNL Adobe Experience Manager] DAM レポジトリーに保存されたデジタルアセットに簡単にアクセスして、これらのアセットを任意のデスクトップアプリケーションで使用することができます。デスクトップアプリケーションでアセットを開き、アセットをローカルで編集できます。その後、バージョン管理を使用して変更を元の [!DNL Experience Manager] にアップロードし、更新内容を他のユーザーと共有できます。また、新しいファイルおよびフォルダー階層を [!DNL Experience Manager] にアップロードしたり、フォルダーを作成したり、[!DNL Experience Manager] DAM からアセットやフォルダーを削除したりすることもできます。
+[!DNL Adobe Experience Manager] デスクトップアプリケーションを使用すると、ローカルデスクトップ上で [!DNL Adobe Experience Manager] DAM リポジトリに保存されたデジタルアセットに簡単にアクセスして、これらのアセットを任意のデスクトップアプリケーションで使用できます。デスクトップアプリケーションでアセットを開き、アセットをローカルで編集できます。その後、バージョン管理を使用して変更を元の [!DNL Experience Manager] にアップロードし、更新内容を他のユーザーと共有できます。また、新しいファイルおよびフォルダー階層を [!DNL Experience Manager] にアップロードしたり、フォルダーを作成したり、[!DNL Experience Manager] DAM からアセットやフォルダーを削除したりすることもできます。
 
 この統合により、組織内の様々な役割のユーザーがアセットを [!DNL Experience Manager Assets] で一元管理し、Windows または Mac OS のローカルデスクトップでネイティブアプリケーションからアセットにアクセスできます。
 
@@ -21,8 +21,9 @@ ht-degree: 100%
 
 [!DNL Adobe Experience Manager] デスクトップアプリを使用して行う主なタスクは次のとおりです。
 
-![[!DNL Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク](assets/aem_desktop_app_usecases_v2.png " [!DNL Adobe Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク")
-[この](assets/aem_desktop_app_usecases_print.pdf)印刷用 PDF ファイルをダウンロードします。
+![を使用して実行できるワークフローとタスク [!DNL Experience Manager] デスクトップアプリ](assets/aem_desktop_app_usecases_v2.png "を使用して実行できるワークフローとタスク [!DNL Adobe Experience Manager] デスクトップアプリ")
+
+ダウンロード [この](assets/aem_desktop_app_usecases_print.pdf) 印刷可能なPDFファイル。
 
 ## デスクトップアプリケーションの動作の仕組み {#how-app-works2}
 
