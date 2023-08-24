@@ -1,17 +1,17 @@
 ---
-title: ' [!DNL Experience Manager]  デスクトップアプリケーションの使用 '
+title: ' [!DNL Experience Manager]  デスクトップアプリケーションの使用'
 description: ' [!DNL Adobe Experience Manager] デスクトップアプリを使用すると、Windows または Mac のデスクトップから直接 [!DNL Adobe Experience Manager]  DAM アセットを操作し、他のアプリケーションで使用することができます。'
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
 source-git-commit: 98e99ee48d835cea0098c4acfe49f6b247ccf658
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4054'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Experience Manager] デスクトップアプリケーションの使用  {#use-aem-desktop-app-v2}
+# [!DNL Adobe Experience Manager] デスクトップアプリケーションの使用 {#use-aem-desktop-app-v2}
 
 [!DNL Adobe Experience Manager] デスクトップアプリケーションを使用すると、ローカルデスクトップ上で [!DNL Adobe Experience Manager] DAM リポジトリに保存されたデジタルアセットに簡単にアクセスして、これらのアセットを任意のデスクトップアプリケーションで使用できます。デスクトップアプリケーションでアセットを開き、アセットをローカルで編集できます。その後、バージョン管理を使用して変更を元の [!DNL Experience Manager] にアップロードし、更新内容を他のユーザーと共有できます。また、新しいファイルおよびフォルダー階層を [!DNL Experience Manager] にアップロードしたり、フォルダーを作成したり、[!DNL Experience Manager] DAM からアセットやフォルダーを削除したりすることもできます。
 
@@ -21,9 +21,9 @@ ht-degree: 99%
 
 [!DNL Adobe Experience Manager] デスクトップアプリを使用して行う主なタスクは次のとおりです。
 
-![を使用して実行できるワークフローとタスク [!DNL Experience Manager] デスクトップアプリ](assets/aem_desktop_app_usecases_v2.png "を使用して実行できるワークフローとタスク [!DNL Adobe Experience Manager] デスクトップアプリ")
+![[!DNL Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク](assets/aem_desktop_app_usecases_v2.png " [!DNL Adobe Experience Manager] デスクトップアプリケーションを使用して実行できるワークフローとタスク")
 
-ダウンロード [この](assets/aem_desktop_app_usecases_print.pdf) 印刷可能なPDFファイル。
+[この](assets/aem_desktop_app_usecases_print.pdf)印刷用 PDF ファイルをダウンロードします。
 
 ## デスクトップアプリケーションの動作の仕組み {#how-app-works2}
 
@@ -147,7 +147,7 @@ ht-degree: 99%
 >
 >「**[!UICONTROL Reveal File]**」オプションを使用してネイティブアプリケーションでアセットを編集しないでください。代わりに、「**[!UICONTROL Edit]**」アクションを使用します。詳しくは、[高度なワークフロー：同じファイルに対する共同作業と編集上の競合の回避](#adv-workflow-collaborate-avoid-conflicts)を参照してください。
 
-## アセットの編集と [!DNL Experience Manager] への更新済みアセットのアップロード  {#edit-assets-upload-updated-assets}
+## アセットの編集と [!DNL Experience Manager] への更新済みアセットのアップロード {#edit-assets-upload-updated-assets}
 
 アセットに変更を加え、更新したアセットを Adobe Experience Manager サーバーにアップロードする場合は、アセットを編集用に開きます。他のユーザーの編集内容と競合しないように、デスクトップアプリケーションを使用して編集セッションを開始します。編集を開始する前に、アセットにロックアイコンが付いていないこと、つまり別のユーザーがアセットを編集していないことを確認します。
 
@@ -174,7 +174,7 @@ ht-degree: 99%
 
 必要に応じて、チェックアウトを切り替えます。更新されたアセットがローカルキャッシュフォルダーから削除され、編集時または開く際に再度ダウンロードされます。
 
-## [!DNL Experience Manager] への新しいアセットのアップロードと追加  {#upload-and-add-new-assets-to-aem}
+## [!DNL Experience Manager] への新しいアセットのアップロードと追加 {#upload-and-add-new-assets-to-aem}
 
 ユーザーは、DAM リポジトリーに新しいアセットを追加できます。例えば、代理店のフォトグラファーや請負業者は、撮影した大量の写真を [!DNL Experience Manager] リポジトリーに追加したいと考えるかもしれません。新しいコンテンツを [!DNL Experience Manager] に追加するには、アプリの上部バーにある ![クラウドにアップロードオプション](assets/do-not-localize/upload_to_cloud_da2.png) をクリックします。ローカルファイルシステム内のアセットファイルを参照し、「**[!UICONTROL Select]**」をクリックします。または、アプリケーションインターフェイス上でファイルまたはフォルダーをドラッグしてアセットをアップロードします。Windows では、アプリ内のフォルダーにアセットをドラッグすると、そのアセットがフォルダーにアップロードされます。アップロードに時間がかかる場合、アプリには進行状況バーが表示されます。
 
