@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Experience Manager] デスクトップアプリを使
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 98e99ee48d835cea0098c4acfe49f6b247ccf658
-workflow-type: ht
-source-wordcount: '4054'
-ht-degree: 100%
+source-git-commit: 1139b3359042a134d86900e3b7b7f03d8d920cdc
+workflow-type: tm+mt
+source-wordcount: '4032'
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->デスクトップアプリケーションは、アセットのタイトルやファイル名だけでなく、複数のメタデータフィールドを検索条件と照合してアセットを表示します。
+>デスクトップアプリケーションは、アセットのタイトルやファイル名だけでなく、複数のメタデータフィールドで検索条件を照合してアセットを表示します。
 
 ## アセットのダウンロード {#download-assets}
 
@@ -151,14 +151,14 @@ ht-degree: 100%
 
 アセットに変更を加え、更新したアセットを Adobe Experience Manager サーバーにアップロードする場合は、アセットを編集用に開きます。他のユーザーの編集内容と競合しないように、デスクトップアプリケーションを使用して編集セッションを開始します。編集を開始する前に、アセットにロックアイコンが付いていないこと、つまり別のユーザーがアセットを編集していないことを確認します。
 
-アセットを編集するには、該当するアセットを検索するか、アセットの場所を参照します。![その他](assets/do-not-localize/more2_da2.png) アイコンをクリックし、「**[!UICONTROL Edit]**」をクリックします。
+アセットを編集するには、アセットを検索するか、アセットの場所を参照します。 ![その他](assets/do-not-localize/more2_da2.png) アイコンをクリックし、「**[!UICONTROL Edit]**」をクリックします。
 
 次のどちらの状況でも、他のユーザーの編集と競合しないように、「**[!UICONTROL Toggle Check-out]**」を使用してアセットをロックします。
 
 * 先にアセットをチェックアウトせずに（例えば単に開いて）アセットの編集を開始した。
 * アセットの編集をすぐに開始するつもりであり、他のユーザーには編集されないようにしたい。
 
-編集が完了すると、変更したアセットのステータスが「**[!UICONTROL Edited Locally]**」としてデスクトップアプリケーションに表示されます。アセットに保存した変更は、[!DNL Experience Manager] にアップロードするまでは、すべてローカルのみの変更になります。個々のアセットまたは複数のアセットを 1 つずつアップロードするには、アセットのオプションから「**[!UICONTROL Upload Changes]**」をクリックします。そのアセットの 1 つのバージョンが [!DNL Experience Manager] に作成されます。[!DNL Assets] の Web インターフェイスを使用して、[タイムラインビュー](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=ja)でアセット履歴を参照できます。
+編集が完了すると、デスクトップアプリケーションに「 **[!UICONTROL Edited Locally]** のステータスを変更したアセットに対して表示します。 アセットに保存した変更は、[!DNL Experience Manager] にアップロードするまでは、すべてローカルのみの変更になります。個々のアセットまたは複数のアセットを 1 つずつアップロードするには、アセットのオプションから「**[!UICONTROL Upload Changes]**」をクリックします。そのアセットの 1 つのバージョンが [!DNL Experience Manager] に作成されます。[!DNL Assets] の Web インターフェイスを使用して、[タイムラインビュー](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html?lang=ja)でアセット履歴を参照できます。
 
 ![デスクトップアプリケーションの「Upload Changes」オプション](assets/upload_changes_single1_da2.png "デスクトップアプリケーションの「Upload Changes」オプション")
 
@@ -181,7 +181,7 @@ ht-degree: 100%
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
-ローカルファイルシステムからフォルダーや個々のファイルをアップロードできます。フォルダーの階層はアップロード時に保持されます。アセットを一括でアップロードする場合は、まず[バルクアップロード](#bulk-upload-assets)を参照してください。
+ローカルファイルシステムからフォルダーや個々のファイルをアップロードできます。フォルダーの階層は、アップロード時に保持されます。 アセットを一括でアップロードする場合は、まず[バルクアップロード](#bulk-upload-assets)を参照してください。
 
 特定のセッションで転送されたアセットのリストを表示するには、**[!UICONTROL View]**／**[!UICONTROL Assets transfers]** を選択します。このリストを見れば、現在のセッションのファイル転送をざっと確認できます。
 
@@ -217,7 +217,7 @@ ht-degree: 100%
 
 | 文字数‡ | アプリ内のレガシーの環境設定 | ファイル名で使用する場合 | フォルダー名で使用する場合 | 例 |
 |---|---|---|---|---|
-| `. / : [ ] | *` | 有効または無効 | `-`（ハイフン）に置き換えられます。ファイル名拡張子の `.`（ドット）は、そのまま保持されます。 | `-`（ハイフン）に置き換えられます。 | `myimage.jpg` は保持され、`my.image.jpg` は `my-image.jpg` に変更されます。 |
+| `. / : [ ] \| *` | 有効または無効 | `-`（ハイフン）に置き換えられます。ファイル名拡張子の `.`（ドット）は、そのまま保持されます。 | `-`（ハイフン）に置き換えられます。 | `myimage.jpg` は保持され、`my.image.jpg` は `my-image.jpg` に変更されます。 |
 | `% ; # , + ? ^ { } "` および空白 | ![選択解除アイコン](assets/do-not-localize/deselect-icon.png)無効 | 空白は保持されます | `-`（ハイフン）に置き換えられます。 | `My Folder.` が `my-folder-` に変更されます。 |
 | `# % { } ? & .` | ![選択解除アイコン](assets/do-not-localize/deselect-icon.png)無効 | `-`（ハイフン）に置き換えられます。 | 該当なし。 | `#My New File.` が `-My New File-` に変更されます。 |
 | 大文字 | ![選択解除アイコン](assets/do-not-localize/deselect-icon.png)無効 | 大文字／小文字はそのまま保持されます。 | 小文字に変更されました。 | `My New Folder` が `my-new-folder` に変更されます。 |
@@ -349,7 +349,7 @@ Web インターフェイスを使用しても、以下の情報やワークフ�
 
 ![アセットがリモートで変更された場合に競合を解決するオプション](assets/modified_remotely_dialog_da2.png "アセットがリモートで変更された場合に競合を解決するオプション")
 
-ローカルで編集中のアセットが、知らないうちにサーバー上でも更新されると、デスクトップアプリケーションに「**[!UICONTROL Editing Conflict]**」ステータスが表示されます。どちらか一方の変更セットを保持できます。つまり、自分の更新内容を保持して他のユーザーの編集内容を削除する（「**[!UICONTROL Keep Mine]**」をクリック）か、他のユーザーの更新内容を尊重して自分の編集内容を削除します（「**[!UICONTROL Overwrite Mine]**」をクリック）。
+ローカルで編集中のアセットが、知らないうちにサーバー上でも更新されると、デスクトップアプリケーションに「**[!UICONTROL Editing Conflict]**」ステータスが表示されます。1 セットの変更を保持できます。更新内容を保持するか ( **[!UICONTROL Keep Mine]**) をクリックし、他のユーザーの編集内容を削除するか、他のユーザーの更新内容に従って自分のを削除する (**[!UICONTROL Overwrite Mine]**) をクリックします。
 
 ![編集上の競合を解決するためのオプション](assets/editing_conflict_dialog_da2.png "編集上の競合を解決するためのオプション")
 
