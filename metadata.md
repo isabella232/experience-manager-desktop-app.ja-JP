@@ -5,10 +5,11 @@ type: Documentation
 mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.ja-JP
 index: y
-source-git-commit: fd29c31e8a353ce6f827f58c58c5ecc36f3c71af
+recommendations: noDisplay
+source-git-commit: 55b50485e965a7d94d3f5a1296fec16b0ad1eba9
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 93%
+source-wordcount: '132'
+ht-degree: 84%
 
 ---
 
@@ -19,9 +20,9 @@ metadata.md ファイルには、リポジトリ内にあるユーザーガイ�
 
 | メタデータ | 機能 |
 |--- |--- |
-| solution-title | 記事ヘッダーでリンクとして使用されます。 |
+| solution-title | 記事のヘッダーでリンクとして使用されます。 |
 | solution-hub-url | 学習とサポートのハブページを開きます。 |
-| solution-icon | ソリューションタイトルの横にソリューションアイコンを表示します。まだ実装されていません。 |
+| solution-icon | ソリューションタイトルの横にソリューションアイコンを表示します。未実装。 |
 | getting-started-url | 「はじめに」のページへのリンク。 |
 | tutorials-url | ビデオチュートリアルへのリンク。 |
 | mini-toc-levels | 右側のレールに表示される見出しレベルの数を決定します。デフォルト値は 2 です。 |
@@ -31,5 +32,5 @@ TOC.md ファイル内
 
 | メタデータ | 機能 |
 |--- |--- |
-| user-guide-title | 記事ヘッダーでリンクとして使用されます。 |
+| user-guide-title | 記事のヘッダーでリンクとして使用されます。 |
 | user-guide-url | 学習とサポートのハブページを開きます。 |
